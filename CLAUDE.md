@@ -63,3 +63,4 @@ Teachers and non-technical volunteers at Melissa ISD. Keep UI copy plain and avo
 - **Bulk sort order** — results currently sort by author. Teachers cross-referencing a reading list may prefer sorting by title, or sortable columns.
 - **Empty paste feedback** — clicking "Check List" with an empty textarea silently does nothing. A brief inline message would reduce confusion.
 - **Bulk auto-run on paste** — paste triggers an immediate check via `setTimeout(0)`, but edits after pasting require a manual re-click. Consider either removing the auto-run or making it reactive to all input changes.
+- **Remove SAMPLE_BOOKS** — `SHEET_CSV_URL` is configured and real; the fallback demo data is never used in production. Safe to strip if the app stays single-purpose.
