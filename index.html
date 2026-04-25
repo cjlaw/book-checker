@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Checker — Melissa ISD</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <img src="https://cmsv2-assets.apptegy.net/uploads/6356/logo/7458/Web__Header.png" alt="Melissa Schools" height="52" />
+  </header>
+
+  <main>
+    <div class="page-heading">
+      <h2>Book Checker</h2>
+      <p>Check if books have been approved by Melissa ISD.</p>
+      <div class="accent-bar"></div>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab-btn active" id="tabSingle" role="tab" aria-selected="true" aria-controls="paneSingle">One Book</button>
+      <button class="tab-btn" id="tabBulk" role="tab" aria-selected="false" aria-controls="paneBulk">A Whole List</button>
+    </div>
+
+    <div id="paneSingle" class="card">
+      <div class="config-notice" id="configNotice" style="display:none;">
+        ⚙️ <strong>Demo mode:</strong> Using sample data. Replace <code>SHEET_CSV_URL</code> in the script to connect your Google Sheet.
+      </div>
+
+      <label class="search-label" for="searchInput">Title or Author</label>
+      <div class="search-row">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="e.g. Charlotte's Web, Roald Dahl…"
+          autocomplete="off"
+          autocorrect="off"
+          spellcheck="false"
+        />
+        <button class="search-btn" id="searchBtn">Search</button>
+      </div>
+
+      <div id="loadingIndicator" class="loading-indicator" style="display:none;">
+        Loading book list…
+      </div>
+
+      <div id="emptyState" class="empty-state">
+        Type a book title or author name above — we'll check it against the Melissa ISD approved list.
+      </div>
+
+      <div id="result" class="result"></div>
+
+      <div class="status-bar">
+        <p class="status-text" id="statusText"></p>
+        <button class="refresh-btn" id="refreshBtn">↺ Refresh List</button>
+        <button class="refresh-btn" id="clearCacheBtn" style="color:#aaa;">✕ Clear Cache</button>
+      </div>
+    </div>
+
+    <div id="paneBulk" class="card" style="display:none;">
+      <label class="paste-label" for="pasteInput">Check a list of books</label>
+      <p class="paste-hint">One book per line. To include the author, add <strong>&gt;</strong> between title and author.</p>
+      <textarea
+        id="pasteInput"
+        class="paste-input"
+        rows="5"
+        placeholder="Charlotte's Web > E.B. White&#10;Matilda > Roald Dahl&#10;The Giver"
+        spellcheck="false"
+        autocorrect="off"
+      ></textarea>
+      <button class="search-btn paste-btn" id="pasteBtn">Check List</button>
+
+      <div class="csv-toggle-row">
+        <button class="csv-toggle-btn" id="csvToggleBtn">or upload a CSV file instead</button>
+      </div>
+
+      <div id="csvSection" style="display:none;">
+        <div class="upload-row">
+          <input type="file" id="csvInput" class="upload-input" accept=".csv,text/csv" />
+          <button class="search-btn" id="bulkBtn">Check</button>
+        </div>
+      </div>
+
+      <div id="bulkResults" class="bulk-results"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
