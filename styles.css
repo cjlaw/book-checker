@@ -216,6 +216,7 @@ main {
 
 .match-title  { font-weight: 600; font-size: 14px; color: var(--ink); }
 .match-author { font-size: 12px; color: var(--ink-light); margin-top: 2px; }
+.match-badge  { margin-top: 5px; }
 
 /* ── Status bar ── */
 .status-bar {

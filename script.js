@@ -260,11 +260,17 @@ function setStatusHTML(msg) {
   statusText.innerHTML = msg;
 }
 
-function bookHTML(book) {
+function bookHTML(book, showBadge = false) {
+  const badge = showBadge
+    ? book.approved
+      ? `<span class="status-badge approved">✔ Approved</span>`
+      : `<span class="status-badge rejected">✘ Not Approved</span>`
+    : "";
   return `
     <div class="match-item">
       <div class="match-title">${esc(book.title)}</div>
       ${book.author ? `<div class="match-author">${esc(book.author)}</div>` : ""}
+      ${badge ? `<div class="match-badge">${badge}</div>` : ""}
     </div>`;
 }
 
@@ -408,7 +414,7 @@ function doSearch() {
         <div class="result-header">
           <span class="result-status">Other possible matches</span>
         </div>
-        <div class="result-matches">${secondaryHits.map(bookHTML).join("")}</div>
+        <div class="result-matches">${secondaryHits.map((b) => bookHTML(b, true)).join("")}</div>
       </div>`;
   }
 
@@ -498,9 +504,9 @@ tabBulk.addEventListener("click", () => {
 });
 
 function lookupBook(book) {
-  if (!fuse) return "unknown";
+  if (!fuse) return { status: "unknown", match: null };
   const hits = fuse.search(book.title);
-  if (!hits.length || hits[0].score > BULK_SCORE_LIMIT) return "unknown";
+  if (!hits.length || hits[0].score > BULK_SCORE_LIMIT) return { status: "unknown", match: null };
 
   let pick = hits[0];
   if (book.author) {
@@ -510,7 +516,7 @@ function lookupBook(book) {
     );
     if (authorMatch) pick = authorMatch;
   }
-  return pick.item.approved ? "approved" : "rejected";
+  return { status: pick.item.approved ? "approved" : "rejected", match: pick.item };
 }
 
 function renderBulkResults(books) {
@@ -520,7 +526,10 @@ function renderBulkResults(books) {
     return;
   }
 
-  const rows = books.map((b) => ({ ...b, status: lookupBook(b) }));
+  const rows = books.map((b) => {
+    const { status, match } = lookupBook(b);
+    return { title: match ? match.title : b.title, author: match ? match.author : b.author, status };
+  });
   rows.sort((a, b) => {
     const byAuthor = (a.author || "").localeCompare(b.author || "", undefined, {
       sensitivity: "base",
