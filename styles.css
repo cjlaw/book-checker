@@ -168,10 +168,8 @@ main {
   border-top: 1.5px solid var(--border);
 }
 
-.result-section.approved-section     { background: var(--green-bg); }
-.result-section.not-approved-section { background: var(--red-bg); }
-.result-section.not-found-section    { background: var(--amber-bg); }
-.result-section.other-matches-section { background: var(--white); }
+.result-section.approved-section      { background: var(--green-bg); }
+.result-section.not-found-section     { background: var(--amber-bg); }
 
 .result-header {
   display: flex;
@@ -189,10 +187,8 @@ main {
   letter-spacing: 0.06em;
 }
 
-.approved-section .result-status       { color: var(--green); }
-.not-approved-section .result-status  { color: var(--red); }
-.not-found-section .result-status     { color: var(--amber); }
-.other-matches-section .result-status { color: var(--ink-light); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+.approved-section .result-status   { color: var(--green); }
+.not-found-section .result-status  { color: var(--amber); }
 
 .result-detail {
   font-size: 13px;
@@ -215,8 +211,8 @@ main {
 }
 
 .match-title  { font-weight: 600; font-size: 14px; color: var(--ink); }
-.match-author { font-size: 12px; color: var(--ink-light); margin-top: 2px; }
-.match-badge  { margin-top: 5px; }
+.match-author      { font-size: 12px; color: var(--ink-light); margin-top: 2px; }
+.match-grade-level { font-size: 12px; color: var(--ink-light); margin-top: 2px; }
 
 /* ── Status bar ── */
 .status-bar {
@@ -411,7 +407,6 @@ main {
 }
 
 .bulk-summary .approved-count { color: var(--green); }
-.bulk-summary .rejected-count { color: var(--red); }
 .bulk-summary .total-count    { color: var(--ink-light); }
 
 .bulk-table {
@@ -439,9 +434,7 @@ main {
 
 .bulk-table tr:last-child td { border-bottom: none; }
 
-.bulk-table tr.row-approved { background: var(--green-bg); }
-.bulk-table tr.row-rejected { background: var(--red-bg); }
-.bulk-table tr.row-unknown  { background: var(--amber-bg); }
+.bulk-table tr.row-unknown { background: var(--amber-bg); }
 
 .status-badge {
   display: inline-flex;
@@ -456,8 +449,7 @@ main {
   white-space: nowrap;
 }
 
-.status-badge.approved { color: var(--green); background: rgba(26,122,62,0.12); }
-.status-badge.rejected { color: var(--red);   background: rgba(238,2,16,0.10); }
+.status-badge.approved { color: var(--green);      background: rgba(26,122,62,0.12); }
 .status-badge.unknown  { color: var(--ink-light); background: rgba(0,0,0,0.06); }
 
 .bulk-message       { font-size: 13px; }

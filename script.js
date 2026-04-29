@@ -10,128 +10,256 @@ const FUSE_THRESHOLD = 0.35;
 const BULK_SCORE_LIMIT = 0.3; // stricter than FUSE_THRESHOLD — bulk needs higher confidence
 
 const SAMPLE_BOOKS = [
-  { title: "Also", author: "E. B. Goodale", approved: true },
-  { title: "Bathe the Cat", author: "Alice B. McGinty", approved: true },
-  { title: "Berry Song", author: "Michaela Goade", approved: true },
+  {
+    title: "Also",
+    author: "E. B. Goodale",
+    gradeLevel: "Grades Pre-K-Kinder",
+  },
+  {
+    title: "Bathe the Cat",
+    author: "Alice B. McGinty",
+    gradeLevel: "Grades Pre-K/K-1",
+  },
+  {
+    title: "Berry Song",
+    author: "Michaela Goade",
+    gradeLevel: "Grades Pre-K/K-5",
+  },
   {
     title: "The Coquíes Still Sing",
     author: "Karina Nicole González",
-    approved: true,
+    gradeLevel: "Grades K-3, Grades 3-5",
   },
   {
     title: "Every Dog in the Neighborhood",
     author: "Philip C. Stead",
-    approved: true,
+    gradeLevel: "Grades Pre-K-Kinder",
   },
-  { title: "Farmhouse", author: "Sophie Blackall", approved: true },
-  { title: "The Flamingo", author: "Guojing", approved: true },
-  { title: "H Is for Harlem", author: "Dinah Johnson", approved: true },
-  { title: "A Land of Books", author: "Duncan Tonatiuh", approved: true },
+  {
+    title: "Farmhouse",
+    author: "Sophie Blackall",
+    gradeLevel: "Grades K-3, Grades 3-5",
+  },
+  {
+    title: "The Flamingo",
+    author: "Guojing",
+    gradeLevel: "Grades Pre-K/K-1",
+  },
+  {
+    title: "H Is for Harlem",
+    author: "Dinah Johnson",
+    gradeLevel: "Grades 3-5",
+  },
+  {
+    title: "A Land of Books",
+    author: "Duncan Tonatiuh",
+    gradeLevel: "Grades 3-5",
+  },
   {
     title: "Luli and the Language of Tea",
     author: "Andrea Wang",
-    approved: true,
+    gradeLevel: "Grades Pre-K/K-5",
   },
-  { title: "Powwow Day", author: "Traci Sorell", approved: true },
+  {
+    title: "Powwow Day",
+    author: "Traci Sorell",
+    gradeLevel: "Grades Pre-K/K-1",
+  },
   {
     title: "The World Belonged to Us",
     author: "Jacqueline Woodson",
-    approved: true,
+    gradeLevel: "Grades 3-5",
   },
-  { title: "Aviva vs. the Dybbuk", author: "Mari Lowe", approved: false },
+  {
+    title: "Aviva vs. the Dybbuk",
+    author: "Mari Lowe",
+    gradeLevel: "Grades 3-5, Grades 6-8",
+  },
   {
     title: "Black Bird, Blue Road",
     author: "Sofiya Pasternack",
-    approved: true,
+    gradeLevel: "Grades 3-5, Grades 6-8",
   },
-  { title: "Freewater", author: "Amina Luqman-Dawson", approved: true },
-  { title: "Frizzy", author: "Claribel A. Ortega", approved: true },
-  { title: "Jennifer Chan Is Not Alone", author: "Tae Keller", approved: true },
+  {
+    title: "Freewater",
+    author: "Amina Luqman-Dawson",
+    gradeLevel: "Grades 6-8",
+  },
+  {
+    title: "Frizzy",
+    author: "Claribel A. Ortega",
+    gradeLevel: "Grades 3-5",
+  },
+  {
+    title: "Jennifer Chan Is Not Alone",
+    author: "Tae Keller",
+    gradeLevel: "Grades 6-8",
+  },
   {
     title: "The Last Mapmaker",
     author: "Christina Soontornvat",
-    approved: true,
+    gradeLevel: "Grades 3-5, Grades 6-8",
   },
   {
     title: "The Ogress and the Orphans",
     author: "Kelly Barnhill",
-    approved: true,
+    gradeLevel: "Grades 6-8",
   },
-  { title: "A Rover's Story", author: "Jasmine Warga", approved: true },
+  {
+    title: "A Rover's Story",
+    author: "Jasmine Warga",
+    gradeLevel: "Grades 3-5, Grades 6-8",
+  },
   {
     title: "Those Kids from Fawn Creek",
     author: "Erin Entrada Kelly",
-    approved: true,
+    gradeLevel: "Grades 6-8",
   },
-  { title: "Tumble", author: "Celia C. Pérez", approved: true },
+  {
+    title: "Tumble",
+    author: "Celia C. Pérez",
+    gradeLevel: "Grades 3-5, Grades 6-8",
+  },
   {
     title: "Ain't Burned All the Bright",
     author: "Jason Reynolds",
-    approved: false,
+    gradeLevel: "Grades 7-12",
   },
-  { title: "American Murderer", author: "Gail Jarrow", approved: false },
+  {
+    title: "American Murderer",
+    author: "Gail Jarrow",
+    gradeLevel: "Grades 6-8",
+  },
   {
     title: "The Bluest Sky",
     author: "Christina Diaz Gonzalez",
-    approved: true,
+    gradeLevel: "Grades 7-12",
   },
-  { title: "The Door of No Return", author: "Kwame Alexander", approved: true },
-  { title: "I Must Betray You", author: "Ruta Sepetys", approved: true },
+  {
+    title: "The Door of No Return",
+    author: "Kwame Alexander",
+    gradeLevel: "Grades 6-8",
+  },
+  {
+    title: "I Must Betray You",
+    author: "Ruta Sepetys",
+    gradeLevel: "Grades 8 up",
+  },
   {
     title: "Iveliz Explains It All",
     author: "Andrea Beatriz Arango",
-    approved: true,
+    gradeLevel: "Grades 6-8",
   },
   {
     title: "All the Fighting Parts",
     author: "Hannah V. Sawyerr",
-    approved: false,
+    gradeLevel: "Grades 9-12",
   },
-  { title: "Bright Red Fruit", author: "Safia Elhillo", approved: false },
-  { title: "Dragonfruit", author: "Makiia Lucier", approved: true },
-  { title: "Libertad", author: "Bessie Flores Zaldivar", approved: true },
-  { title: "Looking for Smoke", author: "K.A. Cobell", approved: false },
+  {
+    title: "Bright Red Fruit",
+    author: "Safia Elhillo",
+    gradeLevel: "Grades 9-12",
+  },
+  {
+    title: "Dragonfruit",
+    author: "Makiia Lucier",
+    gradeLevel: "Grades 7-12",
+  },
+  {
+    title: "Libertad",
+    author: "Bessie Flores Zaldivar",
+    gradeLevel: "Grades 7-12",
+  },
+  {
+    title: "Looking for Smoke",
+    author: "K.A. Cobell",
+    gradeLevel: "Grades 9-12",
+  },
   {
     title: "The Merciless King of Moore High",
     author: "Lily Sparks",
-    approved: false,
+    gradeLevel: "Grades 9-12",
   },
-  { title: "Rez Ball", author: "Byron Graves", approved: true },
-  { title: "Thirsty", author: "Jas Hammonds", approved: false },
+  {
+    title: "Rez Ball",
+    author: "Byron Graves",
+    gradeLevel: "Grades 8 up",
+  },
+  {
+    title: "Thirsty",
+    author: "Jas Hammonds",
+    gradeLevel: "Grades 9-12",
+  },
   {
     title: "Twenty-Four Seconds from Now…",
     author: "Jason Reynolds",
-    approved: true,
+    gradeLevel: "Grades 9-12",
   },
-  { title: "Under This Red Rock", author: "Mindy McGinnis", approved: false },
-  { title: "Another First Chance", author: "Robbie Couch", approved: true },
-  { title: "Bad Graces", author: "Kyrie McCauley", approved: false },
-  { title: "The Breakup Lists", author: "Adib Khorram", approved: true },
-  { title: "Breathing Underwater", author: "Abbey Lee Nash", approved: true },
+  {
+    title: "Under This Red Rock",
+    author: "Mindy McGinnis",
+    gradeLevel: "Grades 9-12",
+  },
+  {
+    title: "Another First Chance",
+    author: "Robbie Couch",
+    gradeLevel: "Grades 9-12",
+  },
+  {
+    title: "Bad Graces",
+    author: "Kyrie McCauley",
+    gradeLevel: "Grades 9-12",
+  },
+  {
+    title: "The Breakup Lists",
+    author: "Adib Khorram",
+    gradeLevel: "Grades 8 up",
+  },
+  {
+    title: "Breathing Underwater",
+    author: "Abbey Lee Nash",
+    gradeLevel: "Grades 9-12",
+  },
   {
     title: "Dead Things Are Closer Than They Appear",
     author: "Robin Wasley",
-    approved: false,
+    gradeLevel: "Grades 9-12",
   },
   {
     title: "Gwen and Art are Not in Love",
     author: "Lex Croucher",
-    approved: true,
+    gradeLevel: "Grades 8 up",
   },
   {
     title: "I Loved You In Another Life",
     author: "David Arnold",
-    approved: true,
+    gradeLevel: "Grades 9-12",
   },
-  { title: "Just Say Yes", author: "Goldy Moldavsky", approved: true },
-  { title: "Not About a Boy", author: "Myah Hollis", approved: true },
+  {
+    title: "Just Say Yes",
+    author: "Goldy Moldavsky",
+    gradeLevel: "Grades 8 up",
+  },
+  {
+    title: "Not About a Boy",
+    author: "Myah Hollis",
+    gradeLevel: "Grades 9-12",
+  },
   {
     title: "The Reappearance of Rachel Price",
     author: "Holly Jackson",
-    approved: true,
+    gradeLevel: "Grades 9-12",
   },
-  { title: "Remember Us", author: "Jacqueline Woodson", approved: true },
-  { title: "Unbecoming", author: "Seema Yasmin", approved: false },
+  {
+    title: "Remember Us",
+    author: "Jacqueline Woodson",
+    gradeLevel: "Grades 7-12",
+  },
+  {
+    title: "Unbecoming",
+    author: "Seema Yasmin",
+    gradeLevel: "Grades 9-12",
+  },
 ];
 
 const searchInput = document.getElementById("searchInput");
@@ -204,18 +332,16 @@ function splitCSVLine(line) {
 }
 
 // Returns { error, rows } — error is a string if parsing failed, rows is the array of books.
-// When includeApproved is true, parses an "approved" column from the sheet CSV.
-// When false (bulk upload), approved is omitted from each row.
-function parseCSV(text, { includeApproved = false } = {}) {
+function parseCSV(text) {
   const lines = text.trim().split(/\r?\n/);
   if (lines.length < 2) return { error: null, rows: [] };
 
   const headers = splitCSVLine(lines[0]).map((h) => h.toLowerCase());
   const titleIdx = headers.findIndex((h) => h.includes("title"));
   const authorIdx = headers.findIndex((h) => h.includes("author"));
-  const approvedIdx = includeApproved
-    ? headers.findIndex((h) => h.includes("approved"))
-    : -1;
+  const gradeLevelIdx = headers.findIndex((h) =>
+    h.includes("intended grade level"),
+  );
 
   if (titleIdx === -1)
     return { error: "No title column found in the CSV.", rows: [] };
@@ -224,19 +350,11 @@ function parseCSV(text, { includeApproved = false } = {}) {
     .slice(1)
     .map((line) => {
       const cols = splitCSVLine(line);
-      const approvedVal =
-        approvedIdx >= 0 ? (cols[approvedIdx] || "").toLowerCase() : "yes";
-      const row = {
+      return {
         title: cols[titleIdx] || "",
         author: authorIdx >= 0 ? cols[authorIdx] || "" : "",
+        gradeLevel: gradeLevelIdx >= 0 ? cols[gradeLevelIdx] || "" : "",
       };
-      if (includeApproved) {
-        row.approved =
-          approvedVal === "yes" ||
-          approvedVal === "true" ||
-          approvedVal === "1";
-      }
-      return row;
     })
     .filter((b) => b.title);
 
@@ -260,17 +378,12 @@ function setStatusHTML(msg) {
   statusText.innerHTML = msg;
 }
 
-function bookHTML(book, showBadge = false) {
-  const badge = showBadge
-    ? book.approved
-      ? `<span class="status-badge approved">✔ Approved</span>`
-      : `<span class="status-badge rejected">✘ Not Approved</span>`
-    : "";
+function bookHTML(book) {
   return `
     <div class="match-item">
       <div class="match-title">${esc(book.title)}</div>
       ${book.author ? `<div class="match-author">${esc(book.author)}</div>` : ""}
-      ${badge ? `<div class="match-badge">${badge}</div>` : ""}
+      ${book.gradeLevel ? `<div class="match-grade-level">${esc(book.gradeLevel)}</div>` : ""}
     </div>`;
 }
 
@@ -313,7 +426,7 @@ async function loadBooks(forceRefresh = false) {
     const res = await fetch(SHEET_CSV_URL);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const text = await res.text();
-    const { rows: books } = parseCSV(text, { includeApproved: true });
+    const { rows: books } = parseCSV(text);
     if (!books.length) throw new Error("No books parsed");
     saveCache(books);
     buildFuse(books);
@@ -340,8 +453,8 @@ function doSearch() {
   resultDiv.className = "result";
   resultDiv.innerHTML = "";
 
-  if (!query) {
-    emptyState.style.display = "";
+  if (query.length < 2) {
+    emptyState.style.display = query.length === 0 ? "" : "none";
     return;
   }
   emptyState.style.display = "none";
@@ -361,16 +474,6 @@ function doSearch() {
 
   const rawHits = fuse.search(query);
   const hits = rawHits.map((h) => h.item);
-  const topScore = rawHits.length ? (rawHits[0].score ?? 1) : 1;
-  const nextScore = rawHits.length > 1 ? (rawHits[1].score ?? 1) : 1;
-  const hasStrongMatch = topScore <= 0.15 && nextScore - topScore > 0.1;
-
-  const primaryHits = hasStrongMatch ? [hits[0]] : hits;
-  const secondaryHits = hasStrongMatch ? hits.slice(1) : [];
-
-  const approved = primaryHits.filter((b) => b.approved);
-  const rejected = primaryHits.filter((b) => !b.approved);
-
   if (!hits.length) {
     resultDiv.classList.add("not-found", "visible");
     resultDiv.innerHTML = `
@@ -384,51 +487,27 @@ function doSearch() {
     return;
   }
 
-  let html = "";
+  resultDiv.classList.add("visible", "approved-only");
+  resultDiv.innerHTML = `
+    <div class="result-section approved-section">
+      <div class="result-header">
+        <span class="result-status">Approved books matching your search</span>
+      </div>
+      <div class="result-matches">${hits.map(bookHTML).join("")}</div>
+    </div>`;
+}
 
-  if (approved.length) {
-    html += `
-      <div class="result-section approved-section">
-        <div class="result-header">
-          <span class="result-icon">✅</span>
-          <span class="result-status">Approved${!hasStrongMatch && approved.length > 1 ? ` (${approved.length})` : ""}</span>
-        </div>
-        <div class="result-matches">${approved.map(bookHTML).join("")}</div>
-      </div>`;
-  }
-
-  if (rejected.length) {
-    html += `
-      <div class="result-section not-approved-section">
-        <div class="result-header">
-          <span class="result-icon">❌</span>
-          <span class="result-status">Not Approved${!hasStrongMatch && rejected.length > 1 ? ` (${rejected.length})` : ""}</span>
-        </div>
-        <div class="result-matches">${rejected.map(bookHTML).join("")}</div>
-      </div>`;
-  }
-
-  if (secondaryHits.length) {
-    html += `
-      <div class="result-section other-matches-section">
-        <div class="result-header">
-          <span class="result-status">Other possible matches</span>
-        </div>
-        <div class="result-matches">${secondaryHits.map((b) => bookHTML(b, true)).join("")}</div>
-      </div>`;
-  }
-
-  resultDiv.classList.add("visible");
-  if (approved.length && !rejected.length)
-    resultDiv.classList.add("approved-only");
-  resultDiv.innerHTML = html;
+let searchDebounceTimer = null;
+function doSearchDebounced() {
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(doSearch, 150);
 }
 
 searchBtn.addEventListener("click", doSearch);
 searchInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") doSearch();
 });
-searchInput.addEventListener("input", doSearch);
+searchInput.addEventListener("input", doSearchDebounced);
 function clearSearch() {
   searchInput.value = "";
   resultDiv.className = "result";
@@ -505,18 +584,18 @@ tabBulk.addEventListener("click", () => {
 
 function lookupBook(book) {
   if (!fuse) return { status: "unknown", match: null };
-  const hits = fuse.search(book.title);
-  if (!hits.length || hits[0].score > BULK_SCORE_LIMIT) return { status: "unknown", match: null };
 
-  let pick = hits[0];
-  if (book.author) {
-    const wantAuthor = book.author.toLowerCase();
-    const authorMatch = hits.find((h) =>
-      (h.item.author || "").toLowerCase().includes(wantAuthor),
-    );
-    if (authorMatch) pick = authorMatch;
-  }
-  return { status: pick.item.approved ? "approved" : "rejected", match: pick.item };
+  let hits = book.author
+    ? fuse.search({ $and: [{ title: book.title }, { author: book.author }] })
+    : fuse.search(book.title);
+
+  if ((!hits.length || hits[0].score > BULK_SCORE_LIMIT) && book.author)
+    hits = fuse.search(book.title);
+
+  if (!hits.length || hits[0].score > BULK_SCORE_LIMIT)
+    return { status: "unknown", match: null };
+
+  return { status: "approved", match: hits[0].item };
 }
 
 function renderBulkResults(books) {
@@ -528,35 +607,25 @@ function renderBulkResults(books) {
 
   const rows = books.map((b) => {
     const { status, match } = lookupBook(b);
-    return { title: match ? match.title : b.title, author: match ? match.author : b.author, status };
-  });
-  rows.sort((a, b) => {
-    const byAuthor = (a.author || "").localeCompare(b.author || "", undefined, {
-      sensitivity: "base",
-    });
-    if (byAuthor !== 0) return byAuthor;
-    return a.title.localeCompare(b.title, undefined, { sensitivity: "base" });
+    return {
+      title: match ? match.title : b.title,
+      author: match ? match.author : b.author,
+      gradeLevel: match ? match.gradeLevel || "" : "",
+      status,
+    };
   });
 
-  const approvedCount = rows.filter((r) => r.status === "approved").length;
-  const rejectedCount = rows.filter((r) => r.status === "rejected").length;
   const unknownCount = rows.filter((r) => r.status === "unknown").length;
-
-  const badgeHTML = (status) => {
-    if (status === "approved")
-      return `<span class="status-badge approved">✔ Approved</span>`;
-    if (status === "rejected")
-      return `<span class="status-badge rejected">✘ Not Approved</span>`;
-    return `<span class="status-badge unknown">? Not Found</span>`;
-  };
+  const approvedCount = rows.length - unknownCount;
 
   const tableRows = rows
     .map(
       (r) => `
-    <tr class="row-${r.status}">
+    <tr${r.status === "unknown" ? ` class="row-unknown"` : ""}>
       <td>${esc(r.title)}</td>
       <td>${r.author ? esc(r.author) : "—"}</td>
-      <td>${badgeHTML(r.status)}</td>
+      <td>${r.gradeLevel ? esc(r.gradeLevel) : "—"}</td>
+      <td>${r.status === "unknown" ? `<span class="status-badge unknown">? Not Found</span>` : `<span class="status-badge approved">✔ Approved</span>`}</td>
     </tr>`,
     )
     .join("");
@@ -565,13 +634,12 @@ function renderBulkResults(books) {
   bulkResults.innerHTML = `
     <div class="bulk-summary">
       <span class="approved-count">✔ ${approvedCount} Approved</span>
-      <span class="rejected-count">✘ ${rejectedCount} Not Approved</span>
       ${unknownCount ? `<span class="total-count">? ${unknownCount} Not Found</span>` : ""}
       <button class="print-btn" id="printBtn">Print</button>
     </div>
     <div class="bulk-table-wrap">
       <table class="bulk-table">
-        <thead><tr><th>Title</th><th>Author</th><th>Status</th></tr></thead>
+        <thead><tr><th>Title</th><th>Author</th><th>Grade Level</th><th>Status</th></tr></thead>
         <tbody>${tableRows}</tbody>
       </table>
     </div>`;
