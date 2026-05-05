@@ -406,8 +406,9 @@ main {
   flex-wrap: wrap;
 }
 
-.bulk-summary .approved-count { color: var(--green); }
-.bulk-summary .total-count    { color: var(--ink-light); }
+.bulk-summary .approved-count  { color: var(--green); }
+.bulk-summary .possible-count  { color: var(--amber); }
+.bulk-summary .total-count     { color: var(--ink-light); }
 
 .bulk-table {
   width: 100%;
@@ -434,7 +435,8 @@ main {
 
 .bulk-table tr:last-child td { border-bottom: none; }
 
-.bulk-table tr.row-unknown { background: var(--amber-bg); }
+.bulk-table tr.row-unknown   { background: var(--amber-bg); }
+.bulk-table tr.row-possible  { background: var(--amber-bg); }
 
 .status-badge {
   display: inline-flex;
@@ -449,8 +451,9 @@ main {
   white-space: nowrap;
 }
 
-.status-badge.approved { color: var(--green);      background: rgba(26,122,62,0.12); }
-.status-badge.unknown  { color: var(--ink-light); background: rgba(0,0,0,0.06); }
+.status-badge.approved  { color: var(--green);      background: rgba(26,122,62,0.12); }
+.status-badge.unknown   { color: var(--ink-light); background: rgba(0,0,0,0.06); }
+.status-badge.possible  { color: var(--amber);      background: rgba(138,98,0,0.10); }
 
 .bulk-message       { font-size: 13px; }
 .bulk-message.error { color: var(--red); }

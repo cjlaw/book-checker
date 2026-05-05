@@ -599,13 +599,16 @@ function lookupBook(book) {
     ? fuse.search({ $and: [{ title: book.title }, { author: book.author }] })
     : fuse.search(book.title);
 
-  if ((!hits.length || hits[0].score > BULK_SCORE_LIMIT) && book.author)
+  let usedFallback = false;
+  if ((!hits.length || hits[0].score > BULK_SCORE_LIMIT) && book.author) {
     hits = fuse.search(book.title);
+    usedFallback = true;
+  }
 
   if (!hits.length || hits[0].score > BULK_SCORE_LIMIT)
     return { status: "unknown", match: null };
 
-  return { status: "approved", match: hits[0].item };
+  return { status: usedFallback ? "possible" : "approved", match: hits[0].item };
 }
 
 function renderBulkResults(books) {
@@ -626,16 +629,17 @@ function renderBulkResults(books) {
   });
 
   const unknownCount = rows.filter((r) => r.status === "unknown").length;
-  const approvedCount = rows.length - unknownCount;
+  const possibleCount = rows.filter((r) => r.status === "possible").length;
+  const approvedCount = rows.length - unknownCount - possibleCount;
 
   const tableRows = rows
     .map(
       (r) => `
-    <tr${r.status === "unknown" ? ` class="row-unknown"` : ""}>
+    <tr${r.status === "unknown" ? ` class="row-unknown"` : r.status === "possible" ? ` class="row-possible"` : ""}>
       <td>${esc(r.title)}</td>
       <td>${r.author ? esc(r.author) : "—"}</td>
       <td>${r.gradeLevel ? esc(r.gradeLevel) : "—"}</td>
-      <td>${r.status === "unknown" ? `<span class="status-badge unknown">? Not Found</span>` : `<span class="status-badge approved">✔ Approved</span>`}</td>
+      <td>${r.status === "unknown" ? `<span class="status-badge unknown">? Not Found</span>` : r.status === "possible" ? `<span class="status-badge possible">⚠ Review</span>` : `<span class="status-badge approved">✔ Approved</span>`}</td>
     </tr>`,
     )
     .join("");
@@ -644,6 +648,7 @@ function renderBulkResults(books) {
   bulkResults.innerHTML = `
     <div class="bulk-summary">
       <span class="approved-count">✔ ${approvedCount} Approved</span>
+      ${possibleCount ? `<span class="possible-count">⚠ ${possibleCount} Review</span>` : ""}
       ${unknownCount ? `<span class="total-count">? ${unknownCount} Not Found</span>` : ""}
       <button class="print-btn" id="printBtn">Print</button>
     </div>
