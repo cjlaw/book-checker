@@ -428,20 +428,31 @@ async function loadBooks(forceRefresh = false) {
     const text = await res.text();
     const { rows: books } = parseCSV(text);
     if (!books.length) throw new Error("No books parsed");
+    if (!books.some((b) => b.author) || !books.some((b) => b.gradeLevel))
+      throw new Error("Required columns missing from the list");
     saveCache(books);
     buildFuse(books);
     const dateStr = formatListDate(Date.now());
     setStatusHTML(`<span>${books.length} books</span> · list as of ${dateStr}`);
   } catch (err) {
     console.warn("Sheet load failed:", err);
+    const isSchemaErr = err.message === "Required columns missing from the list";
     const cached = loadCache();
     if (cached && cached.length) {
       buildFuse(cached);
       const ts = localStorage.getItem(CACHE_TS_KEY);
       const dateStr = ts ? formatListDate(ts) : "an earlier date";
-      setStatusHTML(`⚠️ Fetch failed — showing list as of ${dateStr}`);
+      setStatusHTML(
+        isSchemaErr
+          ? `⚠️ List is missing required columns — contact the list administrator. Showing saved list as of ${dateStr}.`
+          : `⚠️ Fetch failed — showing list as of ${dateStr}`,
+      );
     } else {
-      setStatusHTML("⚠️ Could not load book list. Check your sheet URL.");
+      setStatusHTML(
+        isSchemaErr
+          ? "⚠️ List is missing required columns — contact the list administrator."
+          : "⚠️ Could not load book list. Check your sheet URL.",
+      );
     }
   } finally {
     loadingEl.style.display = "none";
