@@ -540,7 +540,6 @@ clearCacheBtn.addEventListener("click", () => {
 });
 
 if (!DEV_MODE) {
-  refreshBtn.style.display = "none";
   clearCacheBtn.style.display = "none";
 }
 
