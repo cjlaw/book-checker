@@ -193,6 +193,14 @@ main {
   margin-top: 2px;
 }
 
+.result-guidance { margin-top: 8px; }
+
+.bulk-guidance {
+  font-size: 13px;
+  color: var(--ink-light);
+  margin-bottom: 14px;
+}
+
 .result-matches {
   margin-top: 10px;
   display: flex;

@@ -492,7 +492,8 @@ function doSearch() {
           <span class="result-icon">🔍</span>
           <span class="result-status">Not Found</span>
         </div>
-        <p class="result-detail">No match for "<strong>${esc(query)}</strong>" — this title may not have been reviewed yet.</p>
+        <p class="result-detail">"<strong>${esc(query)}</strong>" is not on the approved list.</p>
+        <p class="result-detail result-guidance">Contact your school librarian for assistance.</p>
       </div>`;
     return;
   }
@@ -650,6 +651,7 @@ function renderBulkResults(books) {
       ${unknownCount ? `<span class="total-count">? ${unknownCount} Not Found</span>` : ""}
       <button class="print-btn" id="printBtn">Print</button>
     </div>
+    ${unknownCount ? `<p class="bulk-guidance">Books marked Not Found are not on the approved list — contact your school librarian for assistance.</p>` : ""}
     <div class="bulk-table-wrap">
       <table class="bulk-table">
         <thead><tr><th>Title</th><th>Author</th><th>Grade Level</th><th>Status</th></tr></thead>
