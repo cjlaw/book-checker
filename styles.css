@@ -96,20 +96,16 @@ main {
   margin-bottom: 10px;
 }
 
-.search-row {
-  display: flex;
-  gap: 10px;
-}
-
 .search-input {
-  flex: 1;
+  display: block;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   color: var(--ink);
-  background: var(--white);
+  background: var(--white) url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23aaaaaa' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><circle cx='11' cy='11' r='7'/><line x1='16.5' y1='16.5' x2='22' y2='22'/></svg>") no-repeat 12px center;
   border: 1.5px solid var(--border);
   border-radius: 6px;
-  padding: 11px 14px;
+  padding: 11px 14px 11px 38px;
   outline: none;
   transition: border-color 0.2s;
 }

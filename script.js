@@ -263,7 +263,6 @@ const SAMPLE_BOOKS = [
 ];
 
 const searchInput = document.getElementById("searchInput");
-const searchBtn = document.getElementById("searchBtn");
 const resultDiv = document.getElementById("result");
 const emptyState = document.getElementById("emptyState");
 const statusText = document.getElementById("statusText");
@@ -514,7 +513,6 @@ function doSearchDebounced() {
   searchDebounceTimer = setTimeout(doSearch, 150);
 }
 
-searchBtn.addEventListener("click", doSearch);
 searchInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") doSearch();
 });
