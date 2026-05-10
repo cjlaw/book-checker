@@ -315,7 +315,7 @@ main {
 }
 
 .tab-btn:hover { color: var(--ink); }
-.tab-btn.active { color: var(--red); border-bottom-color: var(--red); }
+.tab-btn.active { color: var(--red-dark); border-bottom-color: var(--red); }
 .tab-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 
 /* ── Bulk paste ── */
@@ -474,7 +474,7 @@ main {
 
 .status-badge.approved  { color: var(--green);      background: rgba(26,122,62,0.12); }
 .status-badge.unknown   { color: var(--ink-light); background: rgba(0,0,0,0.06); }
-.status-badge.possible  { color: var(--amber);      background: rgba(138,98,0,0.10); }
+.status-badge.possible  { color: #7a5f00;            background: #fef3c7; }
 
 .bulk-message       { font-size: 13px; }
 .bulk-message.error { color: var(--red); }
