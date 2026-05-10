@@ -15,7 +15,7 @@
 
   <main>
     <div class="page-heading">
-      <h2>Book Checker</h2>
+      <h1>Book Checker</h1>
       <p>Check if books have been approved by Melissa ISD.</p>
       <div class="accent-bar"></div>
     </div>
@@ -49,7 +49,7 @@
         Type a book title or author name above — we'll check it against the Melissa ISD approved list.
       </div>
 
-      <div id="result" class="result"></div>
+      <div id="result" class="result" aria-live="polite" aria-atomic="true"></div>
 
       <div class="status-bar">
         <p class="status-text" id="statusText"></p>
@@ -82,7 +82,7 @@
         </div>
       </div>
 
-      <div id="bulkResults" class="bulk-results"></div>
+      <div id="bulkResults" class="bulk-results" aria-live="polite" aria-atomic="true"></div>
     </div>
   </main>
 

@@ -52,7 +52,7 @@ main {
   margin-bottom: 28px;
 }
 
-.page-heading h2 {
+.page-heading h1 {
   font-size: clamp(22px, 4vw, 30px);
   font-weight: 700;
   text-transform: uppercase;
