@@ -382,7 +382,7 @@ function bookHTML(book) {
     <div class="match-item">
       <div class="match-title">${esc(book.title)}</div>
       ${book.author ? `<div class="match-author">${esc(book.author)}</div>` : ""}
-      ${book.gradeLevel ? `<div class="match-grade-level">${esc(book.gradeLevel)}</div>` : ""}
+      ${book.gradeLevel ? `<div><span class="grade-badge">${esc(book.gradeLevel)}</span></div>` : ""}
     </div>`;
 }
 
