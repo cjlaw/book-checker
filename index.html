@@ -60,19 +60,19 @@
 
     <div id="paneBulk" class="card" style="display:none;">
       <label class="paste-label" for="pasteInput">Check a list of books</label>
-      <p class="paste-hint">One book per line. To include the author, use a tab (paste from Excel/Sheets) or add <strong>&gt;</strong> between title and author.</p>
+      <p class="paste-hint">One book per line. Paste from Excel or Sheets to include the author automatically.</p>
       <textarea
         id="pasteInput"
         class="paste-input"
         rows="5"
-        placeholder="Farmhouse > Sophie Blackall&#10;Freewater > Amina Luqman-Dawson&#10;Powwow Day"
+        placeholder="Farmhouse&#10;Freewater&#10;Powwow Day"
         spellcheck="false"
         autocorrect="off"
       ></textarea>
       <button class="search-btn paste-btn" id="pasteBtn">Check List</button>
 
       <div class="csv-toggle-row">
-        <button class="csv-toggle-btn" id="csvToggleBtn">or upload a CSV file instead</button>
+        <button class="csv-toggle-btn" id="csvToggleBtn">or upload a CSV export instead</button>
       </div>
 
       <div id="csvSection" style="display:none;">
