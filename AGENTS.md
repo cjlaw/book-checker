@@ -46,7 +46,7 @@
 
     | Constant | Purpose |
     |---|---|
-    | `DEV_MODE` | Shows/hides Refresh + Clear Cache buttons |
+    | `DEV_MODE` | Shows/hides Refresh List and Clear Cache buttons |
     | `SHEET_CSV_URL` | Published Google Sheet CSV URL |
     | `CACHE_HOURS` | How long before re-fetching (default: 24) |
     | `FUSE_THRESHOLD` | Fuzzy match tolerance for single search (0.35) |
