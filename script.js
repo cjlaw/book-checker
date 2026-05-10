@@ -638,7 +638,7 @@ function renderBulkResults(books) {
       <td>${esc(r.title)}</td>
       <td>${r.author ? esc(r.author) : "—"}</td>
       <td>${r.gradeLevel ? esc(r.gradeLevel) : "—"}</td>
-      <td>${r.status === "unknown" ? `<span class="status-badge unknown">? Not Found</span>` : r.status === "possible" ? `<span class="status-badge possible">⚠ Review</span>` : `<span class="status-badge approved">✔ Approved</span>`}</td>
+      <td>${r.status === "unknown" ? `<span class="status-badge unknown"><span aria-hidden="true">?</span> Not Found</span>` : r.status === "possible" ? `<span class="status-badge possible"><span aria-hidden="true">⚠</span> Possible Match</span>` : `<span class="status-badge approved"><span aria-hidden="true">✔</span> Approved</span>`}</td>
     </tr>`,
     )
     .join("");
@@ -646,9 +646,9 @@ function renderBulkResults(books) {
   bulkResults.className = "bulk-results visible";
   bulkResults.innerHTML = `
     <div class="bulk-summary">
-      <span class="approved-count">✔ ${approvedCount} Approved</span>
-      ${possibleCount ? `<span class="possible-count">⚠ ${possibleCount} Review</span>` : ""}
-      ${unknownCount ? `<span class="total-count">? ${unknownCount} Not Found</span>` : ""}
+      <span class="approved-count"><span aria-hidden="true">✔</span> ${approvedCount} Approved</span>
+      ${possibleCount ? `<span class="possible-count"><span aria-hidden="true">⚠</span> ${possibleCount} Possible Match${possibleCount > 1 ? "es" : ""}</span>` : ""}
+      ${unknownCount ? `<span class="total-count"><span aria-hidden="true">?</span> ${unknownCount} Not Found</span>` : ""}
       <button class="print-btn" id="printBtn">Print</button>
     </div>
     ${unknownCount ? `<p class="bulk-guidance">Books marked Not Found are not on the approved list — contact your school librarian for assistance.</p>` : ""}
