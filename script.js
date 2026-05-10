@@ -474,7 +474,7 @@ function doSearch() {
     resultDiv.innerHTML = `
       <div class="result-section not-found-section">
         <div class="result-header">
-          <span class="result-icon">⏳</span>
+          <span class="result-icon" aria-hidden="true">⏳</span>
           <span class="result-status">Loading</span>
         </div>
         <p class="result-detail">Book list is still loading — try again in a moment.</p>
@@ -489,7 +489,7 @@ function doSearch() {
     resultDiv.innerHTML = `
       <div class="result-section not-found-section">
         <div class="result-header">
-          <span class="result-icon">🔍</span>
+          <span class="result-icon" aria-hidden="true">🔍</span>
           <span class="result-status">Not Found</span>
         </div>
         <p class="result-detail">"<strong>${esc(query)}</strong>" is not on the approved list.</p>
@@ -502,6 +502,7 @@ function doSearch() {
   resultDiv.innerHTML = `
     <div class="result-section approved-section">
       <div class="result-header">
+        <span class="result-icon" aria-hidden="true">✓</span>
         <span class="result-status">Approved books matching your search</span>
       </div>
       <div class="result-matches">${hits.map(bookHTML).join("")}</div>
