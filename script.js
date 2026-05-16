@@ -7,6 +7,7 @@ const emptyState = document.getElementById("emptyState");
 const statusText = document.getElementById("statusText");
 const loadingEl = document.getElementById("loadingIndicator");
 let fuse = null;
+let catalog = [];
 
 // ── Utilities ──
 
@@ -75,6 +76,7 @@ function parseCSV(text) {
 // ── Fuse ──
 
 function buildFuse(books) {
+  catalog = books;
   fuse = new Fuse(books, {
     threshold: FUSE_THRESHOLD,
     includeScore: true,
@@ -140,8 +142,15 @@ function doSearch() {
     return;
   }
 
-  const rawHits = fuse.search(query);
-  const hits = rawHits.map((h) => h.item);
+  const STOP = new Set(["the", "and", "for", "are", "was", "not", "its", "but", "via"]);
+  const words = query.trim().split(/\s+/).filter((w) => w.length >= 3 && !STOP.has(w.toLowerCase()));
+  let hits;
+  if (words.length) {
+    const patterns = words.map((w) => new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i"));
+    hits = catalog.filter((title) => patterns.every((p) => p.test(title)));
+  } else {
+    hits = fuse.search(query).map((h) => h.item);
+  }
   if (!hits.length) {
     resultDiv.classList.add("not-found", "visible");
     resultDiv.innerHTML = `
