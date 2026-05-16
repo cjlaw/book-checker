@@ -49,10 +49,10 @@
     | `FUSE_THRESHOLD` | Fuzzy match tolerance for single search (0.35) |
     | `BULK_SCORE_LIMIT` | Stricter tolerance for bulk lookup (0.3) |
 
-  - `loadBooks()` fetches `catalog.json` and builds the Fuse index.
+  - `loadBooks()` fetches `catalog.json`, populates `catalog[]`, and builds the Fuse index.
   - `parseCSV()` handles uploaded bulk CSV files.
-  - `doSearch()` renders single-book fuzzy matches.
-  - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking.
+  - `doSearch()` filters `catalog[]` with word-boundary regex; falls back to Fuse for stop-word-only queries.
+  - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via Fuse fuzzy match.
 
 ## Code Style & Conventions
 
@@ -68,16 +68,35 @@
 
 ## Testing Expectations
 
-- After changes, run `python3 -m http.server 8888` and verify in a browser.
-- Check at minimum:
-  - Initial load fetches `catalog.json` and shows the title count and generation date.
-  - Single search returns Found matches and shows Not Found for misses.
-  - One-character queries do not show stale results.
-  - Bulk paste supports tab-separated lines and `Title > Author` (author is ignored).
-  - CSV upload parses the title column and renders Found/Not Found statuses.
-  - Tab switching clears the opposite workflow's transient state.
-  - Mobile width around 480px still fits inputs, buttons, and bulk table.
-  - Print from bulk results hides normal page chrome and preserves the table.
+Run `python3 -m http.server 8888` and verify in a browser after any change.
+
+**App load**
+- TC1: Status bar shows title count (13,801) and generation date.
+- TC2: Tab switching clears the other tab's state.
+
+**Single search**
+- TC3: Exact title in catalog: "Dog Man" → Found, shows Dog Man series entries.
+- TC4: Partial title: "frog and toad" → Found, shows Frog and Toad series.
+- TC5: Multi-word precision: "harry potter" → Found, no garbage results.
+- TC6: Word-boundary check: "man" → includes "Dog Man" and "Iron Man"; excludes "Batman", "human", "Germany".
+- TC7: Not in catalog: "Charlotte's Web" → Not Found, guidance text shows.
+- TC8: One-character query: "d" → no search fires, empty state stays visible.
+- TC9: Stop-word-only query: "the" → falls back to Fuse fuzzy, no crash.
+
+**Bulk — paste**
+- TC10: Single full title: "Diary of a Wimpy Kid : dog days" → Found.
+- TC11: Multiple titles: "Hatchet" + "Charlotte's Web" (one per line) → Found + Not Found, summary counts correct.
+- TC12: Tab-separated from Excel: copy two cells (title + author) from a spreadsheet and paste — author ignored, title matched. Cannot be tested by typing; requires an actual paste from Excel or Sheets. To simulate without a spreadsheet, run in the browser console: `document.getElementById('pasteInput').value = "Bridge to Terabithia\tKatherine Paterson";` then click Check List.
+- TC13: `Title > Author` format: "Matilda > Roald Dahl" → title matched, author ignored, Found.
+- TC14: Mixed found/not found → guidance text appears below table.
+
+**Bulk — CSV upload**
+- TC15: CSV with title column → parses and renders Found/Not Found.
+- TC16: Empty file or no title column → error message, no crash.
+
+**Visual / responsive**
+- TC17: Mobile width (~480px) fits inputs, buttons, and bulk table.
+- TC18: Print from bulk results hides page chrome and preserves the table.
 
 ## Destiny Catalog Notes
 
@@ -88,7 +107,8 @@
 ## Project-Specific Pitfalls
 
 - `parseCSV()` is still used for CSV upload (bulk check); do not remove it.
-- Fuse single search is intentionally looser (`FUSE_THRESHOLD = 0.35`) than bulk lookup (`BULK_SCORE_LIMIT = 0.3`); do not tighten casually.
+- Single search uses word-boundary regex (`\bword\b`), not Fuse — `FUSE_THRESHOLD` only applies to the bulk path and the stop-word fallback in `doSearch()`.
+- `BULK_SCORE_LIMIT = 0.3` is intentionally stricter than `FUSE_THRESHOLD = 0.35`; do not tighten casually.
 - `BULK_SCORE_LIMIT = 0.3` allows small title typos to match but risks false positives on very short queries (e.g. "ca" → "Caddo"). No minimum length guard is implemented yet.
 - `parsePaste()` still extracts author from tab/`>` delimited input, but author is silently ignored by `lookupBook()` — catalog entries are title strings only.
 - Empty paste currently does nothing; preserve or intentionally improve that behavior with UI feedback.
