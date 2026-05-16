@@ -155,7 +155,7 @@ main {
 }
 
 .result.visible { display: block; }
-.result.approved-only { border-color: #a3d4b8; }
+.result.found-only { border-color: #a3d4b8; }
 .result.not-found     { border-color: var(--amber-border); }
 
 .result-section {
@@ -166,7 +166,7 @@ main {
   border-top: 1.5px solid var(--border);
 }
 
-.result-section.approved-section      { background: var(--green-bg); }
+.result-section.found-section      { background: var(--green-bg); }
 .result-section.not-found-section     { background: var(--amber-bg); }
 
 .result-header {
@@ -185,7 +185,7 @@ main {
   letter-spacing: 0.06em;
 }
 
-.approved-section .result-status   { color: var(--green); }
+.found-section .result-status   { color: var(--green); }
 .not-found-section .result-status  { color: var(--amber); }
 
 .result-detail {
@@ -427,7 +427,7 @@ main {
   flex-wrap: wrap;
 }
 
-.bulk-summary .approved-count  { color: var(--green); }
+.bulk-summary .found-count  { color: var(--green); }
 .bulk-summary .possible-count  { color: var(--amber); }
 .bulk-summary .total-count     { color: var(--ink-light); }
 
@@ -472,7 +472,7 @@ main {
   white-space: nowrap;
 }
 
-.status-badge.approved  { color: var(--green);      background: rgba(26,122,62,0.12); }
+.status-badge.found  { color: var(--green);      background: rgba(26,122,62,0.12); }
 .status-badge.unknown   { color: var(--ink-light); background: rgba(0,0,0,0.06); }
 .status-badge.possible  { color: #7a5f00;            background: #fef3c7; }
 

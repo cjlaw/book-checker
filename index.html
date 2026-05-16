@@ -16,7 +16,7 @@
   <main>
     <div class="page-heading">
       <h1>Book Checker</h1>
-      <p>Check if books have been approved by Melissa ISD.</p>
+      <p>Check if books are in the Melissa ISD library catalog.</p>
       <div class="accent-bar"></div>
     </div>
 
@@ -26,16 +26,12 @@
     </div>
 
     <div id="paneSingle" class="card">
-      <div class="config-notice" id="configNotice" style="display:none;">
-        ⚙️ <strong>Demo mode:</strong> Using sample data. Replace <code>SHEET_CSV_URL</code> in the script to connect your Google Sheet.
-      </div>
-
-      <label class="search-label" for="searchInput">Title or Author</label>
+      <label class="search-label" for="searchInput">Title</label>
       <input
         type="text"
         id="searchInput"
         class="search-input"
-        placeholder="e.g. Farmhouse, Sophie Blackall…"
+        placeholder="e.g. Dog Man"
         autocomplete="off"
         autocorrect="off"
         spellcheck="false"
@@ -46,21 +42,19 @@
       </div>
 
       <div id="emptyState" class="empty-state">
-        Type a book title or author name above — we'll check it against the Melissa ISD approved list.
+        Type a book title above — we'll check it against the Melissa ISD library catalog.
       </div>
 
       <div id="result" class="result" aria-live="polite" aria-atomic="true"></div>
 
       <div class="status-bar">
         <p class="status-text" id="statusText"></p>
-        <button class="refresh-btn" id="refreshBtn">↺ Refresh List</button>
-        <button class="refresh-btn" id="clearCacheBtn" style="color:#aaa;">✕ Clear Cache</button>
       </div>
     </div>
 
     <div id="paneBulk" class="card" style="display:none;">
       <label class="paste-label" for="pasteInput">Check a list of books</label>
-      <p class="paste-hint">One book per line. Paste from Excel or Sheets to include the author automatically.</p>
+      <p class="paste-hint">One book per line. You can paste directly from Excel or Sheets.</p>
       <textarea
         id="pasteInput"
         class="paste-input"
