@@ -4,3 +4,4 @@ HANDOFF.md
 # AI working state
 .ai/reviews/
 .ai/context/
+.claude/settings.local.json
