@@ -3,7 +3,7 @@
 ## Project Overview
 
 - Static single-page app for Melissa ISD staff to check whether books are in the Melissa ISD library catalog.
-- There is no backend, package manager, bundler, or framework; the app is plain `index.html`, `styles.css`, and `script.js`.
+- There is no backend, package manager, bundler, or framework; the app is plain `index.html`, `styles.css`, `script.js`, and `lib.js`.
 
 ## Commands
 
@@ -11,16 +11,17 @@
 - Dev: `python3 -m http.server 8888`, then open `http://localhost:8888`.
 - Stop dev server: `kill $(lsof -ti tcp:8888)`.
 - Regenerate catalog: `python3 generate-catalog.py` (takes ~30 min; overwrites `catalog.json`).
-- Test: no automated test suite; verify manually in a browser.
+- Test: `node --test test.js` (requires Node 18+). Then verify in a browser manually.
 - Lint/typecheck: none configured.
 - Deploy: push `main`; GitHub Pages serves from `main` when enabled in repo settings.
 
 ## Working Rules
 
-- Keep changes scoped to the three app files unless updating docs:
+- Keep changes scoped to the app files unless updating docs:
   - `index.html` for structure, tabs, and external script/style links.
   - `styles.css` for all visual, responsive, and print styling.
-  - `script.js` for all state, fetching, parsing, search, cache, and UI behavior.
+  - `lib.js` for pure utility functions (parsing, filtering) — no DOM, no Fuse.
+  - `script.js` for all state, fetching, search, and UI behavior.
 - Do not introduce npm, build tooling, modules, transpilation, or a framework without an explicit request.
 - Test through a local HTTP server; opening `index.html` via `file://` causes CORS failures when fetching `catalog.json`.
 - Escape user-controlled text before inserting HTML; use `esc()` unless deliberately setting trusted markup.
@@ -36,11 +37,17 @@
 - `catalog.json`
   - Pre-generated title list (~13,801 entries). Fetched at runtime by `loadBooks()`.
 - `index.html`
-  - Loads Montserrat CSS through `styles.css`, Fuse.js from cdnjs, then `script.js`.
+  - Loads Montserrat CSS through `styles.css`, Fuse.js from cdnjs, then `lib.js`, then `script.js`.
   - Defines the Melissa ISD header, One Book tab, A Whole List tab, paste input, CSV upload, and status/result containers.
 - `styles.css`
   - Contains all theme variables, layout, cards, tabs, result states, bulk table, print styles, and mobile rules.
   - Includes `@media print` for printable bulk results and `@media (max-width: 480px)` for small screens.
+- `lib.js`
+  - Pure functions with no DOM or Fuse dependency. Loaded as a plain `<script>` in the browser (globals) and `require()`-able in Node for testing.
+  - `esc()` — HTML-escapes user-controlled strings before insertion.
+  - `splitCSVLine()` / `parseCSV()` — RFC-ish CSV parser for bulk upload.
+  - `parsePaste()` — splits paste input into `{ title, author }` objects; handles tab-separated and `Title > Author` formats.
+  - `filterCatalog(catalog, query)` — filters the catalog array with word-boundary regex; returns `null` when query is all stop words (signals caller to fall back to Fuse).
 - `script.js`
   - Top-level constants configure Fuse thresholds:
 
@@ -50,13 +57,14 @@
     | `BULK_SCORE_LIMIT` | Stricter tolerance for bulk lookup (0.3) |
 
   - `loadBooks()` fetches `catalog.json`, populates `catalog[]`, and builds the Fuse index.
-  - `parseCSV()` handles uploaded bulk CSV files.
-  - `doSearch()` filters `catalog[]` with word-boundary regex; falls back to Fuse for stop-word-only queries.
+  - `doSearch()` calls `filterCatalog()` from `lib.js`; falls back to Fuse for stop-word-only queries.
   - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via Fuse fuzzy match.
+- `test.js`
+  - Node.js unit tests using `node:test` + `assert`. Covers `filterCatalog`, `parseCSV`, `parsePaste`, `esc`, and `splitCSVLine`. Run with `node --test test.js`.
 
 ## Code Style & Conventions
 
-- Plain browser JavaScript only; no imports, modules, classes, or generated assets.
+- Plain browser JavaScript only; no ES modules, classes, or generated assets. `lib.js` uses a conditional `module.exports` guard so it works in both browser (global script) and Node (require).
 - Existing style uses `const`/`let`, small named functions, and top-to-bottom initialization.
 - Use double quotes in JavaScript strings unless template literals are needed.
 - Keep UI copy plain and direct for teachers/non-technical volunteers.
@@ -106,11 +114,11 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 
 ## Project-Specific Pitfalls
 
-- `parseCSV()` is still used for CSV upload (bulk check); do not remove it.
+- `parseCSV()` lives in `lib.js` and is used for CSV upload (bulk check); do not remove it.
 - Single search uses word-boundary regex (`\bword\b`), not Fuse — `FUSE_THRESHOLD` only applies to the bulk path and the stop-word fallback in `doSearch()`.
 - `BULK_SCORE_LIMIT = 0.3` is intentionally stricter than `FUSE_THRESHOLD = 0.35`; do not tighten casually.
 - `BULK_SCORE_LIMIT = 0.3` allows small title typos to match but risks false positives on very short queries (e.g. "ca" → "Caddo"). No minimum length guard is implemented yet.
-- `parsePaste()` still extracts author from tab/`>` delimited input, but author is silently ignored by `lookupBook()` — catalog entries are title strings only.
+- `parsePaste()` (in `lib.js`) still extracts author from tab/`>` delimited input, but author is silently ignored by `lookupBook()` — catalog entries are title strings only.
 - Empty paste currently does nothing; preserve or intentionally improve that behavior with UI feedback.
 - Paste auto-runs once on paste via `setTimeout(runPasteCheck, 0)`; later edits require clicking Check List.
 - Fuse.js is loaded from cdnjs without an SRI hash; add `integrity` plus `crossorigin` if hardening the CDN dependency.
