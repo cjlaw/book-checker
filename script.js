@@ -9,70 +9,6 @@ const loadingEl = document.getElementById("loadingIndicator");
 let fuse = null;
 let catalog = [];
 
-// ── Utilities ──
-
-function esc(str) {
-  return String(str)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
-// ── CSV parsing ──
-
-function splitCSVLine(line) {
-  const fields = [];
-  let cur = "",
-    inQuote = false;
-  for (let i = 0; i < line.length; i++) {
-    const ch = line[i];
-    if (ch === '"') {
-      if (inQuote && line[i + 1] === '"') {
-        cur += '"';
-        i++;
-      } else inQuote = !inQuote;
-    } else if (ch === "," && !inQuote) {
-      fields.push(cur.trim());
-      cur = "";
-    } else {
-      cur += ch;
-    }
-  }
-  fields.push(cur.trim());
-  return fields;
-}
-
-// Returns { error, rows } — error is a string if parsing failed, rows is the array of books.
-function parseCSV(text) {
-  const lines = text.trim().split(/\r?\n/);
-  if (lines.length < 2) return { error: null, rows: [] };
-
-  const headers = splitCSVLine(lines[0]).map((h) => h.toLowerCase());
-  const titleIdx = headers.findIndex((h) => h.includes("title"));
-  const authorIdx = headers.findIndex((h) => h.includes("author"));
-  const gradeLevelIdx = headers.findIndex((h) =>
-    h.includes("intended grade level"),
-  );
-
-  if (titleIdx === -1)
-    return { error: "No title column found in the CSV.", rows: [] };
-
-  const rows = lines
-    .slice(1)
-    .map((line) => {
-      const cols = splitCSVLine(line);
-      return {
-        title: cols[titleIdx] || "",
-        author: authorIdx >= 0 ? cols[authorIdx] || "" : "",
-        gradeLevel: gradeLevelIdx >= 0 ? cols[gradeLevelIdx] || "" : "",
-      };
-    })
-    .filter((b) => b.title);
-
-  return { error: null, rows };
-}
-
 // ── Fuse ──
 
 function buildFuse(books) {
@@ -142,15 +78,7 @@ function doSearch() {
     return;
   }
 
-  const STOP = new Set(["the", "and", "for", "are", "was", "not", "its", "but", "via"]);
-  const words = query.trim().split(/\s+/).filter((w) => w.length >= 3 && !STOP.has(w.toLowerCase()));
-  let hits;
-  if (words.length) {
-    const patterns = words.map((w) => new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i"));
-    hits = catalog.filter((title) => patterns.every((p) => p.test(title)));
-  } else {
-    hits = fuse.search(query).map((h) => h.item);
-  }
+  const hits = filterCatalog(catalog, query) ?? fuse.search(query).map((h) => h.item);
   if (!hits.length) {
     resultDiv.classList.add("not-found", "visible");
     resultDiv.innerHTML = `
@@ -292,28 +220,6 @@ function renderBulkResults(books) {
   document
     .getElementById("printBtn")
     .addEventListener("click", () => window.print());
-}
-
-function parsePaste(text) {
-  const lines = text
-    .trim()
-    .split(/\r?\n/)
-    .filter((l) => l.trim());
-  return lines
-    .map((line) => {
-      let title, author;
-      if (line.includes("\t")) {
-        const idx = line.indexOf("\t");
-        title = line.slice(0, idx).trim();
-        author = line.slice(idx + 1).trim();
-      } else {
-        const idx = line.indexOf(">");
-        title = idx === -1 ? line.trim() : line.slice(0, idx).trim();
-        author = idx === -1 ? "" : line.slice(idx + 1).trim();
-      }
-      return { title, author };
-    })
-    .filter((b) => b.title);
 }
 
 function runPasteCheck() {
