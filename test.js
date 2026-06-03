@@ -2,53 +2,56 @@ const { test } = require("node:test");
 const assert = require("node:assert/strict");
 const { esc, splitCSVLine, parseCSV, parsePaste, filterCatalog } = require("./lib.js");
 
+const hasTitle = (hits, t) => hits.some((e) => e.title === t);
+
 const C = [
-  "Dog Man",
-  "Dog Man: A Tale of Two Kitties",
-  "Iron Man",
-  "Batman: Gotham's Hero",
-  "The Salamander Room",
-  "The Human Body",
-  "Harry Potter and the Sorcerer's Stone",
-  "Harry Potter and the Chamber of Secrets",
-  "Diary of a Wimpy Kid : dog days",
-  "Charlotte's Web",
-  "Frog and Toad Are Friends",
+  { title: "Dog Man", author: "Pilkey, Dav" },
+  { title: "Dog Man: A Tale of Two Kitties", author: "Pilkey, Dav" },
+  { title: "Iron Man", author: "Thomas, Roy" },
+  { title: "Batman: Gotham's Hero", author: "Beatty, Scott" },
+  { title: "The Salamander Room", author: "Mazer, Anne" },
+  { title: "The Human Body", author: "Walker, Richard" },
+  { title: "Harry Potter and the Sorcerer's Stone", author: "Rowling, J. K." },
+  { title: "Harry Potter and the Chamber of Secrets", author: "Rowling, J. K." },
+  { title: "Diary of a Wimpy Kid : dog days", author: "Kinney, Jeff" },
+  { title: "Charlotte's Web", author: "White, E. B." },
+  { title: "Frog and Toad Are Friends", author: "Lobel, Arnold" },
+  { title: "Every Day After", author: "Mankiller, Wilma" },
 ];
 
 // ── filterCatalog ──
 
 test("filterCatalog: word boundary excludes substrings", () => {
   const hits = filterCatalog(C, "man");
-  assert.ok(hits.includes("Dog Man"), "includes Dog Man");
-  assert.ok(hits.includes("Iron Man"), "includes Iron Man");
-  assert.ok(!hits.includes("Batman: Gotham's Hero"), "excludes Batman");
-  assert.ok(!hits.includes("The Salamander Room"), "excludes Salamander");
-  assert.ok(!hits.includes("The Human Body"), "excludes Human");
+  assert.ok(hasTitle(hits, "Dog Man"), "includes Dog Man");
+  assert.ok(hasTitle(hits, "Iron Man"), "includes Iron Man");
+  assert.ok(!hasTitle(hits, "Batman: Gotham's Hero"), "excludes Batman");
+  assert.ok(!hasTitle(hits, "The Salamander Room"), "excludes Salamander");
+  assert.ok(!hasTitle(hits, "The Human Body"), "excludes Human");
 });
 
 test("filterCatalog: multi-word AND match", () => {
   const hits = filterCatalog(C, "harry potter");
   assert.equal(hits.length, 2);
-  assert.ok(hits.every((t) => t.startsWith("Harry Potter")));
+  assert.ok(hits.every((e) => e.title.startsWith("Harry Potter")));
 });
 
 test("filterCatalog: both words must match (dog man excludes dog days)", () => {
   const hits = filterCatalog(C, "dog man");
-  assert.ok(hits.includes("Dog Man"));
-  assert.ok(hits.includes("Dog Man: A Tale of Two Kitties"));
-  assert.ok(!hits.includes("Diary of a Wimpy Kid : dog days"), "excludes dog days");
+  assert.ok(hasTitle(hits, "Dog Man"));
+  assert.ok(hasTitle(hits, "Dog Man: A Tale of Two Kitties"));
+  assert.ok(!hasTitle(hits, "Diary of a Wimpy Kid : dog days"), "excludes dog days");
 });
 
 test("filterCatalog: single word matches across titles", () => {
   const hits = filterCatalog(C, "dog");
-  assert.ok(hits.includes("Dog Man"));
-  assert.ok(hits.includes("Diary of a Wimpy Kid : dog days"));
+  assert.ok(hasTitle(hits, "Dog Man"));
+  assert.ok(hasTitle(hits, "Diary of a Wimpy Kid : dog days"));
 });
 
 test("filterCatalog: stop word in query ignored, remaining words match", () => {
   const hits = filterCatalog(C, "frog and toad");
-  assert.deepEqual(hits, ["Frog and Toad Are Friends"]);
+  assert.deepEqual(hits.map((e) => e.title), ["Frog and Toad Are Friends"]);
 });
 
 test("filterCatalog: pure stop word returns null", () => {
@@ -62,13 +65,32 @@ test("filterCatalog: query too short returns null", () => {
 
 test("filterCatalog: case-insensitive", () => {
   const hits = filterCatalog(C, "CHARLOTTE");
-  assert.deepEqual(hits, ["Charlotte's Web"]);
+  assert.deepEqual(hits.map((e) => e.title), ["Charlotte's Web"]);
 });
 
 test("filterCatalog: no matches returns empty array (not null)", () => {
   const hits = filterCatalog(C, "xyzzy");
   assert.ok(Array.isArray(hits));
   assert.equal(hits.length, 0);
+});
+
+test("filterCatalog: author word match returns matching entries", () => {
+  const hits = filterCatalog(C, "Pilkey");
+  assert.ok(hasTitle(hits, "Dog Man"));
+  assert.ok(hasTitle(hits, "Dog Man: A Tale of Two Kitties"));
+  assert.ok(!hasTitle(hits, "Iron Man"));
+});
+
+test("filterCatalog: cross-field AND matches title word and author word", () => {
+  const hits = filterCatalog(C, "Dog Pilkey");
+  assert.ok(hasTitle(hits, "Dog Man"));
+  assert.ok(hasTitle(hits, "Dog Man: A Tale of Two Kitties"));
+  assert.ok(!hasTitle(hits, "Diary of a Wimpy Kid : dog days"));
+});
+
+test("filterCatalog: author substring does not match at non-word-boundary", () => {
+  const hits = filterCatalog(C, "man");
+  assert.ok(!hasTitle(hits, "Every Day After"), "Mankiller should not match \\bman\\b");
 });
 
 // ── parsePaste ──

@@ -10,7 +10,7 @@
 - Install: none.
 - Dev: `python3 -m http.server 8888`, then open `http://localhost:8888`.
 - Stop dev server: `kill $(lsof -ti tcp:8888)`.
-- Regenerate catalog: `python3 generate-catalog.py` (takes ~30 min; overwrites `catalog.json`).
+- Regenerate catalog: `python3 generate-catalog.py` (browse crawl ~30 min + detail enrichment ~1.9h; overwrites `catalog.json` and `enrichment-cache.json`). Use `--skip-crawl` to skip the browse crawl if `crawl-entries.json` exists from a prior run.
 - Test: `node --test test.js` (requires Node 18+). Then verify in a browser manually.
 - Lint/typecheck: none configured.
 - Deploy: push `main`; GitHub Pages serves from `main` when enabled in repo settings.
@@ -30,12 +30,16 @@
 ## Codebase Structure
 
 - `generate-catalog.py`
-  - Scrapes the full Follett Destiny ESC11 consortium catalog via the title browse endpoint and writes `catalog.json` (a sorted JSON array of title strings).
-  - Runs a single browse pass starting at `searchText=a`; no site loop needed — the browse endpoint ignores `siteTypeID`/`siteID` and always returns consortium-wide data.
-  - Uses content-based loop detection: stops when a full page returns zero new unique titles.
-  - Requires no login; uses `contextCookie=melissa; siteIDCookie=403` and a browser User-Agent.
+  - Two-phase: (1) browse crawl — scrapes ~13,807 titles from the Destiny title browse endpoint; (2) enrichment — fetches a detail page per title to capture author, reading level (rl), and interest level (il), caching results in `enrichment-cache.json`.
+  - Saves crawl results to `crawl-entries.json` after phase 1; `--skip-crawl` reads from that file to skip phase 1.
+  - Uses a `CookieJar` seeded with `contextCookie=melissa` and `siteIDCookie=403`; establishes a `JSESSIONID` session before detail fetches. Do NOT use a manual `Cookie` header — it drops `JSESSIONID`.
+  - Detail fetches are sequential at ~2 req/sec; cache flushes every 100 entries; resumable across runs.
+- `crawl-entries.json`
+  - Intermediate file written by the browse crawl phase; contains `{title, search_key, href}` dicts. Used by `--skip-crawl`. Not committed.
+- `enrichment-cache.json`
+  - Persistent cache keyed by `search_key` (normalized title from Destiny's browse href). Committed. Avoids re-fetching ~13,807 detail pages on subsequent runs.
 - `catalog.json`
-  - Pre-generated title list (~13,801 entries). Fetched at runtime by `loadBooks()`.
+  - Pre-generated entry list (~13,807 entries). Fetched at runtime by `loadBooks()`. Each entry is `{title, author, rl, il}` with nullable fields; legacy string entries are normalized at load time.
 - `index.html`
   - Loads Montserrat CSS through `styles.css`, Fuse.js from cdnjs, then `lib.js`, then `script.js`.
   - Defines the Melissa ISD header, One Book tab, A Whole List tab, paste input, CSV upload, and status/result containers.
@@ -47,7 +51,7 @@
   - `esc()` — HTML-escapes user-controlled strings before insertion.
   - `splitCSVLine()` / `parseCSV()` — RFC-ish CSV parser for bulk upload.
   - `parsePaste()` — splits paste input into `{ title, author }` objects; handles tab-separated and `Title > Author` formats.
-  - `filterCatalog(catalog, query)` — filters the catalog array with word-boundary regex; returns `null` when query is all stop words (signals caller to fall back to Fuse).
+  - `filterCatalog(catalog, query)` — filters the catalog array with word-boundary regex, matching each word against `e.title` OR `e.author`; returns `null` when query is all stop words (signals caller to fall back to Fuse).
 - `script.js`
   - Top-level constants configure Fuse thresholds:
 
@@ -56,9 +60,11 @@
     | `FUSE_THRESHOLD` | Fuzzy match tolerance for single search (0.35) |
     | `BULK_SCORE_LIMIT` | Stricter tolerance for bulk lookup (0.3) |
 
-  - `loadBooks()` fetches `catalog.json`, populates `catalog[]`, and builds the Fuse index.
-  - `doSearch()` calls `filterCatalog()` from `lib.js`; falls back to Fuse for stop-word-only queries.
-  - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via Fuse fuzzy match.
+  - `loadBooks()` fetches `catalog.json`, normalizes string entries to objects, populates `catalog[]`, and builds two Fuse indexes.
+  - `buildFuse()` creates `fuseSingle` (title+author keys, for single search) and `fuseBulk` (title-only, for bulk lookup to prevent author-name false positives).
+  - `doSearch()` calls `filterCatalog()` from `lib.js`; falls back to `fuseSingle` for stop-word-only queries.
+  - `bookHTML()` renders a match item with title and optional author line.
+  - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via `fuseBulk`; author shown below title in results table.
 - `test.js`
   - Node.js unit tests using `node:test` + `assert`. Covers `filterCatalog`, `parseCSV`, `parsePaste`, `esc`, and `splitCSVLine`. Run with `node --test test.js`.
 
@@ -109,7 +115,7 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 ## Destiny Catalog Notes
 
 - The browse endpoint (`presentbrowsesearchresultsform.do`) ignores `siteTypeID` and `siteID` — per-school scoping is not possible via browse. All parameter combinations return the same full ESC11 consortium catalog. Do not re-investigate this.
-- Author and reading grade level are available but require a second request per title to `presentbrowseheadingdetailform.do` (~33K additional requests, ~4.5 hours at 2 req/sec). That endpoint requires a `JSESSIONID` cookie; establish a session first by fetching the browse page using `http.cookiejar.CookieJar`.
+- Author, reading level, and interest level are fetched from `presentbrowseheadingdetailform.do` during the enrichment phase (~13,807 requests, ~1.9h at 2 req/sec). Results are cached in `enrichment-cache.json` keyed by `search_key`. That endpoint requires a `JSESSIONID` cookie obtained via `CookieJar` — do NOT use a manual `Cookie` header.
 - The script guards against overwriting `catalog.json` on a failed run (exits with code 1 if zero titles were collected).
 
 ## Project-Specific Pitfalls
@@ -118,7 +124,7 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 - Single search uses word-boundary regex (`\bword\b`), not Fuse — `FUSE_THRESHOLD` only applies to the bulk path and the stop-word fallback in `doSearch()`.
 - `BULK_SCORE_LIMIT = 0.3` is intentionally stricter than `FUSE_THRESHOLD = 0.35`; do not tighten casually.
 - `BULK_SCORE_LIMIT = 0.3` allows small title typos to match but risks false positives on very short queries (e.g. "ca" → "Caddo"). No minimum length guard is implemented yet.
-- `parsePaste()` (in `lib.js`) still extracts author from tab/`>` delimited input, but author is silently ignored by `lookupBook()` — catalog entries are title strings only.
+- `parsePaste()` (in `lib.js`) extracts author from tab/`>` delimited input, but `lookupBook()` only uses `book.title` for the Fuse lookup — the pasted author is not used for matching.
 - Empty paste currently does nothing; preserve or intentionally improve that behavior with UI feedback.
 - Paste auto-runs once on paste via `setTimeout(runPasteCheck, 0)`; later edits require clicking Check List.
 - Fuse.js is loaded from cdnjs without an SRI hash; add `integrity` plus `crossorigin` if hardening the CDN dependency.

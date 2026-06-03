@@ -6,14 +6,21 @@ const resultDiv = document.getElementById("result");
 const emptyState = document.getElementById("emptyState");
 const statusText = document.getElementById("statusText");
 const loadingEl = document.getElementById("loadingIndicator");
-let fuse = null;
+let fuseSingle = null;
+let fuseBulk = null;
 let catalog = [];
 
 // ── Fuse ──
 
-function buildFuse(books) {
-  catalog = books;
-  fuse = new Fuse(books, {
+function buildFuse(entries) {
+  catalog = entries;
+  fuseSingle = new Fuse(entries, {
+    keys: ["title", "author"],
+    threshold: FUSE_THRESHOLD,
+    includeScore: true,
+  });
+  fuseBulk = new Fuse(entries, {
+    keys: ["title"],
     threshold: FUSE_THRESHOLD,
     includeScore: true,
   });
@@ -26,10 +33,11 @@ function setStatusHTML(msg) {
   statusText.innerHTML = msg;
 }
 
-function bookHTML(title) {
+function bookHTML(entry) {
   return `
     <div class="match-item">
-      <div class="match-title">${esc(title)}</div>
+      <div class="match-title">${esc(entry.title)}</div>
+      ${entry.author ? `<div class="match-author">${esc(entry.author)}</div>` : ""}
     </div>`;
 }
 
@@ -41,11 +49,14 @@ async function loadBooks() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const { generated, books } = await res.json();
     if (!books.length) throw new Error("Catalog is empty");
-    buildFuse(books);
+    const entries = books.map((b) =>
+      typeof b === "string" ? { title: b, author: null, rl: null, il: null } : b
+    );
+    buildFuse(entries);
     const dateStr = generated
       ? new Date(...generated.split("-").map((v, i) => i === 1 ? v - 1 : +v)).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
       : null;
-    setStatusHTML(`<span>${books.length} books</span>${dateStr ? ` · as of ${dateStr}` : ""}`);
+    setStatusHTML(`<span>${entries.length} books</span>${dateStr ? ` · as of ${dateStr}` : ""}`);
   } catch (err) {
     console.warn("Catalog load failed:", err);
     setStatusHTML("⚠️ Could not load book list.");
@@ -65,7 +76,7 @@ function doSearch() {
   }
   emptyState.style.display = "none";
 
-  if (!fuse) {
+  if (!fuseSingle) {
     resultDiv.classList.add("visible", "not-found");
     resultDiv.innerHTML = `
       <div class="result-section not-found-section">
@@ -78,7 +89,7 @@ function doSearch() {
     return;
   }
 
-  const hits = filterCatalog(catalog, query) ?? fuse.search(query).map((h) => h.item);
+  const hits = filterCatalog(catalog, query) ?? fuseSingle.search(query).map((h) => h.item);
   if (!hits.length) {
     resultDiv.classList.add("not-found", "visible");
     resultDiv.innerHTML = `
@@ -171,8 +182,8 @@ tabBulk.addEventListener("click", () => {
 });
 
 function lookupBook(book) {
-  if (!fuse) return { status: "unknown", match: null };
-  const hits = fuse.search(book.title);
+  if (!fuseBulk) return { status: "unknown", match: null };
+  const hits = fuseBulk.search(book.title);
   if (!hits.length || hits[0].score > BULK_SCORE_LIMIT)
     return { status: "unknown", match: null };
   return { status: "found", match: hits[0].item };
@@ -187,7 +198,7 @@ function renderBulkResults(books) {
 
   const rows = books.map((b) => {
     const { status, match } = lookupBook(b);
-    return { title: match || b.title, status };
+    return { title: match ? match.title : b.title, author: match ? match.author : null, status };
   });
 
   const unknownCount = rows.filter((r) => r.status === "unknown").length;
@@ -197,7 +208,7 @@ function renderBulkResults(books) {
     .map(
       (r) => `
     <tr${r.status === "unknown" ? ` class="row-unknown"` : ""}>
-      <td>${esc(r.title)}</td>
+      <td>${esc(r.title)}${r.author ? `<br><span class="match-author">${esc(r.author)}</span>` : ""}</td>
       <td>${r.status === "unknown" ? `<span class="status-badge unknown"><span aria-hidden="true">?</span> Not Found</span>` : `<span class="status-badge found"><span aria-hidden="true">✔</span> Found</span>`}</td>
     </tr>`,
     )
@@ -226,7 +237,7 @@ function runPasteCheck() {
   const text = pasteInput.value.trim();
   if (!text) return;
 
-  if (!fuse) {
+  if (!fuseBulk) {
     bulkResults.className = "bulk-results visible";
     bulkResults.innerHTML = `<p class="bulk-message empty">⚠️ Book list not loaded yet — wait a moment and try again.</p>`;
     return;
@@ -239,7 +250,7 @@ function runBulkCheck() {
   const file = csvInput.files[0];
   if (!file) return;
 
-  if (!fuse) {
+  if (!fuseBulk) {
     bulkResults.className = "bulk-results visible";
     bulkResults.innerHTML = `<p class="bulk-message empty">⚠️ Book list not loaded yet — wait a moment and try again.</p>`;
     return;

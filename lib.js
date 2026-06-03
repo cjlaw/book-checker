@@ -95,7 +95,7 @@ function filterCatalog(catalog, query) {
     (w) =>
       new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i"),
   );
-  return catalog.filter((title) => patterns.every((p) => p.test(title)));
+  return catalog.filter((e) => patterns.every((p) => p.test(e.title) || p.test(e.author || "")));
 }
 
 if (typeof module !== "undefined") {
