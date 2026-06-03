@@ -6,3 +6,4 @@ HANDOFF.md
 .ai/context/
 .claude/settings.local.json
 crawl-entries.json
+__pycache__/
