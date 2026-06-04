@@ -5,8 +5,10 @@ A lightweight single-page app to check whether a book is in the Melissa ISD libr
 ## Stack
 
 - `index.html`, `styles.css`, `lib.js`, `script.js` — no framework, no bundler
-- `catalog.json` — pre-generated title list (~13,801 entries), committed to the repo
-- `generate-catalog.py` — scrapes the Follett Destiny catalog to regenerate `catalog.json`
+- `catalog.json` — final entry list (~13,807 entries) served to the app at runtime; committed to the repo
+- `enrichment-cache.json` — per-entry cache of author/rl/il from Destiny detail pages; committed so the ~1.9h fetch doesn't need to be re-run
+- `crawl-entries.json` — raw book list from Destiny's browse pages; committed so the ~30 min browse crawl can be skipped on re-runs
+- `generate-catalog.py` — scrapes the Follett Destiny catalog to regenerate all three files
 - `test.js` — unit tests for pure functions (no browser required)
 - [Fuse.js](https://fusejs.io/) for fuzzy matching in bulk lookup (loaded from CDN)
 
@@ -30,13 +32,22 @@ Requires Node 18+. Covers `filterCatalog`, `parseCSV`, `parsePaste`, `esc`, and 
 
 ## Regenerating the catalog
 
-`catalog.json` is committed and updated manually. Run the generator when the catalog drifts (new titles added to Destiny):
+Three files store catalog state — all committed so expensive scraper phases can be skipped on re-runs:
+
+| File | What it contains | Time to rebuild |
+|---|---|---|
+| `crawl-entries.json` | Raw book list from Destiny browse pages (`{title, search_key, href}`) | ~30 min |
+| `enrichment-cache.json` | Author/rl/il fetched from ~13,807 Destiny detail pages, keyed by `search_key` | ~1.9h at 2 req/sec |
+| `catalog.json` | Final `{title, author, rl, il}` list served to the app | seconds (derived from cache) |
+
+Run the generator when the catalog drifts (new titles added to Destiny):
 
 ```bash
-python3 generate-catalog.py
+python3 generate-catalog.py                # full run: browse crawl + enrichment + catalog (~2h)
+python3 generate-catalog.py --skip-crawl  # skip browse crawl if crawl-entries.json is current (~1.9h)
 ```
 
-Takes ~10–15 minutes. Scrapes the full Follett Destiny ESC11 consortium catalog via the title browse endpoint and overwrites `catalog.json`. Requires no login.
+Requires no login. Overwrites all three files when complete.
 
 ## Deployment
 

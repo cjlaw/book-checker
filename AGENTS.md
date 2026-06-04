@@ -10,7 +10,7 @@
 - Install: none.
 - Dev: `python3 -m http.server 8888`, then open `http://localhost:8888`.
 - Stop dev server: `kill $(lsof -ti tcp:8888)`.
-- Regenerate catalog: `python3 generate-catalog.py` (browse crawl ~30 min + detail enrichment ~1.9h; overwrites `catalog.json` and `enrichment-cache.json`). Use `--skip-crawl` to skip the browse crawl if `crawl-entries.json` exists from a prior run.
+- Regenerate catalog: `python3 generate-catalog.py` (browse crawl ~30 min + detail enrichment ~1.9h; overwrites `crawl-entries.json`, `enrichment-cache.json`, and `catalog.json`). Use `--skip-crawl` to skip the browse crawl if `crawl-entries.json` is current.
 - Test: `node --test test.js` (requires Node 18+). Then verify in a browser manually.
 - Lint/typecheck: none configured.
 - Deploy: push `main`; GitHub Pages serves from `main` when enabled in repo settings.
@@ -35,7 +35,7 @@
   - Uses a `CookieJar` seeded with `contextCookie=melissa` and `siteIDCookie=403`; establishes a `JSESSIONID` session before detail fetches. Do NOT use a manual `Cookie` header — it drops `JSESSIONID`.
   - Detail fetches are sequential at ~2 req/sec; cache flushes every 100 entries; resumable across runs.
 - `crawl-entries.json`
-  - Intermediate file written by the browse crawl phase; contains `{title, search_key, href}` dicts. Used by `--skip-crawl`. Not committed.
+  - Output of phase 1 (browse crawl); contains `{title, search_key, href}` dicts for all ~13,807 catalog entries. Committed. Pass `--skip-crawl` to load from this file and skip the ~30 min browse crawl. Regenerating it requires a full browse crawl without `--skip-crawl`.
 - `enrichment-cache.json`
   - Persistent cache keyed by `search_key` (normalized title from Destiny's browse href). Committed. Avoids re-fetching ~13,807 detail pages on subsequent runs.
 - `catalog.json`
