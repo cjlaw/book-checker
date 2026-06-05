@@ -10,10 +10,10 @@
 - Install: none.
 - Dev: `python3 -m http.server 8888`, then open `http://localhost:8888`.
 - Stop dev server: `kill $(lsof -ti tcp:8888)`.
-- Regenerate catalog: `python3 generate-catalog.py` (browse crawl ~30 min + detail enrichment ~1.9h; overwrites `crawl-entries.json`, `enrichment-cache.json`, and `catalog.json`). Use `--skip-crawl` to skip the browse crawl if `crawl-entries.json` is current.
+- Regenerate catalog: `python3 generate-catalog.py` (browse crawl ~30 min + detail enrichment ~1.9h on first run; incremental runs short-circuit if no new entries are found). Use `--skip-crawl` to skip the browse crawl if `crawl-entries.json` is current. Overwrites `crawl-entries.json`, `enrichment-cache.json`, and `catalog.json`.
 - Test: `node --test test.js` (requires Node 18+). Then verify in a browser manually.
 - Lint/typecheck: none configured.
-- Deploy: push `main`; GitHub Pages serves from `main` when enabled in repo settings.
+- Deploy: push `main`; GitHub Pages serves from `main` when enabled in repo settings. Catalog is also refreshed automatically every Monday at 8am UTC via `.github/workflows/refresh-catalog.yml`.
 
 ## Working Rules
 
@@ -67,6 +67,8 @@
   - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via `fuseBulk`; author shown below title in results table.
 - `test.js`
   - Node.js unit tests using `node:test` + `assert`. Covers `filterCatalog`, `parseCSV`, `parsePaste`, `esc`, and `splitCSVLine`. Run with `node --test test.js`.
+- `.github/workflows/refresh-catalog.yml`
+  - Runs `generate-catalog.py` weekly (Mondays 8am UTC) and on `workflow_dispatch`. Commits updated JSON files back to `main` if the catalog changed (triggering Pages deploy). Uses `CATALOG_DEPLOY_TOKEN` secret (PAT with `repo` scope) so the push triggers GitHub Pages. Fails the job (→ email notification) if the crawl errors out mid-run.
 
 ## Code Style & Conventions
 
@@ -116,7 +118,8 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 
 - The browse endpoint (`presentbrowsesearchresultsform.do`) ignores `siteTypeID` and `siteID` — per-school scoping is not possible via browse. All parameter combinations return the same full ESC11 consortium catalog. Do not re-investigate this.
 - Author, reading level, and interest level are fetched from `presentbrowseheadingdetailform.do` during the enrichment phase (~13,807 requests, ~1.9h at 2 req/sec). Results are cached in `enrichment-cache.json` keyed by `search_key`. That endpoint requires a `JSESSIONID` cookie obtained via `CookieJar` — do NOT use a manual `Cookie` header.
-- The script guards against overwriting `catalog.json` on a failed run (exits with code 1 if zero titles were collected).
+- The script exits with code 1 if zero titles were collected or if the crawl hit an error mid-run (prevents a partial crawl from short-circuiting as a false no-op).
+- After phase 1, the script diffs new `search_key`s against the committed `crawl-entries.json`; exits 0 without touching enrichment or `catalog.json` if no new entries are found.
 
 ## Project-Specific Pitfalls
 
