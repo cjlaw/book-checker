@@ -291,7 +291,19 @@ def main(skip_crawl=False):
         page = len(all_entries)  // 20  # approximate
         print(f"Skipping crawl — loaded {len(all_entries)} entries from {CRAWL_FILE}")
     else:
+        existing_keys = set()
+        if os.path.exists(CRAWL_FILE):
+            with open(CRAWL_FILE) as f:
+                existing_keys = {e["search_key"] for e in json.load(f)}
+
         all_entries, page = crawl(opener)
+
+        new_keys = {e["search_key"] for e in all_entries} - existing_keys
+        if existing_keys and not new_keys:
+            print("No new entries found — catalog is up to date.")
+            sys.exit(0)
+
+        print(f"  {len(new_keys)} new entries found.")
 
     if not all_entries:
         print("No titles collected — catalog.json not modified.", file=sys.stderr)
