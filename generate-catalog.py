@@ -240,6 +240,7 @@ def crawl(opener):
     seen_keys = set()
     url = START_URL
     page = 0
+    had_errors = False
 
     print("Fetching Melissa ISD catalog from Destiny...")
 
@@ -248,6 +249,7 @@ def crawl(opener):
             html, _ = fetch(opener, url)
         except Exception as e:
             print(f"  Error on page {page + 1}: {e}", file=sys.stderr)
+            had_errors = True
             break
 
         page_entries = extract_entries(html)
@@ -272,7 +274,7 @@ def crawl(opener):
 
     atomic_write(CRAWL_FILE, all_entries)
     print(f"  Crawl complete: {len(all_entries)} titles saved to {CRAWL_FILE}")
-    return all_entries, page
+    return all_entries, page, had_errors
 
 
 def main(skip_crawl=False):
@@ -296,7 +298,11 @@ def main(skip_crawl=False):
             with open(CRAWL_FILE) as f:
                 existing_keys = {e["search_key"] for e in json.load(f)}
 
-        all_entries, page = crawl(opener)
+        all_entries, page, had_errors = crawl(opener)
+
+        if had_errors:
+            print("ERROR: Crawl did not complete — aborting to avoid false no-op.", file=sys.stderr)
+            sys.exit(1)
 
         new_keys = {e["search_key"] for e in all_entries} - existing_keys
         if existing_keys and not new_keys:
