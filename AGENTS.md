@@ -131,3 +131,12 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 - Empty paste currently does nothing; preserve or intentionally improve that behavior with UI feedback.
 - Paste auto-runs once on paste via `setTimeout(runPasteCheck, 0)`; later edits require clicking Check List.
 - Fuse.js is loaded from cdnjs without an SRI hash; add `integrity` plus `crossorigin` if hardening the CDN dependency.
+
+## Code review
+
+For code review tasks:
+
+- Follow `../standards/code_review.md` (and `./code_review.md` if present)
+- Read `.ai/reviews/current.md` before starting; overwrite it with the final findings
+- Do not modify source files unless explicitly asked
+- Report only actionable issues, grouped by severity — no cosmetic/style-only nits
