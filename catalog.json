@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05",
+  "generated": "2026-07-27",
   "books": [
     {
       "title": "!Hoy volare!",
@@ -68,10 +68,28 @@
       "il": "K-3"
     },
     {
+      "title": "1 & only Bob",
+      "author": "Applegate, Katherine.",
+      "rl": 3.9,
+      "il": "3-6"
+    },
+    {
+      "title": "1 & only Ivan",
+      "author": "Applegate, Katherine.",
+      "rl": 3.6,
+      "il": "3-6"
+    },
+    {
       "title": "1 and only family",
       "author": "Applegate, Katherine,",
       "rl": 4.0,
       "il": "Grades"
+    },
+    {
+      "title": "1 awesome thing",
+      "author": "Pennypacker, Sara, 1951-",
+      "rl": 4.6,
+      "il": "3-6"
     },
     {
       "title": "1 big salad",
@@ -90,6 +108,18 @@
       "author": "Hahn, Mary Downing.",
       "rl": 5.8,
       "il": "5-8"
+    },
+    {
+      "title": "1 pup is up",
+      "author": "Cole, Henry, 1955-",
+      "rl": 2.0,
+      "il": "K-3"
+    },
+    {
+      "title": "1 word from Sophia",
+      "author": "Ismail, Yasmeen,",
+      "rl": 4.7,
+      "il": "Pre-kindergarten"
     },
     {
       "title": "1, 2, 3 dream",
@@ -114,6 +144,12 @@
       "author": "Norman, Kim,",
       "rl": 2.0,
       "il": "P-2"
+    },
+    {
+      "title": "1/2-court hero",
+      "author": "Lupica, Mike.",
+      "rl": 3.6,
+      "il": "K-3"
     },
     {
       "title": "10 fascinating facts about chewing gum!",
@@ -314,10 +350,22 @@
       "il": "K-3"
     },
     {
+      "title": "1st day critter jitters",
+      "author": "John, Jory.",
+      "rl": 2.5,
+      "il": "K-3"
+    },
+    {
       "title": "1st grade dropout",
       "author": "Vernick, Audrey.",
       "rl": 2.4,
       "il": "K-3"
+    },
+    {
+      "title": "1st last day",
+      "author": null,
+      "rl": 4.8,
+      "il": "3-6"
     },
     {
       "title": "2 for 1",
@@ -330,6 +378,12 @@
       "author": "Cameron, W. Bruce,",
       "rl": 4.5,
       "il": "2-5"
+    },
+    {
+      "title": "2 of everything",
+      "author": null,
+      "rl": 3.5,
+      "il": "K-3"
     },
     {
       "title": "2 truths and a lie : it's alive!",
@@ -440,6 +494,12 @@
       "il": "K-3"
     },
     {
+      "title": "2nd grade holdout",
+      "author": "Vernick, Audrey.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
       "title": "3 billy goats buenos",
       "author": "Elya, Susan Middleton, 1955-",
       "rl": 2.0,
@@ -545,6 +605,12 @@
       "title": "5 little monkeys trick-or-treat",
       "author": "Christelow, Eileen.",
       "rl": 1.9,
+      "il": "K-3"
+    },
+    {
+      "title": "5 o'clock ghost",
+      "author": "Butler, Dori Hillestad.",
+      "rl": 3.6,
       "il": "K-3"
     },
     {
@@ -1230,6 +1296,12 @@
       "author": "Osborne, Mary Pope.",
       "rl": 3.6,
       "il": "2-5"
+    },
+    {
+      "title": "A giant problem",
+      "author": "Hale, Shannon.",
+      "rl": 3.5,
+      "il": "K-3"
     },
     {
       "title": "A gift for Goose",
@@ -2924,6 +2996,12 @@
       "il": "3-6"
     },
     {
+      "title": "Air raid search & rescue",
+      "author": "Sutter, Marcus.",
+      "rl": 4.8,
+      "il": "3-6"
+    },
+    {
       "title": "Air raid search and rescue",
       "author": "Sutter, Marcus.",
       "rl": 4.1,
@@ -3248,6 +3326,12 @@
       "il": "1-4"
     },
     {
+      "title": "Alien versus Bad Guys",
+      "author": "Blabey, Aaron.",
+      "rl": 2.9,
+      "il": "3-6"
+    },
+    {
       "title": "Alien vs Bad Guys",
       "author": "Blabey, Aaron,",
       "rl": 2.5,
@@ -3470,6 +3554,12 @@
       "il": "K-3"
     },
     {
+      "title": "All of a sudden & forever",
+      "author": "Barton, Chris.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
       "title": "All of a sudden and forever : help and healing after the Oklahoma City bombing",
       "author": "Barton, Chris.",
       "rl": 4.6,
@@ -3590,6 +3680,12 @@
       "il": "2-5"
     },
     {
+      "title": "All together",
+      "author": "Burks, James (James R.)",
+      "rl": 2.3,
+      "il": "3-6"
+    },
+    {
       "title": "All we know",
       "author": "Ashman, Linda.",
       "rl": 2.1,
@@ -3654,6 +3750,12 @@
       "author": "Martinez-Neal, Juana.",
       "rl": 2.2,
       "il": "P-2"
+    },
+    {
+      "title": "Almost 0",
+      "author": "Grimes, Nikki.",
+      "rl": 3.9,
+      "il": "K-3"
     },
     {
       "title": "Almost a world record breaker",
@@ -3768,6 +3870,18 @@
       "author": "Saeed, Aisha,",
       "rl": 4.2,
       "il": "5-9"
+    },
+    {
+      "title": "Amalia Hern\u00e1ndez & el Ballet Folkl\u00f3rico de Mexico",
+      "author": "Tonatiuh, Duncan.",
+      "rl": 7.0,
+      "il": "3-6"
+    },
+    {
+      "title": "Amalia Hern\u00e1ndez and el Ballet Folkl\u00f3rico de Mexico",
+      "author": "Tonatiuh, Duncan.",
+      "rl": 7.0,
+      "il": "3-6"
     },
     {
       "title": "Amanda Pig and the really hot day",
@@ -6044,6 +6158,18 @@
       "il": "K-3"
     },
     {
+      "title": "Awesome friendly adventure",
+      "author": "Kinney, Jeff.",
+      "rl": 5.7,
+      "il": "5-8"
+    },
+    {
+      "title": "Awesome friendly spooky stories",
+      "author": "Kinney, Jeff.",
+      "rl": 5.7,
+      "il": "5-8"
+    },
+    {
       "title": "Awesome guide",
       "author": "Scott, Cavan,",
       "rl": 2.0,
@@ -7266,6 +7392,12 @@
       "author": "Yoon, Salina.",
       "rl": 2.2,
       "il": "Pre-kindergarten"
+    },
+    {
+      "title": "Be a horse & pony expert",
+      "author": null,
+      "rl": 6.0,
+      "il": "3-6"
     },
     {
       "title": "Be a horse and pony expert",
@@ -8618,6 +8750,12 @@
       "il": "K-3"
     },
     {
+      "title": "Big Nate : from the top",
+      "author": "Peirce, Lincoln.",
+      "rl": 2.5,
+      "il": "4-7"
+    },
+    {
       "title": "Big Nate : game on!",
       "author": "Peirce, Lincoln.",
       "rl": 2.5,
@@ -8663,12 +8801,6 @@
       "title": "Big Nate blasts off",
       "author": "Peirce, Lincoln.",
       "rl": 3.3,
-      "il": "4-7"
-    },
-    {
-      "title": "Big Nate from the top",
-      "author": "Peirce, Lincoln.",
-      "rl": 2.5,
       "il": "4-7"
     },
     {
@@ -8723,6 +8855,12 @@
       "title": "Big no-no!",
       "author": "Hayes, Geoffrey.",
       "rl": 1.3,
+      "il": "K-3"
+    },
+    {
+      "title": "Big Papa & the time machine",
+      "author": "Bernstrom, Daniel.",
+      "rl": 1.9,
       "il": "K-3"
     },
     {
@@ -8789,6 +8927,12 @@
       "title": "Big words for little geniuses",
       "author": "Patterson, James, 1947-",
       "rl": 3.6,
+      "il": "K-3"
+    },
+    {
+      "title": "Big, mean dust bunny!",
+      "author": "Thomas, Jan, 1958-",
+      "rl": 1.9,
       "il": "K-3"
     },
     {
@@ -8918,10 +9062,10 @@
       "il": "2-5"
     },
     {
-      "title": "Binky : license to scratch",
-      "author": "Spires, Ashley, 1978-",
-      "rl": 2.6,
-      "il": "2-5"
+      "title": "Bink and Gollie",
+      "author": "DiCamillo, Kate.",
+      "rl": 2.5,
+      "il": "K-3"
     },
     {
       "title": "Binky takes charge",
@@ -8945,6 +9089,12 @@
       "title": "Binky under pressure",
       "author": "Spires, Ashley, 1978-",
       "rl": 2.5,
+      "il": "2-5"
+    },
+    {
+      "title": "Binky, license to scratch",
+      "author": "Spires, Ashley, 1978-",
+      "rl": 2.6,
       "il": "2-5"
     },
     {
@@ -9920,6 +10070,12 @@
       "il": null
     },
     {
+      "title": "Boy & the whale",
+      "author": "Gerstein, Mordicai.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
       "title": "Boy + Bot",
       "author": "Dyckman, Ame.",
       "rl": 1.2,
@@ -10098,6 +10254,12 @@
       "author": null,
       "rl": 4.3,
       "il": "1-4"
+    },
+    {
+      "title": "Break the fossil record",
+      "author": "Barrows, Annie.",
+      "rl": 3.1,
+      "il": "K-3"
     },
     {
       "title": "Breakdancing",
@@ -10388,7 +10550,7 @@
       "il": "3-6"
     },
     {
-      "title": "Bubbles ... up!",
+      "title": "Bubbles--up!",
       "author": "Davies, Jacqueline, 1962-",
       "rl": 1.9,
       "il": "P-2"
@@ -11588,6 +11750,18 @@
       "il": "1-4"
     },
     {
+      "title": "Case of the lost tooth",
+      "author": "Butler, Dori Hillestad.",
+      "rl": 1.4,
+      "il": "K-3"
+    },
+    {
+      "title": "Case of the missing dog treats",
+      "author": "Butler, Dori Hillestad.",
+      "rl": 1.4,
+      "il": "K-3"
+    },
+    {
       "title": "Casebook : vampires",
       "author": "Fontes, Justine.",
       "rl": 5.6,
@@ -11622,6 +11796,12 @@
       "author": "Vernon, Ursula.",
       "rl": 5.1,
       "il": "3-6"
+    },
+    {
+      "title": "Castle of bones",
+      "author": "Calejo, Ryan.",
+      "rl": 5.8,
+      "il": "5-8"
     },
     {
       "title": "Castles",
@@ -11748,6 +11928,12 @@
       "author": "Blabey, Aaron,",
       "rl": 2.7,
       "il": "2-5"
+    },
+    {
+      "title": "Cat versus Dog",
+      "author": "Patterson, James, 1947-",
+      "rl": 6.7,
+      "il": "3-6"
     },
     {
       "title": "Cat vs. Dog",
@@ -11892,6 +12078,12 @@
       "author": "Riehecky, Janet, 1953-",
       "rl": 3.1,
       "il": "3-6"
+    },
+    {
+      "title": "Cave cat Pete",
+      "author": "Dean, James, 1957-",
+      "rl": 1.4,
+      "il": "K-3"
     },
     {
       "title": "Cave geologists",
@@ -13010,6 +13202,12 @@
       "il": "1-4"
     },
     {
+      "title": "Ci tengo alla pelliccia, io! English",
+      "author": "Stilton, Geronimo.",
+      "rl": 3.6,
+      "il": "3-6"
+    },
+    {
       "title": "Ciak, si gira, Geronimo Stilton! English",
       "author": "Stilton, Geronimo.",
       "rl": 3.1,
@@ -13238,6 +13436,12 @@
       "il": "3-6"
     },
     {
+      "title": "Civil War steamship showdown",
+      "author": "Hale, Nathan, 1976-",
+      "rl": 2.7,
+      "il": "3-6"
+    },
+    {
       "title": "Claire and the unicorn happy ever after",
       "author": "Hennessy, B. G. (Barbara G.)",
       "rl": 1.4,
@@ -13343,6 +13547,12 @@
       "title": "Class clown",
       "author": "Clements, Andrew, 1949-",
       "rl": 3.3,
+      "il": "3-6"
+    },
+    {
+      "title": "Class pet",
+      "author": "Blakemore, Megan Frazer.",
+      "rl": 3.0,
       "il": "3-6"
     },
     {
@@ -13890,6 +14100,12 @@
       "author": "Gigliotti, Jim.",
       "rl": 3.6,
       "il": "2-5"
+    },
+    {
+      "title": "Colosseum",
+      "author": "O'Connor, Jim.",
+      "rl": 6.1,
+      "il": "3-6"
     },
     {
       "title": "Columbus Blue Jackets",
@@ -15392,6 +15608,12 @@
       "il": "4-7"
     },
     {
+      "title": "Dance the dance",
+      "author": "Rylant, Cynthia.",
+      "rl": 1.9,
+      "il": "K-3"
+    },
+    {
       "title": "Dance your pants off!",
       "author": "Krulik, Nancy E.",
       "rl": 3.8,
@@ -15494,7 +15716,7 @@
       "il": "P-2"
     },
     {
-      "title": "Danza! : Amalia Hernandez and El Ballet Folklorico de Mexico",
+      "title": "Danza! : Amalia Hern\u00e1ndez and el Ballet Folkl\u00f3rico de Mexico",
       "author": "Tonatiuh, Duncan,",
       "rl": 6.0,
       "il": "1-4"
@@ -15692,10 +15914,10 @@
       "il": "1-4"
     },
     {
-      "title": "Dawn of the underlord",
-      "author": "Blabey, Aaron,",
+      "title": "Dawn of the underworld",
+      "author": "Blabey, Aaron.",
       "rl": 2.7,
-      "il": "2-5"
+      "il": "3-6"
     },
     {
       "title": "Day at the beach",
@@ -15726,6 +15948,12 @@
       "author": "Cummings, Troy.",
       "rl": 3.2,
       "il": "1-4"
+    },
+    {
+      "title": "Day-glow brothers",
+      "author": "Barton, Chris.",
+      "rl": 5.7,
+      "il": "3-6"
     },
     {
       "title": "Daybreak on Raven Island",
@@ -16154,7 +16382,7 @@
       "il": "K-3"
     },
     {
-      "title": "Diana, Princess of the Amazons",
+      "title": "Diana: Princess of the Amazons",
       "author": "Hale, Shannon.",
       "rl": 2.6,
       "il": "2-5"
@@ -16268,13 +16496,13 @@
       "il": "5-8"
     },
     {
-      "title": "Did you take the B from my _ook?",
+      "title": "Did you take the B from my book?",
       "author": "Stanton, Beck,",
       "rl": 1.0,
       "il": "P-2"
     },
     {
-      "title": "Did you take the B from my book?",
+      "title": "Did you take the B from my ook?",
       "author": "Stanton, Beck,",
       "rl": 1.0,
       "il": "P-2"
@@ -16598,6 +16826,12 @@
       "il": "2-5"
     },
     {
+      "title": "Discovering animal habitats around the world",
+      "author": "Jenkins, Steve, 1952-",
+      "rl": 4.0,
+      "il": "K-3"
+    },
+    {
       "title": "Discovering dinosaurs",
       "author": "Gregory, Josh,",
       "rl": 4.6,
@@ -16656,6 +16890,12 @@
       "author": "Disney Storybook Artists.",
       "rl": 2.8,
       "il": "1-4"
+    },
+    {
+      "title": "Disney Finding Tinker Bell a Never Girls adventure. Beyond Never Land",
+      "author": "Thorpe, Kiki.",
+      "rl": 4.0,
+      "il": "K-3"
     },
     {
       "title": "Disney frozen",
@@ -17048,6 +17288,12 @@
       "il": "P-2"
     },
     {
+      "title": "Do not worry, Little Crab",
+      "author": "Haughton, Chris.",
+      "rl": 2.0,
+      "il": "K-3"
+    },
+    {
       "title": "Do unto otters : a book about manners",
       "author": "Keller, Laurie.",
       "rl": 2.7,
@@ -17298,6 +17544,12 @@
       "author": "Pilkey, Dav.",
       "rl": null,
       "il": null
+    },
+    {
+      "title": "Dog Man & Cat Kid",
+      "author": "Pilkey, Dav, 1966-",
+      "rl": 2.6,
+      "il": "3-6"
     },
     {
       "title": "Dog Man : a tale of two kitties",
@@ -17588,12 +17840,6 @@
       "il": null
     },
     {
-      "title": "Don not worry, Little Crab",
-      "author": "Haughton, Chris.",
-      "rl": 2.0,
-      "il": "P-2"
-    },
-    {
       "title": "Don't call me Bear!",
       "author": "Blabey, Aaron.",
       "rl": 2.2,
@@ -17724,6 +17970,18 @@
       "author": "Sell, Chad,",
       "rl": 2.5,
       "il": "4-7"
+    },
+    {
+      "title": "Doomed to dance",
+      "author": "Barrows, Annie.",
+      "rl": 3.4,
+      "il": "K-3"
+    },
+    {
+      "title": "Doomsday race",
+      "author": "Brallier, Max.",
+      "rl": 5.6,
+      "il": "3-6"
     },
     {
       "title": "Dorothea's eyes : Dorothea Lange photographs the truth",
@@ -19604,7 +19862,7 @@
       "il": "K-3"
     },
     {
-      "title": "Escape from Horrorland",
+      "title": "Escape from HorrorLand",
       "author": "Stine, R. L.",
       "rl": 3.2,
       "il": "4-7"
@@ -20040,6 +20298,12 @@
       "author": null,
       "rl": 4.0,
       "il": "3-6"
+    },
+    {
+      "title": "Experiments with elements",
+      "author": "Polinsky, Paige V.",
+      "rl": 2.5,
+      "il": "K-3"
     },
     {
       "title": "Explore my world",
@@ -20534,6 +20798,12 @@
       "il": "4-7"
     },
     {
+      "title": "Fablehaven (Novel)",
+      "author": "Mull, Brandon, 1974-",
+      "rl": 5.0,
+      "il": "5-8"
+    },
+    {
       "title": "Fables",
       "author": "Lobel, Arnold.",
       "rl": 5.0,
@@ -20750,6 +21020,12 @@
       "il": "K-3"
     },
     {
+      "title": "Fancy Nancy & the mermaid ballet",
+      "author": "O'Connor, Jane.",
+      "rl": 3.1,
+      "il": "Pre-kindergarten"
+    },
+    {
       "title": "Fancy Nancy and the mermaid ballet",
       "author": "O'Connor, Jane.",
       "rl": 3.1,
@@ -20838,6 +21114,12 @@
       "author": "Dahl, Roald.",
       "rl": 4.1,
       "il": "3-6"
+    },
+    {
+      "title": "Fantastical garden of Nek Chand",
+      "author": null,
+      "rl": 3.1,
+      "il": "K-3"
     },
     {
       "title": "Fantomes dans les nuages. English",
@@ -22310,6 +22592,24 @@
       "il": "K-3"
     },
     {
+      "title": "Flying beaver brothers & the Crazy Critter Race",
+      "author": "Eaton, Maxwell.",
+      "rl": 2.1,
+      "il": "K-3"
+    },
+    {
+      "title": "Flying beaver brothers & the evil penguin plan",
+      "author": "Eaton, Maxwell.",
+      "rl": 1.9,
+      "il": "K-3"
+    },
+    {
+      "title": "Flying beaver brothers & the fishy business",
+      "author": "Eaton, Maxwell.",
+      "rl": 1.7,
+      "il": "K-3"
+    },
+    {
       "title": "Flying dragons",
       "author": "Mara, Wil,",
       "rl": 4.4,
@@ -22320,6 +22620,18 @@
       "author": "Britton, Tamara L., 1963-",
       "rl": 3.8,
       "il": "1-4"
+    },
+    {
+      "title": "Flying foxes",
+      "author": "Gillespie, Katie.",
+      "rl": 2.0,
+      "il": "K-3"
+    },
+    {
+      "title": "Flying frogs & walking fish",
+      "author": "Jenkins, Steve, 1952-",
+      "rl": 4.2,
+      "il": "K-3"
     },
     {
       "title": "Flying frogs and walking fish : leaping lemurs, tumbling toads, jet-propelled jellyfish, and more surprising ways that animals move",
@@ -22880,6 +23192,12 @@
       "il": "3-6"
     },
     {
+      "title": "Frank Einstein & the Electro-Finger",
+      "author": "Scieszka, Jon.",
+      "rl": 4.4,
+      "il": "3-6"
+    },
+    {
       "title": "Frank Einstein and the antimatter motor",
       "author": "Scieszka, Jon.",
       "rl": 4.7,
@@ -22968,6 +23286,12 @@
       "author": "Wight, Eric, 1974-",
       "rl": 3.7,
       "il": "2-5"
+    },
+    {
+      "title": "Frankie Sparks & the class pet",
+      "author": "Blakemore, Megan Frazer.",
+      "rl": 3.0,
+      "il": "3-6"
     },
     {
       "title": "Frankie Sparks and the class pet",
@@ -23639,6 +23963,12 @@
       "title": "From the notebooks of a middle school princess",
       "author": null,
       "rl": 5.3,
+      "il": "3-6"
+    },
+    {
+      "title": "From the top",
+      "author": "Peirce, Lincoln.",
+      "rl": 2.5,
       "il": "3-6"
     },
     {
@@ -24560,6 +24890,12 @@
       "il": "4-7"
     },
     {
+      "title": "Ghost raccoon",
+      "author": "DiCamillo, Kate.",
+      "rl": 3.8,
+      "il": "K-3"
+    },
+    {
       "title": "Ghost soldier",
       "author": null,
       "rl": 5.2,
@@ -24570,6 +24906,12 @@
       "author": "Ortega, Claribel A.",
       "rl": 5.5,
       "il": "3-6"
+    },
+    {
+      "title": "Ghost that had to go",
+      "author": "Barrows, Annie.",
+      "rl": 3.6,
+      "il": "K-3"
     },
     {
       "title": "Ghost town at sundown",
@@ -24800,6 +25142,18 @@
       "il": "2-5"
     },
     {
+      "title": "Gina & the big secret",
+      "author": "Winick, Judd.",
+      "rl": null,
+      "il": "3-6"
+    },
+    {
+      "title": "Gina & the last city on Earth",
+      "author": "Winick, Judd.",
+      "rl": 2.9,
+      "il": "3-6"
+    },
+    {
       "title": "Gina and the big secret",
       "author": "Winick, Judd,",
       "rl": null,
@@ -24833,6 +25187,12 @@
       "title": "Gingerbread Christmas",
       "author": "Brett, Jan, 1949-",
       "rl": 3.5,
+      "il": "K-3"
+    },
+    {
+      "title": "Gingerbread Man & the leprechaun loose at school",
+      "author": "Murray, Laura, 1970-",
+      "rl": 2.8,
       "il": "K-3"
     },
     {
@@ -25476,12 +25836,6 @@
       "author": null,
       "rl": null,
       "il": "P-2"
-    },
-    {
-      "title": "Good Egg presents The great eggscape!",
-      "author": "John, Jory.",
-      "rl": 2.2,
-      "il": "K-3"
     },
     {
       "title": "Good friends",
@@ -26340,6 +26694,12 @@
       "author": "Spiotto, Joey.",
       "rl": 2.4,
       "il": "2-5"
+    },
+    {
+      "title": "Guam",
+      "author": "Sutter, Marcus.",
+      "rl": 4.9,
+      "il": "3-6"
     },
     {
       "title": "Guam's brown tree snakes : hanging out",
@@ -27446,7 +27806,7 @@
       "il": "P-2"
     },
     {
-      "title": "Hello Lighthouse",
+      "title": "Hello lighthouse",
       "author": "Blackall, Sophie,",
       "rl": 3.4,
       "il": "P-2"
@@ -27497,6 +27857,18 @@
       "title": "Hello, red fox",
       "author": "Carle, Eric.",
       "rl": 2.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Help & healing after the Oklahoma City bombing",
+      "author": "Barton, Chris.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
+      "title": "Help and healing after the Oklahoma City bombing",
+      "author": "Barton, Chris.",
+      "rl": 2.8,
       "il": "K-3"
     },
     {
@@ -27888,6 +28260,12 @@
       "author": "Underwood, Deborah.",
       "rl": 1.4,
       "il": "K-3"
+    },
+    {
+      "title": "Here goes nothing",
+      "author": "Peirce, Lincoln.",
+      "rl": 2.7,
+      "il": "3-6"
     },
     {
       "title": "Here we are : notes for living on planet Earth",
@@ -28331,6 +28709,12 @@
       "title": "Hilo. 10, Rise of the cat",
       "author": "Winick, Judd.",
       "rl": null,
+      "il": "3-6"
+    },
+    {
+      "title": "Hilo. 9, Gina and the last city on Earth",
+      "author": "Winick, Judd.",
+      "rl": 2.9,
       "il": "3-6"
     },
     {
@@ -29024,10 +29408,22 @@
       "il": null
     },
     {
+      "title": "Horse & pony expert",
+      "author": null,
+      "rl": 6.0,
+      "il": "3-6"
+    },
+    {
       "title": "Horse & rider",
       "author": "Man-Kong, Mary.",
       "rl": 1.0,
       "il": "P-2"
+    },
+    {
+      "title": "Horse and pony expert",
+      "author": null,
+      "rl": 6.0,
+      "il": "3-6"
     },
     {
       "title": "Horse for Angel",
@@ -29408,7 +29804,7 @@
       "il": "P-2"
     },
     {
-      "title": "How do dinosaurs say merry Christmas?",
+      "title": "How do dinosaurs say Merry Christmas?",
       "author": "Yolen, Jane.",
       "rl": 2.1,
       "il": "P-2"
@@ -29502,6 +29898,12 @@
       "author": null,
       "rl": 4.9,
       "il": "3-6"
+    },
+    {
+      "title": "How M.S. Subbulakshmi used her voice for change",
+      "author": null,
+      "rl": 4.2,
+      "il": "K-3"
     },
     {
       "title": "How many cells are in your body? : questions about cells and systems",
@@ -29621,12 +30023,6 @@
       "title": "How Tia Lola came to visit/stay",
       "author": "Alvarez, Julia.",
       "rl": 4.8,
-      "il": "4-7"
-    },
-    {
-      "title": "How Tia Lola ended up starting over",
-      "author": "Alvarez, Julia.",
-      "rl": 5.5,
       "il": "4-7"
     },
     {
@@ -29858,7 +30254,7 @@
       "il": "3-6"
     },
     {
-      "title": "How to speak Dragonese",
+      "title": "How to speak dragonese",
       "author": "Cowell, Cressida.",
       "rl": 6.5,
       "il": "4-7"
@@ -29930,9 +30326,21 @@
       "il": "4-7"
     },
     {
+      "title": "How to train your dragon (Motion picture)",
+      "author": "Cowell, Cressida.",
+      "rl": 6.6,
+      "il": "3-6"
+    },
+    {
       "title": "How to twist a dragon's tale",
       "author": "Cowell, Cressida.",
       "rl": 6.9,
+      "il": "4-7"
+    },
+    {
+      "title": "How T\u00eda Lola ended up starting over",
+      "author": "Alvarez, Julia.",
+      "rl": 5.5,
       "il": "4-7"
     },
     {
@@ -30734,13 +31142,13 @@
       "il": "2-5"
     },
     {
-      "title": "I can't take it!",
+      "title": "I can't take it",
       "author": "Peirce, Lincoln.",
       "rl": 2.8,
       "il": "4-7"
     },
     {
-      "title": "I cannot take it!",
+      "title": "I cannot take it",
       "author": "Peirce, Lincoln.",
       "rl": 2.8,
       "il": "4-7"
@@ -31766,7 +32174,7 @@
       "il": "P-2"
     },
     {
-      "title": "If you ever want to bring an alligator to school, don't!",
+      "title": "If you ever want to bring an alligator to school, dont!",
       "author": "Parsley, Elise.",
       "rl": 3.7,
       "il": "P-2"
@@ -32834,7 +33242,7 @@
       "il": "4-7"
     },
     {
-      "title": "Isadora moon goes camping",
+      "title": "Isadora Moon goes camping",
       "author": "Muncaster, Harriet,",
       "rl": 3.6,
       "il": "1-4"
@@ -33632,6 +34040,24 @@
       "il": "2-5"
     },
     {
+      "title": "Ivy plus Bean",
+      "author": "Barrows, Annie.",
+      "rl": 3.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Ivy plus Bean and the ghost that had to go",
+      "author": "Barrows, Annie.",
+      "rl": 3.6,
+      "il": "K-3"
+    },
+    {
+      "title": "Ivy plus Bean break the fossil record",
+      "author": "Barrows, Annie.",
+      "rl": 3.1,
+      "il": "K-3"
+    },
+    {
       "title": "Ivy plus Bean take care of the babysitter",
       "author": "Barrows, Annie.",
       "rl": 2.9,
@@ -34220,6 +34646,12 @@
       "il": "K-3"
     },
     {
+      "title": "Joe Louis",
+      "author": "De la Pe\u00f1a, Matt.",
+      "rl": 4.9,
+      "il": "K-3"
+    },
+    {
       "title": "Joey : the story of Joe Biden",
       "author": "Krull, Kathleen.",
       "rl": 4.5,
@@ -34338,6 +34770,12 @@
       "author": "Mitchell, P. P.,",
       "rl": 4.7,
       "il": "3-6"
+    },
+    {
+      "title": "Jojo & the magic trick",
+      "author": "O'Connor, Jane.",
+      "rl": 0.9,
+      "il": "Pre-kindergarten"
     },
     {
       "title": "Jojo and the magic trick",
@@ -34508,6 +34946,12 @@
       "il": "2-5"
     },
     {
+      "title": "Judith Scott",
+      "author": "Sweet, Melissa, 1956-",
+      "rl": 5.2,
+      "il": "K-3"
+    },
+    {
       "title": "Judy Moody",
       "author": "McDonald, Megan.",
       "rl": 3.5,
@@ -34521,6 +34965,12 @@
     },
     {
       "title": "Judy Moody & the bad luck charm",
+      "author": "McDonald, Megan.",
+      "rl": 3.3,
+      "il": "3-6"
+    },
+    {
+      "title": "Judy Moody (Novel)",
       "author": "McDonald, Megan.",
       "rl": 3.3,
       "il": "3-6"
@@ -35036,7 +35486,7 @@
       "il": "1-4"
     },
     {
-      "title": "Just like us! : plants",
+      "title": "Just like us! plants",
       "author": "Heos, Bridget,",
       "rl": 2.0,
       "il": "1-4"
@@ -35669,6 +36119,18 @@
       "title": "Kindness is cooler, Mrs. Ruler",
       "author": "Cuyler, Margery.",
       "rl": 2.9,
+      "il": "K-3"
+    },
+    {
+      "title": "King & Kayla & the case of the lost tooth",
+      "author": "Butler, Dori Hillestad.",
+      "rl": 1.4,
+      "il": "K-3"
+    },
+    {
+      "title": "King & Kayla & the case of the missing dog treats",
+      "author": "Butler, Dori Hillestad.",
+      "rl": 1.4,
       "il": "K-3"
     },
     {
@@ -36386,6 +36848,18 @@
       "il": "5-9"
     },
     {
+      "title": "Last kids on Earth & the doomsday race",
+      "author": "Brallier, Max.",
+      "rl": 5.6,
+      "il": "3-6"
+    },
+    {
+      "title": "Last kids on Earth & the forbidden fortress",
+      "author": "Brallier, Max.",
+      "rl": 4.6,
+      "il": "3-6"
+    },
+    {
       "title": "Last kids on Earth & the monster dimension",
       "author": "Brallier, Max,",
       "rl": 4.7,
@@ -36401,12 +36875,6 @@
       "title": "Last kids on Earth & the skeleton road",
       "author": "Brallier, Max.",
       "rl": 4.1,
-      "il": "3-6"
-    },
-    {
-      "title": "Last kids on Earth (Television program)",
-      "author": "Brallier, Max,",
-      "rl": 4.6,
       "il": "3-6"
     },
     {
@@ -36582,6 +37050,12 @@
       "author": "Hunter, Erin.",
       "rl": 5.2,
       "il": "5-9"
+    },
+    {
+      "title": "Legends of Zita the space girl",
+      "author": "Hatke, Ben.",
+      "rl": 2.1,
+      "il": "3-6"
     },
     {
       "title": "Legends of Zita the spacegirl",
@@ -36830,6 +37304,12 @@
       "il": "1-4"
     },
     {
+      "title": "Let us get invisible!",
+      "author": "Stine, R. L.",
+      "rl": 4.0,
+      "il": "5-8"
+    },
+    {
       "title": "Let us go fishing!",
       "author": "Benjamin, Tina.",
       "rl": null,
@@ -36872,7 +37352,7 @@
       "il": null
     },
     {
-      "title": "Let us sing a lullaby with the Brave Cowboy",
+      "title": "Let us sing a lullaby with the brave Cowboy",
       "author": "Thomas, Jan, 1958-",
       "rl": 1.0,
       "il": "P-2"
@@ -37040,7 +37520,7 @@
       "il": "4-7"
     },
     {
-      "title": "Let's sing a lullaby with the Brave Cowboy",
+      "title": "Let's sing a lullaby with the brave Cowboy",
       "author": "Thomas, Jan, 1958-",
       "rl": 1.0,
       "il": "P-2"
@@ -37160,6 +37640,12 @@
       "il": "5-9"
     },
     {
+      "title": "Life + art of Judith Scott",
+      "author": "Sweet, Melissa, 1956-",
+      "rl": 5.2,
+      "il": "K-3"
+    },
+    {
       "title": "Life according to Dani",
       "author": "Lagercrantz, Rose, 1947-",
       "rl": 3.4,
@@ -37176,6 +37662,12 @@
       "author": "Stuckey, Rachel.",
       "rl": 5.0,
       "il": "4-7"
+    },
+    {
+      "title": "Life and art of Judith Scott",
+      "author": "Sweet, Melissa, 1956-",
+      "rl": 5.2,
+      "il": "K-3"
     },
     {
       "title": "Life and non-life in an ecosystem",
@@ -38384,7 +38876,7 @@
       "il": "Grades"
     },
     {
-      "title": "Look out, mouse!",
+      "title": "Look out, Mouse!",
       "author": "Bjorkman, Steve.",
       "rl": 0.7,
       "il": "P-2"
@@ -38417,6 +38909,12 @@
       "title": "Looking up!",
       "author": "Maloof, Torrey.",
       "rl": 2.0,
+      "il": "K-3"
+    },
+    {
+      "title": "Loose at school",
+      "author": "Murray, Laura, 1970-",
+      "rl": 2.8,
       "il": "K-3"
     },
     {
@@ -39284,7 +39782,7 @@
       "il": "1-4"
     },
     {
-      "title": "Major impossible",
+      "title": "Major Impossible",
       "author": "Hale, Nathan, 1976-",
       "rl": 3.2,
       "il": "Grades"
@@ -39366,6 +39864,12 @@
       "author": "Heyman, Alissa.",
       "rl": 2.2,
       "il": "K-3"
+    },
+    {
+      "title": "Makes the grade",
+      "author": "Peirce, Lincoln.",
+      "rl": 2.5,
+      "il": "3-6"
     },
     {
       "title": "Makey Makey",
@@ -39660,6 +40164,12 @@
       "author": "Hunter, Erin.",
       "rl": 5.0,
       "il": "5-9"
+    },
+    {
+      "title": "Mapmakers & the lost magic",
+      "author": null,
+      "rl": 3.7,
+      "il": "3-6"
     },
     {
       "title": "Mapmakers and the lost magic",
@@ -40310,7 +40820,7 @@
       "il": "K-3"
     },
     {
-      "title": "Maxi's secrets : (or, What you can learn from a dog)",
+      "title": "Maxi's secrets : (or what you can learn from a dog)",
       "author": "Plourde, Lynn.",
       "rl": 4.1,
       "il": "5-9"
@@ -41216,22 +41726,22 @@
       "il": "1-4"
     },
     {
-      "title": "Mike Cavallaro's",
+      "title": "Mike Cavallaro's Nico Bravo and the cellar dwellers",
       "author": "Cavallaro, Michael, 1969-",
-      "rl": 3.0,
-      "il": "4-7"
-    },
-    {
-      "title": "Mike Cavallaro's Nico Brave and the cellar dwellers",
-      "author": "Cavallaro, Michael, 1969-",
-      "rl": 3.0,
-      "il": "4-7"
+      "rl": 2.8,
+      "il": "3-6"
     },
     {
       "title": "Mike Cavallaro's Nico Bravo and the hound of Hades",
       "author": "Cavallaro, Michael, 1969-",
       "rl": 3.1,
       "il": "Grades"
+    },
+    {
+      "title": "Mike Cavallaro's Nico Bravo and the trial of Vulcan",
+      "author": "Cavallaro, Michael, 1969-",
+      "rl": 3.2,
+      "il": "3-6"
     },
     {
       "title": "Mike Mulligan and his steam shovel",
@@ -41666,6 +42176,12 @@
       "il": "K-3"
     },
     {
+      "title": "Misses Meyer is on fire!",
+      "author": "Gutman, Dan.",
+      "rl": 3.3,
+      "il": "3-6"
+    },
+    {
       "title": "Missing on Superstition Mountain",
       "author": "Broach, Elise.",
       "rl": 4.2,
@@ -41732,10 +42248,28 @@
       "il": "3-6"
     },
     {
+      "title": "Missus Lizzy is dizzy!",
+      "author": "Gutman, Dan.",
+      "rl": 3.5,
+      "il": "3-6"
+    },
+    {
+      "title": "Missus Meyer is on fire!",
+      "author": "Gutman, Dan.",
+      "rl": 3.3,
+      "il": "3-6"
+    },
+    {
       "title": "Missus Noodlekugel and four blind mice",
       "author": "Pinkwater, Daniel Manus, 1941-",
       "rl": 3.5,
       "il": "K-3"
+    },
+    {
+      "title": "Missus Smith's spy school for girls",
+      "author": "McMullen, Beth, 1969-",
+      "rl": 4.3,
+      "il": "3-6"
     },
     {
       "title": "Mister Burke is berserk!",
@@ -41888,6 +42422,24 @@
       "il": "1-4"
     },
     {
+      "title": "Mister Putter and Tabby smell the roses",
+      "author": "Rylant, Cynthia.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Mister Putter and Tabby turn the page",
+      "author": "Rylant, Cynthia.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Mister Rogers",
+      "author": "Bailey, Diane, 1966-",
+      "rl": 5.7,
+      "il": "3-6"
+    },
+    {
       "title": "Mister Rogers and his neighborhood",
       "author": "Phelan, Matt,",
       "rl": 2.9,
@@ -41916,6 +42468,12 @@
       "author": "Gutman, Dan.",
       "rl": 3.5,
       "il": "2-5"
+    },
+    {
+      "title": "Mister Tiger goes wild",
+      "author": "Brown, Peter, 1979-",
+      "rl": 1.9,
+      "il": "K-3"
     },
     {
       "title": "Mister Toad and other poems",
@@ -41970,6 +42528,12 @@
       "author": "Stilton, Geronimo.",
       "rl": 3.6,
       "il": "2-5"
+    },
+    {
+      "title": "Mistero dell'occhio di smeraldo. English",
+      "author": "Stilton, Geronimo.",
+      "rl": 4.1,
+      "il": "3-6"
     },
     {
       "title": "Mistero della bambola nera. English",
@@ -43130,18 +43694,6 @@
       "il": "1-4"
     },
     {
-      "title": "Mr. Putter and Tabby smell the roses",
-      "author": "Rylant, Cynthia.",
-      "rl": 3.4,
-      "il": "1-4"
-    },
-    {
-      "title": "Mr. Putter and Tabby turn the page",
-      "author": "Rylant, Cynthia.",
-      "rl": 3.1,
-      "il": "1-4"
-    },
-    {
       "title": "Mr. S",
       "author": "Arnaldo, Monica,",
       "rl": 3.0,
@@ -43286,7 +43838,7 @@
       "il": "3-6"
     },
     {
-      "title": "Mrs. Smith's Spy School for Girls",
+      "title": "Mrs. Smith's spy school for girls",
       "author": "McMullen, Beth, 1969-",
       "rl": 4.3,
       "il": "4-7"
@@ -43400,7 +43952,7 @@
       "il": "1-4"
     },
     {
-      "title": "Muddy : the story of blues legend Muddy Waters",
+      "title": "Muddy : the story of Blues legend Muddy Waters",
       "author": "Turk, Evan,",
       "rl": 3.7,
       "il": "K-3"
@@ -43532,6 +44084,12 @@
       "il": "K-3"
     },
     {
+      "title": "Music for Mr. Moon",
+      "author": "Stead, Philip Christian.",
+      "rl": 1.6,
+      "il": "K-3"
+    },
+    {
       "title": "Musse. English",
       "author": "Marshall, Julia,",
       "rl": 1.0,
@@ -43548,6 +44106,12 @@
       "author": "Henry, Marguerite, 1902-1997,",
       "rl": 5.3,
       "il": "4-7"
+    },
+    {
+      "title": "Mutant mathletes",
+      "author": "Krosoczka, Jarrett.",
+      "rl": 2.3,
+      "il": "3-6"
     },
     {
       "title": "Mutt's promise",
@@ -44582,6 +45146,18 @@
       "il": "5-8"
     },
     {
+      "title": "National Basketball Association & Women's National Basketball Association finals",
+      "author": "Scheff, Matt.",
+      "rl": 5.0,
+      "il": "3-6"
+    },
+    {
+      "title": "National Basketball Association and Women's National Basketball Association finals",
+      "author": "Scheff, Matt.",
+      "rl": 5.0,
+      "il": "3-6"
+    },
+    {
       "title": "National Basketball Association Finals",
       "author": "Kortemeier, Todd, 1986-",
       "rl": 4.8,
@@ -44766,6 +45342,12 @@
       "author": "Burgan, Michael.",
       "rl": 5.7,
       "il": "4-7"
+    },
+    {
+      "title": "NBA & WNBA finals",
+      "author": "Scheff, Matt.",
+      "rl": 5.0,
+      "il": "3-6"
     },
     {
       "title": "NBA and WNBA finals : basketball's biggest playoffs",
@@ -45146,6 +45728,12 @@
       "il": "3-6"
     },
     {
+      "title": "Niagara Falls?",
+      "author": "Stine, Megan.",
+      "rl": 4.8,
+      "il": "3-6"
+    },
+    {
       "title": "Nick and Tesla's high-voltage danger lab : a mystery with electromagnets, burglar alarms, and other gadgets you can build yourself",
       "author": "Garrett, Scott,",
       "rl": 4.8,
@@ -45156,6 +45744,24 @@
       "author": "Spalding, Maddie.",
       "rl": 2.8,
       "il": "K-3"
+    },
+    {
+      "title": "Nico Bravo & the cellar dwellers",
+      "author": "Cavallaro, Michael, 1969-",
+      "rl": 2.8,
+      "il": "3-6"
+    },
+    {
+      "title": "Nico Bravo & the hound of Hades",
+      "author": "Cavallaro, Michael, 1969-",
+      "rl": 3.1,
+      "il": "3-6"
+    },
+    {
+      "title": "Nico Bravo & the trial of Vulcan",
+      "author": "Cavallaro, Michael, 1969-",
+      "rl": 3.2,
+      "il": "3-6"
     },
     {
       "title": "Nico Bravo and the cellar dwellers",
@@ -45240,6 +45846,30 @@
       "author": "Stine, R. L.",
       "rl": 3.2,
       "il": "4-7"
+    },
+    {
+      "title": "Night of the living dummy II",
+      "author": "Stine, R. L.",
+      "rl": 4.0,
+      "il": "5-8"
+    },
+    {
+      "title": "Night of the living dummy III",
+      "author": "Stine, R. L.",
+      "rl": 3.2,
+      "il": "5-8"
+    },
+    {
+      "title": "Night of the living dummy three",
+      "author": "Stine, R. L.",
+      "rl": 3.2,
+      "il": "5-8"
+    },
+    {
+      "title": "Night of the living dummy two",
+      "author": "Stine, R. L.",
+      "rl": 4.0,
+      "il": "5-8"
     },
     {
       "title": "Night of the living dust bunnies",
@@ -46370,6 +47000,12 @@
       "il": "4-8."
     },
     {
+      "title": "Oklahoma City bombing",
+      "author": "Barton, Chris.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
       "title": "Oklahoma City Thunder",
       "author": "Frager, Ray.",
       "rl": null,
@@ -46502,7 +47138,7 @@
       "il": "4-7"
     },
     {
-      "title": "Olive & Pekoe in four short walks",
+      "title": "Olive & Pekoe : in four short walks",
       "author": "Potter, Giselle,",
       "rl": 2.0,
       "il": "P-2"
@@ -46694,6 +47330,12 @@
       "il": "P-2"
     },
     {
+      "title": "On the 1st day of 1st grade",
+      "author": "Rabe, Tish.",
+      "rl": 3.6,
+      "il": "K-3"
+    },
+    {
       "title": "On the ball",
       "author": "Howard, Martin.",
       "rl": null,
@@ -46716,6 +47358,12 @@
       "author": "Rabe, Tish.",
       "rl": 1.0,
       "il": "P-2"
+    },
+    {
+      "title": "On the job",
+      "author": "Parish, Herman.",
+      "rl": 4.5,
+      "il": "K-3"
     },
     {
       "title": "On the line",
@@ -46842,6 +47490,12 @@
       "author": "Applegate, Katherine,",
       "rl": 4.0,
       "il": "Grades"
+    },
+    {
+      "title": "One awesome thing",
+      "author": "Pennypacker, Sara, 1951-",
+      "rl": 4.6,
+      "il": "3-6"
     },
     {
       "title": "One bear extraordinaire",
@@ -47366,6 +48020,12 @@
       "il": "2-5"
     },
     {
+      "title": "Origami Yoda",
+      "author": "Angleberger, Tom.",
+      "rl": 4.7,
+      "il": "3-6"
+    },
+    {
       "title": "Orioles",
       "author": "Elora, Grace,",
       "rl": 3.8,
@@ -47400,6 +48060,12 @@
       "author": "Scieszka, Jon,",
       "rl": 5.0,
       "il": "4-7"
+    },
+    {
+      "title": "Others?!",
+      "author": "Blabey, Aaron.",
+      "rl": 3.5,
+      "il": "3-6"
     },
     {
       "title": "Otherwise known as Possum",
@@ -47822,7 +48488,7 @@
       "il": "Pre-kindergarten"
     },
     {
-      "title": "P.S. Be eleven",
+      "title": "P.S. be eleven",
       "author": "Williams-Garcia, Rita.",
       "rl": 4.6,
       "il": "4-7"
@@ -47928,6 +48594,12 @@
       "author": "Carle, Eric.",
       "rl": 3.6,
       "il": "P-2"
+    },
+    {
+      "title": "Pancho Rabbit & the coyote",
+      "author": "Tonatiuh, Duncan.",
+      "rl": 3.3,
+      "il": "K-3"
     },
     {
       "title": "Pancho Rabbit and the coyote : a migrant's tale",
@@ -48560,6 +49232,12 @@
       "il": "K-3"
     },
     {
+      "title": "Penny & her song",
+      "author": "Henkes, Kevin.",
+      "rl": 2.1,
+      "il": "K-3"
+    },
+    {
       "title": "Penny and her doll",
       "author": "Henkes, Kevin.",
       "rl": 1.9,
@@ -48914,6 +49592,12 @@
       "il": "P-2"
     },
     {
+      "title": "Petra. English",
+      "author": "Coppo, Marianna.",
+      "rl": 1.2,
+      "il": "K-3"
+    },
+    {
       "title": "Pets",
       "author": null,
       "rl": 5.9,
@@ -49026,6 +49710,12 @@
       "author": "Zoehfeld, Kathleen Weidner.",
       "rl": 2.0,
       "il": "K-3"
+    },
+    {
+      "title": "Photography.",
+      "author": "Stuckey, Rachel.",
+      "rl": 8.8,
+      "il": "3-6"
     },
     {
       "title": "Photosynthesis",
@@ -49256,7 +49946,7 @@
       "il": "Preschool"
     },
     {
-      "title": "Pimujang chidae e pom i omyon. English",
+      "title": "Pimujang chidae e pom i omy\u014fn. English",
       "author": null,
       "rl": 2.0,
       "il": "K-3"
@@ -49284,6 +49974,12 @@
       "author": "Harper, Charise Mericle.",
       "rl": 1.6,
       "il": "P-2"
+    },
+    {
+      "title": "Pinkalicious : puptastic",
+      "author": "Kann, Victoria.",
+      "rl": 1.8,
+      "il": "K-3"
     },
     {
       "title": "Pinkalicious and the merminnies",
@@ -49740,6 +50436,12 @@
       "author": null,
       "rl": 1.0,
       "il": "P-K"
+    },
+    {
+      "title": "Playground",
+      "author": null,
+      "rl": 2.7,
+      "il": "K-3"
     },
     {
       "title": "Playtime?",
@@ -50288,6 +50990,12 @@
       "il": "4-7"
     },
     {
+      "title": "Postscript, be 11",
+      "author": "Williams-Garcia, Rita.",
+      "rl": 4.6,
+      "il": "5-8"
+    },
+    {
       "title": "Potato pants!",
       "author": "Keller, Laurie.",
       "rl": 2.6,
@@ -50528,6 +51236,12 @@
       "il": null
     },
     {
+      "title": "Princess & the pit stop",
+      "author": "Angleberger, Tom.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
       "title": "Princess & the pony",
       "author": "Beaton, Kate, 1983-",
       "rl": 3.5,
@@ -50567,6 +51281,12 @@
       "title": "Princess Hyacinth : (the surprising tale of a girl who floated)",
       "author": "Smith, Lane,",
       "rl": 2.5,
+      "il": "K-3"
+    },
+    {
+      "title": "Princess in Black & the giant problem",
+      "author": "Hale, Shannon.",
+      "rl": 3.5,
       "il": "K-3"
     },
     {
@@ -50616,6 +51336,12 @@
       "author": "Gay, Marie-Louise,",
       "rl": 2.0,
       "il": "1-4"
+    },
+    {
+      "title": "Princess Posey & the flower girl fiasco",
+      "author": "Greene, Stephanie.",
+      "rl": 2.7,
+      "il": "K-3"
     },
     {
       "title": "Princess Posey and the Christmas magic",
@@ -51192,6 +51918,12 @@
       "author": "Perrault, Charles, 1628-1703.",
       "rl": null,
       "il": null
+    },
+    {
+      "title": "Puss in boots. English.",
+      "author": "Pinkney, Jerry.",
+      "rl": 4.6,
+      "il": "K-3"
     },
     {
       "title": "Pyramids of Egypt",
@@ -52454,8 +53186,20 @@
       "il": "K-3"
     },
     {
+      "title": "Rick Riordan presents City of the plague god",
+      "author": null,
+      "rl": 5.4,
+      "il": "5-8"
+    },
+    {
       "title": "Rick the rock of Room 214",
       "author": "Falatko, Julie,",
+      "rl": 2.6,
+      "il": "K-3"
+    },
+    {
+      "title": "Rick the rock of Room two hundred and fourteen",
+      "author": "Falatko, Julie.",
       "rl": 2.6,
       "il": "K-3"
     },
@@ -52634,7 +53378,7 @@
       "il": "1-3.</li></ul>"
     },
     {
-      "title": "Rise of the evening star",
+      "title": "Rise of the Evening Star",
       "author": "Mull, Brandon, 1974-",
       "rl": 5.0,
       "il": "4-7"
@@ -52878,6 +53622,12 @@
       "author": "Stewart, Melissa.",
       "rl": 5.0,
       "il": "1-4"
+    },
+    {
+      "title": "Robots & drones",
+      "author": "Scott, Mairghread.",
+      "rl": 5.0,
+      "il": "3-6"
     },
     {
       "title": "Robots & repeats",
@@ -53324,7 +54074,7 @@
       "il": "P-2"
     },
     {
-      "title": "Rowley Jefferson's awesome friendly adventure",
+      "title": "Rowley Jefferson's Awesome friendly adventure",
       "author": "Kinney, Jeff.",
       "rl": 5.7,
       "il": "4-7"
@@ -53504,7 +54254,7 @@
       "il": "P-2"
     },
     {
-      "title": "Run, little Chaski! : an Inka trail adventure",
+      "title": "Run, Little Chaski! : an Inka trail adventure",
       "author": null,
       "rl": 2.5,
       "il": "K-3"
@@ -53598,6 +54348,12 @@
       "author": "Winter, Jonah, 1962-",
       "rl": 5.8,
       "il": "2-5"
+    },
+    {
+      "title": "Ruth Bader Ginsburg made her mark",
+      "author": "Levy, Debbie.",
+      "rl": 2.4,
+      "il": "K-3"
     },
     {
       "title": "Ruth the Red Riding Hood fairy",
@@ -54572,6 +55328,12 @@
       "il": "Professional"
     },
     {
+      "title": "Science comics. Cats : nature and nurture",
+      "author": "Hirsch, Andy, 1987-",
+      "rl": 4.8,
+      "il": "3-6"
+    },
+    {
       "title": "Science detectives",
       "author": "Rice, Dona.",
       "rl": 2.0,
@@ -54962,7 +55724,7 @@
       "il": "2-5"
     },
     {
-      "title": "Secret mission : Guam",
+      "title": "Secret mission: Guam",
       "author": "Sutter, Marcus.",
       "rl": 4.6,
       "il": "3-6"
@@ -55308,6 +56070,12 @@
       "author": "Burg, Ann E.",
       "rl": 3.6,
       "il": "5-9"
+    },
+    {
+      "title": "Serena Williams",
+      "author": "Cline-Ransome, Lesa.",
+      "rl": 5.7,
+      "il": "3-6"
     },
     {
       "title": "Sergeant Reckless : the true story of the little horse who became a hero",
@@ -55757,12 +56525,6 @@
       "title": "She persisted: Clara Lemlich",
       "author": "Heiligman, Deborah,",
       "rl": 5.1,
-      "il": "3-6"
-    },
-    {
-      "title": "She persisted: Helen Keller",
-      "author": "Sheinmel, Courtney,",
-      "rl": 3.0,
       "il": "3-6"
     },
     {
@@ -57152,6 +57914,12 @@
       "il": "K-3"
     },
     {
+      "title": "Snow Pony & the 7 miniature ponies",
+      "author": "Trimmer, Christian.",
+      "rl": 2.3,
+      "il": "K-3"
+    },
+    {
       "title": "Snow Pony and the seven miniature ponies",
       "author": "Trimmer, Christian,",
       "rl": 3.9,
@@ -58244,6 +59012,12 @@
       "il": "Appeals"
     },
     {
+      "title": "Splat the cat & the quick chicks",
+      "author": "Driscoll, Laura.",
+      "rl": 1.4,
+      "il": "K-3"
+    },
+    {
       "title": "Splat the cat and the big secret",
       "author": "Scotton, Rob.",
       "rl": 3.1,
@@ -58268,7 +59042,7 @@
       "il": "P-2"
     },
     {
-      "title": "Splat the Cat and the quick chicks",
+      "title": "Splat the cat and the quick chicks",
       "author": "Driscoll, Laura.",
       "rl": 2.2,
       "il": "P-2"
@@ -58490,12 +59264,6 @@
       "il": "4-7"
     },
     {
-      "title": "Spy School : the graphic novel",
-      "author": "Gibbs, Stuart, 1969-",
-      "rl": 3.2,
-      "il": "4-7"
-    },
-    {
       "title": "Spy School at sea",
       "author": null,
       "rl": 6.1,
@@ -58511,6 +59279,12 @@
       "title": "Spy school project X",
       "author": "Gibbs, Stuart, 1969-",
       "rl": 6.0,
+      "il": "4-7"
+    },
+    {
+      "title": "Spy school, the graphic novel",
+      "author": "Gibbs, Stuart, 1969-",
+      "rl": 3.2,
       "il": "4-7"
     },
     {
@@ -59168,6 +59942,12 @@
       "il": "4-7"
     },
     {
+      "title": "Step at a time",
+      "author": "Park, Linda Sue.",
+      "rl": 1.6,
+      "il": "K-3"
+    },
+    {
       "title": "Step by step",
       "author": "Leedy, Loreen,",
       "rl": 1.0,
@@ -59576,18 +60356,6 @@
       "il": "3-6"
     },
     {
-      "title": "Stories of hope and joy by 15 Muslim voices",
-      "author": "Saeed, Aisha,",
-      "rl": 5.0,
-      "il": "4-7"
-    },
-    {
-      "title": "Stories of hope and joy by fifteen Muslim voices",
-      "author": "Saeed, Aisha,",
-      "rl": 5.0,
-      "il": "4-7"
-    },
-    {
       "title": "Storks",
       "author": "Riggs, Kate,",
       "rl": 2.7,
@@ -59672,6 +60440,24 @@
       "il": "4-7"
     },
     {
+      "title": "Story of a Mexican freedom fighter",
+      "author": "Salazar, Aida.",
+      "rl": 3.1,
+      "il": "K-3"
+    },
+    {
+      "title": "Story of Blues legend Muddy Waters",
+      "author": "Turk, Evan,",
+      "rl": 3.0,
+      "il": "K-3"
+    },
+    {
+      "title": "Story of boxing legend Joe Louis",
+      "author": "De la Pe\u00f1a, Matt.",
+      "rl": 4.9,
+      "il": "K-3"
+    },
+    {
       "title": "Story of Darth Vader",
       "author": "Saunders, Catherine.",
       "rl": 6.4,
@@ -59718,6 +60504,18 @@
       "author": "Labrecque, Ellen.",
       "rl": 4.2,
       "il": "2-5"
+    },
+    {
+      "title": "Story of Venus & Serena Williams",
+      "author": "Cline-Ransome, Lesa.",
+      "rl": 5.7,
+      "il": "3-6"
+    },
+    {
+      "title": "Story of Venus and Serena Williams",
+      "author": "Cline-Ransome, Lesa.",
+      "rl": 5.7,
+      "il": "3-6"
     },
     {
       "title": "Story of water on Earth",
@@ -59838,12 +60636,6 @@
       "author": null,
       "rl": 5.9,
       "il": "3-6"
-    },
-    {
-      "title": "Streak : how Joe DiMaggio became america's hero",
-      "author": "Rosenstock, Barb.",
-      "rl": 4.0,
-      "il": "2-5"
     },
     {
       "title": "Streaky! : the origin of Supergirl's cat",
@@ -61100,6 +61892,12 @@
       "il": "3-6"
     },
     {
+      "title": "Taj Mahal",
+      "author": "Hoobler, Dorothy.",
+      "rl": 6.0,
+      "il": "3-6"
+    },
+    {
       "title": "Take a trip with Trucktown!",
       "author": "Shannon, David,",
       "rl": 2.6,
@@ -61458,6 +62256,12 @@
       "author": "Willis, John.",
       "rl": 2.3,
       "il": "P-2"
+    },
+    {
+      "title": "Tattletale",
+      "author": "Jones, Christianne C.",
+      "rl": 2.6,
+      "il": "K-3"
     },
     {
       "title": "Taurus",
@@ -62672,13 +63476,13 @@
       "il": "2-5"
     },
     {
-      "title": "The Bad Guys in Dawn of the underlord",
+      "title": "The Bad Guys in dawn of the underlord",
       "author": "Blabey, Aaron,",
       "rl": 2.7,
       "il": "2-5"
     },
     {
-      "title": "The Bad Guys in do you think he saurus?!",
+      "title": "The Bad Guys in Do-you-think-he-saurus?!",
       "author": "Blabey, Aaron,",
       "rl": 2.3,
       "il": "2-5"
@@ -62732,13 +63536,13 @@
       "il": "3-6"
     },
     {
-      "title": "The bad guys in the furball strikes back",
+      "title": "The Bad Guys in the furball strikes back",
       "author": "Blabey, Aaron,",
       "rl": 2.5,
       "il": "2-5"
     },
     {
-      "title": "The bad guys in The others?!",
+      "title": "The Bad Guys in the others?!",
       "author": "Blabey, Aaron,",
       "rl": 2.2,
       "il": "2-5"
@@ -62768,7 +63572,7 @@
       "il": "1-4"
     },
     {
-      "title": "The Bad Seed goes to the library",
+      "title": "The bad seed goes to the library",
       "author": "John, Jory,",
       "rl": 1.8,
       "il": "P-2"
@@ -64478,7 +65282,7 @@
       "il": "1-4"
     },
     {
-      "title": "The Day-Glo brothers : the true story of Bob and Joe Switzer's bright ideas and brand-new colors",
+      "title": "The day-glo brothers : the true story of Bob and Joe Switzer's bright ideas and brand-new colors",
       "author": "Barton, Chris.",
       "rl": 6.0,
       "il": "2-5"
@@ -65790,6 +66594,12 @@
       "author": "John, Jory,",
       "rl": 2.2,
       "il": "P-K"
+    },
+    {
+      "title": "The good egg presents: The great eggscape!",
+      "author": "John, Jory.",
+      "rl": 2.2,
+      "il": "K-3"
     },
     {
       "title": "The good for nothing button",
@@ -69254,7 +70064,7 @@
       "il": "3-6"
     },
     {
-      "title": "The Prizewinners of Piedmont Place",
+      "title": "The prizewinners of Piedmont Place",
       "author": "Jack, Colin,",
       "rl": 4.5,
       "il": "3-6"
@@ -70944,6 +71754,12 @@
       "author": "Simont, Marc.",
       "rl": 1.7,
       "il": "P-2"
+    },
+    {
+      "title": "The streak : how Joe DiMaggio became America's hero",
+      "author": "Rosenstock, Barb.",
+      "rl": 4.0,
+      "il": "2-5"
     },
     {
       "title": "The streets of Panic Park",
@@ -74702,6 +75518,18 @@
       "il": "3-6"
     },
     {
+      "title": "Tree-house Comix proudly presents Dog Man and Cat Kid",
+      "author": "Pilkey, Dav, 1966-",
+      "rl": 2.6,
+      "il": "3-6"
+    },
+    {
+      "title": "Tree-house Comix Proudly presents Dog Man unleashed",
+      "author": "Pilkey, Dav, 1966-",
+      "rl": 2.7,
+      "il": "3-6"
+    },
+    {
       "title": "Tree-house Comix Proudly presents Dog Man. A tale of two kitties",
       "author": "Pilkey, Dav, 1966-",
       "rl": 2.4,
@@ -74724,12 +75552,6 @@
       "author": "Pilkey, Dav, 1966-",
       "rl": 3.4,
       "il": "3-6"
-    },
-    {
-      "title": "Treehouse Comix proudly presents",
-      "author": "Pilkey, Dav, 1966-",
-      "rl": 2.6,
-      "il": "1-4"
     },
     {
       "title": "Treehouse Comix proudly presents A tale of two kitties",
@@ -74814,12 +75636,6 @@
       "author": "Probst, Jeff, 1962-",
       "rl": 4.6,
       "il": "3-6"
-    },
-    {
-      "title": "Trial of Vulcan",
-      "author": "Cavallaro, Michael, 1969-",
-      "rl": 3.0,
-      "il": "4-7"
     },
     {
       "title": "Triangle",
@@ -75215,6 +76031,12 @@
       "title": "Tuskegee Airmen : freedom flyers of World War II",
       "author": "Baker, Brynn.",
       "rl": 6.4,
+      "il": "3-6"
+    },
+    {
+      "title": "Tutta colpa di un caff\u00e8 con panna. English.",
+      "author": "Stilton, Geronimo.",
+      "rl": 3.4,
       "il": "3-6"
     },
     {
@@ -75980,6 +76802,12 @@
       "il": "K-3"
     },
     {
+      "title": "Unicorn named Sparkle & the pumpkin monster",
+      "author": "Young, Amy.",
+      "rl": 2.6,
+      "il": "K-3"
+    },
+    {
       "title": "Unicorn of many hats : another Phoebe and her unicorn adventure",
       "author": "Simpson, Dana.",
       "rl": 3.7,
@@ -76182,6 +77010,12 @@
       "author": "Kidd, Ronald.",
       "rl": 3.2,
       "il": "2-5"
+    },
+    {
+      "title": "Unlimited squirrels in I want to sleep under the stars!",
+      "author": "Willems, Mo.",
+      "rl": 1.5,
+      "il": "K-3"
     },
     {
       "title": "Unlovable",
@@ -76460,12 +77294,6 @@
       "il": "2-5"
     },
     {
-      "title": "Vamos! Let's cross the bridge",
-      "author": "Raul the Third, 1976-",
-      "rl": 2.0,
-      "il": "P-2"
-    },
-    {
       "title": "Vampire bats",
       "author": "Britton, Tamara L., 1963-",
       "rl": 4.3,
@@ -76548,6 +77376,18 @@
       "author": "Carr, Aaron.",
       "rl": 1.0,
       "il": "P-2"
+    },
+    {
+      "title": "Venus & Serena Williams",
+      "author": "Cline-Ransome, Lesa.",
+      "rl": 5.7,
+      "il": "3-6"
+    },
+    {
+      "title": "Venus and Serena Williams",
+      "author": "Cline-Ransome, Lesa.",
+      "rl": 5.7,
+      "il": "3-6"
     },
     {
       "title": "Verbs",
@@ -78212,6 +79052,12 @@
       "il": "3-6"
     },
     {
+      "title": "What could possibly go wrong?",
+      "author": "Peirce, Lincoln.",
+      "rl": 2.6,
+      "il": "3-6"
+    },
+    {
       "title": "What do living things need?",
       "author": "Austen, Elizabeth (Elizabeth Charlotte),",
       "rl": 2.0,
@@ -78662,7 +79508,7 @@
       "il": "4-7"
     },
     {
-      "title": "What is the world series?",
+      "title": "What is the World Series?",
       "author": "Herman, Gail, 1959-",
       "rl": 4.9,
       "il": "4-7"
@@ -78692,7 +79538,7 @@
       "il": "Professional"
     },
     {
-      "title": "What is your sound, Hound the Hound?",
+      "title": "What is your sound, Hound the hound?",
       "author": "Willems, Mo.",
       "rl": 1.0,
       "il": "P-2"
@@ -78938,7 +79784,7 @@
       "il": "4-7"
     },
     {
-      "title": "What were the Salem witch trials",
+      "title": "What were the Salem Witch Trials?",
       "author": "Holub, Joan.",
       "rl": 5.3,
       "il": "4-7"
@@ -79064,7 +79910,7 @@
       "il": "Professional"
     },
     {
-      "title": "What's your sound, Hound the Hound?",
+      "title": "What's your sound, Hound the hound?",
       "author": "Willems, Mo.",
       "rl": 1.0,
       "il": "P-2"
@@ -79586,6 +80432,12 @@
       "il": "3-6"
     },
     {
+      "title": "Who does what?",
+      "author": "Nagelhout, Ryan.",
+      "rl": 6.8,
+      "il": "3-6"
+    },
+    {
       "title": "Who eats orange?",
       "author": "White, Dianne,",
       "rl": 2.0,
@@ -79706,7 +80558,7 @@
       "il": "K-3"
     },
     {
-      "title": "Who sparked the Montgomery bus boycott? : Rosa Parks",
+      "title": "Who sparked the Montgomery Bus Boycott? : Rosa Parks",
       "author": null,
       "rl": 4.4,
       "il": "4-7"
@@ -79901,6 +80753,12 @@
       "title": "Who was Mother Teresa?",
       "author": "Gigliotti, Jim.",
       "rl": 5.6,
+      "il": "3-6"
+    },
+    {
+      "title": "Who was Mr. Rogers?",
+      "author": "Bailey, Diane, 1966-",
+      "rl": 5.7,
       "il": "3-6"
     },
     {
@@ -81314,6 +82172,12 @@
       "il": "P-2"
     },
     {
+      "title": "World series.",
+      "author": "Herman, Gail, 1959-",
+      "rl": 4.6,
+      "il": "3-6"
+    },
+    {
       "title": "World War 1",
       "author": "Adams, Simon, 1955-",
       "rl": 8.2,
@@ -81485,6 +82349,12 @@
       "title": "Worm",
       "author": "Cronin, Doreen.",
       "rl": 3.3,
+      "il": "K-3"
+    },
+    {
+      "title": "Worm & Caterpillar are friends",
+      "author": null,
+      "rl": 0.8,
       "il": "K-3"
     },
     {
@@ -81768,6 +82638,12 @@
       "author": "Watt, M\u00e9lanie, 1975-",
       "rl": null,
       "il": null
+    },
+    {
+      "title": "You are here (Oh)",
+      "author": "Oh, Ellen.",
+      "rl": 4.3,
+      "il": "3-6"
     },
     {
       "title": "You are here : connecting flights",
@@ -82842,6 +83718,12 @@
       "author": "Stewart, Melissa.",
       "rl": 2.4,
       "il": "K-3"
+    },
+    {
+      "title": "\u00a1Vamos! Let's cross the bridge",
+      "author": "Raul the Third, 1976-",
+      "rl": 2.0,
+      "il": "P-2"
     }
   ]
 }
