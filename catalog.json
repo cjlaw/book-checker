@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-08-03",
   "books": [
     {
       "title": "!Hoy volare!",
@@ -10880,6 +10880,12 @@
       "il": "Pre-kindergarten"
     },
     {
+      "title": "Bullies are a pain in the brain.",
+      "author": null,
+      "rl": 3.6,
+      "il": "3-6"
+    },
+    {
       "title": "Bullies never win",
       "author": "Cuyler, Margery.",
       "rl": 2.7,
@@ -19205,12 +19211,6 @@
       "title": "Elements at work",
       "author": "Kukla, Lauren.",
       "rl": 2.1,
-      "il": "K-3"
-    },
-    {
-      "title": "Elephant de l'ombre. English",
-      "author": null,
-      "rl": 2.0,
       "il": "K-3"
     },
     {
@@ -36116,6 +36116,12 @@
       "il": "P-2"
     },
     {
+      "title": "Kindness is cooler, Missus Ruler",
+      "author": "Cuyler, Margery.",
+      "rl": 1.6,
+      "il": "K-3"
+    },
+    {
       "title": "Kindness is cooler, Mrs. Ruler",
       "author": "Cuyler, Margery.",
       "rl": 2.9,
@@ -36629,6 +36635,12 @@
       "title": "L M N O peas",
       "author": "Baker, Keith, 1953-",
       "rl": 3.7,
+      "il": "K-3"
+    },
+    {
+      "title": "L'\u00e9l\u00e9phant de l'ombre. English",
+      "author": null,
+      "rl": 2.8,
       "il": "K-3"
     },
     {
@@ -38210,7 +38222,7 @@
       "il": "P-2"
     },
     {
-      "title": "Little Blue Truck",
+      "title": "Little blue truck",
       "author": "Schertle, Alice.",
       "rl": 1.5,
       "il": "P-2"
@@ -54374,6 +54386,12 @@
       "il": "P-2"
     },
     {
+      "title": "Ruthie and the teeny tiny lie",
+      "author": null,
+      "rl": 2.5,
+      "il": "K-3"
+    },
+    {
       "title": "Ryan Pitts : Afghanistan : a firefight in the mountains of Wanat",
       "author": "Spradlin, Michael P.",
       "rl": 6.9,
@@ -60300,6 +60318,12 @@
       "author": "Kibuishi, Kazu, 1978-",
       "rl": 2.5,
       "il": "4-7"
+    },
+    {
+      "title": "Stop & smell the cookies",
+      "author": "Player, Micah,",
+      "rl": 2.0,
+      "il": "K-3"
     },
     {
       "title": "Stop acting around",
@@ -73604,6 +73628,12 @@
       "il": "1-4"
     },
     {
+      "title": "There is only one you",
+      "author": null,
+      "rl": 1.9,
+      "il": "K-3"
+    },
+    {
       "title": "There is something out there",
       "author": "Night, P. J.",
       "rl": 4.9,
@@ -79229,6 +79259,12 @@
       "title": "What if--?",
       "author": "Berger, Samantha,",
       "rl": 2.5,
+      "il": "K-3"
+    },
+    {
+      "title": "What ifs",
+      "author": "Persico, Zoe, 1993-",
+      "rl": 2.9,
       "il": "K-3"
     },
     {
