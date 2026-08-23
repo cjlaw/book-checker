@@ -129,15 +129,15 @@ test("parseCSV: title column only", () => {
   const { error, rows } = parseCSV("Title\nDog Man\nHatchet");
   assert.equal(error, null);
   assert.deepEqual(rows, [
-    { title: "Dog Man", author: "", gradeLevel: "" },
-    { title: "Hatchet", author: "", gradeLevel: "" },
+    { title: "Dog Man", author: "" },
+    { title: "Hatchet", author: "" },
   ]);
 });
 
 test("parseCSV: title and author columns", () => {
   const { error, rows } = parseCSV("title,author\nDog Man,Dav Pilkey");
   assert.equal(error, null);
-  assert.deepEqual(rows, [{ title: "Dog Man", author: "Dav Pilkey", gradeLevel: "" }]);
+  assert.deepEqual(rows, [{ title: "Dog Man", author: "Dav Pilkey" }]);
 });
 
 test("parseCSV: no title column returns error", () => {
@@ -162,6 +162,14 @@ test("parseCSV: escaped double-quote inside quoted field", () => {
   const { error, rows } = parseCSV('title\n"It\'s ""Great"""');
   assert.equal(error, null);
   assert.equal(rows[0].title, 'It\'s "Great"');
+});
+
+test("parseCSV: quoted field spanning multiple lines", () => {
+  const { error, rows } = parseCSV('title\n"Dog Man:\nA Novel"\nHatchet');
+  assert.equal(error, null);
+  assert.equal(rows.length, 2);
+  assert.equal(rows[0].title, "Dog Man:\nA Novel");
+  assert.equal(rows[1].title, "Hatchet");
 });
 
 test("parseCSV: skips rows with empty title", () => {

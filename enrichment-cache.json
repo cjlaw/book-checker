@@ -27,13 +27,6 @@
     "rl": 1.8,
     "il": "Preschool"
   },
-  "0000000156 STORY TREEHOUSE": {
-    "bibId": 200221,
-    "isbn": null,
-    "author": "Griffiths, Andy, 1961-",
-    "rl": null,
-    "il": "Grades"
-  },
   "A BOX OF BONES": {
     "bibId": 175215,
     "isbn": "9781250172211",
@@ -1651,13 +1644,6 @@
     "rl": 2.1,
     "il": "P-2"
   },
-  "ALL THE SMALL WONDERFUL THINGS": {
-    "bibId": 200390,
-    "isbn": "9781536225808",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "ALLARME TOPO IN MARE ENGLISH": {
     "bibId": 153983,
     "isbn": "9780545872515",
@@ -1873,7 +1859,7 @@
     "isbn": "9781910561904",
     "author": null,
     "rl": null,
-    "il": "2-4.</li></ul>"
+    "il": "2-4"
   },
   "AM I THE PRINCESS OR THE FROG": {
     "bibId": 58002,
@@ -2140,13 +2126,6 @@
     "author": "Parish, Herman.",
     "rl": 2.4,
     "il": "P-2"
-  },
-  "AMBER ANTHEM": {
-    "bibId": 179618,
-    "isbn": "9780593120576",
-    "author": "Siegel, Mark, 1967-",
-    "rl": 3.0,
-    "il": "Grades"
   },
   "AMELIA BEDELIA CUB REPORTER": {
     "bibId": 158484,
@@ -2701,13 +2680,6 @@
     "rl": 3.2,
     "il": "K-3"
   },
-  "ANCIENT NIGHT": {
-    "bibId": 198949,
-    "isbn": "9781646142514",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "ANGEL SHARKS": {
     "bibId": 175282,
     "isbn": "9781680801491",
@@ -3043,13 +3015,6 @@
     "author": "Boursin, Didier.",
     "rl": 3.0,
     "il": "K-3"
-  },
-  "ANNETTE FEELS FREE THE TRUE STORY OF ANNETTE KELLERMAN WORLD CLASS SWIMMER FASHION PIONEER AND REAL LIFE MERMAID": {
-    "bibId": 200188,
-    "isbn": "9781665903431",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "ANIMOBILES ANIMALS ON THE MOOOVE": {
     "bibId": 162403,
@@ -4024,13 +3989,6 @@
     "rl": 4.3,
     "il": "3-6"
   },
-  "ASTER AND THE ACCIDENTAL MAGIC": {
-    "bibId": 179640,
-    "isbn": "9780593124178",
-    "author": "Pico, Thom.",
-    "rl": 4.0,
-    "il": "Grades"
-  },
   "ASHA AND THE SPIRIT BIRD": {
     "bibId": 203604,
     "isbn": "9781338571059",
@@ -4079,13 +4037,6 @@
     "author": "Squire, Ann.",
     "rl": 5.9,
     "il": "2-5"
-  },
-  "ASTRONOMICALLY GRAND PLAN": {
-    "bibId": 194694,
-    "isbn": "9781534481480",
-    "author": "Neal, Rie,",
-    "rl": null,
-    "il": "Grades"
   },
   "ASTON MARTIN DB0000000009": {
     "bibId": 188545,
@@ -5641,13 +5592,6 @@
     "rl": null,
     "il": null
   },
-  "BALLET BRUCE": {
-    "bibId": 195134,
-    "isbn": "9781368059602",
-    "author": "Higgins, Ryan T.,",
-    "rl": null,
-    "il": "Grades"
-  },
   "BALTO OF THE BLUE DAWN": {
     "bibId": 155548,
     "isbn": "9780553510850",
@@ -5689,13 +5633,6 @@
     "author": "Holub, Joan.",
     "rl": 1.2,
     "il": "P-2"
-  },
-  "BARB AND THE BATTLE FOR BAILIWICK": {
-    "bibId": 199579,
-    "isbn": "9781665914451",
-    "author": "Abdo, Dan,",
-    "rl": 2.6,
-    "il": "Grades"
   },
   "BALLOON BLOW UP": {
     "bibId": 167549,
@@ -6068,13 +6005,6 @@
     "rl": 5.1,
     "il": "3-6"
   },
-  "BASKETBALL PLAYER": {
-    "bibId": 155986,
-    "isbn": "9781680784879",
-    "author": null,
-    "rl": 5.6,
-    "il": "Grades"
-  },
   "BASEBALLS GREATEST HITTERS FROM TY COBB TO MIGUEL CABRERA": {
     "bibId": 149903,
     "isbn": "9780553539103",
@@ -6235,13 +6165,6 @@
     "author": "Capucilli, Alyssa.",
     "rl": 1.1,
     "il": "P-2"
-  },
-  "BATMANS MYSTERY CASEBOOK": {
-    "bibId": 194696,
-    "isbn": "9781779520982",
-    "author": "Brys, Silvana,",
-    "rl": null,
-    "il": "Grades"
   },
   "BATMAN BATTLES THE JOKER": {
     "bibId": 154048,
@@ -6607,13 +6530,6 @@
     "rl": 1.3,
     "il": "K-3"
   },
-  "BEAR AND BIRD THE PICNIC AND OTHER STORIES": {
-    "bibId": 198551,
-    "isbn": "9781536228328",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "BEAR HARE SHARE": {
     "bibId": 162461,
     "isbn": null,
@@ -6711,13 +6627,6 @@
     "author": "Bloom, Suzanne.",
     "rl": 0.9,
     "il": "P-2"
-  },
-  "BEARS ARE BEST": {
-    "bibId": 198505,
-    "isbn": "9780525645344",
-    "author": "Holub, Joan,",
-    "rl": null,
-    "il": "Grades"
   },
   "BEARS BIG DAY": {
     "bibId": 152276,
@@ -7342,13 +7251,6 @@
     "rl": 2.0,
     "il": "K-3"
   },
-  "BEN YOKOYAMA AND THE COOKIES OF CHAOS": {
-    "bibId": 198944,
-    "isbn": "9780593433010",
-    "author": "Swanson, Matthew, 1974-",
-    "rl": null,
-    "il": "Grades"
-  },
   "BELLS BREAKTHROUGH": {
     "bibId": 167552,
     "isbn": "9781442495364",
@@ -7881,13 +7783,6 @@
     "rl": 2.7,
     "il": "3-6"
   },
-  "BEWARE OF THE CROCODILE": {
-    "bibId": 167324,
-    "isbn": "9780763675387",
-    "author": "Kitamura, Satoshi,",
-    "rl": 4.2,
-    "il": "Grades"
-  },
   "BEYOND THE GRAVE": {
     "bibId": 74389,
     "isbn": null,
@@ -7943,13 +7838,6 @@
     "author": null,
     "rl": 3.0,
     "il": "3-6"
-  },
-  "BIBIS GOT GAME A STORY ABOUT TENNIS MEDITATION AND A DOG NAMED COCO": {
-    "bibId": 194838,
-    "isbn": "9780735270558",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "BEYOND BASKETBALL": {
     "bibId": 167554,
@@ -8098,13 +7986,6 @@
     "rl": 2.3,
     "il": "3-6"
   },
-  "BIG BOOK OF WHO BASEBALL": {
-    "bibId": 198553,
-    "isbn": "9781637274965",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "BIG BAD WOLF": {
     "bibId": 177181,
     "isbn": "9781338305814",
@@ -8153,13 +8034,6 @@
     "author": "Cooper, Elisha,",
     "rl": 1.5,
     "il": "P-K"
-  },
-  "BIG FOOT AND LITTLE FOOT BOOK 0000000003 THE SQUATCHICORNS": {
-    "bibId": 167326,
-    "isbn": "9781419733642",
-    "author": "Potter, Ellen, 1963-",
-    "rl": null,
-    "il": "Grades"
   },
   "BIG CATS": {
     "bibId": 188606,
@@ -8433,13 +8307,6 @@
     "author": "Bernstrom, Daniel.",
     "rl": 2.5,
     "il": "K-3"
-  },
-  "BIG STING": {
-    "bibId": 194974,
-    "isbn": "9780735269309",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "BIG PROBLEMAS": {
     "bibId": 176666,
@@ -8734,13 +8601,6 @@
     "author": "Seuss, Dr.",
     "rl": 3.6,
     "il": "K-3"
-  },
-  "BILLY ROSE FOREVER FRIENDS": {
-    "bibId": 195138,
-    "isbn": "9781536214192",
-    "author": "Hest, Amy,",
-    "rl": null,
-    "il": "Grades"
   },
   "BIPS AND ROSES": {
     "bibId": 184524,
@@ -9120,13 +8980,6 @@
     "rl": 0.9,
     "il": "P-2"
   },
-  "BIZARD AND THE BIG BUNNY BIZNESS": {
-    "bibId": 200711,
-    "isbn": "9780823451463",
-    "author": "Krebs, Chrissie,",
-    "rl": null,
-    "il": "Grades"
-  },
   "BISCUIT SPANISH": {
     "bibId": 184548,
     "isbn": null,
@@ -9386,26 +9239,12 @@
     "rl": 1.0,
     "il": "P-2"
   },
-  "BLIPPO AND BEEP": {
-    "bibId": 193773,
-    "isbn": "9780593226971",
-    "author": "Weeks, Sarah,",
-    "rl": null,
-    "il": "Grades"
-  },
   "BLACKTIP SHARK": {
     "bibId": 188626,
     "isbn": "9781791121235",
     "author": "Nixon, Madeline,",
     "rl": 3.8,
     "il": "3-6"
-  },
-  "BLIPPO BEEP": {
-    "bibId": 193773,
-    "isbn": "9780593226971",
-    "author": "Weeks, Sarah,",
-    "rl": null,
-    "il": "Grades"
   },
   "BLADES OF FREEDOM A LOUISIANA PURCHASE TALE": {
     "bibId": 183784,
@@ -9806,13 +9645,6 @@
     "rl": 2.2,
     "il": "P-2"
   },
-  "BOO BOOS OF BLUEBELL ELEMENTARY": {
-    "bibId": 200725,
-    "isbn": "9781797210810",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "BOBBY ORR AND THE HAND ME DOWN SKATES": {
     "bibId": 200192,
     "isbn": "9780735265325",
@@ -10064,13 +9896,6 @@
     "author": "Joyner, Andrew.",
     "rl": 2.1,
     "il": "1-4"
-  },
-  "BOOM": {
-    "bibId": 199378,
-    "isbn": "9780823448579",
-    "author": "Meisel, Paul,",
-    "rl": null,
-    "il": "Grades"
   },
   "BORIS GETS A LIZARD": {
     "bibId": 167564,
@@ -10463,13 +10288,6 @@
     "author": "Jeffers, Oliver,",
     "rl": 3.7,
     "il": "4-7"
-  },
-  "BRAMBLE AND MAGGIE SNOW DAY": {
-    "bibId": 153372,
-    "isbn": "9780763673642",
-    "author": "Haas, Jessie,",
-    "rl": null,
-    "il": "Grades"
   },
   "BOY WHO WAS IT AND OTHER SCARY TALES": {
     "bibId": 167568,
@@ -11115,13 +10933,6 @@
     "rl": 3.3,
     "il": "2-5"
   },
-  "BUDDY AND EARL MEET THE NEIGHBORS": {
-    "bibId": 164539,
-    "isbn": "9781773060255",
-    "author": "Fergus, Maureen,",
-    "rl": 3.5,
-    "il": "Grades"
-  },
   "BUFFALO BILLS": {
     "bibId": 203952,
     "isbn": null,
@@ -11184,13 +10995,6 @@
     "author": null,
     "rl": 2.0,
     "il": "K-3"
-  },
-  "BUDDY EARL MEET THE NEIGHBORS": {
-    "bibId": 164539,
-    "isbn": "9781773060255",
-    "author": "Fergus, Maureen,",
-    "rl": 3.5,
-    "il": "Grades"
   },
   "BUG IN THE BOG": {
     "bibId": 184665,
@@ -11507,13 +11311,6 @@
     "rl": 3.9,
     "il": "1-4"
   },
-  "BUNNICULA THE GRAPHIC NOVEL": {
-    "bibId": 193779,
-    "isbn": "9781534421615",
-    "author": "Howe, James, 1946-",
-    "rl": null,
-    "il": "Grades"
-  },
   "BUSSOLA DEI SOGNI ENGLISH": {
     "bibId": 188741,
     "isbn": "9781623701574",
@@ -11785,14 +11582,14 @@
     "isbn": null,
     "author": "Adler, David A.",
     "rl": 2.5,
-    "il": "3-6</li></ul>"
+    "il": "3-6"
   },
   "CALIFORNIA THE GOLDEN STATE": {
     "bibId": 128378,
     "isbn": "9781616907778",
     "author": "Parker, Janice.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "CAM JANSEN AND THE SPAGHETTI MAX MYSTERY": {
     "bibId": 158877,
@@ -11969,13 +11766,6 @@
     "rl": 2.3,
     "il": "P-2"
   },
-  "CAMP OUT": {
-    "bibId": 198500,
-    "isbn": "9780063083660",
-    "author": "Lyons, Kelly Starling,",
-    "rl": null,
-    "il": "Grades"
-  },
   "CAN I PLAY TOO": {
     "bibId": 117087,
     "isbn": null,
@@ -12123,13 +11913,6 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "CANNOT LIVE WITHOUT YOU": {
-    "bibId": 200218,
-    "isbn": "9780593615980",
-    "author": "Hanlon, Abby,",
-    "rl": null,
-    "il": "Grades"
-  },
   "CAPS FOR SALE A TALE OF A PEDDLER SOME MONKEYS AND THEIR MONKEY BUSINESS": {
     "bibId": 158889,
     "isbn": "9780064431439",
@@ -12164,13 +11947,6 @@
     "author": "Kirby, Stan.",
     "rl": 3.9,
     "il": "1-4"
-  },
-  "CANT LIVE WITHOUT YOU": {
-    "bibId": 200218,
-    "isbn": "9780593615980",
-    "author": "Hanlon, Abby,",
-    "rl": null,
-    "il": "Grades"
   },
   "CAPTAIN AWESOME GOES TO SUPERHERO CAMP": {
     "bibId": 158870,
@@ -12597,7 +12373,7 @@
     "isbn": "9780440413813",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "CASE OF THE JULY 0000000004TH JINX": {
     "bibId": 87013,
@@ -12696,13 +12472,6 @@
     "author": "Thayer, Ernest Lawrence, 1863-1940.",
     "rl": null,
     "il": null
-  },
-  "CASE OF THE MISSING TARTS": {
-    "bibId": 200222,
-    "isbn": "9781454943617",
-    "author": "Curran-Bauer, Christee,",
-    "rl": null,
-    "il": "Grades"
   },
   "CASEY BACK AT BAT": {
     "bibId": 158909,
@@ -13103,13 +12872,6 @@
     "rl": 3.1,
     "il": "3-6"
   },
-  "CATS NATURE AND NURTURE": {
-    "bibId": 177359,
-    "isbn": "9781250143136",
-    "author": "Hirsch, Andy, 1987-",
-    "rl": 4.9,
-    "il": "Grades"
-  },
   "CAVE GEOLOGISTS": {
     "bibId": 158927,
     "isbn": "9781508145134",
@@ -13451,7 +13213,7 @@
     "isbn": "9781452131535",
     "author": "Snyder, Laurel,",
     "rl": 2.1,
-    "il": "1-4.</li></ul>"
+    "il": "1-4"
   },
   "CHANGES A CHILDS FIRST POETRY COLLECTION": {
     "bibId": 162588,
@@ -13584,7 +13346,7 @@
     "isbn": "9781452131535",
     "author": "Snyder, Laurel,",
     "rl": 2.1,
-    "il": "1-4.</li></ul>"
+    "il": "1-4"
   },
   "CHARLOTTES WEB": {
     "bibId": 12027,
@@ -14090,13 +13852,6 @@
     "rl": null,
     "il": null
   },
-  "CHICKADEE CRIMINAL MASTERMIND": {
-    "bibId": 194692,
-    "isbn": "9781525303388",
-    "author": "Ellis, Elina,",
-    "rl": null,
-    "il": "Grades"
-  },
   "CHICAGO BLACKHAWKS": {
     "bibId": 162600,
     "isbn": null,
@@ -14340,7 +14095,7 @@
     "isbn": "9781338169867",
     "author": "West, Tracey, 1965-",
     "rl": 3.3,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "CHIWEENIE A CROSS BETWEEN A CHIHUAHUA AND A DACHSHUND": {
     "bibId": 182373,
@@ -14958,13 +14713,6 @@
     "rl": 1.0,
     "il": "P-2"
   },
-  "CIVIL RIGHTS MOVEMENT AND VIETNAM 0000001960 0000001976": {
-    "bibId": 78163,
-    "isbn": null,
-    "author": null,
-    "rl": 5.7,
-    "il": "Young"
-  },
   "CITY DOG COUNTRY FROG": {
     "bibId": 117088,
     "isbn": null,
@@ -15160,13 +14908,6 @@
     "author": null,
     "rl": 4.2,
     "il": "3-6"
-  },
-  "CLASS PET ON THE LOOSE": {
-    "bibId": 201134,
-    "isbn": "9780593532447",
-    "author": "Murray, Laura, 1970-",
-    "rl": null,
-    "il": "Grades"
   },
   "CLAUDIA AND MEAN JANINE A GRAPHIC NOVEL": {
     "bibId": 159014,
@@ -15936,7 +15677,7 @@
     "isbn": "9781616907785",
     "author": "McLuskey, Krista, 1974-",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "COMMON SAWSHARKS": {
     "bibId": 44737,
@@ -16055,7 +15796,7 @@
     "isbn": "9781616907792",
     "author": "Webster, Christine.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "COMPLETE COOKBOOK FOR YOUNG CHEFS": {
     "bibId": 184874,
@@ -16631,13 +16372,6 @@
     "rl": 2.0,
     "il": "1-4"
   },
-  "CORINTHIAN GIRL CHAMPION ATHLETE OF ANCIENT OLYMPIA": {
-    "bibId": 194757,
-    "isbn": "9781913074722",
-    "author": "Balit, Christina,",
-    "rl": null,
-    "il": "Grades"
-  },
   "COSTUME": {
     "bibId": 123150,
     "isbn": null,
@@ -17170,13 +16904,6 @@
     "rl": 4.5,
     "il": "5-8"
   },
-  "CREEPS 0000000003 CURSE OF THE ATTACK O LANTERNS": {
-    "bibId": 151803,
-    "isbn": "9781419721908",
-    "author": "Schweizer, Chris,",
-    "rl": null,
-    "il": "Grades"
-  },
   "CREATION OF THE US CONSTITUTION": {
     "bibId": 44774,
     "isbn": null,
@@ -17218,13 +16945,6 @@
     "author": "Weing, Drew.",
     "rl": 3.8,
     "il": "3-6"
-  },
-  "CREEPY CASE FILES OF MARGO MALOO 0000000003": {
-    "bibId": 191951,
-    "isbn": "9781250206831",
-    "author": "Weing, Drew,",
-    "rl": null,
-    "il": "Grades"
   },
   "CRIMES A LA FERME LAFFAIRE DE LOEUF DISPARU ENGLISH": {
     "bibId": 188896,
@@ -17337,13 +17057,6 @@
     "author": "Murray, Laura K., 1989-",
     "rl": 1.3,
     "il": "K-3"
-  },
-  "CROCODILE AND THE DENTIST": {
-    "bibId": 164551,
-    "isbn": "9781452170282",
-    "author": null,
-    "rl": 2.0,
-    "il": "Grades"
   },
   "CRICKWING": {
     "bibId": 164367,
@@ -17764,20 +17477,6 @@
     "author": "Coville, Bruce,",
     "rl": 5.3,
     "il": "3-6"
-  },
-  "CURSE OF THE ATTACK O LANTERNS": {
-    "bibId": 151803,
-    "isbn": "9781419721908",
-    "author": "Schweizer, Chris,",
-    "rl": null,
-    "il": "Grades"
-  },
-  "CURSED MOON": {
-    "bibId": 200719,
-    "isbn": "9781338814019",
-    "author": "Cervantes, Angela,",
-    "rl": 4.4,
-    "il": "Grades"
   },
   "CURSES": {
     "bibId": 132624,
@@ -18325,13 +18024,6 @@
     "rl": 6.2,
     "il": "2-5"
   },
-  "DARK ON LIGHT": {
-    "bibId": 194945,
-    "isbn": "9781534487895",
-    "author": "White, Dianne,",
-    "rl": null,
-    "il": "Grades"
-  },
   "DARKEST HOUR": {
     "bibId": 155016,
     "isbn": "9780062367013",
@@ -18724,13 +18416,6 @@
     "rl": 5.8,
     "il": "5-9"
   },
-  "DEAR BROTHER A GRAPHIC NOVEL ISH": {
-    "bibId": 200225,
-    "isbn": "9781534487086",
-    "author": "McGhee, Alison, 1960-",
-    "rl": null,
-    "il": "Grades"
-  },
   "DEAD ON": {
     "bibId": 188780,
     "isbn": "9780884368168",
@@ -19016,7 +18701,7 @@
     "isbn": "9781616907808",
     "author": "Winans, Jay D.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "DEMONS DOOR": {
     "bibId": 183129,
@@ -20066,7 +19751,7 @@
     "isbn": null,
     "author": "London, C. Alexander.",
     "rl": 6.0,
-    "il": "5-9."
+    "il": "5-9"
   },
   "DK MERRIAM WEBSTER CHILDRENS DICTIONARY": {
     "bibId": 159207,
@@ -20509,26 +20194,12 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "DOG AND HAT AND THE LOST POLKA DOTS": {
-    "bibId": 194756,
-    "isbn": "9781797206882",
-    "author": "Shuler, Darin,",
-    "rl": null,
-    "il": "Grades"
-  },
   "DOG DIARIES SECRET WRITINGS OF THE WOOF SOCIETY": {
     "bibId": 153278,
     "isbn": null,
     "author": "Byars, Betsy Cromer.",
     "rl": 3.9,
     "il": "3-6"
-  },
-  "DOG AND HAT AND THE LUNAR ECLIPSE PICNIC": {
-    "bibId": 198542,
-    "isbn": "9781797206899",
-    "author": "Shuler, Darin,",
-    "rl": null,
-    "il": "Grades"
   },
   "DOG DOG GOOSE": {
     "bibId": 185090,
@@ -20558,26 +20229,12 @@
     "rl": 3.6,
     "il": "2-5"
   },
-  "DOG HAT AND THE LOST POLKA DOTS BOOK NO 0000000001": {
-    "bibId": 194756,
-    "isbn": "9781797206882",
-    "author": "Shuler, Darin,",
-    "rl": null,
-    "il": "Grades"
-  },
   "DOG CAN HIDE": {
     "bibId": 195239,
     "isbn": "9781534499560",
     "author": "Gehl, Laura.",
     "rl": 0.8,
     "il": "Preschool"
-  },
-  "DOG HAT AND THE LUNAR ECLIPSE PICNIC": {
-    "bibId": 198542,
-    "isbn": "9781797206899",
-    "author": "Shuler, Darin,",
-    "rl": null,
-    "il": "Grades"
   },
   "DOG HEAVEN": {
     "bibId": 192532,
@@ -21174,13 +20831,6 @@
     "rl": 4.9,
     "il": "4-7"
   },
-  "DONUT THE UNICORN WHO WANTS TO FLY": {
-    "bibId": 194752,
-    "isbn": "9780593376263",
-    "author": "Gehl, Laura,",
-    "rl": null,
-    "il": "Grades"
-  },
   "DONT SWAP YOUR SWEATER FOR A DOG": {
     "bibId": 188836,
     "isbn": "9780062392503",
@@ -21635,13 +21285,6 @@
     "author": "Klimo, Kate.",
     "rl": 4.8,
     "il": "4-7"
-  },
-  "DRAGON SLAYER FOLKTALES FROM LATIN AMERICA": {
-    "bibId": 157421,
-    "isbn": "9781943145287",
-    "author": "Campoy, F. Isabel,",
-    "rl": 3.4,
-    "il": "Grades"
   },
   "DRAGON IN THE LIBRARY": {
     "bibId": 188844,
@@ -22229,7 +21872,7 @@
     "isbn": "9780451476425",
     "author": "Campbell, K. G. (Keith Gordon), 1966-",
     "rl": 3.6,
-    "il": "PS-1.</li></ul>"
+    "il": "PS-1"
   },
   "DUNCAN THE STORY DRAGON": {
     "bibId": 159288,
@@ -22258,13 +21901,6 @@
     "author": "Sierra, Judy.",
     "rl": 2.7,
     "il": "P-2"
-  },
-  "E WASTE": {
-    "bibId": 157159,
-    "isbn": "9781532110221",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "EAGLES BUILT FOR THE HUNT": {
     "bibId": 162758,
@@ -22602,13 +22238,6 @@
     "rl": 2.1,
     "il": "3-6"
   },
-  "EFREN DIVIDED A NOVEL": {
-    "bibId": 179763,
-    "isbn": "9780062881687",
-    "author": null,
-    "rl": 4.0,
-    "il": "Grades"
-  },
   "ECHO ECHO REVERSO POEMS ABOUT GREEK MYTHS": {
     "bibId": 162763,
     "isbn": "9780803739925",
@@ -22832,13 +22461,6 @@
     "author": "Robbins, Trina.",
     "rl": 4.5,
     "il": "5-8"
-  },
-  "ELEPHANTS GIRL": {
-    "bibId": 182731,
-    "isbn": "9780593121221",
-    "author": null,
-    "rl": 5.2,
-    "il": "Grades"
   },
   "ELIZABETH CADY STANTON WOMENS RIGHTS PIONEER": {
     "bibId": 56456,
@@ -23421,13 +23043,6 @@
     "rl": 3.5,
     "il": "2-5"
   },
-  "ENDLING THE FIRST": {
-    "bibId": 175209,
-    "isbn": "9780062335562",
-    "author": "Applegate, Katherine,",
-    "rl": 5.2,
-    "il": "Grades"
-  },
   "ENERGY": {
     "bibId": 159339,
     "isbn": "9781480746053",
@@ -23554,26 +23169,12 @@
     "rl": 2.5,
     "il": "K-3"
   },
-  "ERIK VERSUS EVERYTHING": {
-    "bibId": 191920,
-    "isbn": "9780358126713",
-    "author": "Uss, Christina,",
-    "rl": null,
-    "il": "Grades"
-  },
   "ENTER THE CLANS INCLUDES WARRIORS FIELD GUIDE SECRETS OF THE CLANS AND WARRIORS CODE OF THE CLANS": {
     "bibId": 188870,
     "isbn": "9780062102393",
     "author": "Hunter, Erin.",
     "rl": 5.0,
     "il": "5-9"
-  },
-  "ERIK VS EVERYTHING": {
-    "bibId": 191920,
-    "isbn": "9780358126713",
-    "author": "Uss, Christina,",
-    "rl": null,
-    "il": "Grades"
   },
   "ENVIRONMENT A WORLD OF CHANGE": {
     "bibId": 164370,
@@ -25661,13 +25262,6 @@
     "rl": 1.7,
     "il": "Pre-kindergarten"
   },
-  "FERGUS AND ZEKE FOR PRESIDENT": {
-    "bibId": 198510,
-    "isbn": "9781536218312",
-    "author": "Messner, Kate,",
-    "rl": null,
-    "il": "Grades"
-  },
   "FERRET FUN IN THE SUN": {
     "bibId": 159420,
     "isbn": "9781477826317",
@@ -25948,13 +25542,6 @@
     "rl": 5.9,
     "il": "5-9"
   },
-  "FINCH HOUSE": {
-    "bibId": 200220,
-    "isbn": "9781665930543",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "FIGHTING TO SURVIVE WWII": {
     "bibId": 188910,
     "isbn": "9780756561888",
@@ -26074,13 +25661,6 @@
     "rl": 2.0,
     "il": "3-6"
   },
-  "FINS": {
-    "bibId": 181419,
-    "isbn": "9781250244659",
-    "author": null,
-    "rl": 5.0,
-    "il": "Grades"
-  },
   "FINDING SOMEPLACE": {
     "bibId": 162825,
     "isbn": "9780805047165",
@@ -26156,7 +25736,7 @@
     "isbn": "9780375968327",
     "author": "Jenkins, Emily, 1967-",
     "rl": 3.6,
-    "il": "PS-3.</li></ul>"
+    "il": "PS-3"
   },
   "FIRE BOAT": {
     "bibId": 41684,
@@ -26270,13 +25850,6 @@
     "rl": 4.3,
     "il": "4-7"
   },
-  "FIRST": {
-    "bibId": 175209,
-    "isbn": "9780062335562",
-    "author": "Applegate, Katherine,",
-    "rl": 5.2,
-    "il": "Grades"
-  },
   "FIREBIRD BALLERINA MISTY COPELAND SHOWS A YOUNG GIRL HOW TO DANCE LIKE THE FIREBIRD": {
     "bibId": 149057,
     "isbn": "9780399166150",
@@ -26318,13 +25891,6 @@
     "author": "Marshall, Julia, 1954-",
     "rl": 4.0,
     "il": "1-4"
-  },
-  "FIRST CAT IN SPACE AND THE SOUP OF DOOM": {
-    "bibId": 200211,
-    "isbn": "9780063084117",
-    "author": "Barnett, Mac,",
-    "rl": 3.1,
-    "il": "Grades"
   },
   "FIRST GRADE DROPOUT": {
     "bibId": 151030,
@@ -26507,13 +26073,6 @@
     "author": "Hillenbrand, Will,",
     "rl": 1.0,
     "il": "P-2"
-  },
-  "FISH AND WORM": {
-    "bibId": 198503,
-    "isbn": "9780063290358",
-    "author": "Ruzzier, Sergio, 1966-,",
-    "rl": null,
-    "il": "Grades"
   },
   "FIRST STEP HOW ONE GIRL PUT SEGREGATION ON TRIAL": {
     "bibId": 148887,
@@ -26863,7 +26422,7 @@
     "isbn": "9780545913928",
     "author": "West, Tracey, 1965-",
     "rl": 3.5,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "FLAT STANLEY AND THE FIREHOUSE": {
     "bibId": 159458,
@@ -26920,13 +26479,6 @@
     "author": "Ventura, Marne.",
     "rl": 4.2,
     "il": "3-6"
-  },
-  "FLIPPING FORWARD TWISTING BACKWARD": {
-    "bibId": 194695,
-    "isbn": "9781682633663",
-    "author": "Mensinga, Sarah,",
-    "rl": null,
-    "il": "Grades"
   },
   "FLOOR EXERCISE TIPS RULES AND LEGENDARY STARS": {
     "bibId": 188927,
@@ -27038,7 +26590,7 @@
     "isbn": "9781616907815",
     "author": null,
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "FLUBBY WILL NOT TAKE A BATH": {
     "bibId": 191988,
@@ -27116,13 +26668,6 @@
     "author": "Arnold, Tedd.",
     "rl": 1.6,
     "il": "K-3"
-  },
-  "FLUBBY DOES NOT LIKE SNOW": {
-    "bibId": 200710,
-    "isbn": "9780593523391",
-    "author": "Morris, J E., (Jennifer E.),",
-    "rl": null,
-    "il": "Grades"
   },
   "FLY GUY MEETS FLY GIRL": {
     "bibId": 159468,
@@ -28054,13 +27599,6 @@
     "author": "Scieszka, Jon,",
     "rl": 4.2,
     "il": "3-6"
-  },
-  "FRANK AND BEAN FOOD TRUCK FIASCO": {
-    "bibId": 194843,
-    "isbn": "9781536214413",
-    "author": "Michalak, Jamie,",
-    "rl": null,
-    "il": "Grades"
   },
   "FRANK EINSTEIN THE ANTIMATTER MOTOR": {
     "bibId": 159505,
@@ -29089,7 +28627,7 @@
     "isbn": "9780803739864",
     "author": "Vernon, Ursula,",
     "rl": 4.3,
-    "il": "3-6.</li></ul>"
+    "il": "3-6"
   },
   "FRONT DESK": {
     "bibId": 166435,
@@ -29153,13 +28691,6 @@
     "author": null,
     "rl": 4.1,
     "il": "3-6"
-  },
-  "FULL MOON PUPS": {
-    "bibId": 195507,
-    "isbn": "9780525514558",
-    "author": "Groenink, Chuck,",
-    "rl": null,
-    "il": "Grades"
   },
   "FRUIT BOWL": {
     "bibId": 162878,
@@ -29370,13 +28901,6 @@
     "author": "Sachar, Louis, 1954-",
     "rl": 4.2,
     "il": "5-8"
-  },
-  "FUNNY THING HAPPENED AFTER SCHOOL": {
-    "bibId": 199381,
-    "isbn": "9781452183008",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "FUZZY TAKES CHARGE": {
     "bibId": 176211,
@@ -29747,7 +29271,7 @@
     "isbn": "9781616907822",
     "author": "Nault, Jennifer.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "GENTOO PENGUINS": {
     "bibId": 188959,
@@ -29768,7 +29292,7 @@
     "isbn": "9781434226006",
     "author": "Maddox, Jake.",
     "rl": 3.1,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "GERMAN SHEPHERDS": {
     "bibId": 162889,
@@ -30316,13 +29840,6 @@
     "rl": 4.7,
     "il": "4-7"
   },
-  "GHOSTLY PHOTOS": {
-    "bibId": 200709,
-    "isbn": "9780063089815",
-    "author": "Haddix, Margaret Peterson,",
-    "rl": null,
-    "il": "Grades"
-  },
   "GHOST SITTER": {
     "bibId": 188963,
     "isbn": "9780142302163",
@@ -30729,13 +30246,6 @@
     "rl": 7.6,
     "il": "5-9"
   },
-  "GINGERBREAD MAN CLASS PET ON THE LOOSE A GRAPHIC NOVEL": {
-    "bibId": 201134,
-    "isbn": "9780593532447",
-    "author": "Murray, Laura, 1970-",
-    "rl": null,
-    "il": "Grades"
-  },
   "GIRL IN THE GRAVEYARD AND OTHER SCARY TALES": {
     "bibId": 167626,
     "isbn": "9781496549013",
@@ -30875,13 +30385,6 @@
     "author": null,
     "rl": 4.1,
     "il": "K-3"
-  },
-  "GIRLS ON WHEELS": {
-    "bibId": 198506,
-    "isbn": "9780593529287",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "GIRL WHO NEVER MADE MISTAKES": {
     "bibId": 132816,
@@ -31043,13 +30546,6 @@
     "author": "Norman, Kim.",
     "rl": 3.6,
     "il": "K-3"
-  },
-  "GLOOM TOWN": {
-    "bibId": 179821,
-    "isbn": "9781328841612",
-    "author": "Smith, Ronald L. (Ronald Lenard), 1959-",
-    "rl": 4.0,
-    "il": "Grades"
   },
   "GIVE ME BACK MY BOOK": {
     "bibId": 162908,
@@ -31588,7 +31084,7 @@
     "isbn": "9781496537836",
     "author": "Sutton, Laurie,",
     "rl": 2.9,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "GONE CRAZY IN ALABAMA": {
     "bibId": 159680,
@@ -32206,13 +31702,6 @@
     "rl": 2.4,
     "il": "K-3"
   },
-  "GREAT AMERICAN DUST BOWL": {
-    "bibId": 146958,
-    "isbn": null,
-    "author": "Brown, Don, 1949-",
-    "rl": null,
-    "il": "Young"
-  },
   "GRASSLAND FOOD CHAINS": {
     "bibId": 162930,
     "isbn": "9781484605226",
@@ -32310,13 +31799,6 @@
     "author": "Tarshis, Lauren.",
     "rl": 4.8,
     "il": "2-5"
-  },
-  "GRAYLINGS SONG": {
-    "bibId": 151358,
-    "isbn": "9780544301801",
-    "author": null,
-    "rl": 5.8,
-    "il": "Grades"
   },
   "GREAT CHICAGO FIRE OF 0000001871": {
     "bibId": 45232,
@@ -32597,13 +32079,6 @@
     "author": "Herrington, Lisa M.,",
     "rl": 3.6,
     "il": "1-4"
-  },
-  "GREATEST IN THE WORLD": {
-    "bibId": 194910,
-    "isbn": "9781534493186",
-    "author": "Clanton, Ben, 1988-",
-    "rl": null,
-    "il": "Grades"
   },
   "GREAT THANKSGIVING ESCAPE": {
     "bibId": 167632,
@@ -33310,7 +32785,7 @@
     "isbn": "9781910561904",
     "author": null,
     "rl": null,
-    "il": "2-4.</li></ul>"
+    "il": "2-4"
   },
   "GYMNASTICS FUN": {
     "bibId": 189002,
@@ -33625,7 +33100,7 @@
     "isbn": "9781496525093",
     "author": "Cano, Fernando,",
     "rl": 2.8,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "HANDMADE THANKSGIVING CRAFTS": {
     "bibId": 154498,
@@ -33667,7 +33142,7 @@
     "isbn": "9781496525093",
     "author": "Cano, Fernando,",
     "rl": 2.8,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "HANGING HILL": {
     "bibId": 183129,
@@ -33991,13 +33466,6 @@
     "rl": 3.7,
     "il": "3-6"
   },
-  "HARRIET SPIES": {
-    "bibId": 195506,
-    "isbn": "9780063092136",
-    "author": "Arnold, Elana K.,",
-    "rl": null,
-    "il": "Grades"
-  },
   "HARRY POTTER AND THE CHAMBER OF SECRETS": {
     "bibId": 19609,
     "isbn": null,
@@ -34236,13 +33704,6 @@
     "rl": 4.3,
     "il": "2-5"
   },
-  "HAUNTED HOLIDAY": {
-    "bibId": 201061,
-    "isbn": "9780593570067",
-    "author": "White, Kiersten,",
-    "rl": null,
-    "il": "Grades"
-  },
   "HATTIE AND HUDSON": {
     "bibId": 185732,
     "isbn": "9780763665456",
@@ -34458,7 +33919,7 @@
     "isbn": "9781616907839",
     "author": "Foran, Jill.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "HEARING": {
     "bibId": 162972,
@@ -34494,13 +33955,6 @@
     "author": "Jolley, Dan.",
     "rl": 2.8,
     "il": "5-9"
-  },
-  "HAZY BLOOM AND THE MYSTERY NEXT DOOR": {
-    "bibId": 166740,
-    "isbn": "9780374305017",
-    "author": "Hamburg, Jennifer,",
-    "rl": null,
-    "il": "Grades"
   },
   "HEARTBEAT": {
     "bibId": 162973,
@@ -35160,13 +34614,6 @@
     "rl": 3.9,
     "il": "K-3"
   },
-  "HERE WE COME": {
-    "bibId": 194693,
-    "isbn": "9781534417878",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "HERE COME THE HUMPBACKS": {
     "bibId": 159833,
     "isbn": "9781580894067",
@@ -35453,13 +34900,6 @@
     "author": "Noll, Amanda,",
     "rl": 2.6,
     "il": "P-2"
-  },
-  "HIDDEN FIGURES THE UNTOLD TRUE STORY OF FOUR AFRICAN AMERICAN WOMEN WHO HELPED LAUNCH OUR NATION INTO SPACE": {
-    "bibId": 154380,
-    "isbn": "9780062662385",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "HEY THATS MY MONSTER": {
     "bibId": 193687,
@@ -35818,26 +35258,12 @@
     "rl": 3.3,
     "il": "3-6"
   },
-  "HILO BOOK 0000000008 GINA AND THE BIG SECRET": {
-    "bibId": 194964,
-    "isbn": "9780593379677",
-    "author": "Winick, Judd,",
-    "rl": null,
-    "il": "Grades"
-  },
   "HIGHLIGHTS OF THE PITTSBURGH STEELERS": {
     "bibId": 189040,
     "isbn": "9781680724370",
     "author": "Storm, Marysa.",
     "rl": 3.4,
     "il": "3-6"
-  },
-  "HILO BOOK 0000000009 GINA AND THE LAST CITY ON EARTH": {
-    "bibId": 195508,
-    "isbn": "9780593488119",
-    "author": "Winick, Judd,",
-    "rl": null,
-    "il": "Grades"
   },
   "HILO BOOK 0000000010 RISE OF THE CAT": {
     "bibId": 201261,
@@ -36027,13 +35453,6 @@
     "author": "Robinson, Erin,",
     "rl": 3.6,
     "il": "K-3"
-  },
-  "HOGGY AT BAT": {
-    "bibId": 200718,
-    "isbn": "9780823451494",
-    "author": "Long, Ethan,",
-    "rl": null,
-    "il": "Grades"
   },
   "HISTORYS FORGOTTEN EVENTS": {
     "bibId": 181407,
@@ -36383,7 +35802,7 @@
     "isbn": "9781434216052",
     "author": "Maddox, Jake.",
     "rl": 3.6,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "HONEYBEE RESCUE A BACKYARD DRAMA": {
     "bibId": 193783,
@@ -36665,13 +36084,6 @@
     "rl": 1.7,
     "il": "P-2"
   },
-  "HOPE WAS HERE": {
-    "bibId": 74154,
-    "isbn": null,
-    "author": "Bauer, Joan, 1951-",
-    "rl": 6.4,
-    "il": "Young"
-  },
   "HORRID HENRY": {
     "bibId": 154091,
     "isbn": null,
@@ -36812,13 +36224,6 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "HORSE NAMED SKY": {
-    "bibId": 201062,
-    "isbn": "9780062995957",
-    "author": "Parry, Rosanne,",
-    "rl": null,
-    "il": "Grades"
-  },
   "HORSE RIDER": {
     "bibId": 189055,
     "isbn": "9780375970306",
@@ -36895,13 +36300,6 @@
     "author": "Maddox, Jake.",
     "rl": 3.0,
     "il": "5-8"
-  },
-  "HOSPITAL BOOK": {
-    "bibId": 198547,
-    "isbn": "9780823446650",
-    "author": "Brown, Lisa, 1972-",
-    "rl": null,
-    "il": "Grades"
   },
   "HORSEFLY AND HONEYBEE": {
     "bibId": 178654,
@@ -37652,13 +37050,6 @@
     "rl": 3.8,
     "il": "P-2"
   },
-  "HOW TO BE A T REX": {
-    "bibId": 164546,
-    "isbn": "9780399186240",
-    "author": "Lowery, Mike, 1980-",
-    "rl": null,
-    "il": "Grades"
-  },
   "HOW TO BE AN ELEPHANT GROWING UP IN THE AFRICAN WILD": {
     "bibId": 156909,
     "isbn": "9781626721784",
@@ -37981,13 +37372,6 @@
     "rl": 4.8,
     "il": "2-5"
   },
-  "HOWARD THE AVERAGE GECKO": {
-    "bibId": 193785,
-    "isbn": "9781682634349",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "HUMMINGBIRD": {
     "bibId": 176385,
     "isbn": "9781536205381",
@@ -38105,7 +37489,7 @@
     "isbn": "9781434207821",
     "author": "Maddox, Jake.",
     "rl": 3.5,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "HUMPHREYS TREASURE HUNT TROUBLE": {
     "bibId": 167649,
@@ -38267,13 +37651,6 @@
     "author": "Ball, Georgia,",
     "rl": 2.8,
     "il": "2-5"
-  },
-  "HYDROPONIC HIJINKS": {
-    "bibId": 195137,
-    "isbn": "9781534481541",
-    "author": "Neal, Rie,",
-    "rl": null,
-    "il": "Grades"
   },
   "HURRICANE TORNADO": {
     "bibId": 159971,
@@ -38632,13 +38009,6 @@
     "rl": 0.7,
     "il": "P-2"
   },
-  "I AM MOZART TOO THE LOST GENIUS OF MARIA ANNA MOZART": {
-    "bibId": 194751,
-    "isbn": "9780374314767",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "I AM NEIL ARMSTRONG": {
     "bibId": 175687,
     "isbn": "9780735228726",
@@ -38722,13 +38092,6 @@
     "author": "Holub, Joan.",
     "rl": null,
     "il": null
-  },
-  "I AM OGRE IT": {
-    "bibId": 194907,
-    "isbn": "9780823450183",
-    "author": "Ebbeler, Jeffrey,",
-    "rl": null,
-    "il": "Grades"
   },
   "I AM TOO FOND OF MY FUR": {
     "bibId": 78448,
@@ -38947,13 +38310,6 @@
     "rl": 4.5,
     "il": "Pre-kindergarten"
   },
-  "I CAN ONLY DRAW WORMS": {
-    "bibId": 167330,
-    "isbn": "9781524788223",
-    "author": "Mabbitt, Will,",
-    "rl": 1.6,
-    "il": "Grades"
-  },
   "I DID NOT DO IT": {
     "bibId": 159994,
     "isbn": "9780061358333",
@@ -39065,13 +38421,6 @@
     "author": "Lowery, Mike, 1980-",
     "rl": 3.2,
     "il": "K-3"
-  },
-  "I GOT NEXT": {
-    "bibId": 177393,
-    "isbn": "9780062657770",
-    "author": null,
-    "rl": 2.0,
-    "il": "Grades"
   },
   "I DONT LIKE KOALA": {
     "bibId": 163040,
@@ -39351,7 +38700,7 @@
     "isbn": "9780823436804",
     "author": "Meisel, Paul,",
     "rl": 1.0,
-    "il": "PS-1.</li></ul>"
+    "il": "PS-1"
   },
   "I PLEDGE ALLEGIANCE": {
     "bibId": 160011,
@@ -39464,13 +38813,6 @@
     "author": "Ball, Georgia,",
     "rl": 3.6,
     "il": "2-5"
-  },
-  "I SEE A BAT": {
-    "bibId": 198548,
-    "isbn": "9780823452651",
-    "author": "Meisel, Paul,",
-    "rl": null,
-    "il": "Grades"
   },
   "I SURVIVED THE BATTLE OF D DAY 0000001944": {
     "bibId": 203420,
@@ -39660,13 +39002,6 @@
     "author": "Salazar, Aida,",
     "rl": 2.0,
     "il": null
-  },
-  "I WANT MY BOOK BACK": {
-    "bibId": 194691,
-    "isbn": "9781499811742",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "I WISH YOU MORE": {
     "bibId": 151623,
@@ -39883,7 +39218,7 @@
     "isbn": "9781616907846",
     "author": "Foran, Jill.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "ICELAND": {
     "bibId": 167481,
@@ -40408,7 +39743,7 @@
     "isbn": "9781616907853",
     "author": "Craats, Rennay.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "IM NEW HERE": {
     "bibId": 160023,
@@ -40437,13 +39772,6 @@
     "author": "Willems, Mo.",
     "rl": 1.1,
     "il": "K-3"
-  },
-  "IM OGRE IT": {
-    "bibId": 194907,
-    "isbn": "9780823450183",
-    "author": "Ebbeler, Jeffrey,",
-    "rl": null,
-    "il": "Grades"
   },
   "IM A SHARK": {
     "bibId": 175732,
@@ -40926,7 +40254,7 @@
     "isbn": "9781616907860",
     "author": "Craats, Rennay.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "INGRANA LA MARCIA STILTON ENGLISH": {
     "bibId": 153980,
@@ -41165,13 +40493,6 @@
     "author": null,
     "rl": 4.6,
     "il": "4-7"
-  },
-  "INTERNATIONAL HOUSE OF DERELICTION": {
-    "bibId": 198501,
-    "isbn": "9780063258075",
-    "author": "Davies, Jacqueline, 1962-",
-    "rl": null,
-    "il": "Grades"
   },
   "INSPECTOR FLYTRAP": {
     "bibId": 160084,
@@ -41451,7 +40772,7 @@
     "isbn": "9781616907877",
     "author": "Winans, Jay D.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "INVINCIBLE IRON MAN AN ORIGIN STORY": {
     "bibId": 140636,
@@ -41887,13 +41208,6 @@
     "rl": 1.7,
     "il": "P-2"
   },
-  "IT IS A SIGN": {
-    "bibId": 194840,
-    "isbn": "9781368075848",
-    "author": "Willems, Mo,",
-    "rl": null,
-    "il": "Grades"
-  },
   "IT IS HALLOWEEN YOU FRAIDY MOUSE": {
     "bibId": 68180,
     "isbn": null,
@@ -42236,13 +41550,6 @@
     "author": null,
     "rl": 4.8,
     "il": "3-6"
-  },
-  "ITS A SIGN": {
-    "bibId": 194840,
-    "isbn": "9781368075848",
-    "author": "Willems, Mo,",
-    "rl": null,
-    "il": "Grades"
   },
   "ITS DIWALI": {
     "bibId": 163092,
@@ -42634,7 +41941,7 @@
     "isbn": "9780374335786",
     "author": "Mills, Claudia,",
     "rl": 5.0,
-    "il": "2-6.</li></ul>"
+    "il": "2-6"
   },
   "JACK AND THE BEANSTALK A FAVORITE STORY IN RHYTHM AND RHYME": {
     "bibId": 175760,
@@ -42657,19 +41964,12 @@
     "rl": 3.4,
     "il": "P-2"
   },
-  "IZZYS DOG DAYS OF SUMMER": {
-    "bibId": 200229,
-    "isbn": "9781771387347",
-    "author": "Adderson, Caroline, 1963-",
-    "rl": null,
-    "il": "Grades"
-  },
   "JACK AND THE BEANSTALK ENGLISH": {
     "bibId": 164794,
     "isbn": "9781496525109",
     "author": "Bowen, Carl,",
     "rl": 2.5,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "IZZYS TAIL OF TROUBLE": {
     "bibId": 194864,
@@ -42809,7 +42109,7 @@
     "isbn": "9781496525109",
     "author": "Bowen, Carl,",
     "rl": 2.5,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "JACKIE ROBINSON BASEBALLS GREAT PIONEER": {
     "bibId": 56513,
@@ -44379,13 +43679,6 @@
     "rl": 4.3,
     "il": "4-7"
   },
-  "JUST THE WAY THEY ARE": {
-    "bibId": 200722,
-    "isbn": "9781536214208",
-    "author": "Hest, Amy,",
-    "rl": null,
-    "il": "Grades"
-  },
   "JUVENTUS FC": {
     "bibId": 182465,
     "isbn": "9781489677938",
@@ -44594,7 +43887,7 @@
     "isbn": "9781616907884",
     "author": "Nault, Jennifer.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "KARENS LITTLE SISTER": {
     "bibId": 192867,
@@ -44734,7 +44027,7 @@
     "isbn": "9781434207777",
     "author": "Maddox, Jake.",
     "rl": 3.4,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "KATIE WOOS CRAZY CRITTER JOKES": {
     "bibId": 160225,
@@ -44930,7 +44223,7 @@
     "isbn": "9781616907891",
     "author": "Evdokimoff, Natasha.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "KEYSTONE SPECIES THAT LIVE IN FORESTS": {
     "bibId": 163131,
@@ -45695,13 +44988,6 @@
     "rl": 3.1,
     "il": "K-3"
   },
-  "KS CAR CAN GO ANYWHERE": {
-    "bibId": 192068,
-    "isbn": "9780593222065",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "KONDO KEZUMI VISIT GIANT ISLAND": {
     "bibId": 182787,
     "isbn": "9781368025775",
@@ -46234,13 +45520,6 @@
     "rl": 2.0,
     "il": "4-8"
   },
-  "LAST MAPMAKER": {
-    "bibId": 194661,
-    "isbn": "9781536204957",
-    "author": "Soontornvat, Christina,",
-    "rl": 5.2,
-    "il": "Grades"
-  },
   "LAUREN THE PUPPY FAIRY": {
     "bibId": 79735,
     "isbn": "9780545041874",
@@ -46275,13 +45554,6 @@
     "author": "Miller, Phil,",
     "rl": 4.7,
     "il": "5-8"
-  },
-  "LAST PLASTIC STRAW A PLASTIC PROBLEM AND FINDING WAYS TO FIX IT": {
-    "bibId": 195133,
-    "isbn": "9780823449491",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "LAZILY CRAZILY JUST A BIT NASALLY MORE ABOUT ADVERBS": {
     "bibId": 45632,
@@ -46561,7 +45833,7 @@
     "isbn": "9781434207838",
     "author": "Maddox, Jake.",
     "rl": 3.7,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "LEGO DC COMICS SUPERHEROES": {
     "bibId": 164163,
@@ -46730,13 +46002,6 @@
     "author": "Seeger, Laura Vaccaro.",
     "rl": 2.1,
     "il": "K-3"
-  },
-  "LEON THE EXTRAORDINARY": {
-    "bibId": 194943,
-    "isbn": "9781338744163",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "LEMURS": {
     "bibId": 185222,
@@ -47550,26 +46815,12 @@
     "rl": 3.3,
     "il": "K-3"
   },
-  "LIFEBOAT 0000000012": {
-    "bibId": 165015,
-    "isbn": "9781481468831",
-    "author": "Hood, Susan, 1954-",
-    "rl": null,
-    "il": "Grades"
-  },
   "LIGHT MAKES A RAINBOW": {
     "bibId": 160332,
     "isbn": "9781480745667",
     "author": "Coan, Sharon.",
     "rl": 1.8,
     "il": "K-3"
-  },
-  "LIFEBOAT TWELVE": {
-    "bibId": 165015,
-    "isbn": "9781481468831",
-    "author": "Hood, Susan, 1954-",
-    "rl": null,
-    "il": "Grades"
   },
   "LIGHTER THAN AIR SOPHIE BLANCHARD THE FIRST WOMAN PILOT": {
     "bibId": 160333,
@@ -47942,26 +47193,12 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "LION OF MARS": {
-    "bibId": 183201,
-    "isbn": "9780593121825",
-    "author": "Holm, Jennifer L.,",
-    "rl": 4.0,
-    "il": "Grades"
-  },
   "LIONEL MESSI VS PELE": {
     "bibId": 189190,
     "isbn": "9781532113567",
     "author": null,
     "rl": 4.0,
     "il": "3-6"
-  },
-  "LION ON THE INSIDE HOW ONE GIRL CHANGED BASKETBALL": {
-    "bibId": 200224,
-    "isbn": "9781525310034",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "LIONS": {
     "bibId": 189192,
@@ -48747,13 +47984,6 @@
     "rl": 2.5,
     "il": "K-3"
   },
-  "LOBSTER COP": {
-    "bibId": 194938,
-    "isbn": "9780063136366",
-    "author": "Smith, Brian, (Comic book writer),",
-    "rl": null,
-    "il": "Grades"
-  },
   "LLAMA LLAMA TELEVISION PROGRAM": {
     "bibId": 160396,
     "isbn": null,
@@ -48852,13 +48082,6 @@
     "rl": 4.5,
     "il": "3-6"
   },
-  "LODGE THAT BEAVER BUILT": {
-    "bibId": 194790,
-    "isbn": "9781536218688",
-    "author": "Hunter, Anne,",
-    "rl": null,
-    "il": "Grades"
-  },
   "LOLA LEVINE MEETS JELLY AND BEAN": {
     "bibId": 153973,
     "isbn": "9780316258531",
@@ -48872,13 +48095,6 @@
     "author": "Hevron, Amy.",
     "rl": 2.9,
     "il": "K-3"
-  },
-  "LOLO WEAVER SWIMS UPSTREAM": {
-    "bibId": 195444,
-    "isbn": "9780823452095",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "LOGAN LIKES MARY ANNE A GRAPHIC NOVEL": {
     "bibId": 183223,
@@ -48900,13 +48116,6 @@
     "author": "Oceanak, Karla.",
     "rl": 2.0,
     "il": "2-5"
-  },
-  "LONE STARS": {
-    "bibId": 156955,
-    "isbn": "9780399172809",
-    "author": "Lupica, Mike,",
-    "rl": 5.3,
-    "il": "Grades"
   },
   "LOKIS WOLVES": {
     "bibId": 160403,
@@ -49012,13 +48221,6 @@
     "author": "Messner, Kate.",
     "rl": 4.2,
     "il": "2-5"
-  },
-  "LOOK AT ME HOW TO ATTRACT ATTENTION IN THE ANIMAL WORLD": {
-    "bibId": 164530,
-    "isbn": "9780544935532",
-    "author": "Jenkins, Steve, 1952-",
-    "rl": 5.1,
-    "il": "Grades"
   },
   "LONG SHOT": {
     "bibId": 79347,
@@ -49321,13 +48523,6 @@
     "rl": 4.3,
     "il": "3-6"
   },
-  "LOST LIBRARY": {
-    "bibId": 199380,
-    "isbn": "9781250838810",
-    "author": "Stead, Rebecca,",
-    "rl": null,
-    "il": "Grades"
-  },
   "LOST IN THE CLOUDS": {
     "bibId": 196051,
     "isbn": "9780744036596",
@@ -49362,13 +48557,6 @@
     "author": "Mann, Greyson,",
     "rl": 4.0,
     "il": "2-5"
-  },
-  "LOST MITTEN": {
-    "bibId": 200712,
-    "isbn": "9780823453153",
-    "author": "Ho, Jannie,",
-    "rl": null,
-    "il": "Grades"
   },
   "LOST IN THE NETHER": {
     "bibId": 189218,
@@ -49452,7 +48640,7 @@
     "isbn": "9781616907907",
     "author": null,
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "LOUIE IN A SPIN": {
     "bibId": 177281,
@@ -49663,13 +48851,6 @@
     "author": "Gerver, Jane E.",
     "rl": null,
     "il": null
-  },
-  "LOW POWER": {
-    "bibId": 199575,
-    "isbn": "9780593206355",
-    "author": "Rex, Michael,",
-    "rl": null,
-    "il": "Grades"
   },
   "LUCKY AUTHOR HAS A DOG": {
     "bibId": 160437,
@@ -49978,13 +49159,6 @@
     "author": "Buckley, Michael.",
     "rl": 6.0,
     "il": "3-6"
-  },
-  "MADANIS BEST GAME": {
-    "bibId": 194906,
-    "isbn": "9780802855978",
-    "author": "Schimel, Lawrence,",
-    "rl": null,
-    "il": "Grades"
   },
   "M IS FOR MONEY AN ECONOMICS ALPHABET": {
     "bibId": 163198,
@@ -50348,7 +49522,7 @@
     "isbn": "9781616907914",
     "author": "Foran, Jill.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "MAGNETS IN THE REAL WORLD": {
     "bibId": 163206,
@@ -50371,13 +49545,6 @@
     "rl": 4.6,
     "il": "K-3"
   },
-  "MAJOR IMPOSSIBLE": {
-    "bibId": 178273,
-    "isbn": "9781419737084",
-    "author": "Hale, Nathan, 1976-",
-    "rl": 3.2,
-    "il": "Grades"
-  },
   "MAGNOLIA WU UNFOLDS IT ALL": {
     "bibId": 202004,
     "isbn": "9780593624524",
@@ -50391,13 +49558,6 @@
     "author": "Miedoso, Andres,",
     "rl": 3.0,
     "il": "2-5"
-  },
-  "MAJOR TAYLOR WORLD CYCLING CHAMPION": {
-    "bibId": 200214,
-    "isbn": "9781536214987",
-    "author": "Smith, Charles R., Jr., 1969-",
-    "rl": null,
-    "il": "Grades"
   },
   "MAKE WAY FOR READERS": {
     "bibId": 160467,
@@ -50462,13 +49622,6 @@
     "rl": 3.0,
     "il": "3-6"
   },
-  "MAKE ME THE BEST BASKETBALL PLAYER": {
-    "bibId": 155986,
-    "isbn": "9781680784879",
-    "author": null,
-    "rl": 5.6,
-    "il": "Grades"
-  },
   "MAKING FRIENDS BACK TO THE DRAWING BOARD": {
     "bibId": 183764,
     "isbn": null,
@@ -50482,13 +49635,6 @@
     "author": null,
     "rl": 5.7,
     "il": "4-7"
-  },
-  "MAKING FRIENDS THIRD TIMES A CHARM": {
-    "bibId": 191833,
-    "isbn": "9781338630800",
-    "author": "Gudsnuk, Kristen,",
-    "rl": null,
-    "il": "Grades"
   },
   "MAKE ME THE BEST HOCKEY PLAYER": {
     "bibId": 163213,
@@ -50749,13 +49895,6 @@
     "rl": 1.0,
     "il": "P-2"
   },
-  "MANATEE SUMMER": {
-    "bibId": 194682,
-    "isbn": "9780063094918",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "MAMMOTHS": {
     "bibId": 163219,
     "isbn": "9781608187676",
@@ -50902,13 +50041,6 @@
     "author": "Seuss, Dr.",
     "rl": 3.5,
     "il": "K-3"
-  },
-  "MARCO POLO BRAVE EXPLORER": {
-    "bibId": 194754,
-    "isbn": "9781536213553",
-    "author": "Lord, Cynthia,",
-    "rl": null,
-    "il": "Grades"
   },
   "MAP OF THE PASSAGES": {
     "bibId": 189241,
@@ -51330,13 +50462,6 @@
     "rl": 1.5,
     "il": "P-2"
   },
-  "MARVELOUS MABEL FIGURE SKATING SUPERSTAR": {
-    "bibId": 194946,
-    "isbn": "9781620149560",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "MARY POPE OSBORNES MAGIC TREE HOUSE THE GRAPHIC NOVEL MUMMIES IN THE MORNING": {
     "bibId": 197460,
     "isbn": "9780593174791",
@@ -51370,7 +50495,7 @@
     "isbn": "9781616907921",
     "author": "Craats, Rennay.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "MASCOT": {
     "bibId": 165577,
@@ -51461,7 +50586,7 @@
     "isbn": "9781616907938",
     "author": null,
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "MATH FOR ALL SEASONS MIND STRETCHING MATH RIDDLES": {
     "bibId": 41795,
@@ -52079,13 +51204,6 @@
     "rl": 1.5,
     "il": "K-3"
   },
-  "MEGA DOGS OF NEW KANSAS": {
-    "bibId": 181739,
-    "isbn": "9781541517332",
-    "author": "Jolley, Dan,",
-    "rl": null,
-    "il": "Grades"
-  },
   "MEET THE BOBS TWEETS": {
     "bibId": 167104,
     "isbn": "9780545870726",
@@ -52197,13 +51315,6 @@
     "author": "Humphrey, Anna.",
     "rl": 5.2,
     "il": "3-6"
-  },
-  "MEET YASMIN": {
-    "bibId": 164554,
-    "isbn": null,
-    "author": "Faruqi, Saadia,",
-    "rl": null,
-    "il": "Grades"
   },
   "MEL FELL": {
     "bibId": 183336,
@@ -52351,13 +51462,6 @@
     "author": "Behling, Steve.",
     "rl": null,
     "il": "3-6"
-  },
-  "MENACING MANOR": {
-    "bibId": 198535,
-    "isbn": "9780593570029",
-    "author": "White, Kiersten,",
-    "rl": null,
-    "il": "Grades"
   },
   "MERCY WATSON TO THE RESCUE": {
     "bibId": 42805,
@@ -52637,7 +51741,7 @@
     "isbn": "9781616907945",
     "author": "Craats, Rennay.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "MIDDLE COLONIES BREADBASKET OF THE NEW WORLD": {
     "bibId": 160560,
@@ -52728,7 +51832,7 @@
     "isbn": "9780062366030",
     "author": "Pamintuan, Macky,",
     "rl": 4.2,
-    "il": "2-4.</li></ul>"
+    "il": "2-4"
   },
   "MICKEYS PERFECTO DAY": {
     "bibId": 201765,
@@ -52750,13 +51854,6 @@
     "author": "Davies, Nicola, 1958-",
     "rl": 3.9,
     "il": "K-3"
-  },
-  "MIDNIGHTERS": {
-    "bibId": 194685,
-    "isbn": "9780593116968",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "MID ATLANTIC": {
     "bibId": 151184,
@@ -52785,13 +51882,6 @@
     "author": "Stilton, Geronimo.",
     "rl": 4.0,
     "il": "2-5"
-  },
-  "MIGHTY BITE": {
-    "bibId": 198946,
-    "isbn": "9781419765537",
-    "author": "Hale, Nathan, 1976-",
-    "rl": null,
-    "il": "Grades"
   },
   "MIGHTY MURPHY": {
     "bibId": 153830,
@@ -52877,13 +51967,6 @@
     "rl": 4.3,
     "il": "1-4"
   },
-  "MIKE CAVALLAROS NICO BRAVO AND THE HOUND OF HADES": {
-    "bibId": 176345,
-    "isbn": "9781626727519",
-    "author": "Cavallaro, Michael, 1969-",
-    "rl": 3.1,
-    "il": "Grades"
-  },
   "MIGHTY MIGHTY CONSTRUCTION SITE": {
     "bibId": 160565,
     "isbn": "9781452152165",
@@ -52932,13 +52015,6 @@
     "author": "Faust, Daniel R.",
     "rl": 8.4,
     "il": "3-6"
-  },
-  "MILLIONAIRES FOR THE MONTH": {
-    "bibId": 182504,
-    "isbn": "9780593175262",
-    "author": "McAnulty, Stacy,",
-    "rl": 4.0,
-    "il": "Grades"
   },
   "MILITARY POLICE ROBOTS": {
     "bibId": 154975,
@@ -53066,13 +52142,6 @@
     "rl": 2.6,
     "il": "K-3"
   },
-  "MIND BLOWING WORLD OF EXTRAORDINARY COMPETITIONS MEET THE INCREDIBLE PEOPLE WHO WILL COMPETE AT ANYTHING": {
-    "bibId": 195513,
-    "isbn": "9781684492862",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "MINISTRY OF GHOSTS": {
     "bibId": 177994,
     "isbn": "9781510704732",
@@ -53120,7 +52189,7 @@
     "isbn": "9781616907952",
     "author": "Purslow, Neil.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "MINE": {
     "bibId": 175842,
@@ -53596,7 +52665,7 @@
     "isbn": "9781616907969",
     "author": "Foran, Jill.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "MISSING MANATEE": {
     "bibId": 160588,
@@ -53617,7 +52686,7 @@
     "isbn": "9781616907976",
     "author": "Evdokimoff, Natasha.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "MISTER GOATS VALENTINE": {
     "bibId": 160635,
@@ -54499,7 +53568,7 @@
     "isbn": "9781616907983",
     "author": "McLuskey, Krista, 1974-",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "MOON RISING": {
     "bibId": 160613,
@@ -54753,13 +53822,6 @@
     "rl": 5.7,
     "il": "2-5"
   },
-  "MOST VALUABLE PLAYERS": {
-    "bibId": 164528,
-    "isbn": "9780374305109",
-    "author": "Bildner, Phil,",
-    "rl": null,
-    "il": "Grades"
-  },
   "MOST LOVED IN ALL THE WORLD": {
     "bibId": 189294,
     "isbn": "9780618419036",
@@ -54954,7 +54016,7 @@
     "isbn": "9781434225368",
     "author": "Maddox, Jake,",
     "rl": 3.2,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "MOTOCROSS": {
     "bibId": 163275,
@@ -55123,13 +54185,6 @@
     "author": "Stine, R. L.,",
     "rl": 3.0,
     "il": "3-6"
-  },
-  "MOUSE CALLS": {
-    "bibId": 195136,
-    "isbn": "9781534453753",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "MOVING THE MILLERS MINNIE MOORE MINE MANSION A TRUE STORY": {
     "bibId": 198509,
@@ -55936,13 +54991,6 @@
     "rl": null,
     "il": null
   },
-  "MUSHROOM FAN CLUB": {
-    "bibId": 164538,
-    "isbn": null,
-    "author": "Gravel, Elise,",
-    "rl": null,
-    "il": "Grades"
-  },
   "MUTTS PROMISE": {
     "bibId": 163294,
     "isbn": "9780525427780",
@@ -56300,13 +55348,6 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "MY HAPPY YEAR BY E BLUEBIRD": {
-    "bibId": 166742,
-    "isbn": "9780823438372",
-    "author": "Meisel, Paul.",
-    "rl": 2.2,
-    "il": "Grades"
-  },
   "MY JOURNEY ON THE UNDERGROUND RAILROAD": {
     "bibId": 160682,
     "isbn": "9781482440102",
@@ -56495,13 +55536,6 @@
     "author": "Bang, Molly.",
     "rl": 3.0,
     "il": "K-3"
-  },
-  "MY LIFE BEGINS": {
-    "bibId": 194781,
-    "isbn": "9780063116016",
-    "author": "MacLachlan, Patricia,",
-    "rl": null,
-    "il": "Grades"
   },
   "MY LITTLE PONY EQUESTRIA GIRLS FRIENDSHIP GIRLS": {
     "bibId": 167218,
@@ -56839,26 +55873,12 @@
     "rl": 3.8,
     "il": "2-5"
   },
-  "MYSTERY NEXT DOOR": {
-    "bibId": 166740,
-    "isbn": "9780374305017",
-    "author": "Hamburg, Jennifer,",
-    "rl": null,
-    "il": "Grades"
-  },
   "MYSTERIOUS EGG": {
     "bibId": 189315,
     "isbn": "9780553521917",
     "author": "McAnulty, Stacy.",
     "rl": 3.3,
     "il": "2-5"
-  },
-  "MYSTERY OF BLACK HOLLOW LANE": {
-    "bibId": 167328,
-    "isbn": "9781492691549",
-    "author": null,
-    "rl": 4.4,
-    "il": "Grades"
   },
   "MYSTERIOUS HOWLING": {
     "bibId": 79533,
@@ -56928,7 +55948,7 @@
     "isbn": null,
     "author": "Adler, David A.",
     "rl": 2.5,
-    "il": "3-6</li></ul>"
+    "il": "3-6"
   },
   "MYSTERY CLUB": {
     "bibId": 186750,
@@ -57124,7 +56144,7 @@
     "isbn": "9780375845482",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 3.2,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NASHVILLE PREDATORS": {
     "bibId": 163311,
@@ -57138,7 +56158,7 @@
     "isbn": "9781101934708",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.9,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NASTY BUGS POEMS": {
     "bibId": 160722,
@@ -57152,7 +56172,7 @@
     "isbn": "9780440416623",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.9,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NAT THE CAT TAKES A BATH": {
     "bibId": 198540,
@@ -57166,7 +56186,7 @@
     "isbn": "9780440410157",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.5,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NAT THE CAT TAKES A NAP": {
     "bibId": 195512,
@@ -57180,7 +56200,7 @@
     "isbn": "9780440412694",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.5,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NAT TURNERS SLAVE REBELLION": {
     "bibId": 89495,
@@ -57194,7 +56214,7 @@
     "isbn": "9780440419273",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.6,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NATASHA WINGS THE NIGHT BEFORE THE SNOW DAY": {
     "bibId": 160755,
@@ -57208,42 +56228,42 @@
     "isbn": "9780440418214",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.6,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NATE THE GREAT AND ME THE CASE OF THE FLEEING FANG": {
     "bibId": 164803,
     "isbn": "9780440413813",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NATE THE GREAT SAVES THE KING OF SWEDEN": {
     "bibId": 164823,
     "isbn": "9780440413028",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.9,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NATE THE GREAT AND THE BIG SNIFF": {
     "bibId": 164804,
     "isbn": "9780440415022",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NATE THE GREAT WHERE ARE YOU": {
     "bibId": 164827,
     "isbn": "9780449810781",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.9,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NATE THE GREAT AND THE CRUNCHY CHRISTMAS": {
     "bibId": 164806,
     "isbn": "9780440412991",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.7,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NATHAN HALE REVOLUTIONARY SPY": {
     "bibId": 45956,
@@ -57607,7 +56627,7 @@
     "isbn": "9781616907990",
     "author": "Foran, Jill.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "NEO LEO THE AGELESS IDEAS OF LEONARDO DA VINCI": {
     "bibId": 160730,
@@ -57761,7 +56781,7 @@
     "isbn": "9781616908003",
     "author": "McLuskey, Krista, 1974-",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "NEW BEGINNING": {
     "bibId": 177288,
@@ -57852,7 +56872,7 @@
     "isbn": "9781616908027",
     "author": "Nault, Jennifer.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "NEW ENGLAND PATRIOTS": {
     "bibId": 177697,
@@ -57922,7 +56942,7 @@
     "isbn": "9781616908034",
     "author": "Craats, Rennay.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "NEW HOPE": {
     "bibId": 160741,
@@ -58042,13 +57062,6 @@
     "author": "Lozano, Claryssa, 1992-",
     "rl": 4.0,
     "il": "4-7"
-  },
-  "NEWTONS RAINBOW THE REVOLUTIONARY DISCOVERIES OF A YOUNG SCIENTIST": {
-    "bibId": 155886,
-    "isbn": "9780374355135",
-    "author": "Lasky, Kathryn,",
-    "rl": 6.3,
-    "il": "Grades"
   },
   "NEW YORK JETS": {
     "bibId": 177700,
@@ -58203,13 +57216,6 @@
     "author": "Auxier, Jonathan.",
     "rl": 4.9,
     "il": "4-7"
-  },
-  "NICO BRAVO AND THE HOUND OF HADES": {
-    "bibId": 176345,
-    "isbn": "9781626727519",
-    "author": "Cavallaro, Michael, 1969-",
-    "rl": 3.1,
-    "il": "Grades"
   },
   "NIGHT HUNT": {
     "bibId": 186806,
@@ -58519,13 +57525,6 @@
     "rl": 4.2,
     "il": "3-6"
   },
-  "NINETY ONE STORY TREEHOUSE": {
-    "bibId": 164549,
-    "isbn": "9781250104885",
-    "author": "Griffiths, Andy, 1961-",
-    "rl": 3.2,
-    "il": "Grades"
-  },
   "NIHAADAAHWIINITIIGO": {
     "bibId": 196096,
     "isbn": "9781459827530",
@@ -58622,7 +57621,7 @@
     "isbn": "9781434296474",
     "author": "Lozano, Omar,",
     "rl": 3.0,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NINETEEN EIGHTEEN FLU PANDEMIC": {
     "bibId": 57139,
@@ -58657,7 +57656,7 @@
     "isbn": "9781434296474",
     "author": "Lozano, Omar,",
     "rl": 3.0,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "NO FEAR": {
     "bibId": 160775,
@@ -58944,7 +57943,7 @@
     "isbn": "9781616908058",
     "author": "Foran, Jill.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "NOOKS CRANNIES": {
     "bibId": 160783,
@@ -58972,7 +57971,7 @@
     "isbn": "9781616908065",
     "author": "Watson, Galadriel Findlay.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "NORMAL NORMAN": {
     "bibId": 189350,
@@ -59646,13 +58645,6 @@
     "rl": 4.0,
     "il": "4-7"
   },
-  "OFFICER CLAWESOME LOBSTER COP": {
-    "bibId": 194938,
-    "isbn": "9780063136366",
-    "author": "Smith, Brian, (Comic book writer),",
-    "rl": null,
-    "il": "Grades"
-  },
   "OH THE PLACES YOU WILL GO": {
     "bibId": 41026,
     "isbn": "9780679805274",
@@ -59728,7 +58720,7 @@
     "isbn": "9781616908072",
     "author": "Lawton, Val.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "OH DADDY": {
     "bibId": 189365,
@@ -59847,7 +58839,7 @@
     "isbn": "9781616908089",
     "author": "Strudwick, Leslie, 1970-",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "OLD MACDONALD HAD A FARM": {
     "bibId": 160950,
@@ -60171,13 +59163,6 @@
     "rl": 4.4,
     "il": "K-3"
   },
-  "ON POINT": {
-    "bibId": 164555,
-    "isbn": "9781534412019",
-    "author": "Khan, Hena,",
-    "rl": 4.0,
-    "il": "Grades"
-  },
   "OMASON MOONEY PARANORMAL INVESTIGATOR": {
     "bibId": 182311,
     "isbn": "9781913123987",
@@ -60325,13 +59310,6 @@
     "rl": null,
     "il": null
   },
-  "ONCE UPON A SLIME": {
-    "bibId": 164543,
-    "isbn": "9780316393263",
-    "author": "Cotterill, Samantha,",
-    "rl": null,
-    "il": "Grades"
-  },
   "ONCE UPON A SPACE TIME": {
     "bibId": 181685,
     "isbn": "9780553534368",
@@ -60408,20 +59386,6 @@
     "author": "Applegate, Katherine.",
     "rl": null,
     "il": null
-  },
-  "ONE DAY BY THE NUMBERS A BOOK OF INFOGRAPHICS": {
-    "bibId": 193772,
-    "isbn": null,
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
-  "ONE AND ONLY FAMILY": {
-    "bibId": 202608,
-    "isbn": "9780063221123",
-    "author": "Applegate, Katherine,",
-    "rl": 4.0,
-    "il": "Grades"
   },
   "ONE DAY IN THE EUCALYPTUS EUCALYPTUS TREE": {
     "bibId": 160845,
@@ -60542,13 +59506,6 @@
     "rl": 1.0,
     "il": "P-2"
   },
-  "ONE HUNDRED AND FIFTY SIX STORY TREEHOUSE": {
-    "bibId": 200221,
-    "isbn": null,
-    "author": "Griffiths, Andy, 1961-",
-    "rl": null,
-    "il": "Grades"
-  },
   "ONE HUNDRED THIRTY STORY TREEHOUSE": {
     "bibId": 195504,
     "isbn": "9781250236081",
@@ -60626,13 +59583,6 @@
     "rl": 2.0,
     "il": "K-3"
   },
-  "ONE ONLY FAMILY": {
-    "bibId": 202608,
-    "isbn": "9780063221123",
-    "author": "Applegate, Katherine,",
-    "rl": 4.0,
-    "il": "Grades"
-  },
   "ONE TWO THREE DREAM": {
     "bibId": 153797,
     "isbn": "9780553539325",
@@ -60688,13 +59638,6 @@
     "author": "Park, Linda Sue,",
     "rl": 4.0,
     "il": "4-7"
-  },
-  "ONE WORLD 0000000024 HOURS ON PLANET EARTH": {
-    "bibId": 198948,
-    "isbn": "9781536226133",
-    "author": "Davies, Nicola, 1958-",
-    "rl": null,
-    "il": "Grades"
   },
   "ONE THING YOUD SAVE": {
     "bibId": 186897,
@@ -60925,7 +59868,7 @@
     "isbn": "9781616908096",
     "author": "Winans, Jay D.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "ORIGAMI EXPLOSION SCORPIONS WHALES BOXES AND MORE": {
     "bibId": 189382,
@@ -61095,13 +60038,6 @@
     "rl": 3.8,
     "il": "2-5"
   },
-  "OTIS AND PEANUT": {
-    "bibId": 198951,
-    "isbn": "9781771474962",
-    "author": "Collier, Kelly,",
-    "rl": null,
-    "il": "Grades"
-  },
   "ORLANDO MAGIC": {
     "bibId": 153789,
     "isbn": null,
@@ -61171,13 +60107,6 @@
     "author": "Long, Loren.",
     "rl": 4.4,
     "il": "P-2"
-  },
-  "OTIS PEANUT": {
-    "bibId": 198951,
-    "isbn": "9781771474962",
-    "author": "Collier, Kelly,",
-    "rl": null,
-    "il": "Grades"
   },
   "OUR FRIEND HEDGEHOG THE STORY OF US": {
     "bibId": 183224,
@@ -61529,13 +60458,6 @@
     "rl": null,
     "il": null
   },
-  "OWL AND PENGUIN": {
-    "bibId": 194908,
-    "isbn": "9780823451500",
-    "author": "Madan, Vikram,",
-    "rl": 1.0,
-    "il": "Grades"
-  },
   "OVER IN THE WETLANDS A HURRICANE ON THE BAYOU STORY": {
     "bibId": 160887,
     "isbn": "9780449810163",
@@ -61802,13 +60724,6 @@
     "rl": 2.5,
     "il": "P-2"
   },
-  "PANCAKE PROBLEM": {
-    "bibId": 198507,
-    "isbn": "9780735267947",
-    "author": "Fergus, Maureen,",
-    "rl": null,
-    "il": "Grades"
-  },
   "PANDORA THE CURIOUS": {
     "bibId": 164258,
     "isbn": "9781442449350",
@@ -62011,13 +60926,6 @@
     "author": "Jensen, Belinda.",
     "rl": 2.9,
     "il": "K-3"
-  },
-  "PARTY PIGS": {
-    "bibId": 167331,
-    "isbn": "9781534428799",
-    "author": "Seltzer, Eric,",
-    "rl": null,
-    "il": "Grades"
   },
   "PAST TIMES AT SUPER HERO HIGH A GRAPHIC NOVEL": {
     "bibId": 186972,
@@ -62418,13 +61326,6 @@
     "rl": 2.0,
     "il": "2-5"
   },
-  "PEAR AFFAIR": {
-    "bibId": 194844,
-    "isbn": "9781536217032",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "PECULIAR INCIDENT ON SHADY STREET": {
     "bibId": 177293,
     "isbn": "9781481477055",
@@ -62515,13 +61416,6 @@
     "author": "Bishop, Nic, 1955-",
     "rl": 2.6,
     "il": "P-2"
-  },
-  "PEELED": {
-    "bibId": 78697,
-    "isbn": null,
-    "author": "Bauer, Joan, 1951-",
-    "rl": 4.2,
-    "il": "Young"
   },
   "PENGUIN PINECONE": {
     "bibId": 156664,
@@ -62675,7 +61569,7 @@
     "isbn": "9781616908102",
     "author": "Evdokimoff, Natasha.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "PEOPLE": {
     "bibId": 163409,
@@ -62718,13 +61612,6 @@
     "author": "Wheeler, Lisa, 1963-",
     "rl": 1.7,
     "il": "P-2"
-  },
-  "PERFECT PITCH": {
-    "bibId": 200714,
-    "isbn": "9781419763670",
-    "author": "Vamos, Lesley,",
-    "rl": null,
-    "il": "Grades"
   },
   "PEOPLE ON EARTH": {
     "bibId": 163410,
@@ -63914,7 +62801,7 @@
     "isbn": "9781434216007",
     "author": "Maddox, Jake.",
     "rl": 3.8,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "PIRATE WHO IS AFRAID OF EVERYTHING": {
     "bibId": 201770,
@@ -63956,7 +62843,7 @@
     "isbn": "9781434215963",
     "author": "Maddox, Jake,",
     "rl": 3.4,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "PIRATES A NONFICTION COMPANION TO MAGIC TREE HOUSE 0000000004 PIRATES PAST NOON": {
     "bibId": 160999,
@@ -64973,13 +63860,6 @@
     "rl": 2.3,
     "il": "K-3"
   },
-  "POPPY AND SAM AND THE SEARCH FOR SLEEP": {
-    "bibId": 182842,
-    "isbn": "9781771474184",
-    "author": "Cathon,, 1990-",
-    "rl": null,
-    "il": "Grades"
-  },
   "POOR PUPPY BAD KITTY": {
     "bibId": 151868,
     "isbn": "9781596438446",
@@ -65000,13 +63880,6 @@
     "author": "Enderle, Dotti, 1954-",
     "rl": 3.4,
     "il": "2-5"
-  },
-  "POPPY SAM AND THE SEARCH FOR SLEEP": {
-    "bibId": 182842,
-    "isbn": "9781771474184",
-    "author": "Cathon,, 1990-",
-    "rl": null,
-    "il": "Grades"
   },
   "POP OF THE BUMPY MUMMY": {
     "bibId": 161039,
@@ -65274,13 +64147,6 @@
     "rl": 3.6,
     "il": "P-2"
   },
-  "POWER FORWARD": {
-    "bibId": 164535,
-    "isbn": "9781534411999",
-    "author": "Khan, Hena,",
-    "rl": 3.8,
-    "il": "Grades"
-  },
   "PRAIRIE DOG": {
     "bibId": 163460,
     "isbn": null,
@@ -65293,7 +64159,7 @@
     "isbn": "9780545646314",
     "author": "West, Tracey, 1965-",
     "rl": 3.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "PRAIRIE DOG SONG THE KEY TO SAVING NORTH AMERICAS GRASSLANDS": {
     "bibId": 151070,
@@ -65588,13 +64454,6 @@
     "author": "Otfinoski, Steven.",
     "rl": 5.9,
     "il": "3-6"
-  },
-  "PRINCESS AND THE GREEDY PEA": {
-    "bibId": 200715,
-    "isbn": "9781536231328",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "PRIME EVIL": {
     "bibId": 175036,
@@ -66007,7 +64866,7 @@
     "isbn": null,
     "author": "London, C. Alexander,",
     "rl": 6.0,
-    "il": "5-9."
+    "il": "5-9"
   },
   "PRO WRESTLINGS GREATEST TAG TEAMS": {
     "bibId": 163471,
@@ -66252,7 +65111,7 @@
     "isbn": "9781616908119",
     "author": "Goldsworthy, Steve.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "PSYDUCK DUCKS OUT": {
     "bibId": 182866,
@@ -66869,13 +65728,6 @@
     "author": "Brallier, Max,",
     "rl": 4.6,
     "il": "3-6"
-  },
-  "QUIET BOAT RIDE AND OTHER STORIES": {
-    "bibId": 167327,
-    "isbn": "9781452152899",
-    "author": "Ruzzier, Sergio, 1966-",
-    "rl": 1.9,
-    "il": "Grades"
   },
   "QUIRKY JERKY EXTRA PERKY MORE ABOUT ADJECTIVES": {
     "bibId": 46200,
@@ -67743,7 +66595,7 @@
     "isbn": "9781434240132",
     "author": "Maddox, Jake.",
     "rl": 3.6,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "RED CLOUD A LAKOTA STORY OF WAR AND SURRENDER": {
     "bibId": 163509,
@@ -67792,7 +66644,7 @@
     "isbn": "9781434296504",
     "author": "Frampton, Otis,",
     "rl": 3.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "RED GREEN BLUE A FIRST BOOK OF COLORS": {
     "bibId": 161178,
@@ -67863,13 +66715,6 @@
     "author": "Haddix, Margaret Peterson.",
     "rl": 5.3,
     "il": "4-7"
-  },
-  "RED MAZE": {
-    "bibId": 175174,
-    "isbn": "9781101935941",
-    "author": "Siegel, Mark, 1967-",
-    "rl": 3.1,
-    "il": "Grades"
   },
   "REDS PLANET": {
     "bibId": 161180,
@@ -68102,13 +66947,6 @@
     "rl": 6.2,
     "il": "2-5"
   },
-  "REMARKABLES": {
-    "bibId": 177385,
-    "isbn": "9780062838469",
-    "author": "Haddix, Margaret Peterson,",
-    "rl": 5.3,
-    "il": "Grades"
-  },
   "REPTILES SNAP UP ALL THE PHOTOS FACTS AND FUN": {
     "bibId": 161206,
     "isbn": "9781426325267",
@@ -68298,13 +67136,6 @@
     "rl": 2.5,
     "il": "4-7"
   },
-  "RESTART": {
-    "bibId": 155857,
-    "isbn": "9781338053777",
-    "author": "Korman, Gordon,",
-    "rl": null,
-    "il": "Grades"
-  },
   "RETURN TO AUGIE HOBBLE": {
     "bibId": 161214,
     "isbn": "9781626720541",
@@ -68485,7 +67316,7 @@
     "isbn": "9781426323126",
     "author": null,
     "rl": 5.2,
-    "il": "2-4.</li></ul>"
+    "il": "2-4"
   },
   "RICKY RICOTTAS MIGHTY ROBOT": {
     "bibId": 161228,
@@ -68541,7 +67372,7 @@
     "isbn": "9781616908126",
     "author": "Winans, Jay D.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "RICKY RICOTTAS MIGHTY ROBOT VERSUS THE STUPID STINKBUGS FROM SATURN": {
     "bibId": 161284,
@@ -68807,7 +67638,7 @@
     "isbn": "9780545646239",
     "author": "West, Tracey, 1965-",
     "rl": 3.1,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "RIVER": {
     "bibId": 148640,
@@ -68836,13 +67667,6 @@
     "author": "Doodler, Todd H.,",
     "rl": 5.1,
     "il": "1-4"
-  },
-  "RIVER OF DUST THE LIFE GIVING LINK BETWEEN NORTH AFRICA AND THE AMAZON": {
-    "bibId": 199386,
-    "isbn": "9781797211756",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "RISE OF THE ISLE OF THE LOST A DESCENDANTS NOVEL": {
     "bibId": 161235,
@@ -68878,13 +67702,6 @@
     "author": "Cotton, Katie,",
     "rl": 2.0,
     "il": "P-2"
-  },
-  "ROARING TWENTIES AND THE GREAT DEPRESSION 0000001920 0000001940": {
-    "bibId": 78165,
-    "isbn": null,
-    "author": null,
-    "rl": 5.3,
-    "il": "Young"
   },
   "ROAD HOME AN ORPHAN TRAIN STORY": {
     "bibId": 189495,
@@ -69003,7 +67820,7 @@
     "isbn": "9781338042924",
     "author": "West, Tracey, 1965-",
     "rl": 3.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "ROBO RABBIT BOY GO": {
     "bibId": 176714,
@@ -69081,13 +67898,6 @@
     "author": "Scott, Mairghread.",
     "rl": 5.0,
     "il": "3-6"
-  },
-  "ROBOT REBELLION": {
-    "bibId": 198550,
-    "isbn": "9781534481572",
-    "author": "Neal, Rie,",
-    "rl": null,
-    "il": "Grades"
   },
   "ROBOTS AND REPEATS": {
     "bibId": 161247,
@@ -70377,13 +69187,6 @@
     "rl": 5.0,
     "il": "3-6"
   },
-  "SAM THE MAN AND THE CHICKEN PLAN": {
-    "bibId": 151806,
-    "isbn": "9781481440660",
-    "author": "Dowell, Frances O'Roark,",
-    "rl": 3.7,
-    "il": "Grades"
-  },
   "SALT": {
     "bibId": 56634,
     "isbn": null,
@@ -70425,13 +69228,6 @@
     "author": "Polinsky, Paige V.,",
     "rl": 4.6,
     "il": "3-6"
-  },
-  "SAM THE MAN THE CHICKEN PLAN": {
-    "bibId": 151806,
-    "isbn": "9781481440660",
-    "author": "Dowell, Frances O'Roark,",
-    "rl": 3.7,
-    "il": "Grades"
   },
   "SAMUEL ADAMS PATRIOT AND STATESMAN": {
     "bibId": 56616,
@@ -70557,14 +69353,7 @@
     "isbn": "9780440418214",
     "author": "Sharmat, Marjorie Weinman,",
     "rl": 2.6,
-    "il": "1-3.</li></ul>"
-  },
-  "SANITY AND TALLULAH": {
-    "bibId": 167325,
-    "isbn": "9781368022804",
-    "author": "Brooks, Molly (Molly Grayson),",
-    "rl": 3.9,
-    "il": "Grades"
+    "il": "1-3"
   },
   "SAN FRANCISCO EARTHQUAKE 0000001906": {
     "bibId": 125842,
@@ -70572,13 +69361,6 @@
     "author": "Tarshis, Lauren.",
     "rl": 4.1,
     "il": "3-6"
-  },
-  "SANITY TALLULAH": {
-    "bibId": 167325,
-    "isbn": "9781368022804",
-    "author": "Brooks, Molly (Molly Grayson),",
-    "rl": 3.9,
-    "il": "Grades"
   },
   "SAN FRANCISCO GIANTS STARS STATS HISTORY AND MORE": {
     "bibId": 189519,
@@ -70621,13 +69403,6 @@
     "author": null,
     "rl": 3.0,
     "il": "K-3"
-  },
-  "SAND WARRIOR": {
-    "bibId": 155856,
-    "isbn": "9781101935873",
-    "author": "Siegel, Mark, 1967-",
-    "rl": 3.0,
-    "il": "Grades"
   },
   "SANTAS BOOK OF NAMES": {
     "bibId": 44107,
@@ -70845,13 +69620,6 @@
     "author": "Law, Ingrid, 1970-",
     "rl": 6.0,
     "il": "4-7"
-  },
-  "SAVING FIONA THE STORY OF THE WORLDS MOST FAMOUS BABY HIPPO": {
-    "bibId": 164550,
-    "isbn": "9781328485137",
-    "author": null,
-    "rl": 5.8,
-    "il": "Grades"
   },
   "SAY CHEESE AND DIE": {
     "bibId": 161332,
@@ -71153,13 +69921,6 @@
     "author": "Bruel, Nick.",
     "rl": null,
     "il": null
-  },
-  "SCARY STORIES FOR YOUNG FOXES THE CITY": {
-    "bibId": 191612,
-    "isbn": "9781250181442",
-    "author": "Heidicker, Christian McKay,",
-    "rl": 4.0,
-    "il": "Grades"
   },
   "SCHOOL FOR GHOST GIRLS": {
     "bibId": 189528,
@@ -71665,13 +70426,6 @@
     "rl": null,
     "il": null
   },
-  "SEA PONY": {
-    "bibId": 151604,
-    "isbn": "9780553499322",
-    "author": "Potter, Ellen, 1963-",
-    "rl": 3.8,
-    "il": "Grades"
-  },
   "SEA SIRENS A TROT CAPN BILL ADVENTURE": {
     "bibId": 193745,
     "isbn": "9780451480163",
@@ -71698,7 +70452,7 @@
     "isbn": "9781338042887",
     "author": "West, Tracey, 1965-",
     "rl": 3.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "SEA SNAKES": {
     "bibId": 189534,
@@ -72426,7 +71180,7 @@
     "isbn": null,
     "author": "London, C. Alexander.",
     "rl": 6.0,
-    "il": "5-9."
+    "il": "5-9"
   },
   "SEEN FROM A DISTANCE THE ART OF MONET": {
     "bibId": 163576,
@@ -74150,13 +72904,6 @@
     "rl": 3.3,
     "il": "K-3"
   },
-  "SIR LADYBUG AND THE QUEEN BEE": {
-    "bibId": 193770,
-    "isbn": "9780063069091",
-    "author": "Tabor, Corey R.,",
-    "rl": null,
-    "il": "Grades"
-  },
   "SIXTEEN COWS": {
     "bibId": 189572,
     "isbn": "9780152055929",
@@ -74303,13 +73050,6 @@
     "author": "Cleary, Brian P., 1959-",
     "rl": 3.0,
     "il": "2-5"
-  },
-  "SKATER CIELO": {
-    "bibId": 194688,
-    "isbn": "9781338751116",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "SKINS": {
     "bibId": 175230,
@@ -74464,13 +73204,6 @@
     "author": "Reynolds, Peter, 1961-",
     "rl": 2.2,
     "il": "K-3"
-  },
-  "SKYSCRAPERS THE HEIGHTS OF ENGINEERING": {
-    "bibId": 177400,
-    "isbn": "9781626727953",
-    "author": null,
-    "rl": 5.2,
-    "il": "Grades"
   },
   "SL BENFICA": {
     "bibId": 182576,
@@ -75170,7 +73903,7 @@
     "isbn": "9781434296481",
     "author": "Simonson, Louise,",
     "rl": 3.2,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "SNOW WHITE AND THE SEVEN DWARFS MOTION PICTURE": {
     "bibId": 189590,
@@ -75191,7 +73924,7 @@
     "isbn": "9781434296481",
     "author": "Simonson, Louise,",
     "rl": 3.2,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "SNOWMAN MINUS COLD EQUALS PUDDLE": {
     "bibId": 166561,
@@ -75739,13 +74472,6 @@
     "rl": 3.9,
     "il": "K-3"
   },
-  "SOMETHING LIKE HOME": {
-    "bibId": 200387,
-    "isbn": null,
-    "author": null,
-    "rl": 5.6,
-    "il": "Grades"
-  },
   "SOMEBODY LOVES YOU MR HATCH": {
     "bibId": 145259,
     "isbn": null,
@@ -75947,7 +74673,7 @@
     "isbn": "9780545913874",
     "author": "West, Tracey, 1965-",
     "rl": 3.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "SORRY": {
     "bibId": 196067,
@@ -76038,7 +74764,7 @@
     "isbn": "9781616908140",
     "author": "Strudwick, Leslie, 1970-",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "SOUND IN THE REAL WORLD": {
     "bibId": 163636,
@@ -76143,7 +74869,7 @@
     "isbn": "9781616908133",
     "author": "Parker, Janice.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "SPACE BATTLES": {
     "bibId": 188758,
@@ -76249,13 +74975,6 @@
     "author": "Spray, Sally,",
     "rl": 4.0,
     "il": "3-6"
-  },
-  "SPACE INVADER": {
-    "bibId": 198546,
-    "isbn": "9780593565407",
-    "author": "Lepp, Royden, 1980-",
-    "rl": null,
-    "il": "Grades"
   },
   "SPACED OUT A GRAPHIC NOVEL": {
     "bibId": 180794,
@@ -76430,7 +75149,7 @@
     "isbn": "9781434216021",
     "author": "Maddox, Jake.",
     "rl": 3.3,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "SPEEDAH CHEETAH": {
     "bibId": 187618,
@@ -76831,13 +75550,6 @@
     "rl": 3.3,
     "il": "2-5"
   },
-  "SPORTS ILLUSTRATED KIDS": {
-    "bibId": 198553,
-    "isbn": "9781637274965",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "SPOOKY SEASON": {
     "bibId": 161560,
     "isbn": "9780763687434",
@@ -76999,26 +75711,12 @@
     "rl": 5.2,
     "il": "4-7"
   },
-  "SQUIRE AND KNIGHT": {
-    "bibId": 198549,
-    "isbn": "9781250249333",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "SPY SCHOOL THE GRAPHIC NOVEL": {
     "bibId": 194566,
     "isbn": "9781534455429",
     "author": "Gibbs, Stuart, 1969-",
     "rl": 3.2,
     "il": "4-7"
-  },
-  "SQUIRE KNIGHT": {
-    "bibId": 198549,
-    "isbn": "9781250249333",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "SPYS SECRET": {
     "bibId": 167164,
@@ -77033,13 +75731,6 @@
     "author": "Vande Velde, Vivian.",
     "rl": 4.7,
     "il": "1-4"
-  },
-  "SQUAD GOALS THE UNSTOPPABLE WOMEN OF THE US WOMENS NATIONAL SOCCER TEAM": {
-    "bibId": 198514,
-    "isbn": "9781665933421",
-    "author": "Calkhoven, Laurie,",
-    "rl": null,
-    "il": "Grades"
   },
   "SQUIRRELS NEW YEARS RESOLUTION": {
     "bibId": 161573,
@@ -77082,13 +75773,6 @@
     "author": "Barnett, Mac.",
     "rl": 2.0,
     "il": "P-2"
-  },
-  "SQUISHED": {
-    "bibId": 195510,
-    "isbn": "9781338568943",
-    "author": "Lloyd, Megan Wagner,",
-    "rl": 2.5,
-    "il": "Grades"
   },
   "SQUARE AGAINST THE WORLD THE STORY OF A SOD HOUSE": {
     "bibId": 189630,
@@ -78266,13 +76950,6 @@
     "rl": 1.5,
     "il": "K-3"
   },
-  "STOLEN GIRL": {
-    "bibId": 167291,
-    "isbn": "9781338233049",
-    "author": "Skrypuch, Marsha Forchuk,",
-    "rl": null,
-    "il": "Grades"
-  },
   "STONE SOUP AN OLD TALE": {
     "bibId": 161637,
     "isbn": "9780689711039",
@@ -78384,13 +77061,6 @@
     "author": "Hicks, Faith Erin.",
     "rl": 3.1,
     "il": "4-7"
-  },
-  "STOP GO YES NO A STORY OF OPPOSITES": {
-    "bibId": 164526,
-    "isbn": "9780062469335",
-    "author": "Twohy, Mike,",
-    "rl": null,
-    "il": "Grades"
   },
   "STOP THAT FROG": {
     "bibId": 161641,
@@ -78776,13 +77446,6 @@
     "author": "Labrecque, Ellen.",
     "rl": 4.2,
     "il": "2-5"
-  },
-  "STRANDED A MOSTLY TRUE STORY FROM ICELAND": {
-    "bibId": 200217,
-    "isbn": "9781646869916",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "STORY OF URSA MAJOR AND URSA MINOR A ROMAN CONSTELLATION MYTH A RETELLING": {
     "bibId": 189657,
@@ -79244,7 +77907,7 @@
     "isbn": "9781434296498",
     "author": "Tulien, Sean,",
     "rl": 2.4,
-    "il": "1-3.</li></ul>"
+    "il": "1-3"
   },
   "SUN": {
     "bibId": 163752,
@@ -79316,26 +77979,12 @@
     "rl": 2.8,
     "il": "1-4"
   },
-  "SUNNY ROLLS THE DICE": {
-    "bibId": 177004,
-    "isbn": "9781338233155",
-    "author": "Holm, Jennifer L.,",
-    "rl": null,
-    "il": "Grades"
-  },
   "SUPER CHEF CONTEST": {
     "bibId": 153978,
     "isbn": "9780545656009",
     "author": "Stilton, Geronimo.",
     "rl": 4.7,
     "il": "2-5"
-  },
-  "SUNNY THE SHARK": {
-    "bibId": 193778,
-    "isbn": "9781250785459",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "SUPER COOL CONSTRUCTION ACTIVITIES WITH MAX AXIOM": {
     "bibId": 161680,
@@ -79750,13 +78399,6 @@
     "rl": 3.9,
     "il": "1-4"
   },
-  "SUPER SIMPLE ZOO CRITTER CRAFTS FUN AND EASY ANIMAL CRAFTS": {
-    "bibId": 153482,
-    "isbn": "9781680781656",
-    "author": null,
-    "rl": 3.0,
-    "il": "Grades"
-  },
   "SUPER TURBO VERSUS THE FLYING NINJA SQUIRRELS": {
     "bibId": 175064,
     "isbn": "9781481488884",
@@ -79854,13 +78496,6 @@
     "author": "Blume, Judy.",
     "rl": 3.4,
     "il": "4-7"
-  },
-  "SUPERMOMS ANIMAL HEROES": {
-    "bibId": 195511,
-    "isbn": "9781536217971",
-    "author": "Harper, Jamie,",
-    "rl": null,
-    "il": "Grades"
   },
   "SUPERGIFTED": {
     "bibId": 157564,
@@ -80274,13 +78909,6 @@
     "author": "Dahl, Michael,",
     "rl": 1.0,
     "il": "P-2"
-  },
-  "SWIMMING TOWARD A DREAM YUSRA MARDINIS INCREDIBLE JOURNEY FROM REFUGEE TO OLYMPIC SWIMMER": {
-    "bibId": 199383,
-    "isbn": "9781645679837",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "SWEET STORY OF HOT CHOCOLATE": {
     "bibId": 161705,
@@ -80779,13 +79407,6 @@
     "rl": 4.8,
     "il": "3-6"
   },
-  "TALES FROM THE TREEHOUSE": {
-    "bibId": 194786,
-    "isbn": "9781250850140",
-    "author": "Griffiths, Andy, 1961-",
-    "rl": null,
-    "il": "Grades"
-  },
   "TALES FROM A NOT SO PERFECT PET SITTER": {
     "bibId": 152948,
     "isbn": "9781481457040",
@@ -81023,13 +79644,6 @@
     "author": "Rodkey, Geoff, 1970-",
     "rl": 5.1,
     "il": "3-6"
-  },
-  "TANGLED WEB": {
-    "bibId": 191951,
-    "isbn": "9781250206831",
-    "author": "Weing, Drew,",
-    "rl": null,
-    "il": "Grades"
   },
   "TAPPER TWINS TEAR UP NEW YORK": {
     "bibId": 161726,
@@ -81451,13 +80065,6 @@
     "rl": 1.6,
     "il": "K-3"
   },
-  "TEN A SOCCER STORY": {
-    "bibId": 155915,
-    "isbn": "9780544850019",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "TELESCOPES": {
     "bibId": 163737,
     "isbn": "9781683423904",
@@ -81498,7 +80105,7 @@
     "isbn": "9781616908157",
     "author": null,
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "TEN LITTLE CATERPILLARS": {
     "bibId": 161738,
@@ -81554,7 +80161,7 @@
     "isbn": "9781434207814",
     "author": "Maddox, Jake.",
     "rl": 3.3,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "TEN THINGS YOU CAN DO TO PROTECT ANIMALS": {
     "bibId": 162318,
@@ -81583,13 +80190,6 @@
     "author": "Carman, Patrick.",
     "rl": 5.5,
     "il": "3-6"
-  },
-  "TENACIOUS FIFTEEN ADVENTURES ALONGSIDE DISABLED ATHLETES": {
-    "bibId": 198539,
-    "isbn": "9781643790985",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "TEPEES": {
     "bibId": 163745,
@@ -81883,7 +80483,7 @@
     "isbn": "9781616908164",
     "author": "Parker, Janice.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "THANKS FOR THANKSGIVING": {
     "bibId": 167786,
@@ -81969,13 +80569,6 @@
     "rl": 3.0,
     "il": "3-6"
   },
-  "THATS NOT HOCKEY": {
-    "bibId": 165026,
-    "isbn": "9781773210513",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "THAT IS GOOD THAT IS BAD ON SANTAS JOURNEY": {
     "bibId": 183197,
     "isbn": "9780805087772",
@@ -82045,13 +80638,6 @@
     "author": "Stilton, Thea.",
     "rl": 5.1,
     "il": "3-6"
-  },
-  "THE CIVIL RIGHTS MOVEMENT VIETNAM": {
-    "bibId": 78163,
-    "isbn": null,
-    "author": null,
-    "rl": 5.7,
-    "il": "Young"
   },
   "THEA STILTON AND THE DRAGONS CODE": {
     "bibId": 179037,
@@ -82235,13 +80821,6 @@
     "rl": 4.7,
     "il": "5-8"
   },
-  "THERE IS A LIZARD IN MY BLIZZARD": {
-    "bibId": 198538,
-    "isbn": "9781525304439",
-    "author": "Becker, Paula, 1958-",
-    "rl": null,
-    "il": "Grades"
-  },
   "THEODORE ROOSEVELT THE ADVENTUROUS PRESIDENT": {
     "bibId": 56645,
     "isbn": null,
@@ -82325,13 +80904,6 @@
     "author": "Colandro, Lucille.",
     "rl": 2.6,
     "il": "K-3"
-  },
-  "THERE MIGHT BE A KAZOO EMERGENCY": {
-    "bibId": 198541,
-    "isbn": "9781665920049",
-    "author": "Stemple, Heidi E. Y.,",
-    "rl": null,
-    "il": "Grades"
   },
   "THERE WAS AN OLD LADY WHO SWALLOWED FLY GUY": {
     "bibId": 46563,
@@ -82451,13 +81023,6 @@
     "author": null,
     "rl": null,
     "il": null
-  },
-  "THERES A LIZARD IN MY BLIZZARD": {
-    "bibId": 198538,
-    "isbn": "9781525304439",
-    "author": "Becker, Paula, 1958-",
-    "rl": null,
-    "il": "Grades"
   },
   "THEY ALL SAW A CAT": {
     "bibId": 151755,
@@ -82585,13 +81150,6 @@
     "rl": 2.8,
     "il": "P-2"
   },
-  "THINGS IN THE BASEMENT": {
-    "bibId": 199576,
-    "isbn": "9781250836618",
-    "author": "Hatke, Ben,",
-    "rl": null,
-    "il": "Grades"
-  },
   "THINGS THAT FLOAT AND THINGS THAT DO NOT": {
     "bibId": 161769,
     "isbn": "9780823428625",
@@ -82634,13 +81192,6 @@
     "rl": 4.5,
     "il": "P-2"
   },
-  "THIRD TIME IS A CHARM": {
-    "bibId": 191833,
-    "isbn": "9781338630800",
-    "author": "Gudsnuk, Kristen,",
-    "rl": null,
-    "il": "Grades"
-  },
   "THIRTEEN WORDS": {
     "bibId": 189927,
     "isbn": "9780061664670",
@@ -82675,13 +81226,6 @@
     "author": "Griffiths, Andy, 1961-",
     "rl": 3.7,
     "il": "4-7"
-  },
-  "THIRST": {
-    "bibId": 194824,
-    "isbn": "9780593354391",
-    "author": "Bajaj, Varsha,",
-    "rl": 4.4,
-    "il": "Grades"
   },
   "THIS AND THAT": {
     "bibId": 161771,
@@ -82780,13 +81324,6 @@
     "author": "Wyatt, Chris, 1975-",
     "rl": 1.5,
     "il": "K-3"
-  },
-  "THIS IS NOT THAT KIND OF BOOK": {
-    "bibId": 177395,
-    "isbn": "9780525580300",
-    "author": "Healy, Christopher, 1972-",
-    "rl": null,
-    "il": "Grades"
   },
   "THIS IS BLACK WIDOW": {
     "bibId": 163758,
@@ -83789,13 +82326,6 @@
     "rl": 4.7,
     "il": "5-8"
   },
-  "TO THE BONES": {
-    "bibId": 165579,
-    "isbn": "9780385388436",
-    "author": "Brown, Jeffrey, 1975-",
-    "rl": null,
-    "il": "Grades"
-  },
   "TITANS CURSE THE GRAPHIC NOVEL": {
     "bibId": 161803,
     "isbn": "9781423145516",
@@ -84741,13 +83271,6 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "TREASURE OF MAD DOC MAGEE": {
-    "bibId": 164542,
-    "isbn": "9780062345134",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "TRAPPED A WHALES RESCUE": {
     "bibId": 161833,
     "isbn": "9781580895583",
@@ -85195,13 +83718,6 @@
     "author": "Broach, Elise,",
     "rl": 3.4,
     "il": "1-4"
-  },
-  "TRISTAN STRONG DESTROYS THE WORLD": {
-    "bibId": 183331,
-    "isbn": "9781368042383",
-    "author": "Mbalia, Kwame,",
-    "rl": 5.0,
-    "il": "Grades"
   },
   "TROUBLE AT THE ARCADE": {
     "bibId": 167795,
@@ -85847,13 +84363,6 @@
     "rl": 4.4,
     "il": "3-6"
   },
-  "TWINS": {
-    "bibId": 182183,
-    "isbn": "9781338236132",
-    "author": "Johnson, Varian,",
-    "rl": 3.0,
-    "il": "Grades"
-  },
   "TWENTY SIX STORY TREE HOUSE": {
     "bibId": 180946,
     "isbn": "9781250073273",
@@ -86126,13 +84635,6 @@
     "author": "Riordan, Rick.",
     "rl": 6.9,
     "il": "5-8"
-  },
-  "ULTIMATE GOAL": {
-    "bibId": 198945,
-    "isbn": "9781419763656",
-    "author": "Greenwald, Tom, 1962-",
-    "rl": null,
-    "il": "Grades"
   },
   "UBIQUITOUS CELEBRATING NATURES SURVIVORS": {
     "bibId": 161876,
@@ -86911,13 +85413,6 @@
     "rl": 3.5,
     "il": "1-4"
   },
-  "UNLUCKY LAUNCH": {
-    "bibId": 194789,
-    "isbn": "9781534481510",
-    "author": "Neal, Rie,",
-    "rl": null,
-    "il": "Grades"
-  },
   "UNITED STATES NAVY IN WORLD WAR II": {
     "bibId": 161873,
     "isbn": "9780531217320",
@@ -86994,13 +85489,6 @@
     "author": "Nagelhout, Ryan,",
     "rl": 3.0,
     "il": "2-5"
-  },
-  "UNSTINKY": {
-    "bibId": 165018,
-    "isbn": "9780439368803",
-    "author": "Rash, Andy,",
-    "rl": null,
-    "il": "Grades"
   },
   "UNOFFICIAL GUIDE TO BUILDING CASTLES IN MINECRAFT": {
     "bibId": 164988,
@@ -87336,7 +85824,7 @@
     "isbn": null,
     "author": "Parker, Janice.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "US POSTAL SERVICE THE HISTORY OF AMERICAS MAIL SYSTEM": {
     "bibId": 161874,
@@ -87546,7 +86034,7 @@
     "isbn": "9781616908188",
     "author": "Foran, Jill.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "VAULTING TO VICTORY": {
     "bibId": 167247,
@@ -87742,7 +86230,7 @@
     "isbn": "9781434224989",
     "author": "Maddox, Jake.",
     "rl": 3.9,
-    "il": "3-5.</li></ul>"
+    "il": "3-5"
   },
   "VERY SHORT TALL TALES TO READ TOGETHER": {
     "bibId": 161930,
@@ -87798,7 +86286,7 @@
     "isbn": "9781616908195",
     "author": "Parker, Janice.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "VIEW FROM SATURDAY": {
     "bibId": 161934,
@@ -88108,13 +86596,6 @@
     "rl": 2.1,
     "il": "2-5"
   },
-  "WAIT AND SEE": {
-    "bibId": 194755,
-    "isbn": "9781536216318",
-    "author": "Lieder, Rick,",
-    "rl": null,
-    "il": "Grades"
-  },
   "WAKING THE MONSTERS": {
     "bibId": 166553,
     "isbn": "9781524714932",
@@ -88213,13 +86694,6 @@
     "rl": 2.0,
     "il": "3-6"
   },
-  "WALTER HAD A BEST FRIEND": {
-    "bibId": 194909,
-    "isbn": "9781534477001",
-    "author": "Underwood, Deborah,",
-    "rl": null,
-    "il": "Grades"
-  },
   "WALL E MOTION PICTURE": {
     "bibId": 189801,
     "isbn": "9781532145568",
@@ -88282,13 +86756,6 @@
     "author": "Pallotta, Jerry,",
     "rl": 4.4,
     "il": "1-4"
-  },
-  "WANISAN DOKIT HAISHASAN DOKIT ENGLISH": {
-    "bibId": 164551,
-    "isbn": "9781452170282",
-    "author": null,
-    "rl": 2.0,
-    "il": "Grades"
   },
   "WALRUS VS ELEPHANT SEAL": {
     "bibId": 188130,
@@ -88962,13 +87429,6 @@
     "rl": 1.3,
     "il": "K-3"
   },
-  "WE ARE STARLINGS INSIDE THE MESMERIZING MAGIC OF A MURMURATION": {
-    "bibId": 198534,
-    "isbn": "9780593381649",
-    "author": "Napoli, Donna Jo, 1948-",
-    "rl": null,
-    "il": "Grades"
-  },
   "WE LIVE IN A CITY": {
     "bibId": 161997,
     "isbn": "9781508141891",
@@ -88996,13 +87456,6 @@
     "author": "Ringgold, Faith.",
     "rl": 2.0,
     "il": "K-3"
-  },
-  "WE LIVE IN A STATE CAPITAL": {
-    "bibId": 151778,
-    "isbn": "9781508141983",
-    "author": "Beckett, Leslie,",
-    "rl": 1.9,
-    "il": "Grades"
   },
   "WE DIG WORMS A TOON BOOK": {
     "bibId": 161995,
@@ -89326,13 +87779,6 @@
     "rl": 2.0,
     "il": "2-5"
   },
-  "WEI SKATES ON": {
-    "bibId": 195131,
-    "isbn": "9780063282827",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
-  },
   "WEIRD BUT TRUE SEVEN": {
     "bibId": 161989,
     "isbn": "9781426320866",
@@ -89578,13 +88024,6 @@
     "rl": 1.5,
     "il": "K-3"
   },
-  "WELL MANNERED YOUNG WOLF": {
-    "bibId": 151607,
-    "isbn": "9780802854797",
-    "author": null,
-    "rl": 1.9,
-    "il": "Grades"
-  },
   "WERE GOING ON A GOON HUNT A PETRIFYING PARODY": {
     "bibId": 189813,
     "isbn": "9781984813626",
@@ -89618,7 +88057,7 @@
     "isbn": "9781616908225",
     "author": "Lawton, Val.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "WERE IN THE WRONG BOOK": {
     "bibId": 189816,
@@ -92693,13 +91132,6 @@
     "rl": 4.4,
     "il": "3-6"
   },
-  "WILLIAM WAKES UP": {
-    "bibId": 166562,
-    "isbn": null,
-    "author": "Ashman, Linda,",
-    "rl": null,
-    "il": "Grades"
-  },
   "WINCHESTER MYSTERY HOUSE A CHILLING INTERACTIVE ADVENTURE": {
     "bibId": 165370,
     "isbn": "9781515725770",
@@ -92985,7 +91417,7 @@
     "isbn": "9781616908232",
     "author": "Parker, Janice.,",
     "rl": 4.0,
-    "il": "4-8."
+    "il": "4-8"
   },
   "WINTER OF THE ICE WIZARD": {
     "bibId": 42931,
@@ -93308,13 +91740,6 @@
     "author": "Niver, Heather Moore.",
     "rl": 3.9,
     "il": "3-6"
-  },
-  "WOLF SUIT": {
-    "bibId": 195139,
-    "isbn": "9781773217208",
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "WOLVES VERSUS ZOMBIES": {
     "bibId": 162186,
@@ -94058,13 +92483,6 @@
     "rl": 4.0,
     "il": "4-7"
   },
-  "WORLDS WE LEAVE BEHIND": {
-    "bibId": 200190,
-    "isbn": "9781547610952",
-    "author": "Pinfold, Levi,",
-    "rl": null,
-    "il": "Grades"
-  },
   "WORLDS WORST WEDGIE": {
     "bibId": 162215,
     "isbn": "9780448453699",
@@ -94092,13 +92510,6 @@
     "author": "Neubecker, Robert.",
     "rl": 1.0,
     "il": "P-2"
-  },
-  "WORM AND CATERPILLAR ARE FRIENDS": {
-    "bibId": 198950,
-    "isbn": "9781665920018",
-    "author": null,
-    "rl": 1.5,
-    "il": "Grades"
   },
   "WRATH OF THE RAIN GOD": {
     "bibId": 203591,
@@ -94156,13 +92567,6 @@
     "rl": 3.2,
     "il": "K-3"
   },
-  "WRETCHED WATERPARK": {
-    "bibId": 193774,
-    "isbn": "9780593379059",
-    "author": "White, Kiersten,",
-    "rl": null,
-    "il": "Grades"
-  },
   "WORST BOOK EVER": {
     "bibId": 175201,
     "isbn": null,
@@ -94211,13 +92615,6 @@
     "author": "Larson, Hope.",
     "rl": 2.7,
     "il": "5-9"
-  },
-  "Y BLOOM AND THE CASE OF THE MISSING KIDDUSH CUP": {
-    "bibId": 164536,
-    "isbn": null,
-    "author": null,
-    "rl": null,
-    "il": "Grades"
   },
   "WRITING STRATEGIES BOOK YOUR EVERYTHING GUIDE TO DEVELOPING SKILLED WRITERS": {
     "bibId": 157467,
@@ -94666,13 +93063,6 @@
     "author": "Brown, Peter, 1979-",
     "rl": 2.0,
     "il": "K-3"
-  },
-  "YOU GO FIRST": {
-    "bibId": 198513,
-    "isbn": "9781665911511",
-    "author": "Rosenthal, Marc, 1949-",
-    "rl": null,
-    "il": "Grades"
   },
   "YOU WOULD NOT WANT TO BE A CRUSADER": {
     "bibId": 162281,
@@ -95381,13 +93771,6 @@
     "rl": null,
     "il": null
   },
-  "YOUR PAL FRED": {
-    "bibId": 194686,
-    "isbn": "9780593206324",
-    "author": "Rex, Michael,",
-    "rl": null,
-    "il": "Grades"
-  },
   "YOURE MINE CAPTAIN": {
     "bibId": 150577,
     "isbn": "9780545646529",
@@ -95436,13 +93819,6 @@
     "author": "Cooper, Robert.",
     "rl": 3.7,
     "il": "2-5"
-  },
-  "YOUR SCHOOL IS THE BEST": {
-    "bibId": 198536,
-    "isbn": "9780735271647",
-    "author": "Sala, Felicita,",
-    "rl": null,
-    "il": "Grades"
   },
   "YUCK YOU SUCK POEMS ABOUT ANIMALS THAT SIP SLURP SUCK": {
     "bibId": 198349,
@@ -95549,13 +93925,6 @@
     "rl": 3.7,
     "il": "K-3"
   },
-  "ZARAS RULES FOR FINDING HIDDEN TREASURE": {
-    "bibId": 194932,
-    "isbn": "9781534497627",
-    "author": "Khan, Hena,",
-    "rl": null,
-    "il": "Grades"
-  },
   "ZELDA AND IVY": {
     "bibId": 162308,
     "isbn": "9780763632618",
@@ -95563,26 +93932,12 @@
     "rl": 3.0,
     "il": "K-3"
   },
-  "ZARAS RULES FOR LIVING YOUR BEST LIFE": {
-    "bibId": 195249,
-    "isbn": "9781534497658",
-    "author": "Khan, Hena,",
-    "rl": null,
-    "il": "Grades"
-  },
   "ZEPHYR CONSPIRACY": {
     "bibId": 175084,
     "isbn": "9781512439854",
     "author": "Keats, Israel,",
     "rl": 4.0,
     "il": "7-12"
-  },
-  "ZARAS RULES FOR RECORD BREAKING FUN": {
-    "bibId": 194660,
-    "isbn": "9781534497597",
-    "author": "Khan, Hena,",
-    "rl": null,
-    "il": "Grades"
   },
   "ZERO LOCAL NEXT STOP KINDNESS": {
     "bibId": 181704,
@@ -95801,13 +94156,6 @@
     "rl": 2.4,
     "il": "K-3"
   },
-  "ZOO CRITTER CRAFTS": {
-    "bibId": 153482,
-    "isbn": "9781680781656",
-    "author": null,
-    "rl": 3.0,
-    "il": "Grades"
-  },
   "ZOOM IN ON LADYBUGS": {
     "bibId": 163964,
     "isbn": "9780766042155",
@@ -95863,13 +94211,6 @@
     "author": "Owen, Ruth, 1967-",
     "rl": 4.0,
     "il": "3-6"
-  },
-  "0000000001 AND ONLY FAMILY": {
-    "bibId": 202608,
-    "isbn": "9780063221123",
-    "author": "Applegate, Katherine,",
-    "rl": 4.0,
-    "il": "Grades"
   },
   "ZOOM IN ON BEES": {
     "bibId": 163959,
@@ -96452,26 +94793,12 @@
     "rl": null,
     "il": "Professional"
   },
-  "0000000091 STOREY TREEHOUSE": {
-    "bibId": 164549,
-    "isbn": "9781250104885",
-    "author": "Griffiths, Andy, 1961-",
-    "rl": 3.2,
-    "il": "Grades"
-  },
   "0000000050 THINGS TO SEE WITH A TELESCOPE A YOUNG STARGAZERS GUIDE": {
     "bibId": 189928,
     "isbn": "9781459505360",
     "author": null,
     "rl": 3.0,
     "il": "2-5"
-  },
-  "0000000091 STORY TREEHOUSE": {
-    "bibId": 164549,
-    "isbn": "9781250104885",
-    "author": "Griffiths, Andy, 1961-",
-    "rl": 3.2,
-    "il": "Grades"
   },
   "0000000050 THINGS YOU DIDNT KNOW ABOUT ANCIENT EGYPT": {
     "bibId": 189929,
@@ -97816,5 +96143,1678 @@
     "author": "Persico, Zoe, 1993-",
     "rl": 2.9,
     "il": "K-3"
+  },
+  "0000000156 STORY TREEHOUSE": {
+    "bibId": 200221,
+    "isbn": "9781250850188",
+    "author": "Griffiths, Andy, 1961-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "ALL THE SMALL WONDERFUL THINGS": {
+    "bibId": 200390,
+    "isbn": "9781536225808",
+    "author": null,
+    "rl": null,
+    "il": "3-5"
+  },
+  "AMBER ANTHEM": {
+    "bibId": 179618,
+    "isbn": "9780593120576",
+    "author": "Siegel, Mark, 1967-",
+    "rl": 3.0,
+    "il": "5-8"
+  },
+  "ANCIENT NIGHT": {
+    "bibId": 198949,
+    "isbn": "9781646142514",
+    "author": null,
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "ANNETTE FEELS FREE THE TRUE STORY OF ANNETTE KELLERMAN WORLD CLASS SWIMMER FASHION PIONEER AND REAL LIFE MERMAID": {
+    "bibId": 200188,
+    "isbn": "9781665903431",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "ASTER AND THE ACCIDENTAL MAGIC": {
+    "bibId": 179640,
+    "isbn": "9780593124178",
+    "author": "Pico, Thom.",
+    "rl": 4.0,
+    "il": "2-6"
+  },
+  "ASTRONOMICALLY GRAND PLAN": {
+    "bibId": 194694,
+    "isbn": "9781534481480",
+    "author": "Neal, Rie,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "BALLET BRUCE": {
+    "bibId": 195134,
+    "isbn": "9781368059602",
+    "author": "Higgins, Ryan T.,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "BARB AND THE BATTLE FOR BAILIWICK": {
+    "bibId": 199579,
+    "isbn": "9781665914451",
+    "author": "Abdo, Dan,",
+    "rl": 2.6,
+    "il": "3-6"
+  },
+  "BASKETBALL PLAYER": {
+    "bibId": 155986,
+    "isbn": "9781680784879",
+    "author": null,
+    "rl": 5.6,
+    "il": "3-5"
+  },
+  "BATMANS MYSTERY CASEBOOK": {
+    "bibId": 194696,
+    "isbn": "9781779520982",
+    "author": "Brys, Silvana,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "BEAR AND BIRD THE PICNIC AND OTHER STORIES": {
+    "bibId": 198551,
+    "isbn": "9781536228328",
+    "author": "Jarvis, 1985-",
+    "rl": null,
+    "il": "1-3"
+  },
+  "BEARS ARE BEST": {
+    "bibId": 198505,
+    "isbn": "9780525645344",
+    "author": "Holub, Joan,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "BEN YOKOYAMA AND THE COOKIES OF CHAOS": {
+    "bibId": 198944,
+    "isbn": "9780593433010",
+    "author": "Swanson, Matthew, 1974-",
+    "rl": null,
+    "il": "2-4"
+  },
+  "BEWARE OF THE CROCODILE": {
+    "bibId": 167324,
+    "isbn": "9780763675387",
+    "author": "Jenkins, Martin, 1959-",
+    "rl": 4.2,
+    "il": "K-2"
+  },
+  "BIBIS GOT GAME A STORY ABOUT TENNIS MEDITATION AND A DOG NAMED COCO": {
+    "bibId": 194838,
+    "isbn": "9780735270558",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "BIG BOOK OF WHO BASEBALL": {
+    "bibId": 198553,
+    "isbn": "9781637274965",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "BIG FOOT AND LITTLE FOOT BOOK 0000000003 THE SQUATCHICORNS": {
+    "bibId": 167326,
+    "isbn": "9781419733642",
+    "author": "Potter, Ellen, 1963-",
+    "rl": null,
+    "il": "2-4"
+  },
+  "BIG STING": {
+    "bibId": 194974,
+    "isbn": "9780735269309",
+    "author": null,
+    "rl": null,
+    "il": "3-5"
+  },
+  "BILLY ROSE FOREVER FRIENDS": {
+    "bibId": 195138,
+    "isbn": "9781536214192",
+    "author": "Hest, Amy,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "BIZARD AND THE BIG BUNNY BIZNESS": {
+    "bibId": 200711,
+    "isbn": "9780823451463",
+    "author": "Krebs, Chrissie,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "BLIPPO AND BEEP": {
+    "bibId": 193773,
+    "isbn": "9780593226971",
+    "author": "Weeks, Sarah,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "BLIPPO BEEP": {
+    "bibId": 193773,
+    "isbn": "9780593226971",
+    "author": "Weeks, Sarah,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "BOO BOOS OF BLUEBELL ELEMENTARY": {
+    "bibId": 200725,
+    "isbn": "9781797210810",
+    "author": "Wallace, Chelsea Lin,",
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "BOOM": {
+    "bibId": 199378,
+    "isbn": "9780823448579",
+    "author": "Meisel, Paul,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "BRAMBLE AND MAGGIE SNOW DAY": {
+    "bibId": 153372,
+    "isbn": "9780763673642",
+    "author": "Haas, Jessie,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "BUDDY AND EARL MEET THE NEIGHBORS": {
+    "bibId": 164539,
+    "isbn": "9781773060255",
+    "author": "Fergus, Maureen,",
+    "rl": 3.5,
+    "il": "1-3"
+  },
+  "BUDDY EARL MEET THE NEIGHBORS": {
+    "bibId": 164539,
+    "isbn": "9781773060255",
+    "author": "Fergus, Maureen,",
+    "rl": 3.5,
+    "il": "1-3"
+  },
+  "BUNNICULA THE GRAPHIC NOVEL": {
+    "bibId": 193779,
+    "isbn": "9781534421615",
+    "author": "Howe, James, 1946-",
+    "rl": null,
+    "il": "3-6"
+  },
+  "CAMP OUT": {
+    "bibId": 198500,
+    "isbn": "9780063083660",
+    "author": "Lyons, Kelly Starling,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "CANNOT LIVE WITHOUT YOU": {
+    "bibId": 200218,
+    "isbn": "9780593615980",
+    "author": "Hanlon, Abby,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "CANT LIVE WITHOUT YOU": {
+    "bibId": 200218,
+    "isbn": "9780593615980",
+    "author": "Hanlon, Abby,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "CASE OF THE MISSING TARTS": {
+    "bibId": 200222,
+    "isbn": "9781454943617",
+    "author": "Curran-Bauer, Christee,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "CATS NATURE AND NURTURE": {
+    "bibId": 177359,
+    "isbn": "9781250143129",
+    "author": "Hirsch, Andy, 1987-",
+    "rl": 4.8,
+    "il": "3-6"
+  },
+  "CHICKADEE CRIMINAL MASTERMIND": {
+    "bibId": 194692,
+    "isbn": "9781525303388",
+    "author": "Ellis, Elina,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "CIVIL RIGHTS MOVEMENT AND VIETNAM 0000001960 0000001976": {
+    "bibId": 78163,
+    "isbn": null,
+    "author": null,
+    "rl": 5.7,
+    "il": "Young Adult"
+  },
+  "CLASS PET ON THE LOOSE": {
+    "bibId": 201134,
+    "isbn": "9780593532447",
+    "author": "Murray, Laura, 1970-",
+    "rl": null,
+    "il": "1-3"
+  },
+  "CORINTHIAN GIRL CHAMPION ATHLETE OF ANCIENT OLYMPIA": {
+    "bibId": 194757,
+    "isbn": "9781913074722",
+    "author": "Balit, Christina,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "CREEPS 0000000003 CURSE OF THE ATTACK O LANTERNS": {
+    "bibId": 151803,
+    "isbn": "9781419721908",
+    "author": "Schweizer, Chris,",
+    "rl": null,
+    "il": "5-8"
+  },
+  "CREEPY CASE FILES OF MARGO MALOO 0000000003": {
+    "bibId": 191951,
+    "isbn": "9781250206831",
+    "author": "Weing, Drew,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "CROCODILE AND THE DENTIST": {
+    "bibId": 164551,
+    "isbn": "9781452170282",
+    "author": null,
+    "rl": 2.0,
+    "il": "K-1"
+  },
+  "CURSE OF THE ATTACK O LANTERNS": {
+    "bibId": 151803,
+    "isbn": "9781419721908",
+    "author": "Schweizer, Chris,",
+    "rl": null,
+    "il": "5-8"
+  },
+  "CURSED MOON": {
+    "bibId": 200719,
+    "isbn": "9781338814019",
+    "author": "Cervantes, Angela,",
+    "rl": 4.4,
+    "il": "2-6"
+  },
+  "DARK ON LIGHT": {
+    "bibId": 194945,
+    "isbn": "9781534487895",
+    "author": "White, Dianne,",
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "DEAR BROTHER A GRAPHIC NOVEL ISH": {
+    "bibId": 200225,
+    "isbn": "9781534487086",
+    "author": "McGhee, Alison, 1960-",
+    "rl": null,
+    "il": "3-5"
+  },
+  "DOG AND HAT AND THE LOST POLKA DOTS": {
+    "bibId": 194756,
+    "isbn": "9781797206882",
+    "author": "Shuler, Darin,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "DOG AND HAT AND THE LUNAR ECLIPSE PICNIC": {
+    "bibId": 198542,
+    "isbn": "9781797206899",
+    "author": "Shuler, Darin,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "DOG HAT AND THE LOST POLKA DOTS BOOK NO 0000000001": {
+    "bibId": 194756,
+    "isbn": "9781797206882",
+    "author": "Shuler, Darin,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "DOG HAT AND THE LUNAR ECLIPSE PICNIC": {
+    "bibId": 198542,
+    "isbn": "9781797206899",
+    "author": "Shuler, Darin,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "DONUT THE UNICORN WHO WANTS TO FLY": {
+    "bibId": 194752,
+    "isbn": "9780593376263",
+    "author": "Gehl, Laura,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "DRAGON SLAYER FOLKTALES FROM LATIN AMERICA": {
+    "bibId": 157421,
+    "isbn": "9781943145287",
+    "author": "Campoy, F. Isabel,",
+    "rl": 3.4,
+    "il": "2-6"
+  },
+  "E WASTE": {
+    "bibId": 157159,
+    "isbn": "9781532110221",
+    "author": null,
+    "rl": null,
+    "il": "6-8"
+  },
+  "EFREN DIVIDED A NOVEL": {
+    "bibId": 179763,
+    "isbn": "9780062881687",
+    "author": null,
+    "rl": 4.0,
+    "il": "5-8"
+  },
+  "ELEPHANTS GIRL": {
+    "bibId": 182731,
+    "isbn": "9780593121221",
+    "author": null,
+    "rl": 5.2,
+    "il": "5-8"
+  },
+  "ENDLING THE FIRST": {
+    "bibId": 175209,
+    "isbn": "9780062335562",
+    "author": "Applegate, Katherine,",
+    "rl": 5.2,
+    "il": "2-6"
+  },
+  "ERIK VERSUS EVERYTHING": {
+    "bibId": 191920,
+    "isbn": "9780358126713",
+    "author": "Uss, Christina,",
+    "rl": null,
+    "il": "3-5"
+  },
+  "ERIK VS EVERYTHING": {
+    "bibId": 191920,
+    "isbn": "9780358126713",
+    "author": "Uss, Christina,",
+    "rl": null,
+    "il": "3-5"
+  },
+  "FERGUS AND ZEKE FOR PRESIDENT": {
+    "bibId": 198510,
+    "isbn": "9781536218312",
+    "author": "Messner, Kate,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "FINCH HOUSE": {
+    "bibId": 200220,
+    "isbn": "9781665930543",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "FINS": {
+    "bibId": 181419,
+    "isbn": "9781250244659",
+    "author": null,
+    "rl": 5.0,
+    "il": "5-8"
+  },
+  "FIRST": {
+    "bibId": 175209,
+    "isbn": "9780062335562",
+    "author": "Applegate, Katherine,",
+    "rl": 5.2,
+    "il": "2-6"
+  },
+  "FIRST CAT IN SPACE AND THE SOUP OF DOOM": {
+    "bibId": 200211,
+    "isbn": "9780063084117",
+    "author": "Barnett, Mac,",
+    "rl": 3.1,
+    "il": "2-6"
+  },
+  "FISH AND WORM": {
+    "bibId": 198503,
+    "isbn": "9780063290358",
+    "author": "Ruzzier, Sergio, 1966-,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "FLIPPING FORWARD TWISTING BACKWARD": {
+    "bibId": 194695,
+    "isbn": "9781682633663",
+    "author": "Mensinga, Sarah,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "FLUBBY DOES NOT LIKE SNOW": {
+    "bibId": 200710,
+    "isbn": "9780593523391",
+    "author": "Morris, J E., (Jennifer E.),",
+    "rl": null,
+    "il": "K-1"
+  },
+  "FRANK AND BEAN FOOD TRUCK FIASCO": {
+    "bibId": 194843,
+    "isbn": "9781536214413",
+    "author": "Michalak, Jamie,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "FULL MOON PUPS": {
+    "bibId": 195507,
+    "isbn": "9780525514558",
+    "author": "Groenink, Chuck,",
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "FUNNY THING HAPPENED AFTER SCHOOL": {
+    "bibId": 199381,
+    "isbn": "9781452183008",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "GHOSTLY PHOTOS": {
+    "bibId": 200709,
+    "isbn": "9780063089815",
+    "author": "Haddix, Margaret Peterson,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "GINGERBREAD MAN CLASS PET ON THE LOOSE A GRAPHIC NOVEL": {
+    "bibId": 201134,
+    "isbn": "9780593532447",
+    "author": "Murray, Laura, 1970-",
+    "rl": null,
+    "il": "1-3"
+  },
+  "GIRLS ON WHEELS": {
+    "bibId": 198506,
+    "isbn": "9780593529287",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "GLOOM TOWN": {
+    "bibId": 179821,
+    "isbn": "9781328841612",
+    "author": "Smith, Ronald L. (Ronald Lenard), 1959-",
+    "rl": 4.0,
+    "il": "5-8"
+  },
+  "GRAYLINGS SONG": {
+    "bibId": 151358,
+    "isbn": "9780544301801",
+    "author": null,
+    "rl": 5.8,
+    "il": "5-8"
+  },
+  "GREAT AMERICAN DUST BOWL": {
+    "bibId": 146958,
+    "isbn": null,
+    "author": "Brown, Don, 1949-",
+    "rl": null,
+    "il": "Young Adult"
+  },
+  "GREATEST IN THE WORLD": {
+    "bibId": 194910,
+    "isbn": "9781534493186",
+    "author": "Clanton, Ben, 1988-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "HARRIET SPIES": {
+    "bibId": 195506,
+    "isbn": "9780063092136",
+    "author": "Arnold, Elana K.,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "HAUNTED HOLIDAY": {
+    "bibId": 201061,
+    "isbn": "9780593570067",
+    "author": "White, Kiersten,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "HAZY BLOOM AND THE MYSTERY NEXT DOOR": {
+    "bibId": 166740,
+    "isbn": "9780374305017",
+    "author": "Hamburg, Jennifer,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "HERE WE COME": {
+    "bibId": 194693,
+    "isbn": "9781534417878",
+    "author": null,
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "HIDDEN FIGURES THE UNTOLD TRUE STORY OF FOUR AFRICAN AMERICAN WOMEN WHO HELPED LAUNCH OUR NATION INTO SPACE": {
+    "bibId": 154380,
+    "isbn": "9780062662385",
+    "author": null,
+    "rl": null,
+    "il": "5-8"
+  },
+  "HILO BOOK 0000000008 GINA AND THE BIG SECRET": {
+    "bibId": 194964,
+    "isbn": "9780593379677",
+    "author": "Winick, Judd.",
+    "rl": null,
+    "il": "3-6"
+  },
+  "HILO BOOK 0000000009 GINA AND THE LAST CITY ON EARTH": {
+    "bibId": 195508,
+    "isbn": "9780593488119",
+    "author": "Winick, Judd.",
+    "rl": 2.9,
+    "il": "3-6"
+  },
+  "HOGGY AT BAT": {
+    "bibId": 200718,
+    "isbn": "9780823451494",
+    "author": "Long, Ethan,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "HOPE WAS HERE": {
+    "bibId": 74154,
+    "isbn": null,
+    "author": "Bauer, Joan, 1951-",
+    "rl": 6.4,
+    "il": "Young Adult"
+  },
+  "HORSE NAMED SKY": {
+    "bibId": 201062,
+    "isbn": "9780062995957",
+    "author": "Parry, Rosanne,",
+    "rl": null,
+    "il": "3-5"
+  },
+  "HOSPITAL BOOK": {
+    "bibId": 198547,
+    "isbn": "9780823446650",
+    "author": "Brown, Lisa, 1972-",
+    "rl": null,
+    "il": "K-2"
+  },
+  "HOW TO BE A T REX": {
+    "bibId": 164546,
+    "isbn": "9780399186240",
+    "author": "Lowery, Mike, 1980-",
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "HOWARD THE AVERAGE GECKO": {
+    "bibId": 193785,
+    "isbn": "9781682634349",
+    "author": null,
+    "rl": null,
+    "il": "K-2"
+  },
+  "HYDROPONIC HIJINKS": {
+    "bibId": 195137,
+    "isbn": "9781534481541",
+    "author": "Neal, Rie,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "I AM MOZART TOO THE LOST GENIUS OF MARIA ANNA MOZART": {
+    "bibId": 194751,
+    "isbn": "9780374314767",
+    "author": null,
+    "rl": null,
+    "il": "K-2"
+  },
+  "I AM OGRE IT": {
+    "bibId": 194907,
+    "isbn": "9780823450183",
+    "author": "Ebbeler, Jeffrey,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "I CAN ONLY DRAW WORMS": {
+    "bibId": 167330,
+    "isbn": "9781524788223",
+    "author": "Mabbitt, Will,",
+    "rl": 1.6,
+    "il": "PreK-2"
+  },
+  "I GOT NEXT": {
+    "bibId": 177393,
+    "isbn": "9780062657770",
+    "author": null,
+    "rl": 0.8,
+    "il": "K-3"
+  },
+  "I SEE A BAT": {
+    "bibId": 198548,
+    "isbn": "9780823452651",
+    "author": "Meisel, Paul,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "I WANT MY BOOK BACK": {
+    "bibId": 194691,
+    "isbn": "9781499811742",
+    "author": null,
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "IM OGRE IT": {
+    "bibId": 194907,
+    "isbn": "9780823450183",
+    "author": "Ebbeler, Jeffrey,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "INTERNATIONAL HOUSE OF DERELICTION": {
+    "bibId": 198501,
+    "isbn": "9780063258075",
+    "author": "Davies, Jacqueline, 1962-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "IT IS A SIGN": {
+    "bibId": 194840,
+    "isbn": "9781368075848",
+    "author": "Willems, Mo,",
+    "rl": 1.0,
+    "il": "K-3"
+  },
+  "ITS A SIGN": {
+    "bibId": 194840,
+    "isbn": "9781368075848",
+    "author": "Willems, Mo,",
+    "rl": 1.0,
+    "il": "K-3"
+  },
+  "IZZYS DOG DAYS OF SUMMER": {
+    "bibId": 200229,
+    "isbn": "9781771387347",
+    "author": "Adderson, Caroline, 1963-",
+    "rl": null,
+    "il": "2-4"
+  },
+  "JUST THE WAY THEY ARE": {
+    "bibId": 200722,
+    "isbn": "9781536214208",
+    "author": "Hest, Amy,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "KS CAR CAN GO ANYWHERE": {
+    "bibId": 192068,
+    "isbn": "9780593222065",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "LAST MAPMAKER": {
+    "bibId": 194661,
+    "isbn": "9781536204957",
+    "author": "Soontornvat, Christina,",
+    "rl": 5.2,
+    "il": "5-8"
+  },
+  "LAST PLASTIC STRAW A PLASTIC PROBLEM AND FINDING WAYS TO FIX IT": {
+    "bibId": 195133,
+    "isbn": "9780823449491",
+    "author": null,
+    "rl": null,
+    "il": "K-2"
+  },
+  "LEON THE EXTRAORDINARY": {
+    "bibId": 194943,
+    "isbn": "9781338744163",
+    "author": null,
+    "rl": null,
+    "il": "3-6"
+  },
+  "LIFEBOAT 0000000012": {
+    "bibId": 165015,
+    "isbn": "9781481468831",
+    "author": "Hood, Susan, 1954-",
+    "rl": null,
+    "il": "5-8"
+  },
+  "LIFEBOAT TWELVE": {
+    "bibId": 165015,
+    "isbn": "9781481468831",
+    "author": "Hood, Susan, 1954-",
+    "rl": null,
+    "il": "5-8"
+  },
+  "LION OF MARS": {
+    "bibId": 183201,
+    "isbn": "9780593121825",
+    "author": "Holm, Jennifer L.,",
+    "rl": 4.0,
+    "il": "5-8"
+  },
+  "LION ON THE INSIDE HOW ONE GIRL CHANGED BASKETBALL": {
+    "bibId": 200224,
+    "isbn": "9781525310034",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "LODGE THAT BEAVER BUILT": {
+    "bibId": 194790,
+    "isbn": "9781536218688",
+    "author": "Hunter, Anne,",
+    "rl": null,
+    "il": "K-2"
+  },
+  "LOBSTER COP": {
+    "bibId": 194938,
+    "isbn": "9780063136366",
+    "author": "Smith, Brian, (Comic book writer),",
+    "rl": null,
+    "il": "2-6"
+  },
+  "LOLO WEAVER SWIMS UPSTREAM": {
+    "bibId": 195444,
+    "isbn": "9780823452095",
+    "author": null,
+    "rl": null,
+    "il": "3-5"
+  },
+  "LONE STARS": {
+    "bibId": 156955,
+    "isbn": "9780399172809",
+    "author": "Lupica, Mike,",
+    "rl": 5.3,
+    "il": "5-8"
+  },
+  "LOOK AT ME HOW TO ATTRACT ATTENTION IN THE ANIMAL WORLD": {
+    "bibId": 164530,
+    "isbn": "9780544935532",
+    "author": "Jenkins, Steve, 1952-",
+    "rl": 5.1,
+    "il": "K-2"
+  },
+  "LOST MITTEN": {
+    "bibId": 200712,
+    "isbn": "9780823453153",
+    "author": "Ho, Jannie,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "LOST LIBRARY": {
+    "bibId": 199380,
+    "isbn": "9781250838810",
+    "author": "Stead, Rebecca,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "LOW POWER": {
+    "bibId": 199575,
+    "isbn": "9780593206355",
+    "author": "Rex, Michael,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "MADANIS BEST GAME": {
+    "bibId": 194906,
+    "isbn": "9780802855978",
+    "author": "Schimel, Lawrence,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "MAJOR IMPOSSIBLE": {
+    "bibId": 178273,
+    "isbn": "9781419737084",
+    "author": "Hale, Nathan, 1976-",
+    "rl": 3.2,
+    "il": "3-6"
+  },
+  "MAJOR TAYLOR WORLD CYCLING CHAMPION": {
+    "bibId": 200214,
+    "isbn": "9781536214987",
+    "author": "Smith, Charles R., Jr., 1969-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "MAKE ME THE BEST BASKETBALL PLAYER": {
+    "bibId": 155986,
+    "isbn": "9781680784879",
+    "author": null,
+    "rl": 5.6,
+    "il": "3-5"
+  },
+  "MAKING FRIENDS THIRD TIMES A CHARM": {
+    "bibId": 191833,
+    "isbn": "9781338630800",
+    "author": "Gudsnuk, Kristen,",
+    "rl": null,
+    "il": "5-8"
+  },
+  "MANATEE SUMMER": {
+    "bibId": 194682,
+    "isbn": "9780063094918",
+    "author": null,
+    "rl": null,
+    "il": "3-5"
+  },
+  "MARCO POLO BRAVE EXPLORER": {
+    "bibId": 194754,
+    "isbn": "9781536213553",
+    "author": "Lord, Cynthia,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "MARVELOUS MABEL FIGURE SKATING SUPERSTAR": {
+    "bibId": 194946,
+    "isbn": "9781620149560",
+    "author": "Hubbard, Crystal.",
+    "rl": 4.2,
+    "il": "K-3"
+  },
+  "MEET YASMIN": {
+    "bibId": 164554,
+    "isbn": "9781515843061",
+    "author": "Faruqi, Saadia,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "MEGA DOGS OF NEW KANSAS": {
+    "bibId": 181739,
+    "isbn": "9781541517332",
+    "author": "Jolley, Dan,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "MENACING MANOR": {
+    "bibId": 198535,
+    "isbn": "9780593570029",
+    "author": "White, Kiersten,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "MIDNIGHTERS": {
+    "bibId": 194685,
+    "isbn": "9780593116968",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "MIGHTY BITE": {
+    "bibId": 198946,
+    "isbn": "9781419765537",
+    "author": "Hale, Nathan, 1976-",
+    "rl": 3.2,
+    "il": "3-6"
+  },
+  "MIKE CAVALLAROS NICO BRAVO AND THE HOUND OF HADES": {
+    "bibId": 176345,
+    "isbn": "9781626727519",
+    "author": "Cavallaro, Michael, 1969-",
+    "rl": 3.1,
+    "il": "3-6"
+  },
+  "MILLIONAIRES FOR THE MONTH": {
+    "bibId": 182504,
+    "isbn": "9780593175262",
+    "author": "McAnulty, Stacy,",
+    "rl": 4.0,
+    "il": "5-7"
+  },
+  "MIND BLOWING WORLD OF EXTRAORDINARY COMPETITIONS MEET THE INCREDIBLE PEOPLE WHO WILL COMPETE AT ANYTHING": {
+    "bibId": 195513,
+    "isbn": "9781684492862",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "MOST VALUABLE PLAYERS": {
+    "bibId": 164528,
+    "isbn": "9780374305109",
+    "author": "Bildner, Phil,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "MOUSE CALLS": {
+    "bibId": 195136,
+    "isbn": "9781534453753",
+    "author": "Kraan, Erin,",
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "MUSHROOM FAN CLUB": {
+    "bibId": 164538,
+    "isbn": "9781770463226",
+    "author": "Gravel, Elise,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "MY HAPPY YEAR BY E BLUEBIRD": {
+    "bibId": 166742,
+    "isbn": "9780823438372",
+    "author": "Meisel, Paul.",
+    "rl": 2.2,
+    "il": "K-2"
+  },
+  "MY LIFE BEGINS": {
+    "bibId": 194781,
+    "isbn": "9780063116016",
+    "author": "MacLachlan, Patricia,",
+    "rl": null,
+    "il": "3-5"
+  },
+  "MYSTERY NEXT DOOR": {
+    "bibId": 166740,
+    "isbn": "9780374305017",
+    "author": "Hamburg, Jennifer,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "MYSTERY OF BLACK HOLLOW LANE": {
+    "bibId": 167328,
+    "isbn": "9781492691549",
+    "author": null,
+    "rl": 4.4,
+    "il": "2-6"
+  },
+  "NEWTONS RAINBOW THE REVOLUTIONARY DISCOVERIES OF A YOUNG SCIENTIST": {
+    "bibId": 155886,
+    "isbn": "9780374355135",
+    "author": "Lasky, Kathryn,",
+    "rl": 6.3,
+    "il": "2-6"
+  },
+  "NICO BRAVO AND THE HOUND OF HADES": {
+    "bibId": 176345,
+    "isbn": "9781626727519",
+    "author": "Cavallaro, Michael, 1969-",
+    "rl": 3.1,
+    "il": "3-6"
+  },
+  "NINETY ONE STORY TREEHOUSE": {
+    "bibId": 164549,
+    "isbn": "9781250104885",
+    "author": "Griffiths, Andy, 1961-",
+    "rl": 3.2,
+    "il": "2-6"
+  },
+  "OFFICER CLAWESOME LOBSTER COP": {
+    "bibId": 194938,
+    "isbn": "9780063136366",
+    "author": "Smith, Brian, (Comic book writer),",
+    "rl": null,
+    "il": "2-6"
+  },
+  "ON POINT": {
+    "bibId": 164555,
+    "isbn": "9781534412019",
+    "author": "Khan, Hena,",
+    "rl": 4.0,
+    "il": "2-6"
+  },
+  "ONCE UPON A SLIME": {
+    "bibId": 164543,
+    "isbn": "9780316393263",
+    "author": "Cotterill, Samantha,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "ONE AND ONLY FAMILY": {
+    "bibId": 202608,
+    "isbn": "9780063221123",
+    "author": "Applegate, Katherine,",
+    "rl": 4.0,
+    "il": "3-5"
+  },
+  "ONE DAY BY THE NUMBERS A BOOK OF INFOGRAPHICS": {
+    "bibId": 193772,
+    "isbn": "9780358470113",
+    "author": "Jenkins, Steve, 1952-2021,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "ONE HUNDRED AND FIFTY SIX STORY TREEHOUSE": {
+    "bibId": 200221,
+    "isbn": "9781250850188",
+    "author": "Griffiths, Andy, 1961-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "ONE ONLY FAMILY": {
+    "bibId": 202608,
+    "isbn": "9780063221123",
+    "author": "Applegate, Katherine,",
+    "rl": 4.0,
+    "il": "3-5"
+  },
+  "ONE WORLD 0000000024 HOURS ON PLANET EARTH": {
+    "bibId": 198948,
+    "isbn": "9781536226133",
+    "author": "Davies, Nicola, 1958-",
+    "rl": null,
+    "il": "K-2"
+  },
+  "OTIS AND PEANUT": {
+    "bibId": 198951,
+    "isbn": "9781771474962",
+    "author": "Hrab, Naseem,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "OTIS PEANUT": {
+    "bibId": 198951,
+    "isbn": "9781771474962",
+    "author": "Hrab, Naseem,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "OWL AND PENGUIN": {
+    "bibId": 194908,
+    "isbn": "9780823451500",
+    "author": "Madan, Vikram,",
+    "rl": 1.0,
+    "il": "K-1"
+  },
+  "PANCAKE PROBLEM": {
+    "bibId": 198507,
+    "isbn": "9780735267947",
+    "author": "Fergus, Maureen,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "PARTY PIGS": {
+    "bibId": 167331,
+    "isbn": "9781534428799",
+    "author": "Seltzer, Eric,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "PEAR AFFAIR": {
+    "bibId": 194844,
+    "isbn": "9781536217032",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "PEELED": {
+    "bibId": 78697,
+    "isbn": null,
+    "author": "Bauer, Joan, 1951-",
+    "rl": 4.2,
+    "il": "Young Adult"
+  },
+  "PERFECT PITCH": {
+    "bibId": 200714,
+    "isbn": "9781419763670",
+    "author": "Greenwald, Tommy, 1962-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "POPPY AND SAM AND THE SEARCH FOR SLEEP": {
+    "bibId": 182842,
+    "isbn": "9781771474184",
+    "author": "Cathon,, 1990-",
+    "rl": null,
+    "il": "3-6"
+  },
+  "POPPY SAM AND THE SEARCH FOR SLEEP": {
+    "bibId": 182842,
+    "isbn": "9781771474184",
+    "author": "Cathon,, 1990-",
+    "rl": null,
+    "il": "3-6"
+  },
+  "POWER FORWARD": {
+    "bibId": 164535,
+    "isbn": "9781534411999",
+    "author": "Khan, Hena,",
+    "rl": 3.8,
+    "il": "2-6"
+  },
+  "PRINCESS AND THE GREEDY PEA": {
+    "bibId": 200715,
+    "isbn": "9781536231328",
+    "author": null,
+    "rl": null,
+    "il": "K-2"
+  },
+  "QUIET BOAT RIDE AND OTHER STORIES": {
+    "bibId": 167327,
+    "isbn": "9781452152899",
+    "author": "Ruzzier, Sergio, 1966-",
+    "rl": 1.9,
+    "il": "1-3"
+  },
+  "RED MAZE": {
+    "bibId": 175174,
+    "isbn": "9781101935941",
+    "author": "Siegel, Mark, 1967-",
+    "rl": 3.1,
+    "il": "5-8"
+  },
+  "REMARKABLES": {
+    "bibId": 177385,
+    "isbn": "9780062838469",
+    "author": "Haddix, Margaret Peterson,",
+    "rl": 5.3,
+    "il": "4-8"
+  },
+  "RESTART": {
+    "bibId": 155857,
+    "isbn": "9781338053777",
+    "author": "Korman, Gordon,",
+    "rl": null,
+    "il": "5-8"
+  },
+  "RIVER OF DUST THE LIFE GIVING LINK BETWEEN NORTH AFRICA AND THE AMAZON": {
+    "bibId": 199386,
+    "isbn": "9781797211756",
+    "author": null,
+    "rl": null,
+    "il": "K-2"
+  },
+  "ROARING TWENTIES AND THE GREAT DEPRESSION 0000001920 0000001940": {
+    "bibId": 78165,
+    "isbn": null,
+    "author": null,
+    "rl": 5.3,
+    "il": "Young Adult"
+  },
+  "ROBOT REBELLION": {
+    "bibId": 198550,
+    "isbn": "9781534481572",
+    "author": "Neal, Rie,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "SAM THE MAN AND THE CHICKEN PLAN": {
+    "bibId": 151806,
+    "isbn": "9781481440660",
+    "author": "Dowell, Frances O'Roark,",
+    "rl": 3.7,
+    "il": "2-4"
+  },
+  "SAM THE MAN THE CHICKEN PLAN": {
+    "bibId": 151806,
+    "isbn": "9781481440660",
+    "author": "Dowell, Frances O'Roark,",
+    "rl": 3.7,
+    "il": "2-4"
+  },
+  "SAND WARRIOR": {
+    "bibId": 155856,
+    "isbn": "9781101935873",
+    "author": "Siegel, Mark, 1967-",
+    "rl": 3.0,
+    "il": "5-8"
+  },
+  "SANITY AND TALLULAH": {
+    "bibId": 167325,
+    "isbn": "9781368022804",
+    "author": "Brooks, Molly (Molly Grayson)",
+    "rl": 4.1,
+    "il": "3-6"
+  },
+  "SANITY TALLULAH": {
+    "bibId": 167325,
+    "isbn": "9781368022804",
+    "author": "Brooks, Molly (Molly Grayson)",
+    "rl": 4.1,
+    "il": "3-6"
+  },
+  "SAVING FIONA THE STORY OF THE WORLDS MOST FAMOUS BABY HIPPO": {
+    "bibId": 164550,
+    "isbn": "9781328485137",
+    "author": null,
+    "rl": 5.8,
+    "il": "K-2"
+  },
+  "SCARY STORIES FOR YOUNG FOXES THE CITY": {
+    "bibId": 191612,
+    "isbn": "9781250181442",
+    "author": "Heidicker, Christian McKay,",
+    "rl": 4.0,
+    "il": "2-6"
+  },
+  "SEA PONY": {
+    "bibId": 151604,
+    "isbn": "9780553499322",
+    "author": "Potter, Ellen, 1963-",
+    "rl": 3.8,
+    "il": "2-4"
+  },
+  "SIR LADYBUG AND THE QUEEN BEE": {
+    "bibId": 193770,
+    "isbn": "9780063069091",
+    "author": "Tabor, Corey R.,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "SKATER CIELO": {
+    "bibId": 194688,
+    "isbn": "9781338751116",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "SKYSCRAPERS THE HEIGHTS OF ENGINEERING": {
+    "bibId": 177400,
+    "isbn": "9781626727953",
+    "author": null,
+    "rl": 5.2,
+    "il": "2-6"
+  },
+  "SOMETHING LIKE HOME": {
+    "bibId": 200387,
+    "isbn": "9780593566183",
+    "author": null,
+    "rl": 5.6,
+    "il": "5-7"
+  },
+  "SPACE INVADER": {
+    "bibId": 198546,
+    "isbn": "9780593565407",
+    "author": "Lepp, Royden, 1980-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "SPORTS ILLUSTRATED KIDS": {
+    "bibId": 198553,
+    "isbn": "9781637274965",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "SQUIRE AND KNIGHT": {
+    "bibId": 198549,
+    "isbn": "9781250249333",
+    "author": null,
+    "rl": null,
+    "il": "3-6"
+  },
+  "SQUIRE KNIGHT": {
+    "bibId": 198549,
+    "isbn": "9781250249333",
+    "author": null,
+    "rl": null,
+    "il": "3-6"
+  },
+  "SQUAD GOALS THE UNSTOPPABLE WOMEN OF THE US WOMENS NATIONAL SOCCER TEAM": {
+    "bibId": 198514,
+    "isbn": "9781665933421",
+    "author": "Calkhoven, Laurie,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "SQUISHED": {
+    "bibId": 195510,
+    "isbn": "9781338568943",
+    "author": "Lloyd, Megan Wagner,",
+    "rl": 2.5,
+    "il": "3-6"
+  },
+  "STOLEN GIRL": {
+    "bibId": 167291,
+    "isbn": "9781338233049",
+    "author": "Skrypuch, Marsha Forchuk,",
+    "rl": null,
+    "il": "5-8"
+  },
+  "STOP GO YES NO A STORY OF OPPOSITES": {
+    "bibId": 164526,
+    "isbn": "9780062469335",
+    "author": "Twohy, Mike,",
+    "rl": null,
+    "il": "K-1"
+  },
+  "STRANDED A MOSTLY TRUE STORY FROM ICELAND": {
+    "bibId": 200217,
+    "isbn": "9781646869916",
+    "author": null,
+    "rl": null,
+    "il": "K-2"
+  },
+  "SUNNY ROLLS THE DICE": {
+    "bibId": 177004,
+    "isbn": "9781338233155",
+    "author": "Holm, Jennifer L.,",
+    "rl": null,
+    "il": "5-8"
+  },
+  "SUNNY THE SHARK": {
+    "bibId": 193778,
+    "isbn": "9781250785459",
+    "author": "Lai, Remy,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "SUPER SIMPLE ZOO CRITTER CRAFTS FUN AND EASY ANIMAL CRAFTS": {
+    "bibId": 153482,
+    "isbn": "9781680781656",
+    "author": null,
+    "rl": 3.0,
+    "il": "3-5"
+  },
+  "SUPERMOMS ANIMAL HEROES": {
+    "bibId": 195511,
+    "isbn": "9781536217971",
+    "author": "Harper, Jamie,",
+    "rl": null,
+    "il": "K-2"
+  },
+  "SWIMMING TOWARD A DREAM YUSRA MARDINIS INCREDIBLE JOURNEY FROM REFUGEE TO OLYMPIC SWIMMER": {
+    "bibId": 199383,
+    "isbn": "9781645679837",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "TALES FROM THE TREEHOUSE": {
+    "bibId": 194786,
+    "isbn": "9781250850140",
+    "author": "Griffiths, Andy, 1961-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "TANGLED WEB": {
+    "bibId": 191951,
+    "isbn": "9781250206831",
+    "author": "Weing, Drew,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "TEN A SOCCER STORY": {
+    "bibId": 155915,
+    "isbn": "9780544850019",
+    "author": null,
+    "rl": null,
+    "il": "5-8"
+  },
+  "TENACIOUS FIFTEEN ADVENTURES ALONGSIDE DISABLED ATHLETES": {
+    "bibId": 198539,
+    "isbn": "9781643790985",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "THATS NOT HOCKEY": {
+    "bibId": 165026,
+    "isbn": "9781773210513",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "THE CIVIL RIGHTS MOVEMENT VIETNAM": {
+    "bibId": 78163,
+    "isbn": null,
+    "author": null,
+    "rl": 5.7,
+    "il": "Young Adult"
+  },
+  "THERE MIGHT BE A KAZOO EMERGENCY": {
+    "bibId": 198541,
+    "isbn": "9781665920049",
+    "author": "Stemple, Heidi E. Y.,",
+    "rl": null,
+    "il": "1-3"
+  },
+  "THERE IS A LIZARD IN MY BLIZZARD": {
+    "bibId": 198538,
+    "isbn": "9781525304439",
+    "author": "Becker, Paula, 1958-",
+    "rl": null,
+    "il": "2-4"
+  },
+  "THERES A LIZARD IN MY BLIZZARD": {
+    "bibId": 198538,
+    "isbn": "9781525304439",
+    "author": "Becker, Paula, 1958-",
+    "rl": null,
+    "il": "2-4"
+  },
+  "THIRD TIME IS A CHARM": {
+    "bibId": 191833,
+    "isbn": "9781338630800",
+    "author": "Gudsnuk, Kristen,",
+    "rl": null,
+    "il": "5-8"
+  },
+  "THIRST": {
+    "bibId": 194824,
+    "isbn": "9780593354391",
+    "author": "Bajaj, Varsha,",
+    "rl": 4.4,
+    "il": "5-8"
+  },
+  "THINGS IN THE BASEMENT": {
+    "bibId": 199576,
+    "isbn": "9781250836618",
+    "author": "Hatke, Ben,",
+    "rl": null,
+    "il": "3-6"
+  },
+  "THIS IS NOT THAT KIND OF BOOK": {
+    "bibId": 177395,
+    "isbn": "9780525580300",
+    "author": "Healy, Christopher, 1972-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "TO THE BONES": {
+    "bibId": 165579,
+    "isbn": "9780385388436",
+    "author": "Brown, Jeffrey, 1975-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "TREASURE OF MAD DOC MAGEE": {
+    "bibId": 164542,
+    "isbn": "9780062345134",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "TRISTAN STRONG DESTROYS THE WORLD": {
+    "bibId": 183331,
+    "isbn": "9781368042383",
+    "author": "Mbalia, Kwame,",
+    "rl": 5.0,
+    "il": "5-8"
+  },
+  "TWINS": {
+    "bibId": 182183,
+    "isbn": "9781338236132",
+    "author": "Johnson, Varian,",
+    "rl": 3.0,
+    "il": "5-8"
+  },
+  "ULTIMATE GOAL": {
+    "bibId": 198945,
+    "isbn": "9781419763656",
+    "author": "Greenwald, Tom, 1962-",
+    "rl": null,
+    "il": "2-6"
+  },
+  "UNLUCKY LAUNCH": {
+    "bibId": 194789,
+    "isbn": "9781534481510",
+    "author": "Neal, Rie,",
+    "rl": null,
+    "il": "2-4"
+  },
+  "UNSTINKY": {
+    "bibId": 165018,
+    "isbn": "9780439368803",
+    "author": "Rash, Andy,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "WAIT AND SEE": {
+    "bibId": 194755,
+    "isbn": "9781536216318",
+    "author": "Lieder, Rick,",
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "WANISAN DOKIT HAISHASAN DOKIT ENGLISH": {
+    "bibId": 164551,
+    "isbn": "9781452170282",
+    "author": null,
+    "rl": 2.0,
+    "il": "K-1"
+  },
+  "WALTER HAD A BEST FRIEND": {
+    "bibId": 194909,
+    "isbn": "9781534477001",
+    "author": "Underwood, Deborah,",
+    "rl": null,
+    "il": "K-2"
+  },
+  "WE ARE STARLINGS INSIDE THE MESMERIZING MAGIC OF A MURMURATION": {
+    "bibId": 198534,
+    "isbn": "9780593381649",
+    "author": "Napoli, Donna Jo, 1948-",
+    "rl": null,
+    "il": "K-2"
+  },
+  "WE LIVE IN A STATE CAPITAL": {
+    "bibId": 151778,
+    "isbn": "9781508141983",
+    "author": "Beckett, Leslie,",
+    "rl": 1.9,
+    "il": "K-2"
+  },
+  "WEI SKATES ON": {
+    "bibId": 195131,
+    "isbn": "9780063282827",
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "WELL MANNERED YOUNG WOLF": {
+    "bibId": 151607,
+    "isbn": "9780802854797",
+    "author": null,
+    "rl": 1.9,
+    "il": "2-6"
+  },
+  "WILLIAM WAKES UP": {
+    "bibId": 166562,
+    "isbn": null,
+    "author": "Ashman, Linda,",
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "WOLF SUIT": {
+    "bibId": 195139,
+    "isbn": "9781773217208",
+    "author": null,
+    "rl": null,
+    "il": "3-6"
+  },
+  "WORLDS WE LEAVE BEHIND": {
+    "bibId": 200190,
+    "isbn": "9781547610952",
+    "author": "Pinfold, Levi,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "WORM AND CATERPILLAR ARE FRIENDS": {
+    "bibId": 198950,
+    "isbn": "9781665920001",
+    "author": null,
+    "rl": 0.8,
+    "il": "K-3"
+  },
+  "WRETCHED WATERPARK": {
+    "bibId": 193774,
+    "isbn": "9780593379059",
+    "author": "White, Kiersten,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "Y BLOOM AND THE CASE OF THE MISSING KIDDUSH CUP": {
+    "bibId": 164536,
+    "isbn": null,
+    "author": null,
+    "rl": null,
+    "il": "2-6"
+  },
+  "YOU GO FIRST": {
+    "bibId": 198513,
+    "isbn": "9781665911511",
+    "author": "Rosenthal, Marc, 1949-",
+    "rl": null,
+    "il": "PreK-2"
+  },
+  "YOUR SCHOOL IS THE BEST": {
+    "bibId": 198536,
+    "isbn": "9780735271647",
+    "author": "Sala, Felicita,",
+    "rl": null,
+    "il": "K-2"
+  },
+  "YOUR PAL FRED": {
+    "bibId": 194686,
+    "isbn": "9780593206324",
+    "author": "Rex, Michael,",
+    "rl": null,
+    "il": "2-6"
+  },
+  "ZARAS RULES FOR RECORD BREAKING FUN": {
+    "bibId": 194660,
+    "isbn": "9781534497597",
+    "author": "Khan, Hena,",
+    "rl": null,
+    "il": "3-5"
+  },
+  "ZARAS RULES FOR FINDING HIDDEN TREASURE": {
+    "bibId": 194932,
+    "isbn": "9781534497627",
+    "author": "Khan, Hena,",
+    "rl": null,
+    "il": "3-5"
+  },
+  "ZARAS RULES FOR LIVING YOUR BEST LIFE": {
+    "bibId": 195249,
+    "isbn": "9781534497658",
+    "author": "Khan, Hena,",
+    "rl": null,
+    "il": "3-5"
+  },
+  "ZOO CRITTER CRAFTS": {
+    "bibId": 153482,
+    "isbn": "9781680781656",
+    "author": null,
+    "rl": 3.0,
+    "il": "3-5"
+  },
+  "0000000001 AND ONLY FAMILY": {
+    "bibId": 202608,
+    "isbn": "9780063221123",
+    "author": "Applegate, Katherine,",
+    "rl": 4.0,
+    "il": "3-5"
+  },
+  "0000000091 STOREY TREEHOUSE": {
+    "bibId": 164549,
+    "isbn": "9781250104885",
+    "author": "Griffiths, Andy, 1961-",
+    "rl": 3.2,
+    "il": "2-6"
+  },
+  "0000000091 STORY TREEHOUSE": {
+    "bibId": 164549,
+    "isbn": "9781250104885",
+    "author": "Griffiths, Andy, 1961-",
+    "rl": 3.2,
+    "il": "2-6"
   }
 }

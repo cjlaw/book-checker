@@ -130,7 +130,7 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 - `parsePaste()` (in `lib.js`) extracts author from tab/`>` delimited input, but `lookupBook()` only uses `book.title` for the Fuse lookup — the pasted author is not used for matching.
 - Empty paste currently does nothing; preserve or intentionally improve that behavior with UI feedback.
 - Paste auto-runs once on paste via `setTimeout(runPasteCheck, 0)`; later edits require clicking Check List.
-- Fuse.js is loaded from cdnjs without an SRI hash; add `integrity` plus `crossorigin` if hardening the CDN dependency.
+- Fuse.js is loaded from cdnjs pinned with an SRI `integrity` hash plus `crossorigin`; if bumping the Fuse version, update the hash to match or the browser will refuse to load it.
 
 ## Code review
 

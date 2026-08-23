@@ -162,6 +162,17 @@ def fetch_detail(opener, href, retries=DETAIL_MAX_RETRIES):
     return None, "retries exhausted"
 
 
+# Destiny renders "Interest grade level: Grades 2-6 Junior Library Guild." — a
+# grade range with an optional label prefix and a trailing rating-source
+# attribution, all in one text node. Reduce it to the bare grade token.
+def normalize_il(raw):
+    val = raw.split("<")[0].strip().rstrip(".").strip()
+    val = re.sub(r'^(?:Grades?|Ages?)\s+', "", val, flags=re.I)
+    val = re.sub(r'\s+(?:Junior Library Guild|Follett\b.*)$', "", val, flags=re.I)
+    val = re.sub(r'-\s+', "-", val)
+    return val or None
+
+
 def parse_detail(html):
     bib_id = None
     isbn = None
@@ -185,9 +196,9 @@ def parse_detail(html):
     if m:
         rl = float(m.group(1))
 
-    m = re.search(r'Interest grade level:\s*(\S+)', html)
+    m = re.search(r'Interest grade level:\s*([^<]+)', html)
     if m:
-        il = m.group(1)
+        il = normalize_il(m.group(1))
 
     return {"bibId": bib_id, "isbn": isbn, "author": author, "rl": rl, "il": il}
 
@@ -274,7 +285,7 @@ def crawl(opener):
 
     atomic_write(CRAWL_FILE, all_entries)
     print(f"  Crawl complete: {len(all_entries)} titles saved to {CRAWL_FILE}")
-    return all_entries, page, had_errors
+    return all_entries, had_errors
 
 
 def main(skip_crawl=False):
@@ -290,7 +301,6 @@ def main(skip_crawl=False):
             sys.exit(1)
         with open(CRAWL_FILE) as f:
             all_entries = json.load(f)
-        page = len(all_entries)  // 20  # approximate
         print(f"Skipping crawl — loaded {len(all_entries)} entries from {CRAWL_FILE}")
     else:
         existing_keys = set()
@@ -298,7 +308,7 @@ def main(skip_crawl=False):
             with open(CRAWL_FILE) as f:
                 existing_keys = {e["search_key"] for e in json.load(f)}
 
-        all_entries, page, had_errors = crawl(opener)
+        all_entries, had_errors = crawl(opener)
 
         if had_errors:
             print("ERROR: Crawl did not complete — aborting to avoid false no-op.", file=sys.stderr)

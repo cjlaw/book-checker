@@ -38,6 +38,7 @@ function bookHTML(entry) {
     <div class="match-item">
       <div class="match-title">${esc(entry.title)}</div>
       ${entry.author ? `<div class="match-author">${esc(entry.author)}</div>` : ""}
+      ${entry.il ? `<span class="grade-badge">${esc(entry.il)}</span>` : ""}
     </div>`;
 }
 
@@ -198,7 +199,7 @@ function renderBulkResults(books) {
 
   const rows = books.map((b) => {
     const { status, match } = lookupBook(b);
-    return { title: match ? match.title : b.title, author: match ? match.author : null, status };
+    return { title: match ? match.title : b.title, author: match ? match.author : null, il: match ? match.il : null, status };
   });
 
   const unknownCount = rows.filter((r) => r.status === "unknown").length;
@@ -208,7 +209,7 @@ function renderBulkResults(books) {
     .map(
       (r) => `
     <tr${r.status === "unknown" ? ` class="row-unknown"` : ""}>
-      <td>${esc(r.title)}${r.author ? `<br><span class="match-author">${esc(r.author)}</span>` : ""}</td>
+      <td>${esc(r.title)}${r.author ? `<br><span class="match-author">${esc(r.author)}</span>` : ""}${r.il ? ` <span class="grade-badge">${esc(r.il)}</span>` : ""}</td>
       <td>${r.status === "unknown" ? `<span class="status-badge unknown"><span aria-hidden="true">?</span> Not Found</span>` : `<span class="status-badge found"><span aria-hidden="true">✔</span> Found</span>`}</td>
     </tr>`,
     )
@@ -272,6 +273,5 @@ function runBulkCheck() {
 pasteBtn.addEventListener("click", runPasteCheck);
 pasteInput.addEventListener("paste", () => setTimeout(runPasteCheck, 0));
 bulkBtn.addEventListener("click", runBulkCheck);
-csvInput.addEventListener("change", runBulkCheck);
 
 loadBooks();

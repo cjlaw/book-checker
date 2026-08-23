@@ -10,52 +10,65 @@ function esc(str) {
     .replace(/"/g, "&quot;");
 }
 
-function splitCSVLine(line) {
-  const fields = [];
-  let cur = "",
+// Tokenizes CSV text into records of trimmed fields. Quoted fields may contain
+// commas and newlines; "" is an escaped quote. Handles \n and \r\n line breaks.
+function parseCSVRecords(text) {
+  const records = [];
+  let field = "",
+    record = [],
     inQuote = false;
-  for (let i = 0; i < line.length; i++) {
-    const ch = line[i];
-    if (ch === '"') {
-      if (inQuote && line[i + 1] === '"') {
-        cur += '"';
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (inQuote) {
+      if (ch === '"' && text[i + 1] === '"') {
+        field += '"';
         i++;
-      } else inQuote = !inQuote;
-    } else if (ch === "," && !inQuote) {
-      fields.push(cur.trim());
-      cur = "";
+      } else if (ch === '"') inQuote = false;
+      else field += ch;
+    } else if (ch === '"') {
+      inQuote = true;
+    } else if (ch === ",") {
+      record.push(field.trim());
+      field = "";
+    } else if (ch === "\n" || ch === "\r") {
+      if (ch === "\r" && text[i + 1] === "\n") i++;
+      record.push(field.trim());
+      field = "";
+      records.push(record);
+      record = [];
     } else {
-      cur += ch;
+      field += ch;
     }
   }
-  fields.push(cur.trim());
-  return fields;
+  record.push(field.trim());
+  records.push(record);
+  return records;
+}
+
+function splitCSVLine(line) {
+  return parseCSVRecords(line)[0];
 }
 
 function parseCSV(text) {
-  const lines = text.trim().split(/\r?\n/);
-  if (lines.length < 2) return { error: null, rows: [] };
+  const records = parseCSVRecords(text.trim());
+  while (records.length && records[records.length - 1].every((f) => f === "")) {
+    records.pop();
+  }
+  if (records.length < 2) return { error: null, rows: [] };
 
-  const headers = splitCSVLine(lines[0]).map((h) => h.toLowerCase());
+  const headers = records[0].map((h) => h.toLowerCase());
   const titleIdx = headers.findIndex((h) => h.includes("title"));
   const authorIdx = headers.findIndex((h) => h.includes("author"));
-  const gradeLevelIdx = headers.findIndex((h) =>
-    h.includes("intended grade level"),
-  );
 
   if (titleIdx === -1)
     return { error: "No title column found in the CSV.", rows: [] };
 
-  const rows = lines
+  const rows = records
     .slice(1)
-    .map((line) => {
-      const cols = splitCSVLine(line);
-      return {
-        title: cols[titleIdx] || "",
-        author: authorIdx >= 0 ? cols[authorIdx] || "" : "",
-        gradeLevel: gradeLevelIdx >= 0 ? cols[gradeLevelIdx] || "" : "",
-      };
-    })
+    .map((cols) => ({
+      title: cols[titleIdx] || "",
+      author: authorIdx >= 0 ? cols[authorIdx] || "" : "",
+    }))
     .filter((b) => b.title);
 
   return { error: null, rows };
