@@ -10,8 +10,8 @@
 - Install: none.
 - Dev: `python3 -m http.server 8888`, then open `http://localhost:8888`.
 - Stop dev server: `kill $(lsof -ti tcp:8888)`.
-- Regenerate catalog: `python3 generate-catalog.py` (browse crawl ~30 min + detail enrichment ~1.9h on first run; incremental runs short-circuit if no new entries are found). Use `--skip-crawl` to skip the browse crawl if `crawl-entries.json` is current. Overwrites `crawl-entries.json`, `enrichment-cache.json`, and `catalog.json`.
-- Test: `node --test test.js` (requires Node 18+). Then verify in a browser manually.
+- Regenerate catalog: `python3 generate-catalog.py` (browse crawl ~30 min + detail enrichment ~1.9h on first run; incremental runs short-circuit only when the crawl is byte-for-byte unchanged — no additions and no removals). Use `--skip-crawl` to skip the browse crawl if `crawl-entries.json` is current. Overwrites `crawl-entries.json`, `enrichment-cache.json`, and `catalog.json`.
+- Test: `node --test test.js` (JS, requires Node 18+) and `python3 -m unittest test_generate_catalog` (crawl-diff and `normalize_il` logic). Then verify in a browser manually.
 - Lint/typecheck: none configured.
 - Deploy: push `main`; GitHub Pages serves from `main` when enabled in repo settings. Catalog is also refreshed automatically every Monday at 8am UTC via `.github/workflows/refresh-catalog.yml`.
 
@@ -67,6 +67,8 @@
   - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via `fuseBulk`; author shown below title in results table.
 - `test.js`
   - Node.js unit tests using `node:test` + `assert`. Covers `filterCatalog`, `parseCSV`, `parsePaste`, `esc`, and `splitCSVLine`. Run with `node --test test.js`.
+- `test_generate_catalog.py`
+  - Python `unittest` tests for the pure logic in `generate-catalog.py`: `classify_crawl()` (additions, removals, mixed, no-op, first run, partial-crawl guard) and `normalize_il()`. Run with `python3 -m unittest test_generate_catalog`. Loads the hyphenated module by path.
 - `.github/workflows/refresh-catalog.yml`
   - Runs `generate-catalog.py` weekly (Mondays 8am UTC) and on `workflow_dispatch`. Commits updated JSON files back to `main` if the catalog changed (triggering Pages deploy). Uses `CATALOG_DEPLOY_TOKEN` secret (PAT with `repo` scope) so the push triggers GitHub Pages. Fails the job (→ email notification) if the crawl errors out mid-run.
 
@@ -118,8 +120,10 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 
 - The browse endpoint (`presentbrowsesearchresultsform.do`) ignores `siteTypeID` and `siteID` — per-school scoping is not possible via browse. All parameter combinations return the same full ESC11 consortium catalog. Do not re-investigate this.
 - Author, reading level, and interest level are fetched from `presentbrowseheadingdetailform.do` during the enrichment phase (~13,807 requests, ~1.9h at 2 req/sec). Results are cached in `enrichment-cache.json` keyed by `search_key`. That endpoint requires a `JSESSIONID` cookie obtained via `CookieJar` — do NOT use a manual `Cookie` header.
-- The script exits with code 1 if zero titles were collected or if the crawl hit an error mid-run (prevents a partial crawl from short-circuiting as a false no-op).
-- After phase 1, the script diffs new `search_key`s against the committed `crawl-entries.json`; exits 0 without touching enrichment or `catalog.json` if no new entries are found.
+- The script exits with code 1 if zero titles were collected or if the crawl terminated early. `crawl_page_error()` flags a login/home redirect (session lost), an empty page, or a pagination loop (a page repeating only already-seen titles) as a failed crawl — a healthy crawl ends only when the "next" link disappears. This deterministic detection, not the removal-count threshold, is the primary guard against a partial crawl silently deleting valid books.
+- After phase 1, `classify_crawl()` diffs the fresh `search_key`s against the committed `crawl-entries.json` for both additions and removals; it exits 0 without touching enrichment or `catalog.json` only when both sets are empty. Any addition **or** removal triggers a rebuild, so weeded books are dropped from `catalog.json` (the previous additions-only check left them stranded as "Found").
+- `crawl-entries.json` is written only after the diff passes its safety guard, so a rejected crawl cannot poison the baseline.
+- Secondary removal-count guard: even after a crawl reports success, if removals exceed `max(REMOVAL_ABORT_MIN=200, REMOVAL_ABORT_FRAC=10%)` of the prior crawl, the run aborts with code 1 (→ workflow email) rather than pruning — a catch-all for any truncation `crawl_page_error()` missed. Real weeding is far below this; a large drop is treated as suspect and needs manual review.
 
 ## Project-Specific Pitfalls
 

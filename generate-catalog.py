@@ -27,6 +27,8 @@ CACHE_FLUSH_INTERVAL = 100
 DETAIL_RATE_SEC = 0.5      # ~2 req/sec
 MAX_ELAPSED_SEC = 4 * 3600
 DETAIL_MAX_RETRIES = 3
+REMOVAL_ABORT_MIN = 200    # suspect a partial crawl if more than this many entries vanish
+REMOVAL_ABORT_FRAC = 0.10  # ...and they exceed this fraction of the prior crawl
 
 START_URL = (
     BASE + "/cataloging/servlet/presentbrowsesearchresultsform.do"
@@ -246,6 +248,25 @@ def enrich(opener, all_entries, cache):
     return cache
 
 
+def crawl_page_error(final_url, page_entries, new_entries):
+    """Return a failure reason for a fetched crawl page, or None if it is healthy.
+
+    A page that redirects to login (session lost), returns no titles, or repeats
+    only already-seen titles (pagination loop) means the crawl terminated early
+    rather than reaching the real end. Treating these as failures — instead of a
+    legitimately shorter catalog — is the primary defense against silently
+    deleting valid books; the removal-count threshold is only a secondary net.
+    A healthy crawl ends when the "next" link disappears, never here.
+    """
+    if is_login_redirect(final_url):
+        return "redirected to a login/home page (session lost)"
+    if not page_entries:
+        return "returned no titles"
+    if not new_entries:
+        return "repeated only already-seen titles (pagination loop)"
+    return None
+
+
 def crawl(opener):
     all_entries = []
     seen_keys = set()
@@ -257,7 +278,7 @@ def crawl(opener):
 
     while url:
         try:
-            html, _ = fetch(opener, url)
+            html, final_url = fetch(opener, url)
         except Exception as e:
             print(f"  Error on page {page + 1}: {e}", file=sys.stderr)
             had_errors = True
@@ -265,9 +286,12 @@ def crawl(opener):
 
         page_entries = extract_entries(html)
         new_entries = [e for e in page_entries if e["search_key"] not in seen_keys]
-        if page_entries and not new_entries:
-            print(f"  Pagination loop detected at page {page + 1}, stopping.")
+        err = crawl_page_error(final_url, page_entries, new_entries)
+        if err:
+            print(f"  Page {page + 1} {err} — treating as a failed crawl.", file=sys.stderr)
+            had_errors = True
             break
+
         for e in new_entries:
             seen_keys.add(e["search_key"])
             all_entries.append(e)
@@ -279,13 +303,30 @@ def crawl(opener):
 
         url = extract_next_url(html)
 
+    if had_errors:
+        return all_entries, had_errors
+
     if not all_entries:
         print("No titles collected — aborting.", file=sys.stderr)
         sys.exit(1)
 
-    atomic_write(CRAWL_FILE, all_entries)
-    print(f"  Crawl complete: {len(all_entries)} titles saved to {CRAWL_FILE}")
+    print(f"  Crawl complete: {len(all_entries)} unique titles.")
     return all_entries, had_errors
+
+
+def classify_crawl(existing_keys, current_keys,
+                   removal_min=REMOVAL_ABORT_MIN, removal_frac=REMOVAL_ABORT_FRAC):
+    """Compare a fresh crawl against the prior baseline.
+
+    Returns (added, removed, suspect). `suspect` is True when so many entries
+    vanished that a silently truncated crawl is likelier than real weeding — the
+    caller should abort rather than prune the catalog to a partial set. A first
+    run (empty baseline) is never suspect.
+    """
+    added = current_keys - existing_keys
+    removed = existing_keys - current_keys
+    suspect = bool(existing_keys) and len(removed) > max(removal_min, removal_frac * len(existing_keys))
+    return added, removed, suspect
 
 
 def main(skip_crawl=False):
@@ -314,18 +355,39 @@ def main(skip_crawl=False):
             print("ERROR: Crawl did not complete — aborting to avoid false no-op.", file=sys.stderr)
             sys.exit(1)
 
-        new_keys = {e["search_key"] for e in all_entries} - existing_keys
-        if existing_keys and not new_keys:
-            print("No new entries found — catalog is up to date.")
+        current_keys = {e["search_key"] for e in all_entries}
+        added, removed, suspect = classify_crawl(existing_keys, current_keys)
+
+        if suspect:
+            print(f"ERROR: {len(removed)} entries missing vs prior crawl "
+                  f"({len(current_keys)} now vs {len(existing_keys)} before) — "
+                  f"suspected partial crawl, aborting without touching the catalog.", file=sys.stderr)
+            sys.exit(1)
+
+        atomic_write(CRAWL_FILE, all_entries)
+
+        if existing_keys and not added and not removed:
+            print("No changes — catalog is up to date.")
             sys.exit(0)
 
-        print(f"  {len(new_keys)} new entries found.")
+        print(f"  {len(added)} added, {len(removed)} removed.")
 
     if not all_entries:
         print("No titles collected — catalog.json not modified.", file=sys.stderr)
         sys.exit(1)
 
     cache = enrich(opener, all_entries, cache)
+
+    # Drop cache entries for titles no longer in the catalog. Safe here: all_entries
+    # is the full trusted set (the partial-crawl guard already ran), so orphans are
+    # genuine removals, not fetch gaps.
+    live_keys = {e["search_key"] for e in all_entries}
+    orphans = [k for k in cache if k not in live_keys]
+    if orphans:
+        for k in orphans:
+            del cache[k]
+        save_cache(cache)
+        print(f"  Pruned {len(orphans)} orphaned cache entries no longer in the catalog.")
 
     null_count = sum(1 for e in all_entries if not cache.get(e["search_key"], {}).get("author"))
     if null_count:
