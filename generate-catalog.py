@@ -248,22 +248,22 @@ def enrich(opener, all_entries, cache):
     return cache
 
 
-def crawl_page_error(final_url, page_entries, new_entries):
-    """Return a failure reason for a fetched crawl page, or None if it is healthy.
+def crawl_page_error(final_url, page_entries):
+    """Return a failure reason for a fetched crawl page, or None if usable.
 
-    A page that redirects to login (session lost), returns no titles, or repeats
-    only already-seen titles (pagination loop) means the crawl terminated early
-    rather than reaching the real end. Treating these as failures — instead of a
-    legitimately shorter catalog — is the primary defense against silently
-    deleting valid books; the removal-count threshold is only a secondary net.
-    A healthy crawl ends when the "next" link disappears, never here.
+    A login/home redirect (session lost) or a page with no titles means the crawl
+    broke mid-stream rather than reaching its end — treat as a failure so a late
+    break (which loses too few titles for the removal threshold to catch) can't
+    silently shrink the catalog. A page that merely repeats already-seen titles is
+    NOT flagged here: on this catalog that is the *normal* terminator (Destiny
+    keeps offering a "next" link that eventually wraps), handled by the caller as a
+    graceful stop. An early loop that truncates the crawl is caught instead by
+    classify_crawl()'s removal threshold.
     """
     if is_login_redirect(final_url):
         return "redirected to a login/home page (session lost)"
     if not page_entries:
         return "returned no titles"
-    if not new_entries:
-        return "repeated only already-seen titles (pagination loop)"
     return None
 
 
@@ -285,11 +285,17 @@ def crawl(opener):
             break
 
         page_entries = extract_entries(html)
-        new_entries = [e for e in page_entries if e["search_key"] not in seen_keys]
-        err = crawl_page_error(final_url, page_entries, new_entries)
+        err = crawl_page_error(final_url, page_entries)
         if err:
             print(f"  Page {page + 1} {err} — treating as a failed crawl.", file=sys.stderr)
             had_errors = True
+            break
+
+        new_entries = [e for e in page_entries if e["search_key"] not in seen_keys]
+        if not new_entries:
+            # Every title on this page was already seen: Destiny's pagination has
+            # wrapped, which is how a complete crawl ends here. Stop cleanly.
+            print(f"  Reached end of catalog at page {page + 1} ({len(all_entries)} unique titles).")
             break
 
         for e in new_entries:

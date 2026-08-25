@@ -78,20 +78,22 @@ class CrawlPageError(unittest.TestCase):
     ENTRY = {"search_key": "a"}
 
     def test_healthy_page_ok(self):
-        self.assertIsNone(gencat.crawl_page_error(self.BROWSE, [self.ENTRY], [self.ENTRY]))
+        self.assertIsNone(gencat.crawl_page_error(self.BROWSE, [self.ENTRY]))
 
     def test_login_redirect_fails(self):
-        self.assertIsNotNone(gencat.crawl_page_error(self.LOGIN, [self.ENTRY], [self.ENTRY]))
+        self.assertIsNotNone(gencat.crawl_page_error(self.LOGIN, [self.ENTRY]))
 
     def test_home_redirect_fails(self):
-        self.assertIsNotNone(gencat.crawl_page_error(self.HOME, [self.ENTRY], [self.ENTRY]))
+        self.assertIsNotNone(gencat.crawl_page_error(self.HOME, [self.ENTRY]))
 
     def test_empty_page_fails(self):
-        self.assertIsNotNone(gencat.crawl_page_error(self.BROWSE, [], []))
+        self.assertIsNotNone(gencat.crawl_page_error(self.BROWSE, []))
 
-    def test_pagination_loop_fails(self):
-        # Page has entries but all were already seen.
-        self.assertIsNotNone(gencat.crawl_page_error(self.BROWSE, [self.ENTRY], []))
+    def test_all_seen_page_is_not_a_failure(self):
+        # A non-empty page whose titles are all already-seen is the normal
+        # end-of-catalog terminator, not a crawl_page_error failure. The caller
+        # (crawl) stops gracefully; classify_crawl guards against an early loop.
+        self.assertIsNone(gencat.crawl_page_error(self.BROWSE, [self.ENTRY]))
 
 
 class NormalizeIl(unittest.TestCase):
