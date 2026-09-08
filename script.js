@@ -96,21 +96,23 @@ function doSearch() {
     resultDiv.innerHTML = `
       <div class="result-section not-found-section">
         <div class="result-header">
-          <span class="result-icon" aria-hidden="true">🔍</span>
-          <span class="result-status">Not Found</span>
+          <span class="result-icon" aria-hidden="true">✕</span>
+          <span class="result-status">No — it's not in the catalog</span>
         </div>
         <p class="result-detail">"<strong>${esc(query)}</strong>" is not in the library catalog.</p>
-        <p class="result-detail result-guidance">Contact your school librarian for assistance.</p>
       </div>`;
     return;
   }
 
   resultDiv.classList.add("visible", "found-only");
+  const foundStatus = hits.length === 1
+    ? "Yes — it's in the catalog!"
+    : `${hits.length} matches in the catalog`;
   resultDiv.innerHTML = `
     <div class="result-section found-section">
       <div class="result-header">
         <span class="result-icon" aria-hidden="true">✓</span>
-        <span class="result-status">Books matching your search</span>
+        <span class="result-status">${foundStatus}</span>
       </div>
       <div class="result-matches">${hits.map(bookHTML).join("")}</div>
     </div>`;
@@ -222,7 +224,7 @@ function renderBulkResults(books) {
       ${unknownCount ? `<span class="total-count"><span aria-hidden="true">?</span> ${unknownCount} Not Found</span>` : ""}
       <button class="print-btn" id="printBtn">Print</button>
     </div>
-    ${unknownCount ? `<p class="bulk-guidance">Books marked Not Found are not in the library catalog — contact your school librarian for assistance.</p>` : ""}
+    ${unknownCount ? `<p class="bulk-guidance">Books marked Not Found are not in the library catalog.</p>` : ""}
     <div class="bulk-table-wrap">
       <table class="bulk-table">
         <thead><tr><th>Title</th><th>Status</th></tr></thead>
