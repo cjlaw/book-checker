@@ -1,0 +1,14 @@
+{
+  "name": "book-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static app for Melissa ISD staff to check books against the library catalog.",
+  "scripts": {
+    "test": "node --test test.js",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

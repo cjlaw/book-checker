@@ -6,3 +6,10 @@ HANDOFF.md
 .ai/context/
 .claude/settings.local.json
 __pycache__/
+
+# Playwright / npm
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
