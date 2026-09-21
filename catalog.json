@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-21",
   "books": [
     {
       "title": "!Hoy volare!",
@@ -13238,6 +13238,12 @@
       "il": "P-2"
     },
     {
+      "title": "Charlotte's web",
+      "author": "Williams, Garth,",
+      "rl": 4.4,
+      "il": "3-6"
+    },
+    {
       "title": "Chase is on the case!",
       "author": null,
       "rl": 1.7,
@@ -13325,6 +13331,12 @@
       "title": "Cheerleading competitions",
       "author": null,
       "rl": 5.1,
+      "il": "3-6"
+    },
+    {
+      "title": "Cheerleading in action",
+      "author": null,
+      "rl": 5.4,
       "il": "3-6"
     },
     {
@@ -22038,6 +22050,12 @@
       "author": null,
       "rl": 4.6,
       "il": "2-5"
+    },
+    {
+      "title": "Fairy dust and the quest for the egg",
+      "author": "Levine, Gail Carson.",
+      "rl": null,
+      "il": null
     },
     {
       "title": "Fairy science",
@@ -49730,6 +49748,12 @@
       "il": "P-2"
     },
     {
+      "title": "One fish, two fish, red fish, blue fish",
+      "author": "Seuss, Dr.",
+      "rl": 1.2,
+      "il": "K-3"
+    },
+    {
       "title": "One for sorrow : a ghost story",
       "author": "Hahn, Mary Downing.",
       "rl": 5.8,
@@ -63800,12 +63824,6 @@
       "il": "1-4"
     },
     {
-      "title": "Super scary stories",
-      "author": "Peterson, Megan Cooley.",
-      "rl": 3.6,
-      "il": "1-4"
-    },
-    {
       "title": "Super secret surprise party",
       "author": "O'Connor, Jane.",
       "rl": 2.3,
@@ -67286,6 +67304,12 @@
       "il": "K-3"
     },
     {
+      "title": "The cat in the hat comes back!",
+      "author": "Seuss, Dr.",
+      "rl": 1.6,
+      "il": "K-3"
+    },
+    {
       "title": "The cat on the mat is flat",
       "author": "Griffiths, Andy, 1961-",
       "rl": 3.5,
@@ -69746,6 +69770,12 @@
       "il": "K-3"
     },
     {
+      "title": "The grouchy ladybug",
+      "author": "Carle, Eric.",
+      "rl": 3.3,
+      "il": "K-3"
+    },
+    {
       "title": "The Grudge Keeper",
       "author": "Rockliff, Mara.",
       "rl": 4.2,
@@ -70470,6 +70500,12 @@
       "author": "Tarshis, Lauren.",
       "rl": 5.1,
       "il": "2-5"
+    },
+    {
+      "title": "The journal of Biddy Owens : the Negro leagues",
+      "author": null,
+      "rl": 6.2,
+      "il": "5-8"
     },
     {
       "title": "The journey",
@@ -83502,6 +83538,12 @@
       "author": "Stine, Megan.",
       "rl": 5.2,
       "il": "4-7"
+    },
+    {
+      "title": "Where the sidewalk ends : the poems & drawings",
+      "author": "Silverstein, Shel.",
+      "rl": 3.9,
+      "il": "3-6"
     },
     {
       "title": "Where the sidewalk ends : the poems & drawings of",

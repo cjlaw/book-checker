@@ -76201,13 +76201,6 @@
     "rl": 3.0,
     "il": "K-3"
   },
-  "SUPER SCARY STORIES": {
-    "bibId": 161689,
-    "isbn": "9781515702795",
-    "author": "Peterson, Megan Cooley.",
-    "rl": 3.6,
-    "il": "1-4"
-  },
   "SUPER SIMPLE EXPERIMENTS WITH FORCES FUN AND INNOVATIVE SCIENCE PROJECTS": {
     "bibId": 154876,
     "isbn": "9781680781694",
@@ -101652,5 +101645,61 @@
     "author": "LaRochelle, David,",
     "rl": 2.9,
     "il": "P-2 Perma-Bound Books"
+  },
+  "CAT IN THE HAT COMES BACK": {
+    "bibId": 41079,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 1.6,
+    "il": "K-3"
+  },
+  "CHARLOTTES WEB": {
+    "bibId": 12027,
+    "isbn": null,
+    "author": "Williams, Garth,",
+    "rl": 4.4,
+    "il": "3-6"
+  },
+  "CHEERLEADING IN ACTION": {
+    "bibId": 18917,
+    "isbn": null,
+    "author": null,
+    "rl": 5.4,
+    "il": "3-6"
+  },
+  "FAIRY DUST AND THE QUEST FOR THE EGG": {
+    "bibId": 210500,
+    "isbn": null,
+    "author": "Levine, Gail Carson.",
+    "rl": null,
+    "il": null
+  },
+  "GROUCHY LADYBUG": {
+    "bibId": 43505,
+    "isbn": null,
+    "author": "Carle, Eric.",
+    "rl": 3.3,
+    "il": "K-3"
+  },
+  "JOURNAL OF BIDDY OWENS THE NEGRO LEAGUES": {
+    "bibId": 210584,
+    "isbn": null,
+    "author": null,
+    "rl": 6.2,
+    "il": "5-8"
+  },
+  "ONE FISH TWO FISH RED FISH BLUE FISH": {
+    "bibId": 41103,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 1.2,
+    "il": "K-3"
+  },
+  "WHERE THE SIDEWALK ENDS THE POEMS DRAWINGS": {
+    "bibId": 208614,
+    "isbn": "9780060572341",
+    "author": "Silverstein, Shel.",
+    "rl": 3.9,
+    "il": "3-6"
   }
 }
