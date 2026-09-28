@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-28",
   "books": [
     {
       "title": "!Hoy volare!",
@@ -60,6 +60,12 @@
       "author": "Pak, Greg,",
       "rl": 4.0,
       "il": "3-6"
+    },
+    {
+      "title": "'Twas the night before Thanksgiving",
+      "author": "Pilkey, Dav, 1966-",
+      "rl": 4.5,
+      "il": "K-3"
     },
     {
       "title": "1 & only Bob",
@@ -198,6 +204,12 @@
       "author": null,
       "rl": null,
       "il": null
+    },
+    {
+      "title": "100 hungry ants",
+      "author": "Pinczes, Elinor J.",
+      "rl": 2.6,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "100 inventions that made history : brilliant breakthroughs that shaped our world",
@@ -371,6 +383,12 @@
       "title": "1st grade dropout",
       "author": "Vernick, Audrey.",
       "rl": 2.4,
+      "il": "K-3"
+    },
+    {
+      "title": "1st grader (at last!)",
+      "author": "Park, Barbara.",
+      "rl": 2.7,
       "il": "K-3"
     },
     {
@@ -668,6 +686,12 @@
       "il": null
     },
     {
+      "title": "50 problem-solving lessons, grades 1-6",
+      "author": null,
+      "rl": null,
+      "il": "Professional"
+    },
+    {
       "title": "50 things to see with a telescope : a young stargazer's guide",
       "author": null,
       "rl": 3.0,
@@ -774,6 +798,12 @@
       "author": "Miller, Shannon (Shannon McClintock),",
       "rl": 3.0,
       "il": "3-6"
+    },
+    {
+      "title": "A B C",
+      "author": "Seuss, Dr.",
+      "rl": 2.7,
+      "il": "K-3"
     },
     {
       "title": "A baby elephant in the wild",
@@ -1616,6 +1646,12 @@
       "il": "P-2"
     },
     {
+      "title": "A light in the attic",
+      "author": "Silverstein, Shel.",
+      "rl": 5.0,
+      "il": "3-6"
+    },
+    {
       "title": "A lime, a mime, a pool of slime : more about nouns",
       "author": "Cleary, Brian P., 1959-",
       "rl": 3.0,
@@ -1727,12 +1763,6 @@
       "title": "A morning with Grandpa",
       "author": "Forshay, Christina,",
       "rl": 3.5,
-      "il": "K-3"
-    },
-    {
-      "title": "A my name is Alice",
-      "author": "Kellogg, Steven,",
-      "rl": 2.2,
       "il": "K-3"
     },
     {
@@ -2124,6 +2154,12 @@
       "author": "Hudak, Heather C., 1975-",
       "rl": 4.8,
       "il": "3-6"
+    },
+    {
+      "title": "A remainder of one",
+      "author": "Pinczes, Elinor J.",
+      "rl": 2.5,
+      "il": "K-3"
     },
     {
       "title": "A reptile's view of the world",
@@ -2828,6 +2864,12 @@
       "il": "Professional"
     },
     {
+      "title": "Actual size",
+      "author": "Jenkins, Steve, 1952-",
+      "rl": 2.8,
+      "il": "1-4 Perma-Bound Books"
+    },
+    {
       "title": "Ada Byron Lovelace and the thinking machine",
       "author": "Wallmark, Laurie.",
       "rl": 4.6,
@@ -3018,6 +3060,12 @@
       "author": "Santat, Dan.",
       "rl": 3.3,
       "il": "K-3"
+    },
+    {
+      "title": "Afternoon on the Amazon",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.3,
+      "il": "3-6"
     },
     {
       "title": "Afternoon on the Amazon. Spanish",
@@ -3356,6 +3404,12 @@
       "il": "3-6"
     },
     {
+      "title": "Alexander and the terrible, horrible, no good, very bad day",
+      "author": "Viorst, Judith.",
+      "rl": null,
+      "il": null
+    },
+    {
       "title": "Alexander and the wind-up mouse",
       "author": "Lionni, Leo, 1910-1999.",
       "rl": 4.7,
@@ -3401,6 +3455,12 @@
       "title": "Alexander, who is trying his best to be the best boy ever",
       "author": "Viorst, Judith.",
       "rl": 4.0,
+      "il": "K-3"
+    },
+    {
+      "title": "Alexander, who used to be rich last Sunday",
+      "author": "Viorst, Judith.",
+      "rl": 3.5,
       "il": "K-3"
     },
     {
@@ -3456,6 +3516,12 @@
       "author": "Forsyth, Matt,",
       "rl": 4.5,
       "il": "4-7"
+    },
+    {
+      "title": "Alice the fairy",
+      "author": "Shannon, David, 1959-",
+      "rl": 2.4,
+      "il": "K-3"
     },
     {
       "title": "Alice's adventures in Wonderland",
@@ -4154,6 +4220,12 @@
       "il": "2-5"
     },
     {
+      "title": "Amazing grace",
+      "author": "Hoffman, Mary, 1945-",
+      "rl": 4.1,
+      "il": "K-3"
+    },
+    {
       "title": "Amazing makerspace electricity",
       "author": "Holzweiss, Kristina,",
       "rl": 3.0,
@@ -4278,6 +4350,12 @@
       "author": "Coville, Bruce.",
       "rl": 3.4,
       "il": "2-5"
+    },
+    {
+      "title": "Amber was brave, Essie was smart : the story of Amber and Essie told here in poems and pictures",
+      "author": "Williams, Vera B.",
+      "rl": 5.4,
+      "il": "3-6"
     },
     {
       "title": "Ambulances",
@@ -4784,6 +4862,12 @@
       "il": "3-6"
     },
     {
+      "title": "And the dish ran away with the spoon",
+      "author": "Stevens, Janet.",
+      "rl": 2.9,
+      "il": "K-3"
+    },
+    {
       "title": "And then comes summer",
       "author": "Kim, Jaime,",
       "rl": 3.9,
@@ -4806,6 +4890,12 @@
       "author": "Venable, Colleen A. F.",
       "rl": 2.6,
       "il": "2-5"
+    },
+    {
+      "title": "And to think that I saw it on Mulberry Street",
+      "author": "Seuss, Dr.",
+      "rl": 3.2,
+      "il": "K-3"
     },
     {
       "title": "Angel sharks",
@@ -5090,6 +5180,12 @@
       "il": "2-6"
     },
     {
+      "title": "Annie and the Old One",
+      "author": null,
+      "rl": 3.2,
+      "il": "K-3"
+    },
+    {
       "title": "Annie was warned",
       "author": "Krosoczka, Jarrett.",
       "rl": 1.6,
@@ -5174,10 +5270,22 @@
       "il": "K-3"
     },
     {
+      "title": "Any way you slice it",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.8,
+      "il": "3-6"
+    },
+    {
       "title": "Anybody here seen Frenchie?",
       "author": "Connor, Leslie.",
       "rl": 3.7,
       "il": "3-6"
+    },
+    {
+      "title": "Anyone but me",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.5,
+      "il": "1-4 Perma-Bound Books"
     },
     {
       "title": "Anything but ordinary Addie : the true story of Adelaide Herrmann, queen of magic",
@@ -5372,6 +5480,12 @@
       "il": "2-5"
     },
     {
+      "title": "Archeology",
+      "author": null,
+      "rl": 6.9,
+      "il": "5-8"
+    },
+    {
       "title": "Arctic & Antarctic",
       "author": "Brightling, Geoff,",
       "rl": 7.9,
@@ -5552,6 +5666,12 @@
       "il": "2-5"
     },
     {
+      "title": "Armadillo rodeo",
+      "author": "Brett, Jan, 1949-",
+      "rl": 4.6,
+      "il": "K-3"
+    },
+    {
       "title": "Armadillo's burrow",
       "author": "Phillips, Dee, 1967-",
       "rl": 4.0,
@@ -5724,6 +5844,12 @@
       "author": "Holub, Joan.",
       "rl": 4.7,
       "il": "3-6"
+    },
+    {
+      "title": "Arthur's family vacation",
+      "author": "Brown, Marc Tolon.",
+      "rl": 2.7,
+      "il": "K-3"
     },
     {
       "title": "Artificial eyes",
@@ -6464,6 +6590,18 @@
       "il": "K-3"
     },
     {
+      "title": "Babe & me : a baseball card adventure",
+      "author": "Gutman, Dan.",
+      "rl": 5.2,
+      "il": "5-8"
+    },
+    {
+      "title": "Babe and me",
+      "author": "Gutman, Dan.",
+      "rl": 5.2,
+      "il": "5-8"
+    },
+    {
       "title": "Baboons",
       "author": "Borgert-Spaniol, Megan, 1989-",
       "rl": 1.8,
@@ -6716,6 +6854,12 @@
       "il": "3-6"
     },
     {
+      "title": "Bad beginning, or, Orphans",
+      "author": "Snicket, Lemony.",
+      "rl": 6.0,
+      "il": "5-8"
+    },
+    {
       "title": "Bad Bella",
       "author": null,
       "rl": 5.0,
@@ -6732,6 +6876,12 @@
       "author": "Underwood, Deborah.",
       "rl": 2.0,
       "il": "P-2"
+    },
+    {
+      "title": "Bad day at Riverbend",
+      "author": "Van Allsburg, Chris.",
+      "rl": 2.8,
+      "il": "K-3"
     },
     {
       "title": "Bad dog",
@@ -7380,6 +7530,12 @@
       "author": "Morey, Allan,",
       "rl": 4.4,
       "il": "4-7"
+    },
+    {
+      "title": "Baseball saved us",
+      "author": "Mochizuki, Ken, 1954-",
+      "rl": 4.1,
+      "il": "3-6"
     },
     {
       "title": "Baseball's greatest hitters : from Ty Cobb to Miguel Cabrera",
@@ -8496,6 +8652,12 @@
       "author": "Swanson, Matthew, 1974-",
       "rl": null,
       "il": "2-4"
+    },
+    {
+      "title": "Ben's dream",
+      "author": "Van Allsburg, Chris.",
+      "rl": 3.4,
+      "il": "K-3"
     },
     {
       "title": "Ben's Revolution : Benjamin Russell and the battle of Bunker Hill",
@@ -10016,6 +10178,12 @@
       "il": "3-6"
     },
     {
+      "title": "Blind men and the elephant.",
+      "author": "Young, Ed.",
+      "rl": 2.4,
+      "il": "K-3"
+    },
+    {
       "title": "Blippo & Beep",
       "author": "Weeks, Sarah,",
       "rl": null,
@@ -10043,6 +10211,12 @@
       "title": "Blizzard : Colorado, 1886",
       "author": "Duey, Kathleen.",
       "rl": 5.0,
+      "il": "3-6"
+    },
+    {
+      "title": "Blizzard of the blue moon",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.9,
       "il": "3-6"
     },
     {
@@ -11012,6 +11186,12 @@
       "il": "K-3"
     },
     {
+      "title": "Brown bear, brown bear, what do you see?",
+      "author": "Martin, Bill, 1916-2004.",
+      "rl": 1.5,
+      "il": "P-2 Perma-Bound Books"
+    },
+    {
       "title": "Brown bears",
       "author": "Arnold, Quinn M.,",
       "rl": null,
@@ -11074,6 +11254,12 @@
     {
       "title": "Brute-cake",
       "author": "Cummings, Troy.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
+      "title": "Bubba the cowboy prince : a fractured Texas tale",
+      "author": "Ketteman, Helen.",
       "rl": 2.8,
       "il": "K-3"
     },
@@ -11198,6 +11384,12 @@
       "il": "P-2"
     },
     {
+      "title": "Buffalo before breakfast",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.3,
+      "il": "2-5 Perma-Bound Books"
+    },
+    {
       "title": "Buffalo Bills",
       "author": "Downs, Kieran,",
       "rl": null,
@@ -11262,6 +11454,12 @@
       "author": null,
       "rl": 6.0,
       "il": "2-5"
+    },
+    {
+      "title": "Bugs for lunch",
+      "author": "Long, Sylvia,",
+      "rl": 1.5,
+      "il": "K-3"
     },
     {
       "title": "Bugs from head to tail",
@@ -11858,6 +12056,12 @@
       "il": "4-7"
     },
     {
+      "title": "Can adults become human?",
+      "author": "Benton, Jim.",
+      "rl": 5.9,
+      "il": "4-7 Perma-Bound Books"
+    },
+    {
       "title": "Can an aardvark bark?",
       "author": "Stewart, Melissa,",
       "rl": 4.1,
@@ -12176,6 +12380,12 @@
       "il": "2-5"
     },
     {
+      "title": "Captain Field Day",
+      "author": "Park, Barbara.",
+      "rl": 2.9,
+      "il": "K-3"
+    },
+    {
       "title": "Captain Invincible and the space shapes",
       "author": "Murphy, Stuart J., 1942-",
       "rl": 2.2,
@@ -12330,6 +12540,12 @@
       "author": "Mullarkey, Lisa.",
       "rl": 2.6,
       "il": "1-4"
+    },
+    {
+      "title": "Carnival at candlelight",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.3,
+      "il": "3-6"
     },
     {
       "title": "Carnivores",
@@ -13262,9 +13478,21 @@
       "il": "3-6"
     },
     {
+      "title": "Chasing Vermeer",
+      "author": "Balliett, Blue, 1955-",
+      "rl": 5.4,
+      "il": "3-6"
+    },
+    {
       "title": "Chat botte. English",
       "author": "Perrault, Charles, 1628-1703.",
       "rl": 4.4,
+      "il": "K-3"
+    },
+    {
+      "title": "Chato and the party animals",
+      "author": "Soto, Gary.",
+      "rl": 2.7,
       "il": "K-3"
     },
     {
@@ -14264,6 +14492,12 @@
       "il": "3-6"
     },
     {
+      "title": "Civil War on Sunday",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.5,
+      "il": "3-6"
+    },
+    {
       "title": "Civil War steamship showdown",
       "author": "Hale, Nathan, 1976-",
       "rl": 2.7,
@@ -14588,6 +14822,12 @@
       "il": "P-2"
     },
     {
+      "title": "Click, clack, moo : cows that type",
+      "author": "Cronin, Doreen.",
+      "rl": 2.3,
+      "il": "K-3"
+    },
+    {
       "title": "Click, clack, peep!",
       "author": "Cronin, Doreen.",
       "rl": 2.2,
@@ -14603,6 +14843,12 @@
       "title": "Click, clack, quackity-quack : an alphabetical adventure",
       "author": "Cronin, Doreen.",
       "rl": 1.9,
+      "il": "K-3"
+    },
+    {
+      "title": "Click, clack, splish, splash : a counting adventure",
+      "author": "Cronin, Doreen.",
+      "rl": 1.3,
       "il": "K-3"
     },
     {
@@ -14996,6 +15242,12 @@
       "il": "K-3"
     },
     {
+      "title": "Coming on home soon",
+      "author": "Woodson, Jacqueline.",
+      "rl": 1.5,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "Comlpleanno---con mistero! English",
       "author": "Stilton, Geronimo.",
       "rl": 3.8,
@@ -15246,6 +15498,12 @@
       "author": "Swanson, Matthew, 1974-",
       "rl": 4.4,
       "il": "4-7 Perma-Bound Books"
+    },
+    {
+      "title": "Cookie's week",
+      "author": null,
+      "rl": 1.3,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Cookies & milk",
@@ -15624,6 +15882,12 @@
       "author": "Cotton, Katie.",
       "rl": 4.1,
       "il": "1-4"
+    },
+    {
+      "title": "Counting on Frank",
+      "author": null,
+      "rl": 3.8,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Counting on Katherine : how Katherine Johnson saved Apollo 13",
@@ -16712,6 +16976,12 @@
       "il": "3-6"
     },
     {
+      "title": "Dark hills divide : Land of Elyon book 1.",
+      "author": "Carman, Patrick.",
+      "rl": null,
+      "il": null
+    },
+    {
       "title": "Dark legends",
       "author": "Mann, George,",
       "rl": 4.0,
@@ -16808,6 +17078,12 @@
       "il": "K-3"
     },
     {
+      "title": "David gets in trouble",
+      "author": "Shannon, David, 1959-",
+      "rl": 1.3,
+      "il": "K-3"
+    },
+    {
       "title": "David goes to school",
       "author": "Shannon, David, 1959-",
       "rl": 1.0,
@@ -16866,6 +17142,12 @@
       "author": "Shofner, Melissa Ra\u00e9.",
       "rl": null,
       "il": "K-3"
+    },
+    {
+      "title": "Day of the Dragon King",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.0,
+      "il": "3-6"
     },
     {
       "title": "Day of the iguana",
@@ -17000,10 +17282,28 @@
       "il": "K-3"
     },
     {
+      "title": "Dear Missus Larue",
+      "author": "Teague, Mark.",
+      "rl": 3.7,
+      "il": "K-3"
+    },
+    {
+      "title": "Dear Mrs. Larue : letters from obedience school",
+      "author": "Teague, Mark.",
+      "rl": 3.7,
+      "il": "K-3"
+    },
+    {
       "title": "Dear Primo : a letter to my cousin",
       "author": "Tonatiuh, Duncan.",
       "rl": 3.2,
       "il": "K-3"
+    },
+    {
+      "title": "Dearly, nearly, insincerely : what is an adverb?",
+      "author": "Cleary, Brian P., 1959-",
+      "rl": 4.4,
+      "il": "3-6"
     },
     {
       "title": "Death Star battles",
@@ -17228,6 +17528,12 @@
       "il": null
     },
     {
+      "title": "Despereaux",
+      "author": "DiCamillo, Kate.",
+      "rl": 4.1,
+      "il": "3-6"
+    },
+    {
       "title": "Destruction zone : a 4D book",
       "author": "Dahl, Michael,",
       "rl": 2.6,
@@ -17306,6 +17612,12 @@
       "il": "2-5"
     },
     {
+      "title": "Diary of a fly",
+      "author": "Cronin, Doreen.",
+      "rl": 2.9,
+      "il": "K-3"
+    },
+    {
       "title": "Diary of a mad brownie",
       "author": "Coville, Bruce,",
       "rl": 5.3,
@@ -17316,6 +17628,12 @@
       "author": "Zombie, Zack (Fictitious character)",
       "rl": 4.2,
       "il": "4-7"
+    },
+    {
+      "title": "Diary of a spider",
+      "author": "Cronin, Doreen.",
+      "rl": 1.7,
+      "il": "K-3"
     },
     {
       "title": "Diary of a wimpy kid : dog days",
@@ -17357,6 +17675,12 @@
       "title": "Diary of a wombat",
       "author": null,
       "rl": 2.7,
+      "il": "K-3"
+    },
+    {
+      "title": "Diary of a worm",
+      "author": "Cronin, Doreen.",
+      "rl": 3.3,
       "il": "K-3"
     },
     {
@@ -17414,6 +17738,12 @@
       "il": "K-3"
     },
     {
+      "title": "Dig, wait, listen : a desert toad's tale",
+      "author": "Sayre, April Pulley.",
+      "rl": 2.1,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "Digestion and using food",
       "author": "Conklin, Wendy.",
       "rl": 5.0,
@@ -17460,6 +17790,12 @@
       "author": "Spalding, Maddie.",
       "rl": 2.8,
       "il": "K-3"
+    },
+    {
+      "title": "Dingoes at dinnertime",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.8,
+      "il": "3-6"
     },
     {
       "title": "Dinner recipe queen",
@@ -17660,10 +17996,22 @@
       "il": "3-6"
     },
     {
+      "title": "Dirt bike racer",
+      "author": "Christopher, Matt.",
+      "rl": 5.0,
+      "il": "3-6"
+    },
+    {
       "title": "Dirt bikes",
       "author": "Lanier, Wendy Hinote.",
       "rl": null,
       "il": null
+    },
+    {
+      "title": "Dirty laundry pile : poems in different voices",
+      "author": "Sweet, Melissa,",
+      "rl": 4.0,
+      "il": "2-5 Perma-Bound Books"
     },
     {
       "title": "Discover dragons, giants, and other deadly fantasy monsters",
@@ -17974,12 +18322,6 @@
     {
       "title": "Diwali",
       "author": "Eliot, Hannah.",
-      "rl": null,
-      "il": null
-    },
-    {
-      "title": "Diwali : The Magical Diyas",
-      "author": null,
       "rl": null,
       "il": null
     },
@@ -18632,6 +18974,12 @@
       "il": "P-2"
     },
     {
+      "title": "Doggone it!",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.3,
+      "il": "1-4 Perma-Bound Books"
+    },
+    {
       "title": "Doggy day care",
       "author": "Stern, A. J.",
       "rl": 4.6,
@@ -18786,6 +19134,12 @@
       "author": "Gregory, Josh.",
       "rl": null,
       "il": null
+    },
+    {
+      "title": "Dolphins at daybreak",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.1,
+      "il": "3-6"
     },
     {
       "title": "Dolphins breathe air",
@@ -19190,6 +19544,12 @@
       "il": "P-2"
     },
     {
+      "title": "Drachenreiter. English",
+      "author": "Funke, Cornelia Caroline.",
+      "rl": 5.2,
+      "il": "3-6"
+    },
+    {
       "title": "Dracula.",
       "author": "Spinner, Stephanie.",
       "rl": 2.6,
@@ -19304,6 +19664,12 @@
       "il": "1-4"
     },
     {
+      "title": "Dragon of the red dawn",
+      "author": "Osborne, Mary Pope.",
+      "rl": 4.4,
+      "il": "3-6"
+    },
+    {
       "title": "Dragon overnight",
       "author": "Mlynowski, Sarah,",
       "rl": 4.2,
@@ -19313,6 +19679,12 @@
       "title": "Dragon Pearl",
       "author": null,
       "rl": 5.9,
+      "il": "3-6"
+    },
+    {
+      "title": "Dragon rider",
+      "author": "Funke, Cornelia Caroline.",
+      "rl": 5.2,
       "il": "3-6"
     },
     {
@@ -19820,6 +20192,12 @@
       "il": "K-3"
     },
     {
+      "title": "Each little bird that sings",
+      "author": null,
+      "rl": 4.0,
+      "il": "3-6"
+    },
+    {
       "title": "Each orange had 8 slices : a counting book",
       "author": "Crews, Donald,",
       "rl": 2.5,
@@ -19973,6 +20351,12 @@
       "title": "Earthquake : San Francisco, 1906",
       "author": "Duey, Kathleen.",
       "rl": 3.0,
+      "il": "3-6"
+    },
+    {
+      "title": "Earthquake in the early morning",
+      "author": "Osborne, Mary Pope.",
+      "rl": 2.8,
       "il": "3-6"
     },
     {
@@ -20952,6 +21336,12 @@
       "author": "Meadows, Daisy.",
       "rl": 4.2,
       "il": "2-5"
+    },
+    {
+      "title": "Ernest L. Thayer's Casey at the bat",
+      "author": "Thayer, Ernest Lawrence, 1863-1940.",
+      "rl": 5.5,
+      "il": "3-6"
     },
     {
       "title": "Erno Rubik and his magic cube",
@@ -21980,6 +22370,12 @@
       "il": "5-8"
     },
     {
+      "title": "Fables",
+      "author": "Lobel, Arnold.",
+      "rl": 5.0,
+      "il": "3-6"
+    },
+    {
       "title": "Fabulous fishes",
       "author": "Stockdale, Susan.",
       "rl": 1.0,
@@ -22056,6 +22452,12 @@
       "author": "Levine, Gail Carson.",
       "rl": null,
       "il": null
+    },
+    {
+      "title": "Fairy Haven and the quest for the wand",
+      "author": "Levine, Gail Carson.",
+      "rl": 4.2,
+      "il": "3-6"
     },
     {
       "title": "Fairy science",
@@ -22742,6 +23144,12 @@
       "il": "K-3"
     },
     {
+      "title": "Fifty problem solving lessons, grades 1-6",
+      "author": null,
+      "rl": null,
+      "il": "Professional"
+    },
+    {
       "title": "Fifty things to see with a telescope",
       "author": null,
       "rl": 3.0,
@@ -23024,6 +23432,12 @@
       "il": "2-5"
     },
     {
+      "title": "Fire boat",
+      "author": "Kalman, Maira.",
+      "rl": 4.2,
+      "il": "K-3"
+    },
+    {
       "title": "Fire engine no. 9",
       "author": null,
       "rl": 1.0,
@@ -23063,6 +23477,12 @@
       "title": "Firebird : ballerina Misty Copeland shows a young girl how to dance like the firebird",
       "author": "Myers, Christopher,",
       "rl": 2.6,
+      "il": "K-3"
+    },
+    {
+      "title": "Fireboat : the heroic adventures of the John J. Harvey",
+      "author": "Kalman, Maira.",
+      "rl": 4.2,
       "il": "K-3"
     },
     {
@@ -23138,6 +23558,12 @@
       "il": "P-2"
     },
     {
+      "title": "First day jitters",
+      "author": "Danneberg, Julie, 1958-",
+      "rl": 3.5,
+      "il": "K-3"
+    },
+    {
       "title": "First day of school",
       "author": "Mayer, Mercer, 1943-",
       "rl": 1.3,
@@ -23153,6 +23579,12 @@
       "title": "First grade dropout",
       "author": "Vernick, Audrey.",
       "rl": 2.4,
+      "il": "K-3"
+    },
+    {
+      "title": "First grader (at last!)",
+      "author": "Park, Barbara.",
+      "rl": 2.7,
       "il": "K-3"
     },
     {
@@ -23982,6 +24414,12 @@
       "author": "Green, Tim, 1963-",
       "rl": 5.1,
       "il": "5-8"
+    },
+    {
+      "title": "Football nightmare",
+      "author": "Hirschfeld, Robert, 1942-",
+      "rl": 4.7,
+      "il": "3-6"
     },
     {
       "title": "Football player",
@@ -24942,6 +25380,18 @@
       "author": "Bunting, Eve, 1928-",
       "rl": 2.5,
       "il": "1-4"
+    },
+    {
+      "title": "Frog and Toad all year",
+      "author": "Lobel, Arnold.",
+      "rl": 2.6,
+      "il": "1-4 Perma-Bound Books"
+    },
+    {
+      "title": "Frog and Toad are friends",
+      "author": "Lobel, Arnold.",
+      "rl": 2.4,
+      "il": "K-3"
     },
     {
       "title": "Frog and Toad storybook treasury",
@@ -26090,6 +26540,12 @@
       "il": "3-6"
     },
     {
+      "title": "Get lost! : welcome to Pine Hill Science Camp",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.3,
+      "il": "1-4 Perma-Bound Books"
+    },
+    {
       "title": "Get me out of here!",
       "author": "Patterson, James, 1947-",
       "rl": 4.4,
@@ -26268,6 +26724,12 @@
       "author": "Barrows, Annie.",
       "rl": 3.6,
       "il": "K-3"
+    },
+    {
+      "title": "Ghost town at sundown",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.4,
+      "il": "3-6"
     },
     {
       "title": "Ghost-faced bats",
@@ -26462,6 +26924,12 @@
       "il": "2-5"
     },
     {
+      "title": "Giggle, giggle, quack",
+      "author": "Cronin, Doreen.",
+      "rl": 3.4,
+      "il": "K-3"
+    },
+    {
       "title": "Gigi & Ojiji. What's in a name?",
       "author": null,
       "rl": 1.4,
@@ -26598,6 +27066,18 @@
       "author": "Bloom, Suzanne,",
       "rl": 3.8,
       "il": "P-2"
+    },
+    {
+      "title": "Girls do not have cooties",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.0,
+      "il": "3-6"
+    },
+    {
+      "title": "Girls don't have cooties",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.0,
+      "il": "3-6"
     },
     {
       "title": "Girls on wheels",
@@ -26960,6 +27440,12 @@
       "il": "3-6"
     },
     {
+      "title": "Going home.",
+      "author": "Bunting, Eve, 1928-",
+      "rl": 5.4,
+      "il": "K-3"
+    },
+    {
       "title": "Going on a field trip",
       "author": "Reid, C. L.,",
       "rl": 3.2,
@@ -27240,6 +27726,12 @@
       "author": null,
       "rl": 2.9,
       "il": "K-3"
+    },
+    {
+      "title": "Good morning, gorillas",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.7,
+      "il": "3-6"
     },
     {
       "title": "Good news, bad news",
@@ -27527,6 +28019,12 @@
       "title": "Grandfather Buffalo",
       "author": "Arnosky, Jim.",
       "rl": 3.5,
+      "il": "K-3"
+    },
+    {
+      "title": "Grandfather's journey",
+      "author": "Say, Allen.",
+      "rl": 4.2,
       "il": "K-3"
     },
     {
@@ -27923,6 +28421,18 @@
       "title": "Gregor and the marks of secret",
       "author": "Collins, Suzanne.",
       "rl": 5.0,
+      "il": "3-6"
+    },
+    {
+      "title": "Gregor and the Prophecy of Bane",
+      "author": "Collins, Suzanne.",
+      "rl": 5.5,
+      "il": "3-6"
+    },
+    {
+      "title": "Gregor the Overlander",
+      "author": "Collins, Suzanne.",
+      "rl": 6.0,
       "il": "3-6"
     },
     {
@@ -28376,6 +28886,12 @@
       "il": "2-5"
     },
     {
+      "title": "Hairy, scary, ordinary : what is an adjective?",
+      "author": "Cleary, Brian P., 1959-",
+      "rl": 3.3,
+      "il": "3-6"
+    },
+    {
       "title": "Haiti earthquake survival stories",
       "author": "Ventura, Marne.",
       "rl": 4.7,
@@ -28385,6 +28901,12 @@
       "title": "Half-minute horrors",
       "author": null,
       "rl": 4.9,
+      "il": "5-8"
+    },
+    {
+      "title": "Half-moon investigations",
+      "author": "Colfer, Eoin.",
+      "rl": 4.8,
       "il": "5-8"
     },
     {
@@ -28826,6 +29348,12 @@
       "il": "5-8"
     },
     {
+      "title": "Harry and the lady next door",
+      "author": "Zion, Gene.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
       "title": "Harry and the terrible whatzit",
       "author": null,
       "rl": 2.6,
@@ -28928,6 +29456,12 @@
       "il": null
     },
     {
+      "title": "Harry, the dirty dog",
+      "author": "Zion, Gene.",
+      "rl": 3.1,
+      "il": "P-2 Perma-Bound Books"
+    },
+    {
       "title": "Haru, zombie dog hero",
       "author": "Oh, Ellen.",
       "rl": 5.7,
@@ -29010,6 +29544,12 @@
       "author": "Summers, Alex.",
       "rl": 3.0,
       "il": "4-7"
+    },
+    {
+      "title": "Haunted castle on Hallows Eve",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.6,
+      "il": "2-5 Perma-Bound Books"
     },
     {
       "title": "Haunted holiday",
@@ -29142,6 +29682,12 @@
       "author": "Brown, Don, 1949-",
       "rl": 5.8,
       "il": "3-6"
+    },
+    {
+      "title": "He's got the whole world in His hands.",
+      "author": "Bryan, Ashley,",
+      "rl": 2.0,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Headless stuntman",
@@ -29390,6 +29936,12 @@
       "il": "2-5"
     },
     {
+      "title": "Help! somebody get me out of fourth grade!",
+      "author": "Winkler, Henry, 1945-",
+      "rl": 4.4,
+      "il": "3-6"
+    },
+    {
       "title": "Help! We have strange powers!",
       "author": "Stine, R. L.",
       "rl": 3.2,
@@ -29430,6 +29982,12 @@
       "author": "Zagarenski, Pamela.",
       "rl": 2.8,
       "il": "P-2"
+    },
+    {
+      "title": "Henry and Mudge : the first book of their adventures",
+      "author": "Rylant, Cynthia.",
+      "rl": 2.7,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Henry and Mudge and a very Merry Christmas : the twenty-fifth book of their adventures",
@@ -29486,6 +30044,12 @@
       "il": "K-3"
     },
     {
+      "title": "Henry and Mudge and the forever sea : the sixth book of their adventures",
+      "author": "Rylant, Cynthia.",
+      "rl": 2.3,
+      "il": "K-3"
+    },
+    {
       "title": "Henry and Mudge and the funny lunch : the twenty-fourth book of their adventures",
       "author": "Rylant, Cynthia.",
       "rl": 2.7,
@@ -29495,6 +30059,12 @@
       "title": "Henry and Mudge and the great grandpas : the twenty-sixth book of their adventures",
       "author": "Rylant, Cynthia.",
       "rl": 2.6,
+      "il": "K-3"
+    },
+    {
+      "title": "Henry and Mudge and the happy cat : the eighth book of their adventures",
+      "author": "Rylant, Cynthia.",
+      "rl": 1.5,
       "il": "K-3"
     },
     {
@@ -29546,10 +30116,28 @@
       "il": "K-3"
     },
     {
+      "title": "Henry and Mudge in puddle trouble : the second book of their adventures",
+      "author": "Rylant, Cynthia.",
+      "rl": 2.5,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "Henry and Mudge in the family trees : the fifteenth book of their adventures",
       "author": "Rylant, Cynthia.",
       "rl": 2.6,
       "il": "K-3"
+    },
+    {
+      "title": "Henry and Mudge in the green time : the third book of their adventures",
+      "author": "Rylant, Cynthia.",
+      "rl": 2.5,
+      "il": "K-3"
+    },
+    {
+      "title": "Henry and Mudge in the sparkle days : the fifth book of their adventures",
+      "author": "Rylant, Cynthia.",
+      "rl": 2.8,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Henry and the cannons : an extraordinary true story of the American Revolution",
@@ -29834,6 +30422,12 @@
       "il": "4-7"
     },
     {
+      "title": "Heroic adventures of the John. J. Harvey",
+      "author": "Kalman, Maira.",
+      "rl": 4.2,
+      "il": "K-3"
+    },
+    {
       "title": "Heroic comeback",
       "author": "Tougas, Joe,",
       "rl": 6.4,
@@ -29904,6 +30498,12 @@
       "author": "Noll, Amanda,",
       "rl": 2.6,
       "il": "P-2"
+    },
+    {
+      "title": "Hi! Fly Guy",
+      "author": "Arnold, Tedd.",
+      "rl": 1.4,
+      "il": "K-3"
     },
     {
       "title": "Hi, cat!",
@@ -29988,6 +30588,12 @@
       "author": "Marks, Alan, 1957-",
       "rl": 4.0,
       "il": "P-2"
+    },
+    {
+      "title": "High tide in Hawaii",
+      "author": "Osborne, Mary Pope.",
+      "rl": 4.6,
+      "il": "3-6"
     },
     {
       "title": "High time for heroes",
@@ -30083,12 +30689,6 @@
       "title": "Highlights of the Indianapolis Colts",
       "author": "Storm, Marysa,",
       "rl": 3.3,
-      "il": "3-6"
-    },
-    {
-      "title": "Highlights of the Miami Dolphins",
-      "author": "Storm, Marysa.",
-      "rl": 3.4,
       "il": "3-6"
     },
     {
@@ -30365,6 +30965,12 @@
       "title": "Hollywood, dead ahead",
       "author": "Klise, Kate.",
       "rl": 4.8,
+      "il": "3-6"
+    },
+    {
+      "title": "Holy enchilada!",
+      "author": "Winkler, Henry, 1945-",
+      "rl": 4.7,
       "il": "3-6"
     },
     {
@@ -30716,6 +31322,12 @@
       "il": "K-3"
     },
     {
+      "title": "Hop on Pop",
+      "author": "Seuss, Dr.",
+      "rl": 1.1,
+      "il": "K-3"
+    },
+    {
       "title": "Hop to It : A Guide to Training Your Pet Rabbit.",
       "author": null,
       "rl": null,
@@ -30980,6 +31592,12 @@
       "il": "K-3"
     },
     {
+      "title": "Horton hears a Who!",
+      "author": "Seuss, Dr.",
+      "rl": 3.8,
+      "il": "K-3"
+    },
+    {
       "title": "Hot diggity dog : the history of the hot dog",
       "author": null,
       "rl": 4.8,
@@ -31062,6 +31680,12 @@
       "author": "Howe, James, 1946-",
       "rl": 2.8,
       "il": "K-3"
+    },
+    {
+      "title": "Hour of the Olympics",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.5,
+      "il": "3-6"
     },
     {
       "title": "House by the lake (Young readers edition)",
@@ -31214,9 +31838,27 @@
       "il": "2-5"
     },
     {
+      "title": "How do dinosaurs get well soon?",
+      "author": "Yolen, Jane.",
+      "rl": 3.9,
+      "il": "K-3"
+    },
+    {
+      "title": "How do dinosaurs go to school?",
+      "author": "Yolen, Jane.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
       "title": "How do dinosaurs learn to read?",
       "author": "Yolen, Jane.",
       "rl": 2.6,
+      "il": "K-3"
+    },
+    {
+      "title": "How do dinosaurs say good night?",
+      "author": "Yolen, Jane.",
+      "rl": 1.6,
       "il": "K-3"
     },
     {
@@ -31352,6 +31994,18 @@
       "il": "2-5"
     },
     {
+      "title": "How many days to America? : a Thanksgiving story",
+      "author": "Bunting, Eve, 1928-",
+      "rl": 3.2,
+      "il": "K-3"
+    },
+    {
+      "title": "How many kisses do you want tonight?",
+      "author": "Bajaj, Varsha.",
+      "rl": 3.2,
+      "il": "K-3"
+    },
+    {
       "title": "How many muscles make your smile? : questions about muscles and movement",
       "author": "Canavan, Thomas, 1956-",
       "rl": 3.0,
@@ -31404,6 +32058,12 @@
       "author": "Hills, Tad.",
       "rl": 2.9,
       "il": "K-3"
+    },
+    {
+      "title": "How Ted Geisel grew up to become Dr. Seuss",
+      "author": "Krull, Kathleen.",
+      "rl": 3.9,
+      "il": "3-6"
     },
     {
       "title": "How the executive branch works",
@@ -31770,6 +32430,12 @@
       "author": null,
       "rl": 3.4,
       "il": "K-3"
+    },
+    {
+      "title": "How to talk to your dog",
+      "author": "George, Jean Craighead, 1919-",
+      "rl": 3.5,
+      "il": "3-6"
     },
     {
       "title": "How to tame a human tornado",
@@ -32600,6 +33266,12 @@
       "il": "2-5"
     },
     {
+      "title": "I can lick 30 tigers today! : and other stories",
+      "author": "Seuss, Dr.",
+      "rl": 2.9,
+      "il": "P-2 Perma-Bound Books"
+    },
+    {
       "title": "I can make exciting electronics",
       "author": "Holzweiss, Kristina,",
       "rl": 2.0,
@@ -32790,6 +33462,12 @@
       "author": "Neubecker, Robert,",
       "rl": 1.9,
       "il": "P-2"
+    },
+    {
+      "title": "I hate rules!",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.1,
+      "il": "3-6"
     },
     {
       "title": "I have a dream",
@@ -33572,6 +34250,12 @@
       "il": "1-4"
     },
     {
+      "title": "Ida B-- : and her plans to maximize fun, avoid disaster, and (possibly) save the world",
+      "author": null,
+      "rl": 6.3,
+      "il": "3-6"
+    },
+    {
       "title": "Ida, always",
       "author": "Levis, Caron.",
       "rl": 3.3,
@@ -33629,6 +34313,12 @@
       "title": "If I ran the horse show : all about horses",
       "author": "Worth, Bonnie.",
       "rl": 3.7,
+      "il": "K-3"
+    },
+    {
+      "title": "If I ran the zoo",
+      "author": "Seuss, Dr.",
+      "rl": 3.8,
       "il": "K-3"
     },
     {
@@ -34052,6 +34742,12 @@
       "il": "K-3"
     },
     {
+      "title": "In daddy's arms I am tall : African Americans celebrating Fathers",
+      "author": null,
+      "rl": 3.1,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "In darkling wood",
       "author": null,
       "rl": 3.9,
@@ -34188,6 +34884,12 @@
       "author": "Lionni, Leo, 1910-1999.",
       "rl": 1.7,
       "il": "K-3"
+    },
+    {
+      "title": "Inchworm and a half",
+      "author": "Pinczes, Elinor J.",
+      "rl": 3.3,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Inclined planes",
@@ -34614,6 +35316,12 @@
       "author": "Keller, Laurie.",
       "rl": 3.9,
       "il": "2-5"
+    },
+    {
+      "title": "Invention",
+      "author": null,
+      "rl": 6.3,
+      "il": "5-8"
     },
     {
       "title": "Investigating fossils",
@@ -35894,6 +36602,12 @@
       "il": "5-8"
     },
     {
+      "title": "Jake Drake, bully buster",
+      "author": "Clements, Andrew, 1949-",
+      "rl": 4.7,
+      "il": "3-6"
+    },
+    {
       "title": "Jake Drake, class clown",
       "author": "Clements, Andrew.",
       "rl": null,
@@ -36326,6 +37040,12 @@
       "il": "3-6"
     },
     {
+      "title": "Johnny Appleseed : a tall tale",
+      "author": "Kellogg, Steven.",
+      "rl": 4.4,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "Johnny Boo : \"the best little ghost in the world\"",
       "author": "Kochalka, James.",
       "rl": 1.6,
@@ -36692,6 +37412,12 @@
       "il": "K-3"
     },
     {
+      "title": "Jumanji",
+      "author": "Van Allsburg, Chris.",
+      "rl": 4.4,
+      "il": "K-3"
+    },
+    {
       "title": "Jump",
       "author": "McPhail, David, 1940-",
       "rl": 1.0,
@@ -36776,10 +37502,40 @@
       "il": "P-2"
     },
     {
+      "title": "Junie B. Jones and her big fat mouth",
+      "author": "Park, Barbara.",
+      "rl": 3.3,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B. Jones and some sneaky peeky spying",
+      "author": "Park, Barbara.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B. Jones and that meanie Jim's birthday",
+      "author": "Park, Barbara.",
+      "rl": 2.1,
+      "il": "K-3"
+    },
+    {
       "title": "Junie B. Jones and the mushy gushy valentime",
       "author": "Park, Barbara.",
       "rl": 2.9,
       "il": "1-4"
+    },
+    {
+      "title": "Junie B. Jones and the stupid smelly bus",
+      "author": "Park, Barbara.",
+      "rl": 3.3,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B. Jones and the yucky blucky fruitcake",
+      "author": "Park, Barbara.",
+      "rl": 2.8,
+      "il": "K-3"
     },
     {
       "title": "Junie B. Jones has a Monster under her bed.",
@@ -36788,15 +37544,99 @@
       "il": "1-4"
     },
     {
+      "title": "Junie B. Jones has a peep in her pocket",
+      "author": "Park, Barbara.",
+      "rl": 2.0,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B. Jones is a beauty shop guy",
+      "author": "Park, Barbara.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B. Jones is a party animal",
+      "author": "Park, Barbara.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B. Jones is Captain Field Day",
+      "author": "Park, Barbara.",
+      "rl": 2.9,
+      "il": "K-3"
+    },
+    {
       "title": "Junie B. Jones is not a crook",
       "author": "Park, Barbara.",
       "rl": 3.0,
       "il": "1-4"
     },
     {
+      "title": "Junie B. Jones loves handsome Warren",
+      "author": "Park, Barbara.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B. Jones smells something fishy",
+      "author": "Park, Barbara.",
+      "rl": 2.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B. Jones. First grader (at last!)",
+      "author": "Park, Barbara.",
+      "rl": 2.7,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B., first grader (at last!)",
+      "author": "Park, Barbara.",
+      "rl": null,
+      "il": null
+    },
+    {
+      "title": "Junie B., first grader : boo--- and I mean it!",
+      "author": "Park, Barbara.",
+      "rl": 2.9,
+      "il": "1-4 Perma-Bound Books"
+    },
+    {
+      "title": "Junie B., first grader : boss of lunch",
+      "author": "Park, Barbara.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B., first grader : cheater pants",
+      "author": "Park, Barbara.",
+      "rl": 3.4,
+      "il": "K-3"
+    },
+    {
       "title": "Junie B., first grader : dumb bunny",
       "author": "Park, Barbara.",
       "rl": 2.8,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B., first grader : jingle bells, Batman smells! (P.S. so does May)",
+      "author": "Park, Barbara.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B., first grader : shipwrecked",
+      "author": "Park, Barbara.",
+      "rl": 2.0,
+      "il": "K-3"
+    },
+    {
+      "title": "Junie B., first grader : toothless wonder",
+      "author": "Park, Barbara.",
+      "rl": 2.6,
       "il": "K-3"
     },
     {
@@ -36851,6 +37691,12 @@
       "title": "Just 1 flake",
       "author": null,
       "rl": 1.0,
+      "il": "K-3"
+    },
+    {
+      "title": "Just a dream",
+      "author": "Van Allsburg, Chris.",
+      "rl": 4.2,
       "il": "K-3"
     },
     {
@@ -38012,6 +38858,12 @@
       "il": "5-9"
     },
     {
+      "title": "Knuffle Bunny : a cautionary tale",
+      "author": "Willems, Mo.",
+      "rl": 1.9,
+      "il": "K-3"
+    },
+    {
       "title": "Knuffle Bunny free : an unexpected diversion",
       "author": "Willems, Mo.",
       "rl": 2.9,
@@ -38882,6 +39734,12 @@
       "il": "1-4"
     },
     {
+      "title": "Let it shine : three favorite spirituals",
+      "author": "Bryan, Ashley,",
+      "rl": 2.0,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "Let the children march",
       "author": "Morrison, Frank, 1971-",
       "rl": 3.8,
@@ -39668,6 +40526,12 @@
       "il": "K-3"
     },
     {
+      "title": "Lilly's purple plastic purse",
+      "author": "Henkes, Kevin.",
+      "rl": 3.5,
+      "il": "K-3"
+    },
+    {
       "title": "Lilo & Stitch",
       "author": "Merli, Anna,",
       "rl": 2.0,
@@ -39854,6 +40718,12 @@
       "il": "2-5"
     },
     {
+      "title": "Lions at lunchtime",
+      "author": "Osborne, Mary Pope.",
+      "rl": 4.3,
+      "il": "3-6"
+    },
+    {
       "title": "Lipan Apache",
       "author": "Edge, Laura Bufano, 1953-",
       "rl": 4.5,
@@ -39978,6 +40848,12 @@
       "author": "Gilchrist, Jan Spivey,",
       "rl": 2.0,
       "il": "K-3"
+    },
+    {
+      "title": "Little house on the prairie",
+      "author": "Williams, Garth,",
+      "rl": 4.3,
+      "il": "3-6"
     },
     {
       "title": "Little humans",
@@ -41378,6 +42254,12 @@
       "il": "K-3"
     },
     {
+      "title": "Madeline's rescue",
+      "author": "Bemelmans, Ludwig, 1898-1962.",
+      "rl": 3.4,
+      "il": "K-3"
+    },
+    {
       "title": "Mae among the stars",
       "author": null,
       "rl": 3.0,
@@ -42140,6 +43022,12 @@
       "il": "K-3"
     },
     {
+      "title": "Martha speaks",
+      "author": "Meddaugh, Susan.",
+      "rl": 2.8,
+      "il": "K-3"
+    },
+    {
       "title": "Martha speaks (Television program)",
       "author": "White, Jamie.",
       "rl": null,
@@ -42326,6 +43214,12 @@
       "il": "K-3"
     },
     {
+      "title": "Marvelous minilessons for teaching beginning writing, K-3",
+      "author": "Rog, Lori Jamison.",
+      "rl": null,
+      "il": "Professional"
+    },
+    {
       "title": "Marvelous minilessons for teaching intermediate writing, grades 4-6",
       "author": "Rog, Lori Jamison.",
       "rl": null,
@@ -42470,6 +43364,12 @@
       "il": "Professional"
     },
     {
+      "title": "Math curse",
+      "author": "Scieszka, Jon.",
+      "rl": 3.0,
+      "il": "K-3"
+    },
+    {
       "title": "Math fables too : making science count",
       "author": "Tang, Greg.",
       "rl": 3.0,
@@ -42480,6 +43380,12 @@
       "author": "Tang, Greg.",
       "rl": 3.5,
       "il": "1-4"
+    },
+    {
+      "title": "Math for all seasons : mind-stretching math riddles",
+      "author": "Tang, Greg.",
+      "rl": 2.9,
+      "il": "K-3"
     },
     {
       "title": "Math of National Association for Stock Car Auto Racing",
@@ -43274,6 +44180,12 @@
       "il": "K-3"
     },
     {
+      "title": "Mercy Watson to the rescue",
+      "author": "DiCamillo, Kate.",
+      "rl": 1.5,
+      "il": "K-3"
+    },
+    {
       "title": "Merida : legend of the emeralds",
       "author": "Disney Storybook Artists,",
       "rl": 5.0,
@@ -43355,6 +44267,12 @@
       "title": "Message received!",
       "author": "Coan, Sharon.",
       "rl": 2.3,
+      "il": "K-3"
+    },
+    {
+      "title": "Messy room",
+      "author": "Berenstain, Stan, 1923-2005.",
+      "rl": 3.7,
       "il": "K-3"
     },
     {
@@ -43517,6 +44435,12 @@
       "title": "Midnight blade",
       "author": "Brallier, Max.",
       "rl": 6.4,
+      "il": "3-6"
+    },
+    {
+      "title": "Midnight on the moon",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.0,
       "il": "3-6"
     },
     {
@@ -43844,6 +44768,12 @@
       "il": "1-4"
     },
     {
+      "title": "Minty : a story of young Harriet Tubman",
+      "author": "Pinkney, Jerry,",
+      "rl": 3.9,
+      "il": "K-3"
+    },
+    {
       "title": "Mio nome e Stilton, Geronimo Stilton. English",
       "author": "Stilton, Geronimo.",
       "rl": 3.2,
@@ -43866,6 +44796,12 @@
       "author": "Manzano, Sonia.",
       "rl": 3.5,
       "il": "P-2"
+    },
+    {
+      "title": "Mirandy and Brother Wind",
+      "author": "McKissack, Pat, 1944-",
+      "rl": 3.6,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Mirror mirror : a book of reversible verse",
@@ -44642,6 +45578,12 @@
       "il": "2-5"
     },
     {
+      "title": "Monday with a mad genius",
+      "author": "Osborne, Mary Pope.",
+      "rl": 4.4,
+      "il": "3-6"
+    },
+    {
       "title": "Money",
       "author": null,
       "rl": 8.2,
@@ -45174,6 +46116,12 @@
       "author": "Elya, Susan Middleton, 1955-",
       "rl": null,
       "il": null
+    },
+    {
+      "title": "Mother Goose. Selections.",
+      "author": null,
+      "rl": 3.8,
+      "il": "P-2 Perma-Bound Books"
     },
     {
       "title": "Mother Jones : labor leader",
@@ -45974,6 +46922,12 @@
       "il": "3-6"
     },
     {
+      "title": "Mummies in the morning",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.2,
+      "il": "3-6"
+    },
+    {
       "title": "Mummies in the morning : the graphic novel",
       "author": "Laird, Jenny, 1969-",
       "rl": 2.3,
@@ -46226,6 +47180,12 @@
       "il": "3-6"
     },
     {
+      "title": "My dog is a scaredy-cat",
+      "author": "Winkler, Henry, 1945-",
+      "rl": 4.8,
+      "il": "3-6"
+    },
+    {
       "title": "My dog is better than your dog",
       "author": "Greenwald, Tom, 1962-",
       "rl": null,
@@ -46236,6 +47196,12 @@
       "author": "Marshall, Julia,",
       "rl": 1.0,
       "il": "P-2"
+    },
+    {
+      "title": "My dog's a scaredy-cat : a Halloween tail",
+      "author": "Winkler, Henry, 1945-",
+      "rl": 4.8,
+      "il": "3-6"
     },
     {
       "title": "My dog, Bob",
@@ -46716,6 +47682,12 @@
       "author": "Ludwig, Trudy.",
       "rl": 3.4,
       "il": "K-3"
+    },
+    {
+      "title": "My secret life as a ping-pong wizard",
+      "author": "Winkler, Henry, 1945-",
+      "rl": 5.7,
+      "il": "3-6"
     },
     {
       "title": "My senses",
@@ -47744,6 +48716,12 @@
       "il": "3-6"
     },
     {
+      "title": "Niagara Falls, or does it?",
+      "author": "Winkler, Henry, 1945-",
+      "rl": 4.0,
+      "il": "3-6"
+    },
+    {
       "title": "Niagara Falls?",
       "author": "Stine, Megan.",
       "rl": 4.8,
@@ -47958,6 +48936,12 @@
       "author": "Coverly, Dave,",
       "rl": 3.7,
       "il": "1-4"
+    },
+    {
+      "title": "Night of the new magicians",
+      "author": "Osborne, Mary Pope.",
+      "rl": 4.0,
+      "il": "3-6"
     },
     {
       "title": "Night of the Ninjas",
@@ -48980,6 +49964,12 @@
       "il": "2-5"
     },
     {
+      "title": "Officer Buckle and Gloria",
+      "author": "Rathmann, Peggy.",
+      "rl": 2.9,
+      "il": "K-3"
+    },
+    {
       "title": "Officer Clawesome : lobster cop",
       "author": "Smith, Brian, (Comic book writer),",
       "rl": null,
@@ -49044,6 +50034,18 @@
       "author": "Henkes, Kevin,",
       "rl": 4.0,
       "il": "4-7"
+    },
+    {
+      "title": "Oh, the places you will go",
+      "author": "Seuss, Dr.",
+      "rl": 3.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Oh, the places you'll go!",
+      "author": "Seuss, Dr.",
+      "rl": 3.2,
+      "il": "K-3"
     },
     {
       "title": "Oh, the things they invented! : all about great inventors",
@@ -49796,6 +50798,12 @@
       "il": "3-6"
     },
     {
+      "title": "One hundred hungry ants",
+      "author": "Pinczes, Elinor J.",
+      "rl": 2.6,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "One hundred inventions that make history",
       "author": "Gifford, Clive,",
       "rl": 3.0,
@@ -50516,6 +51524,12 @@
       "il": "3-6"
     },
     {
+      "title": "Out to lunch",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.6,
+      "il": "1-4 Perma-Bound Books"
+    },
+    {
       "title": "Outback food chains",
       "author": "Pettiford, Rebecca,",
       "rl": 2.9,
@@ -50990,6 +52004,12 @@
       "il": "K-3"
     },
     {
+      "title": "Parts",
+      "author": "Arnold, Tedd.",
+      "rl": 2.8,
+      "il": "P-2 Perma-Bound Books"
+    },
+    {
       "title": "Party animal",
       "author": "Bruel, Nick.",
       "rl": null,
@@ -51060,6 +52080,12 @@
       "author": null,
       "rl": 3.0,
       "il": "2-5"
+    },
+    {
+      "title": "Passage to freedom : the Sugihara story",
+      "author": "Mochizuki, Ken, 1954-",
+      "rl": 4.1,
+      "il": "2-5 Perma-Bound Books"
     },
     {
       "title": "Passover",
@@ -51144,6 +52170,12 @@
       "author": "Anderson, Jeff, 1966-",
       "rl": null,
       "il": "PROF"
+    },
+    {
+      "title": "Paul Bunyan, a tall tale",
+      "author": "Kellogg, Steven.",
+      "rl": 3.8,
+      "il": "K-3"
     },
     {
       "title": "Paul Revere : American freedom fighter",
@@ -51396,6 +52428,12 @@
       "author": "Bauer, Joan, 1951-",
       "rl": 4.2,
       "il": "Young Adult"
+    },
+    {
+      "title": "Peep in her pocket",
+      "author": "Park, Barbara.",
+      "rl": 2.0,
+      "il": "K-3"
     },
     {
       "title": "Peeper and Zeep",
@@ -52280,6 +53318,12 @@
       "il": "K-3"
     },
     {
+      "title": "Piggies",
+      "author": "Wood, Don, 1945-",
+      "rl": 1.5,
+      "il": "K-3"
+    },
+    {
       "title": "Piggy Pie Po : 3 little stories",
       "author": "Wood, Audrey.",
       "rl": 1.9,
@@ -52344,6 +53388,12 @@
       "author": "Green, Tim, 1963-",
       "rl": 4.3,
       "il": "3-6"
+    },
+    {
+      "title": "Pink and Say",
+      "author": "Polacco, Patricia.",
+      "rl": 4.9,
+      "il": "K-3"
     },
     {
       "title": "Pink is for blobfish : discovering the world's perfectly pink animals",
@@ -52517,6 +53567,12 @@
       "title": "Pirates on the map",
       "author": null,
       "rl": 4.0,
+      "il": "3-6"
+    },
+    {
+      "title": "Pirates past noon",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.5,
       "il": "3-6"
     },
     {
@@ -53192,10 +54248,22 @@
       "il": "3-6"
     },
     {
+      "title": "Polar bears past bedtime",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.4,
+      "il": "3-6"
+    },
+    {
       "title": "Polar regions",
       "author": "Sill, Cathryn P., 1953-",
       "rl": 1.7,
       "il": "K-3"
+    },
+    {
+      "title": "Polar, the Titanic bear",
+      "author": null,
+      "rl": 4.9,
+      "il": "3-6"
     },
     {
       "title": "Police force",
@@ -53690,6 +54758,12 @@
       "il": "2-5"
     },
     {
+      "title": "Prince Caspian : the return to Narnia",
+      "author": "Lewis, C. S. (Clive Staples), 1898-1963.",
+      "rl": 5.6,
+      "il": "5-8"
+    },
+    {
       "title": "Prince of the elves",
       "author": "Kibuishi, Kazu, 1978-",
       "rl": null,
@@ -54090,6 +55164,12 @@
       "author": "Heinrichs, Ann,",
       "rl": 2.0,
       "il": "P-2"
+    },
+    {
+      "title": "Prophecy of Bane",
+      "author": "Collins, Suzanne.",
+      "rl": 5.5,
+      "il": "3-6"
     },
     {
       "title": "Protecting Earth's surface",
@@ -54554,6 +55634,12 @@
       "il": "K-3"
     },
     {
+      "title": "Quiet on the set!",
+      "author": "Krulik, Nancy E.",
+      "rl": 3.2,
+      "il": "1-4 Perma-Bound Books"
+    },
+    {
       "title": "Quiet please, Owen McPhee!",
       "author": "Ludwig, Trudy.",
       "rl": 1.8,
@@ -54938,6 +56024,18 @@
       "il": "2-5"
     },
     {
+      "title": "Ramona Quimby, age 8",
+      "author": "Cleary, Beverly.",
+      "rl": 5.3,
+      "il": "3-6"
+    },
+    {
+      "title": "Ramona Quimby, age eight",
+      "author": "Cleary, Beverly.",
+      "rl": 5.3,
+      "il": "3-6"
+    },
+    {
       "title": "Ramona the brave",
       "author": "Cleary, Beverly.",
       "rl": 4.9,
@@ -55316,6 +56414,12 @@
       "il": "3-6"
     },
     {
+      "title": "Regenbogenfisch. English",
+      "author": "James, J. Alison,",
+      "rl": 4.6,
+      "il": "K-3"
+    },
+    {
       "title": "Reggie. 1, Kid penguin",
       "author": null,
       "rl": 2.4,
@@ -55613,6 +56717,12 @@
       "title": "Revolutionary War escape",
       "author": "Hoena, B. A.",
       "rl": 3.3,
+      "il": "3-6"
+    },
+    {
+      "title": "Revolutionary War on Wednesday",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.8,
       "il": "3-6"
     },
     {
@@ -56522,6 +57632,12 @@
       "il": "K-3"
     },
     {
+      "title": "Rosie's walk",
+      "author": "Hutchins, Pat, 1942-",
+      "rl": 0.8,
+      "il": "K-3"
+    },
+    {
       "title": "Rosy and the secret friend",
       "author": "McNamara, Margaret.",
       "rl": 4.3,
@@ -56604,6 +57720,12 @@
       "author": "Kinney, Jeff,",
       "rl": 5.7,
       "il": "4-7"
+    },
+    {
+      "title": "Roxaboxen",
+      "author": null,
+      "rl": 4.3,
+      "il": "K-3"
     },
     {
       "title": "Roy is not a dog",
@@ -56756,6 +57878,24 @@
       "il": "3-6"
     },
     {
+      "title": "Rumpelstiltskin",
+      "author": "Zelinsky, Paul O.",
+      "rl": 3.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Rumpelstiltskin (Folk tale). English.",
+      "author": "Zelinsky, Paul O.",
+      "rl": 3.2,
+      "il": "K-3"
+    },
+    {
+      "title": "Rumpelstilzchen (Grimm version)",
+      "author": "Zelinsky, Paul O.",
+      "rl": 3.2,
+      "il": "K-3"
+    },
+    {
       "title": "Run for the Hills, Geronimo!",
       "author": "Stilton, Geronimo.",
       "rl": 4.5,
@@ -56802,6 +57942,12 @@
       "author": "Maddox, Jake.",
       "rl": 2.4,
       "il": "4-7"
+    },
+    {
+      "title": "Runny Babbit : a billy sook",
+      "author": "Silverstein, Shel.",
+      "rl": 3.0,
+      "il": "3-6"
     },
     {
       "title": "Runny Babbit returns : another billy sook",
@@ -57192,6 +58338,12 @@
       "author": "Dowell, Frances O'Roark,",
       "rl": 4.2,
       "il": "1-4"
+    },
+    {
+      "title": "Sam, Bangs & moonshine",
+      "author": null,
+      "rl": 3.6,
+      "il": "2-5 Perma-Bound Books"
     },
     {
       "title": "Sam, the most scaredy-cat kid in the whole world",
@@ -57860,6 +59012,12 @@
       "il": "K-3"
     },
     {
+      "title": "Science verse",
+      "author": "Scieszka, Jon.",
+      "rl": 3.7,
+      "il": "K-3"
+    },
+    {
       "title": "Sciencesaurus : a student handbook.",
       "author": null,
       "rl": 5.9,
@@ -58140,6 +59298,12 @@
       "author": null,
       "rl": 2.0,
       "il": "P-2"
+    },
+    {
+      "title": "Season of the sandstorms",
+      "author": "Osborne, Mary Pope.",
+      "rl": 4.9,
+      "il": "3-6"
     },
     {
       "title": "Seasons",
@@ -58676,6 +59840,12 @@
       "il": "K-3"
     },
     {
+      "title": "Seven blind mice",
+      "author": "Young, Ed.",
+      "rl": 2.4,
+      "il": "K-3"
+    },
+    {
       "title": "Seven brave women",
       "author": null,
       "rl": 3.8,
@@ -59204,6 +60374,12 @@
       "il": "4-7"
     },
     {
+      "title": "Shiloh season",
+      "author": "Naylor, Phyllis Reynolds.",
+      "rl": 6.8,
+      "il": "3-6"
+    },
+    {
       "title": "Shimmer & splash : the sparkling world of sea life",
       "author": "Arnosky, Jim.",
       "rl": 6.6,
@@ -59262,6 +60438,12 @@
       "author": null,
       "rl": 3.5,
       "il": "3-6"
+    },
+    {
+      "title": "Shipwrecked",
+      "author": "Park, Barbara.",
+      "rl": 2.0,
+      "il": "K-3"
     },
     {
       "title": "Shipwrecked on Mad Island",
@@ -59516,6 +60698,12 @@
       "il": "P-2"
     },
     {
+      "title": "Sideways arithmetic from Wayside School",
+      "author": "Sachar, Louis, 1954-",
+      "rl": 5.1,
+      "il": "3-6"
+    },
+    {
       "title": "Sideways stories from Wayside School",
       "author": "Sachar, Louis, 1954-",
       "rl": 3.9,
@@ -59690,6 +60878,18 @@
       "il": "2-5"
     },
     {
+      "title": "Sir Cumference and the dragon of pi : a math adventure",
+      "author": "Neuschwander, Cindy.",
+      "rl": 5.1,
+      "il": "3-6"
+    },
+    {
+      "title": "Sir Cumference and the first round table : a math adventure",
+      "author": "Neuschwander, Cindy.",
+      "rl": 4.8,
+      "il": "3-6"
+    },
+    {
       "title": "Sir Cumference and the Fraction Faire",
       "author": "Neuschwander, Cindy,",
       "rl": 3.9,
@@ -59708,6 +60908,12 @@
       "il": "2-5"
     },
     {
+      "title": "Sir Cumference and the Isle of Immeter : a math adventure",
+      "author": "Neuschwander, Cindy.",
+      "rl": 4.4,
+      "il": "2-5 Perma-Bound Books"
+    },
+    {
       "title": "Sir Cumference and the off-the-charts dessert : a math adventure",
       "author": "Neuschwander, Cindy.",
       "rl": 4.0,
@@ -59718,6 +60924,12 @@
       "author": "Neuschwander, Cindy.",
       "rl": 4.0,
       "il": "2-5"
+    },
+    {
+      "title": "Sir Cumference and the sword in the cone : a math adventure",
+      "author": "Neuschwander, Cindy.",
+      "rl": 5.8,
+      "il": "3-6"
     },
     {
       "title": "Sir Cumference and the Viking's map : a math adventure",
@@ -59922,6 +61134,12 @@
       "author": "Gregory, Josh.",
       "rl": 6.3,
       "il": "5-8"
+    },
+    {
+      "title": "Skippyjon Jones",
+      "author": "Schachner, Judith Byron.",
+      "rl": 3.4,
+      "il": "K-3"
     },
     {
       "title": "Skippyjon Jones in mummy trouble",
@@ -60246,6 +61464,12 @@
       "author": null,
       "rl": 4.1,
       "il": "5-9"
+    },
+    {
+      "title": "Small-group reading instruction : a differentiated teaching model for beginning and struggling readers",
+      "author": null,
+      "rl": null,
+      "il": "Professional"
     },
     {
       "title": "Smarter than squirrels",
@@ -60602,6 +61826,12 @@
       "il": null
     },
     {
+      "title": "Snowflake Bentley",
+      "author": "Martin, Jacqueline Briggs.",
+      "rl": 4.4,
+      "il": "K-3"
+    },
+    {
       "title": "Snowflakes fall",
       "author": "MacLachlan, Patricia.",
       "rl": 3.5,
@@ -60944,6 +62174,12 @@
       "il": "K-3"
     },
     {
+      "title": "Some smug slug",
+      "author": "Edwards, Pamela Duncan.",
+      "rl": 3.3,
+      "il": "P-2 Perma-Bound Books"
+    },
+    {
       "title": "Somebody loves you, Mister Hatch",
       "author": "Spinelli, Eileen.",
       "rl": 3.9,
@@ -60972,6 +62208,12 @@
       "author": null,
       "rl": 4.0,
       "il": "2-5"
+    },
+    {
+      "title": "Something big has been here",
+      "author": "Prelutsky, Jack.",
+      "rl": 4.5,
+      "il": "K-3"
     },
     {
       "title": "Something good",
@@ -62090,6 +63332,18 @@
       "il": "1-4"
     },
     {
+      "title": "Stage fright on a summer night",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.8,
+      "il": "3-6"
+    },
+    {
+      "title": "Stagefright on a summer night",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.8,
+      "il": "3-6"
+    },
+    {
       "title": "Stallion by starlight",
       "author": "Osborne, Mary Pope.",
       "rl": 3.8,
@@ -62579,6 +63833,12 @@
       "title": "Stella Endicott and the anything-is-possible poem",
       "author": "Dicamillo, Kate.",
       "rl": null,
+      "il": "K-3"
+    },
+    {
+      "title": "Stellaluna",
+      "author": "Cannon, Janell, 1957-",
+      "rl": 3.9,
       "il": "K-3"
     },
     {
@@ -63584,6 +64844,12 @@
       "il": "5-9"
     },
     {
+      "title": "Summer of the sea serpent",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.9,
+      "il": "2-5 Perma-Bound Books"
+    },
+    {
       "title": "Summer of the tree army : a Civilian Conservation Corps story",
       "author": "Whelan, Gloria,",
       "rl": 3.0,
@@ -63593,6 +64859,12 @@
       "title": "Summer Olympus ; an original graphic novel",
       "author": "Fontana, Shea,",
       "rl": 3.1,
+      "il": "3-6"
+    },
+    {
+      "title": "Summer school! : what genius thought that up?",
+      "author": "Winkler, Henry, 1945-",
+      "rl": 4.9,
       "il": "3-6"
     },
     {
@@ -63629,6 +64901,12 @@
       "title": "Sunny the shark",
       "author": "Lai, Remy,",
       "rl": null,
+      "il": "3-6"
+    },
+    {
+      "title": "Sunset of the sabertooth",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.3,
       "il": "3-6"
     },
     {
@@ -64154,6 +65432,12 @@
       "il": "Pre-kindergarten"
     },
     {
+      "title": "Sure as sunrise : stories of Bruh Rabbit & his walkin' talkin' friends",
+      "author": "McGill, Alice.",
+      "rl": 4.8,
+      "il": "K-3"
+    },
+    {
       "title": "Surely surely Marisol Rainey",
       "author": "Kelly, Erin Entrada,",
       "rl": 4.2,
@@ -64328,6 +65612,12 @@
       "il": "3-6"
     },
     {
+      "title": "Susanna of the Alamo : a true story",
+      "author": null,
+      "rl": 3.0,
+      "il": "K-3"
+    },
+    {
       "title": "Swamp creature teacher",
       "author": "Sazaklis, John.",
       "rl": null,
@@ -64430,6 +65720,12 @@
       "il": "2-6"
     },
     {
+      "title": "Swindle",
+      "author": "Korman, Gordon.",
+      "rl": 4.9,
+      "il": "3-6"
+    },
+    {
       "title": "Swirl by swirl : spirals in nature",
       "author": "Sidman, Joyce.",
       "rl": 2.5,
@@ -64445,6 +65741,12 @@
       "title": "Switzerland",
       "author": "Rechner, Amy.",
       "rl": 6.8,
+      "il": "3-6"
+    },
+    {
+      "title": "Sword in the cone",
+      "author": "Neuschwander, Cindy.",
+      "rl": 5.8,
       "il": "3-6"
     },
     {
@@ -64595,6 +65897,12 @@
       "title": "Tacky in trouble",
       "author": "Lester, Helen.",
       "rl": 3.7,
+      "il": "K-3"
+    },
+    {
+      "title": "Tacky the penguin",
+      "author": "Lester, Helen.",
+      "rl": 2.0,
       "il": "K-3"
     },
     {
@@ -64884,6 +66192,12 @@
       "author": "Hoberman, Mary Ann.",
       "rl": 3.5,
       "il": "P-2"
+    },
+    {
+      "title": "Talkin' about Bessie : the story of aviator Elizabeth Coleman",
+      "author": "Grimes, Nikki.",
+      "rl": 6.1,
+      "il": "2-5 Perma-Bound Books"
     },
     {
       "title": "Tallulah's tap shoes",
@@ -65564,6 +66878,12 @@
       "il": "P-K"
     },
     {
+      "title": "Thank you, Mr. Falker",
+      "author": "Polacco, Patricia.",
+      "rl": 4.1,
+      "il": "K-3"
+    },
+    {
       "title": "Thank you, Mr. Panda",
       "author": "Antony, Steve,",
       "rl": 1.0,
@@ -65610,6 +66930,12 @@
       "author": "Gibbons, Gail.",
       "rl": 3.9,
       "il": "P-2"
+    },
+    {
+      "title": "Thanksgiving on Thursday",
+      "author": "Osborne, Mary Pope.",
+      "rl": 4.5,
+      "il": "3-6"
     },
     {
       "title": "Thanksgiving origami",
@@ -66194,6 +67520,12 @@
       "il": null
     },
     {
+      "title": "The austere academy",
+      "author": "Snicket, Lemony.",
+      "rl": 6.2,
+      "il": "5-8"
+    },
+    {
       "title": "The Australian boomerang bonanza",
       "author": "Greenhut, Josh.",
       "rl": 4.9,
@@ -66222,6 +67554,18 @@
       "author": "Galligan, Gale.",
       "rl": 2.7,
       "il": "3-6"
+    },
+    {
+      "title": "The backward bird dog",
+      "author": "Wallace, Bill, 1947-",
+      "rl": 3.8,
+      "il": "4-7 Perma-Bound Books"
+    },
+    {
+      "title": "The bad beginning",
+      "author": "Snicket, Lemony.",
+      "rl": 6.0,
+      "il": "5-8"
     },
     {
       "title": "The Bad Guys",
@@ -66488,6 +67832,12 @@
       "il": "1-4"
     },
     {
+      "title": "The bee tree",
+      "author": "Polacco, Patricia.",
+      "rl": 4.6,
+      "il": "K-3"
+    },
+    {
       "title": "The beginning of all things",
       "author": "Valenti, Karla.",
       "rl": 3.0,
@@ -66498,6 +67848,12 @@
       "author": "Davies, Jacqueline, 1962-",
       "rl": 4.5,
       "il": "3-6"
+    },
+    {
+      "title": "The Berenstain Bears and the messy room",
+      "author": "Berenstain, Stan, 1923-2005.",
+      "rl": 3.7,
+      "il": "K-3"
     },
     {
       "title": "The Berenstain Bears spring storybook collection",
@@ -66548,10 +67904,22 @@
       "il": null
     },
     {
+      "title": "The best of times : math strategies that multiply",
+      "author": "Tang, Greg.",
+      "rl": 4.0,
+      "il": "3-6"
+    },
+    {
       "title": "The best pet of all",
       "author": "LaRochelle, David.",
       "rl": 2.0,
       "il": "P-2"
+    },
+    {
+      "title": "The best vacation ever",
+      "author": "Murphy, Stuart J., 1942-",
+      "rl": 1.5,
+      "il": "K-3"
     },
     {
       "title": "The BFG",
@@ -66576,6 +67944,12 @@
       "author": "Reid, C. L.,",
       "rl": 2.7,
       "il": "K-3 Perma-Bound Books"
+    },
+    {
+      "title": "The big book for peace",
+      "author": "Agee, Jon,",
+      "rl": 5.2,
+      "il": "3-6"
     },
     {
       "title": "The big book of trains",
@@ -66708,6 +68082,12 @@
       "author": "Tulien, Sean.",
       "rl": 4.1,
       "il": "3-6"
+    },
+    {
+      "title": "The black stallion",
+      "author": "Farley, Walter, 1915-1989.",
+      "rl": 5.2,
+      "il": "5-8"
     },
     {
       "title": "The black stallion returns;",
@@ -66900,6 +68280,12 @@
       "author": "Selznick, Brian.",
       "rl": 4.8,
       "il": "2-5"
+    },
+    {
+      "title": "The boy on Fairfield Street : how Ted Geisel grew up to become Dr. Seuss",
+      "author": "Krull, Kathleen.",
+      "rl": 3.9,
+      "il": "3-6"
     },
     {
       "title": "The boy who ate words",
@@ -67142,6 +68528,12 @@
       "il": "3-6"
     },
     {
+      "title": "The capture",
+      "author": "Lasky, Kathryn.",
+      "rl": 4.4,
+      "il": "3-6"
+    },
+    {
       "title": "The cardboard kingdom",
       "author": "Sell, Chad.",
       "rl": 2.4,
@@ -67152,6 +68544,12 @@
       "author": "Prelutsky, Jack.",
       "rl": 5.3,
       "il": "1-4"
+    },
+    {
+      "title": "The carnivorous carnival",
+      "author": "Snicket, Lemony.",
+      "rl": 6.9,
+      "il": "5-8"
     },
     {
       "title": "The Carrefour curse",
@@ -68504,6 +69902,12 @@
       "il": "K-3"
     },
     {
+      "title": "The end",
+      "author": "Snicket, Lemony.",
+      "rl": 6.9,
+      "il": "5-8"
+    },
+    {
       "title": "The end of Orson Eerie?",
       "author": "Chabert, Jack.",
       "rl": 3.6,
@@ -68564,6 +69968,12 @@
       "il": "1-4"
     },
     {
+      "title": "The ersatz elevator",
+      "author": "Snicket, Lemony.",
+      "rl": 7.0,
+      "il": "5-8"
+    },
+    {
       "title": "The eruption of Mount St. Helens, 1980",
       "author": "Tarshis, Lauren.",
       "rl": 4.4,
@@ -68621,6 +70031,12 @@
       "title": "The falcon's feather : a novel",
       "author": "Trueit, Trudi Strain.",
       "rl": 3.0,
+      "il": "3-6"
+    },
+    {
+      "title": "The falcon's feathers",
+      "author": null,
+      "rl": 4.7,
       "il": "3-6"
     },
     {
@@ -69026,6 +70442,12 @@
       "il": "1-4"
     },
     {
+      "title": "The frog prince, continued",
+      "author": "Scieszka, Jon.",
+      "rl": 3.2,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "The frog who croaked",
       "author": "Krosoczka, Jarrett.",
       "rl": 4.9,
@@ -69102,6 +70524,12 @@
       "author": "Tarshis, Lauren,",
       "rl": 4.0,
       "il": "2-5"
+    },
+    {
+      "title": "The garden of Abdul Gasazi",
+      "author": "Van Allsburg, Chris.",
+      "rl": 4.7,
+      "il": "K-3"
     },
     {
       "title": "The Gateway Arch : celebrating western expansion",
@@ -69390,6 +70818,12 @@
       "author": "Truss, Lynne.",
       "rl": 3.2,
       "il": "3-6"
+    },
+    {
+      "title": "The giving tree",
+      "author": "Silverstein, Shel.",
+      "rl": 2.9,
+      "il": "K-3"
     },
     {
       "title": "The glitter bug",
@@ -69734,6 +71168,12 @@
       "il": "2-6"
     },
     {
+      "title": "The greatest skating race : a World War II story from the Netherlands",
+      "author": "Borden, Louise.",
+      "rl": 4.9,
+      "il": "3-6 Perma-Bound Books"
+    },
+    {
       "title": "The greatest treasure hunt",
       "author": "Patterson, James, 1947-",
       "rl": 4.9,
@@ -69750,6 +71190,12 @@
       "author": null,
       "rl": 4.0,
       "il": "4-7"
+    },
+    {
+      "title": "The grim grotto",
+      "author": "Snicket, Lemony.",
+      "rl": 6.2,
+      "il": "5-8"
     },
     {
       "title": "The Grinch takes a vacation : a Grinch story",
@@ -69824,6 +71270,12 @@
       "il": "1-4"
     },
     {
+      "title": "The Hallo-wiener",
+      "author": "Pilkey, Dav, 1966-",
+      "rl": 2.9,
+      "il": "K-3"
+    },
+    {
       "title": "The Hammer of Thor",
       "author": "Riordan, Rick.",
       "rl": 5.1,
@@ -69863,6 +71315,12 @@
       "title": "The hare and the tortoise : based on the fable by La Fontaine",
       "author": null,
       "rl": 3.9,
+      "il": "K-3"
+    },
+    {
+      "title": "The hat",
+      "author": "Brett, Jan, 1949-",
+      "rl": 2.8,
       "il": "K-3"
     },
     {
@@ -69978,6 +71436,12 @@
       "author": "Pak, Kenard,",
       "rl": 2.0,
       "il": "1-4"
+    },
+    {
+      "title": "The hello, goodbye window",
+      "author": "Juster, Norton, 1929-",
+      "rl": 3.9,
+      "il": "K-3"
     },
     {
       "title": "The hidden doors : seven graphic stories",
@@ -70152,6 +71616,12 @@
       "author": "Brown, Lisa, 1972-",
       "rl": null,
       "il": "K-2"
+    },
+    {
+      "title": "The hostile hospital",
+      "author": "Snicket, Lemony.",
+      "rl": 6.9,
+      "il": "5-8"
     },
     {
       "title": "The hotel whodunit : an original novel",
@@ -70386,6 +71856,12 @@
       "author": "Lawrence, Mike (Comic book artist),",
       "rl": 5.0,
       "il": "4-7"
+    },
+    {
+      "title": "The invention of Hugo Cabret : a novel in words and pictures",
+      "author": "Selznick, Brian.",
+      "rl": 5.6,
+      "il": "3-6"
     },
     {
       "title": "The inventors of LEGO toys",
@@ -70658,6 +72134,12 @@
       "il": "3-6"
     },
     {
+      "title": "The last battle",
+      "author": "Lewis, C. S. (Clive Staples), 1898-1963.",
+      "rl": 5.8,
+      "il": "5-8"
+    },
+    {
       "title": "The last bear",
       "author": "Gold, Hannah,",
       "rl": 5.6,
@@ -70674,6 +72156,12 @@
       "author": "Jinks, Catherine.",
       "rl": 5.6,
       "il": "4-7"
+    },
+    {
+      "title": "The last brother : a Civil War tale",
+      "author": "Noble, Trinka Hakes.",
+      "rl": 5.5,
+      "il": "2-5 Perma-Bound Books"
     },
     {
       "title": "The last comics on earth",
@@ -71228,6 +72716,12 @@
       "il": "5-9"
     },
     {
+      "title": "The Lost Colony of Roanoke",
+      "author": "Talbott, Hudson,",
+      "rl": 6.0,
+      "il": "3-6"
+    },
+    {
       "title": "The lost continent",
       "author": "Sutherland, Tui, 1978-",
       "rl": 5.4,
@@ -71690,6 +73184,12 @@
       "il": "4-7"
     },
     {
+      "title": "The miserable mill",
+      "author": "Snicket, Lemony.",
+      "rl": 6.9,
+      "il": "5-8"
+    },
+    {
       "title": "The misfit donkey",
       "author": "Cameron, W. Bruce,",
       "rl": 4.1,
@@ -71900,6 +73400,12 @@
       "il": "1-4"
     },
     {
+      "title": "The mysteries of Harris Burdick",
+      "author": "Van Allsburg, Chris.",
+      "rl": 3.5,
+      "il": "K-3"
+    },
+    {
       "title": "The mysterious cheese thief",
       "author": "Stilton, Geronimo.",
       "rl": 3.8,
@@ -71910,6 +73416,12 @@
       "author": "Wood, Maryrose.",
       "rl": 6.6,
       "il": "3-6"
+    },
+    {
+      "title": "The mysterious matter of I.M. Fine",
+      "author": "Stanley, Diane.",
+      "rl": 6.0,
+      "il": "5-8"
     },
     {
       "title": "The mysterious moonstone",
@@ -72032,6 +73544,12 @@
       "il": "K-3"
     },
     {
+      "title": "The neighborhood Mother Goose",
+      "author": null,
+      "rl": 3.8,
+      "il": "P-2 Perma-Bound Books"
+    },
+    {
       "title": "The nerdy dozen",
       "author": "Miller, Jeff.",
       "rl": 5.8,
@@ -72138,6 +73656,12 @@
       "author": "Auxier, Jonathan.",
       "rl": 4.9,
       "il": "4-7"
+    },
+    {
+      "title": "The night I flunked my field trip",
+      "author": "Winkler, Henry, 1945-",
+      "rl": 4.3,
+      "il": "3-6"
     },
     {
       "title": "The night of Las Posadas",
@@ -72278,6 +73802,12 @@
       "il": "5-9"
     },
     {
+      "title": "The old Willis place : a ghost story",
+      "author": "Hahn, Mary Downing.",
+      "rl": 4.2,
+      "il": "5-8"
+    },
+    {
       "title": "The old woman who named things",
       "author": "Rylant, Cynthia.",
       "rl": 3.8,
@@ -72366,6 +73896,12 @@
       "author": "Krosoczka, Jarrett.",
       "rl": 5.5,
       "il": "3-6"
+    },
+    {
+      "title": "The other side",
+      "author": "Woodson, Jacqueline.",
+      "rl": 2.4,
+      "il": "K-3"
     },
     {
       "title": "The Ottoman Empire",
@@ -72498,6 +74034,12 @@
       "author": "Sutton, Laurie.",
       "rl": 4.6,
       "il": "3-6"
+    },
+    {
+      "title": "The penultimate peril",
+      "author": "Snicket, Lemony.",
+      "rl": 7.2,
+      "il": "5-8"
     },
     {
       "title": "The perfect dog",
@@ -72731,6 +74273,12 @@
       "title": "The polar bear piper",
       "author": "David, Erica,",
       "rl": 4.0,
+      "il": "K-3"
+    },
+    {
+      "title": "The Polar Express",
+      "author": "Van Allsburg, Chris.",
+      "rl": 4.2,
       "il": "K-3"
     },
     {
@@ -73130,6 +74678,12 @@
       "il": "2-5"
     },
     {
+      "title": "The rainbow fish",
+      "author": "James, J. Alison,",
+      "rl": 4.6,
+      "il": "K-3"
+    },
+    {
       "title": "The rainy day",
       "author": "Cronin, Doreen.",
       "rl": 1.5,
@@ -73248,6 +74802,12 @@
       "author": "Keene, Carolyn.",
       "rl": 4.7,
       "il": "2-5"
+    },
+    {
+      "title": "The relatives came",
+      "author": "Rylant, Cynthia.",
+      "rl": 4.6,
+      "il": "K-3"
     },
     {
       "title": "The reptile room",
@@ -73548,6 +75108,12 @@
       "author": "Chabert, Jack.",
       "rl": 3.4,
       "il": "K-3"
+    },
+    {
+      "title": "The school story",
+      "author": "Clements, Andrew, 1949-",
+      "rl": 6.1,
+      "il": "3-6"
     },
     {
       "title": "The science behind Batman's flying machines",
@@ -74162,6 +75728,12 @@
       "il": "2-5"
     },
     {
+      "title": "The slippery slope",
+      "author": "Snicket, Lemony.",
+      "rl": 6.8,
+      "il": "5-8"
+    },
+    {
       "title": "The slowest book ever",
       "author": "Sayre, April Pulley.",
       "rl": 5.8,
@@ -74298,6 +75870,12 @@
       "author": "Appleton, Victor,",
       "rl": 4.0,
       "il": "4-7"
+    },
+    {
+      "title": "The SOS file",
+      "author": "Byars, Betsy Cromer.",
+      "rl": 4.6,
+      "il": "3-6"
     },
     {
       "title": "The sour grape",
@@ -74466,6 +76044,12 @@
       "author": "Stilton, Geronimo.",
       "rl": 4.2,
       "il": "2-5"
+    },
+    {
+      "title": "The Stinky Cheese Man and other fairly stupid tales",
+      "author": "Scieszka, Jon.",
+      "rl": 3.4,
+      "il": "K-3"
     },
     {
       "title": "The stinky cheese vacation",
@@ -74894,6 +76478,12 @@
       "il": "3-6"
     },
     {
+      "title": "The tarantula scientist",
+      "author": "Montgomery, Sy.",
+      "rl": 5.8,
+      "il": "3-6"
+    },
+    {
       "title": "The tea party in the woods",
       "author": null,
       "rl": 2.7,
@@ -74928,6 +76518,12 @@
       "author": "Raum, Elizabeth,",
       "rl": 6.4,
       "il": "4-7"
+    },
+    {
+      "title": "The tenth city",
+      "author": "Carman, Patrick.",
+      "rl": 5.5,
+      "il": "3-6"
     },
     {
       "title": "The terrible two",
@@ -75020,6 +76616,12 @@
       "il": "K-3"
     },
     {
+      "title": "The three bears",
+      "author": "Galdone, Paul,",
+      "rl": 3.0,
+      "il": "K-3"
+    },
+    {
       "title": "The three billy goats buenos",
       "author": "Elya, Susan Middleton, 1955-",
       "rl": 2.0,
@@ -75065,6 +76667,18 @@
       "title": "The three ninja pigs",
       "author": "Schwartz, Corey Rosen.",
       "rl": 2.9,
+      "il": "K-3"
+    },
+    {
+      "title": "The three pigs",
+      "author": "Wiesner, David.",
+      "rl": 2.4,
+      "il": "K-3"
+    },
+    {
+      "title": "The three questions",
+      "author": "Muth, Jon J.",
+      "rl": 2.6,
       "il": "K-3"
     },
     {
@@ -75332,6 +76946,12 @@
       "il": "K-3"
     },
     {
+      "title": "The trumpet of the swan",
+      "author": "White, E. B. (Elwyn Brooks), 1899-",
+      "rl": 5.8,
+      "il": "3-6"
+    },
+    {
       "title": "The truth about Aaron",
       "author": "Kessler, Liz,",
       "rl": 1.0,
@@ -75450,6 +77070,12 @@
       "author": null,
       "rl": 6.1,
       "il": "2-5"
+    },
+    {
+      "title": "The ugly duckling",
+      "author": "Pinkney, Jerry.",
+      "rl": 4.8,
+      "il": "K-3"
     },
     {
       "title": "The ugly truth",
@@ -75708,6 +77334,12 @@
       "author": null,
       "rl": 4.9,
       "il": "4-7 Perma-Bound Books"
+    },
+    {
+      "title": "The vile village",
+      "author": "Snicket, Lemony.",
+      "rl": 5.9,
+      "il": "5-8"
     },
     {
       "title": "The viper's nest",
@@ -76034,6 +77666,12 @@
       "il": "4-7"
     },
     {
+      "title": "The wind in the willows",
+      "author": null,
+      "rl": null,
+      "il": null
+    },
+    {
       "title": "The Windy City",
       "author": "Smith, Roland, 1951-",
       "rl": 4.9,
@@ -76248,6 +77886,12 @@
       "author": null,
       "rl": null,
       "il": null
+    },
+    {
+      "title": "The wretched stone",
+      "author": "Van Allsburg, Chris.",
+      "rl": 6.1,
+      "il": "5-8"
     },
     {
       "title": "The Wright brothers and the airplane",
@@ -76532,6 +78176,12 @@
       "il": "P-2"
     },
     {
+      "title": "There is a wocket in my pocket",
+      "author": "Seuss, Dr.",
+      "rl": 2.1,
+      "il": "K-3"
+    },
+    {
       "title": "There is a zombie in my bathtub",
       "author": "Winkler, Henry, 1945-",
       "rl": 3.8,
@@ -76686,6 +78336,12 @@
       "author": "Alley, R. W. (Robert W.),",
       "rl": 3.5,
       "il": "1-4"
+    },
+    {
+      "title": "There's a wocket in my pocket!",
+      "author": "Seuss, Dr.",
+      "rl": 2.1,
+      "il": "K-3"
     },
     {
       "title": "There's a zombie in my bathtub",
@@ -76988,6 +78644,12 @@
       "il": "K-3"
     },
     {
+      "title": "This little light of mine.",
+      "author": "Bryan, Ashley,",
+      "rl": 2.0,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "This little piggy",
       "author": null,
       "rl": 2.4,
@@ -77126,6 +78788,18 @@
       "il": "P-2"
     },
     {
+      "title": "Three little pigs. English.",
+      "author": "Wiesner, David.",
+      "rl": 2.4,
+      "il": "K-3"
+    },
+    {
+      "title": "Three Names",
+      "author": "MacLachlan, Patricia.",
+      "rl": 4.5,
+      "il": "K-3"
+    },
+    {
       "title": "Three pickled herrings",
       "author": "Gardner, Sally.",
       "rl": 5.0,
@@ -77208,6 +78882,12 @@
       "author": "Brallier, Max,",
       "rl": 3.1,
       "il": "4-7"
+    },
+    {
+      "title": "Through my eyes",
+      "author": null,
+      "rl": 6.2,
+      "il": "3-6"
     },
     {
       "title": "Through the dark forest",
@@ -77352,6 +79032,12 @@
       "author": "Vogel, Julia.",
       "rl": 3.5,
       "il": "1-4"
+    },
+    {
+      "title": "Tigers at twilight",
+      "author": "Osborne, Mary Pope.",
+      "rl": 4.6,
+      "il": "3-6"
     },
     {
       "title": "Tigers at twilight. Spanish",
@@ -77828,6 +79514,12 @@
       "il": "K-3"
     },
     {
+      "title": "Tonight on the Titanic",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.5,
+      "il": "3-6"
+    },
+    {
       "title": "Tonje Glimmerdal. English",
       "author": "Puzey, Guy,",
       "rl": 5.8,
@@ -77964,6 +79656,12 @@
       "author": "Hale, Bruce.",
       "rl": 2.5,
       "il": "P-2"
+    },
+    {
+      "title": "Toothless wonder",
+      "author": "Park, Barbara.",
+      "rl": 2.6,
+      "il": "K-3"
     },
     {
       "title": "Top 10 teams in football",
@@ -78206,6 +79904,12 @@
       "il": "4-7"
     },
     {
+      "title": "Town mouse, country mouse",
+      "author": "Brett, Jan, 1949-",
+      "rl": 4.4,
+      "il": "K-3"
+    },
+    {
       "title": "Toy story",
       "author": "Ferrari, Alessandro,",
       "rl": 2.0,
@@ -78288,6 +79992,12 @@
       "author": "Coiley, John.",
       "rl": null,
       "il": null
+    },
+    {
+      "title": "Train to Somewhere",
+      "author": "Bunting, Eve, 1928-",
+      "rl": 2.8,
+      "il": "3-6"
     },
     {
       "title": "Train wreck : Kansas, 1892",
@@ -78504,6 +80214,12 @@
       "author": "Phillips, Dee, 1967-",
       "rl": 3.7,
       "il": "K-3"
+    },
+    {
+      "title": "Tree of life : the incredible biodiversity of life on earth",
+      "author": "Strauss, Rochelle, 1967-",
+      "rl": 7.2,
+      "il": "3-6"
     },
     {
       "title": "Tree-house Comix Proudly presents Dog Man",
@@ -78962,6 +80678,12 @@
       "il": "K-3"
     },
     {
+      "title": "Tuesday",
+      "author": "Wiesner, David.",
+      "rl": 1.7,
+      "il": "K-3"
+    },
+    {
       "title": "Tuesday : the curse of the blue spots",
       "author": "Lazar, Ralph,",
       "rl": 4.9,
@@ -79278,6 +81000,12 @@
       "author": "Johnson, Varian,",
       "rl": 3.0,
       "il": "5-8"
+    },
+    {
+      "title": "Twister on Tuesday",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.2,
+      "il": "3-6"
     },
     {
       "title": "Twists & turns behind animal germs",
@@ -79691,6 +81419,12 @@
       "title": "Under their skin",
       "author": "Haddix, Margaret Peterson.",
       "rl": 5.4,
+      "il": "3-6"
+    },
+    {
+      "title": "Under, over, by the clover : what is a preposition?",
+      "author": "Cleary, Brian P., 1959-",
+      "rl": 4.6,
       "il": "3-6"
     },
     {
@@ -80324,6 +82058,12 @@
       "il": null
     },
     {
+      "title": "Vacation under the volcano",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.5,
+      "il": "3-6"
+    },
+    {
       "title": "Vaffelhjarte. English",
       "author": "Puzey, Guy,",
       "rl": 4.8,
@@ -80486,6 +82226,12 @@
       "il": "P-2"
     },
     {
+      "title": "Verdi",
+      "author": "Cannon, Janell, 1957-",
+      "rl": 4.8,
+      "il": "K-3"
+    },
+    {
       "title": "Vermeilles. English",
       "author": "Kane, Montana,",
       "rl": 2.9,
@@ -80627,6 +82373,12 @@
       "title": "Vietnam.",
       "author": "Oachs, Emily Rose.",
       "rl": 6.4,
+      "il": "3-6"
+    },
+    {
+      "title": "Viking ships at sunrise",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.2,
       "il": "3-6"
     },
     {
@@ -80976,6 +82728,12 @@
       "author": "Kramer, Barbara,",
       "rl": 4.4,
       "il": "1-4"
+    },
+    {
+      "title": "Walt Whitman : words for America",
+      "author": "Selznick, Brian,",
+      "rl": 5.4,
+      "il": "5-9 Perma-Bound Books"
     },
     {
       "title": "Walt's imagination : the life of Walt Disney",
@@ -81920,10 +83678,22 @@
       "il": "3-6"
     },
     {
+      "title": "Welcome to Camp Nightmare",
+      "author": "Stine, R. L.",
+      "rl": 4.2,
+      "il": "5-8"
+    },
+    {
       "title": "Welcome to Camp Slither",
       "author": "Stine, R. L.",
       "rl": 3.2,
       "il": "4-7"
+    },
+    {
+      "title": "Welcome to dead house",
+      "author": "Stine, R. L.",
+      "rl": 3.7,
+      "il": "4-7 Perma-Bound Books"
     },
     {
       "title": "Welcome to Feral : little town. Big scares!",
@@ -82256,6 +84026,12 @@
       "il": "K-3"
     },
     {
+      "title": "What do you do with a tail like this?",
+      "author": "Jenkins, Steve, 1952-",
+      "rl": 3.0,
+      "il": "P-2 Perma-Bound Books"
+    },
+    {
       "title": "What do you do with a voice like that? : the story of extraordinary congresswoman Barbara Jordan",
       "author": "Barton, Chris,",
       "rl": 4.6,
@@ -82446,6 +84222,18 @@
       "author": null,
       "rl": 2.0,
       "il": "P-2"
+    },
+    {
+      "title": "What is an adjective",
+      "author": "Cleary, Brian P., 1959-",
+      "rl": 3.3,
+      "il": "3-6"
+    },
+    {
+      "title": "What is an adverb",
+      "author": "Cleary, Brian P., 1959-",
+      "rl": 4.4,
+      "il": "3-6"
     },
     {
       "title": "What is black and white and stinks all over?",
@@ -83324,6 +85112,12 @@
       "il": "4-7"
     },
     {
+      "title": "When the saints go marching in.",
+      "author": "Bryan, Ashley,",
+      "rl": 2.0,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "When the sky glows",
       "author": "Beckerman, Nell Cross, 1973-",
       "rl": 5.3,
@@ -83538,6 +85332,12 @@
       "author": "Stine, Megan.",
       "rl": 5.2,
       "il": "4-7"
+    },
+    {
+      "title": "Where once there was a wood",
+      "author": "Fleming, Denise, 1950-",
+      "rl": 2.5,
+      "il": "2-5 Perma-Bound Books"
     },
     {
       "title": "Where the sidewalk ends : the poems & drawings",
@@ -84938,6 +86738,12 @@
       "il": "K-3"
     },
     {
+      "title": "Winter of the ice wizard",
+      "author": "Osborne, Mary Pope.",
+      "rl": 3.2,
+      "il": "3-6"
+    },
+    {
       "title": "Winter pony.",
       "author": "Lewin, Ted,",
       "rl": null,
@@ -85740,6 +87546,12 @@
       "author": null,
       "rl": null,
       "il": null
+    },
+    {
+      "title": "Worm",
+      "author": "Cronin, Doreen.",
+      "rl": 3.3,
+      "il": "K-3"
     },
     {
       "title": "Worm & Caterpillar are friends",

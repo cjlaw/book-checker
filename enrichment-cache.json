@@ -76,13 +76,6 @@
     "rl": 5.0,
     "il": "2-5"
   },
-  "A MY NAME IS ALICE": {
-    "bibId": 175238,
-    "isbn": "9780140546682",
-    "author": "Kellogg, Steven,",
-    "rl": 2.2,
-    "il": "K-3"
-  },
   "0000001918 FLU PANDEMIC": {
     "bibId": 57139,
     "isbn": "9781429601580",
@@ -19263,13 +19256,6 @@
     "rl": null,
     "il": null
   },
-  "DIWALI THE MAGICAL DIYAS": {
-    "bibId": 182284,
-    "isbn": "9781086343830",
-    "author": null,
-    "rl": null,
-    "il": null
-  },
   "DNA": {
     "bibId": 159208,
     "isbn": "9781480747197",
@@ -34235,13 +34221,6 @@
     "author": "Turnbull, Stephanie.",
     "rl": 3.0,
     "il": "2-5"
-  },
-  "HIGHLIGHTS OF THE MIAMI DOLPHINS": {
-    "bibId": 189037,
-    "isbn": "9781680724349",
-    "author": "Storm, Marysa.",
-    "rl": 3.4,
-    "il": "3-6"
   },
   "HILLS BEYOND": {
     "bibId": 182881,
@@ -101701,5 +101680,2140 @@
     "author": "Silverstein, Shel.",
     "rl": 3.9,
     "il": "3-6"
+  },
+  "A B C": {
+    "bibId": 41060,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 2.7,
+    "il": "K-3"
+  },
+  "ACTUAL SIZE": {
+    "bibId": 41848,
+    "isbn": "9780547512914",
+    "author": "Jenkins, Steve, 1952-",
+    "rl": 2.8,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "AFTERNOON ON THE AMAZON": {
+    "bibId": 42953,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.3,
+    "il": "3-6"
+  },
+  "ALEXANDER AND THE TERRIBLE HORRIBLE NO GOOD VERY BAD DAY": {
+    "bibId": 41000,
+    "isbn": null,
+    "author": "Viorst, Judith.",
+    "rl": null,
+    "il": null
+  },
+  "ALEXANDER WHO USED TO BE RICH LAST SUNDAY": {
+    "bibId": 210635,
+    "isbn": null,
+    "author": "Viorst, Judith.",
+    "rl": 3.5,
+    "il": "K-3"
+  },
+  "ALICE THE FAIRY": {
+    "bibId": 40985,
+    "isbn": null,
+    "author": "Shannon, David, 1959-",
+    "rl": 2.4,
+    "il": "K-3"
+  },
+  "AMAZING GRACE": {
+    "bibId": 20361,
+    "isbn": null,
+    "author": "Hoffman, Mary, 1945-",
+    "rl": 4.1,
+    "il": "K-3"
+  },
+  "AMBER WAS BRAVE ESSIE WAS SMART THE STORY OF AMBER AND ESSIE TOLD HERE IN POEMS AND PICTURES": {
+    "bibId": 41719,
+    "isbn": null,
+    "author": "Williams, Vera B.",
+    "rl": 5.4,
+    "il": "3-6"
+  },
+  "AND THE DISH RAN AWAY WITH THE SPOON": {
+    "bibId": 40911,
+    "isbn": null,
+    "author": "Stevens, Janet.",
+    "rl": 2.9,
+    "il": "K-3"
+  },
+  "AND TO THINK THAT I SAW IT ON MULBERRY STREET": {
+    "bibId": 210625,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "ANNIE AND THE OLD ONE": {
+    "bibId": 42873,
+    "isbn": null,
+    "author": null,
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "ANY WAY YOU SLICE IT": {
+    "bibId": 210640,
+    "isbn": "9780448432045",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.8,
+    "il": "3-6"
+  },
+  "ANYONE BUT ME": {
+    "bibId": 42962,
+    "isbn": "9780448426532",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.5,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "ARCHEOLOGY": {
+    "bibId": 17138,
+    "isbn": null,
+    "author": null,
+    "rl": 6.9,
+    "il": "5-8"
+  },
+  "ARMADILLO RODEO": {
+    "bibId": 17675,
+    "isbn": null,
+    "author": "Brett, Jan, 1949-",
+    "rl": 4.6,
+    "il": "K-3"
+  },
+  "ARTHURS FAMILY VACATION": {
+    "bibId": 43235,
+    "isbn": "9780316109581",
+    "author": "Brown, Marc Tolon.",
+    "rl": 2.7,
+    "il": "K-3"
+  },
+  "AUSTERE ACADEMY": {
+    "bibId": 11961,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 6.2,
+    "il": "5-8"
+  },
+  "BABE AND ME": {
+    "bibId": 31522,
+    "isbn": null,
+    "author": "Gutman, Dan.",
+    "rl": 5.2,
+    "il": "5-8"
+  },
+  "BABE ME A BASEBALL CARD ADVENTURE": {
+    "bibId": 31522,
+    "isbn": null,
+    "author": "Gutman, Dan.",
+    "rl": 5.2,
+    "il": "5-8"
+  },
+  "BAD BEGINNING": {
+    "bibId": 19379,
+    "isbn": "9780061146305",
+    "author": "Snicket, Lemony.",
+    "rl": 6.0,
+    "il": "5-8"
+  },
+  "BAD BEGINNING OR ORPHANS": {
+    "bibId": 19379,
+    "isbn": "9780061146305",
+    "author": "Snicket, Lemony.",
+    "rl": 6.0,
+    "il": "5-8"
+  },
+  "BACKWARD BIRD DOG": {
+    "bibId": 210617,
+    "isbn": "9780671568528",
+    "author": "Wallace, Bill, 1947-",
+    "rl": 3.8,
+    "il": "4-7 Perma-Bound Books"
+  },
+  "BAD DAY AT RIVERBEND": {
+    "bibId": 42512,
+    "isbn": null,
+    "author": "Van Allsburg, Chris.",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "BASEBALL SAVED US": {
+    "bibId": 42872,
+    "isbn": null,
+    "author": "Mochizuki, Ken, 1954-",
+    "rl": 4.1,
+    "il": "3-6"
+  },
+  "BEE TREE": {
+    "bibId": 16886,
+    "isbn": null,
+    "author": "Polacco, Patricia.",
+    "rl": 4.6,
+    "il": "K-3"
+  },
+  "BENS DREAM": {
+    "bibId": 210642,
+    "isbn": null,
+    "author": "Van Allsburg, Chris.",
+    "rl": 3.4,
+    "il": "K-3"
+  },
+  "BERENSTAIN BEARS AND THE MESSY ROOM": {
+    "bibId": 43407,
+    "isbn": "9780394856391",
+    "author": "Berenstain, Stan, 1923-2005.",
+    "rl": 3.7,
+    "il": "K-3"
+  },
+  "BEST VACATION EVER": {
+    "bibId": 41779,
+    "isbn": "9780064467063",
+    "author": "Murphy, Stuart J., 1942-",
+    "rl": 1.5,
+    "il": "K-3"
+  },
+  "BEST OF TIMES MATH STRATEGIES THAT MULTIPLY": {
+    "bibId": 41778,
+    "isbn": null,
+    "author": "Tang, Greg.",
+    "rl": 4.0,
+    "il": "3-6"
+  },
+  "BIG BOOK FOR PEACE": {
+    "bibId": 19557,
+    "isbn": null,
+    "author": "Agee, Jon,",
+    "rl": 5.2,
+    "il": "3-6"
+  },
+  "BLACK STALLION": {
+    "bibId": 19528,
+    "isbn": null,
+    "author": "Farley, Walter, 1915-1989.",
+    "rl": 5.2,
+    "il": "5-8"
+  },
+  "BLIND MEN AND THE ELEPHANT": {
+    "bibId": 12677,
+    "isbn": "9780698118959",
+    "author": "Young, Ed.",
+    "rl": 2.4,
+    "il": "K-3"
+  },
+  "BLIZZARD OF THE BLUE MOON": {
+    "bibId": 21190,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.9,
+    "il": "3-6"
+  },
+  "BOY ON FAIRFIELD STREET HOW TED GEISEL GREW UP TO BECOME DR SEUSS": {
+    "bibId": 41842,
+    "isbn": null,
+    "author": "Krull, Kathleen.",
+    "rl": 3.9,
+    "il": "3-6"
+  },
+  "BROWN BEAR BROWN BEAR WHAT DO YOU SEE": {
+    "bibId": 43791,
+    "isbn": "9780805017441",
+    "author": "Martin, Bill, 1916-2004.",
+    "rl": 1.5,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "BUBBA THE COWBOY PRINCE A FRACTURED TEXAS TALE": {
+    "bibId": 43717,
+    "isbn": null,
+    "author": "Ketteman, Helen.",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "BUFFALO BEFORE BREAKFAST": {
+    "bibId": 42906,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.3,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "BUGS FOR LUNCH": {
+    "bibId": 210632,
+    "isbn": null,
+    "author": "Long, Sylvia,",
+    "rl": 1.5,
+    "il": "K-3"
+  },
+  "CAN ADULTS BECOME HUMAN": {
+    "bibId": 40859,
+    "isbn": "9780439796217",
+    "author": "Benton, Jim.",
+    "rl": 5.9,
+    "il": "4-7 Perma-Bound Books"
+  },
+  "CAPTAIN FIELD DAY": {
+    "bibId": 42722,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.9,
+    "il": "K-3"
+  },
+  "CAPTURE": {
+    "bibId": 20935,
+    "isbn": null,
+    "author": "Lasky, Kathryn.",
+    "rl": 4.4,
+    "il": "3-6"
+  },
+  "CARNIVAL AT CANDLELIGHT": {
+    "bibId": 42853,
+    "isbn": "9780375830334",
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.3,
+    "il": "3-6"
+  },
+  "CARNIVOROUS CARNIVAL": {
+    "bibId": 19180,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 6.9,
+    "il": "5-8"
+  },
+  "CHASING VERMEER": {
+    "bibId": 14365,
+    "isbn": null,
+    "author": "Balliett, Blue, 1955-",
+    "rl": 5.4,
+    "il": "3-6"
+  },
+  "CHATO AND THE PARTY ANIMALS": {
+    "bibId": 41108,
+    "isbn": null,
+    "author": "Soto, Gary.",
+    "rl": 2.7,
+    "il": "K-3"
+  },
+  "CIVIL WAR ON SUNDAY": {
+    "bibId": 20713,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.5,
+    "il": "3-6"
+  },
+  "CLICK CLACK MOO COWS THAT TYPE": {
+    "bibId": 43419,
+    "isbn": "9780689832130",
+    "author": "Cronin, Doreen.",
+    "rl": 2.3,
+    "il": "K-3"
+  },
+  "CLICK CLACK SPLISH SPLASH A COUNTING ADVENTURE": {
+    "bibId": 43534,
+    "isbn": null,
+    "author": "Cronin, Doreen.",
+    "rl": 1.3,
+    "il": "K-3"
+  },
+  "COMING ON HOME SOON": {
+    "bibId": 40991,
+    "isbn": "9780399237485",
+    "author": "Woodson, Jacqueline.",
+    "rl": 1.5,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "COOKIES WEEK": {
+    "bibId": 210621,
+    "isbn": null,
+    "author": null,
+    "rl": 1.3,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "COUNTING ON FRANK": {
+    "bibId": 41893,
+    "isbn": null,
+    "author": null,
+    "rl": 3.8,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "DARK HILLS DIVIDE LAND OF ELYON BOOK 0000000001": {
+    "bibId": 21501,
+    "isbn": null,
+    "author": "Carman, Patrick.",
+    "rl": null,
+    "il": null
+  },
+  "DAVID GETS IN TROUBLE": {
+    "bibId": 19199,
+    "isbn": null,
+    "author": "Shannon, David, 1959-",
+    "rl": 1.3,
+    "il": "K-3"
+  },
+  "DAY OF THE DRAGON KING": {
+    "bibId": 42917,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.0,
+    "il": "3-6"
+  },
+  "DEAR MISSUS LARUE": {
+    "bibId": 12667,
+    "isbn": "9780439206631",
+    "author": "Teague, Mark.",
+    "rl": 3.7,
+    "il": "K-3"
+  },
+  "DEAR MRS LARUE LETTERS FROM OBEDIENCE SCHOOL": {
+    "bibId": 12667,
+    "isbn": "9780439206631",
+    "author": "Teague, Mark.",
+    "rl": 3.7,
+    "il": "K-3"
+  },
+  "DEARLY NEARLY INSINCERELY WHAT IS AN ADVERB": {
+    "bibId": 41837,
+    "isbn": null,
+    "author": "Cleary, Brian P., 1959-",
+    "rl": 4.4,
+    "il": "3-6"
+  },
+  "DESPEREAUX": {
+    "bibId": 12825,
+    "isbn": "9780763617226",
+    "author": "DiCamillo, Kate.",
+    "rl": 4.1,
+    "il": "3-6"
+  },
+  "DIARY OF A FLY": {
+    "bibId": 43542,
+    "isbn": "9780060001568",
+    "author": "Cronin, Doreen.",
+    "rl": 2.9,
+    "il": "K-3"
+  },
+  "DIARY OF A WORM": {
+    "bibId": 18984,
+    "isbn": null,
+    "author": "Cronin, Doreen.",
+    "rl": 3.3,
+    "il": "K-3"
+  },
+  "DIARY OF A SPIDER": {
+    "bibId": 43424,
+    "isbn": "9780060001537",
+    "author": "Cronin, Doreen.",
+    "rl": 1.7,
+    "il": "K-3"
+  },
+  "DIG WAIT LISTEN A DESERT TOADS TALE": {
+    "bibId": 40912,
+    "isbn": "9780688166144",
+    "author": "Sayre, April Pulley.",
+    "rl": 2.1,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "DINGOES AT DINNERTIME": {
+    "bibId": 42943,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.8,
+    "il": "3-6"
+  },
+  "DIRT BIKE RACER": {
+    "bibId": 42541,
+    "isbn": null,
+    "author": "Christopher, Matt.",
+    "rl": 5.0,
+    "il": "3-6"
+  },
+  "DIRTY LAUNDRY PILE POEMS IN DIFFERENT VOICES": {
+    "bibId": 12874,
+    "isbn": null,
+    "author": "Sweet, Melissa,",
+    "rl": 4.0,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "DOGGONE IT": {
+    "bibId": 42965,
+    "isbn": "9780448431727",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.3,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "DOLPHINS AT DAYBREAK": {
+    "bibId": 42910,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.1,
+    "il": "3-6"
+  },
+  "DRACHENREITER ENGLISH": {
+    "bibId": 20831,
+    "isbn": null,
+    "author": "Funke, Cornelia Caroline.",
+    "rl": 5.2,
+    "il": "3-6"
+  },
+  "DRAGON OF THE RED DAWN": {
+    "bibId": 43016,
+    "isbn": "9780375837272",
+    "author": "Osborne, Mary Pope.",
+    "rl": 4.4,
+    "il": "3-6"
+  },
+  "DRAGON RIDER": {
+    "bibId": 20831,
+    "isbn": null,
+    "author": "Funke, Cornelia Caroline.",
+    "rl": 5.2,
+    "il": "3-6"
+  },
+  "EACH LITTLE BIRD THAT SINGS": {
+    "bibId": 21115,
+    "isbn": "9780152056575",
+    "author": null,
+    "rl": 4.0,
+    "il": "3-6"
+  },
+  "EARTHQUAKE IN THE EARLY MORNING": {
+    "bibId": 42560,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 2.8,
+    "il": "3-6"
+  },
+  "END": {
+    "bibId": 15204,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 6.9,
+    "il": "5-8"
+  },
+  "ERNEST L THAYERS CASEY AT THE BAT": {
+    "bibId": 210631,
+    "isbn": null,
+    "author": "Thayer, Ernest Lawrence, 1863-1940.",
+    "rl": 5.5,
+    "il": "3-6"
+  },
+  "ERSATZ ELEVATOR": {
+    "bibId": 12098,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 7.0,
+    "il": "5-8"
+  },
+  "FABLES": {
+    "bibId": 21103,
+    "isbn": null,
+    "author": "Lobel, Arnold.",
+    "rl": 5.0,
+    "il": "3-6"
+  },
+  "FAIRY HAVEN AND THE QUEST FOR THE WAND": {
+    "bibId": 43037,
+    "isbn": "9781423101000",
+    "author": "Levine, Gail Carson.",
+    "rl": 4.2,
+    "il": "3-6"
+  },
+  "FALCONS FEATHERS": {
+    "bibId": 210639,
+    "isbn": null,
+    "author": null,
+    "rl": 4.7,
+    "il": "3-6"
+  },
+  "FIFTY PROBLEM SOLVING LESSONS GRADES 0000000001 0000000006": {
+    "bibId": 19618,
+    "isbn": null,
+    "author": null,
+    "rl": null,
+    "il": "Professional"
+  },
+  "FIRE BOAT": {
+    "bibId": 41684,
+    "isbn": null,
+    "author": "Kalman, Maira.",
+    "rl": 4.2,
+    "il": "K-3"
+  },
+  "FIREBOAT THE HEROIC ADVENTURES OF THE JOHN J HARVEY": {
+    "bibId": 41684,
+    "isbn": null,
+    "author": "Kalman, Maira.",
+    "rl": 4.2,
+    "il": "K-3"
+  },
+  "FIRST DAY JITTERS": {
+    "bibId": 43494,
+    "isbn": null,
+    "author": "Danneberg, Julie, 1958-",
+    "rl": 3.5,
+    "il": "K-3"
+  },
+  "FIRST GRADER AT LAST": {
+    "bibId": 207585,
+    "isbn": "9780375815164",
+    "author": "Park, Barbara.",
+    "rl": 2.7,
+    "il": "K-3"
+  },
+  "FOOTBALL NIGHTMARE": {
+    "bibId": 19899,
+    "isbn": null,
+    "author": "Hirschfeld, Robert, 1942-",
+    "rl": 4.7,
+    "il": "3-6"
+  },
+  "FROG AND TOAD ALL YEAR": {
+    "bibId": 43915,
+    "isbn": "9780064440592",
+    "author": "Lobel, Arnold.",
+    "rl": 2.6,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "FROG AND TOAD ARE FRIENDS": {
+    "bibId": 43916,
+    "isbn": null,
+    "author": "Lobel, Arnold.",
+    "rl": 2.4,
+    "il": "K-3"
+  },
+  "FROG PRINCE CONTINUED": {
+    "bibId": 41018,
+    "isbn": "9780140542851",
+    "author": "Scieszka, Jon.",
+    "rl": 3.2,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "GARDEN OF ABDUL GASAZI": {
+    "bibId": 43167,
+    "isbn": null,
+    "author": "Van Allsburg, Chris.",
+    "rl": 4.7,
+    "il": "K-3"
+  },
+  "GET LOST WELCOME TO PINE HILL SCIENCE CAMP": {
+    "bibId": 43041,
+    "isbn": "9780448431017",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.3,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "GHOST TOWN AT SUNDOWN": {
+    "bibId": 42958,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.4,
+    "il": "3-6"
+  },
+  "GIGGLE GIGGLE QUACK": {
+    "bibId": 43427,
+    "isbn": "9780689845062",
+    "author": "Cronin, Doreen.",
+    "rl": 3.4,
+    "il": "K-3"
+  },
+  "GIRLS DONT HAVE COOTIES": {
+    "bibId": 42968,
+    "isbn": "9780448427058",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.0,
+    "il": "3-6"
+  },
+  "GIRLS DO NOT HAVE COOTIES": {
+    "bibId": 42968,
+    "isbn": "9780448427058",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.0,
+    "il": "3-6"
+  },
+  "GIVING TREE": {
+    "bibId": 41069,
+    "isbn": null,
+    "author": "Silverstein, Shel.",
+    "rl": 2.9,
+    "il": "K-3"
+  },
+  "GOING HOME": {
+    "bibId": 43267,
+    "isbn": null,
+    "author": "Bunting, Eve, 1928-",
+    "rl": 5.4,
+    "il": "K-3"
+  },
+  "GOOD MORNING GORILLAS": {
+    "bibId": 42883,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.7,
+    "il": "3-6"
+  },
+  "GRANDFATHERS JOURNEY": {
+    "bibId": 39796,
+    "isbn": null,
+    "author": "Say, Allen.",
+    "rl": 4.2,
+    "il": "K-3"
+  },
+  "GREATEST SKATING RACE A WORLD WAR II STORY FROM THE NETHERLANDS": {
+    "bibId": 31609,
+    "isbn": null,
+    "author": "Borden, Louise.",
+    "rl": 4.9,
+    "il": "3-6 Perma-Bound Books"
+  },
+  "GRIM GROTTO": {
+    "bibId": 15209,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 6.2,
+    "il": "5-8"
+  },
+  "GREGOR AND THE PROPHECY OF BANE": {
+    "bibId": 19926,
+    "isbn": null,
+    "author": "Collins, Suzanne.",
+    "rl": 5.5,
+    "il": "3-6"
+  },
+  "GREGOR THE OVERLANDER": {
+    "bibId": 20313,
+    "isbn": null,
+    "author": "Collins, Suzanne.",
+    "rl": 6.0,
+    "il": "3-6"
+  },
+  "HAIRY SCARY ORDINARY WHAT IS AN ADJECTIVE": {
+    "bibId": 12663,
+    "isbn": null,
+    "author": "Cleary, Brian P., 1959-",
+    "rl": 3.3,
+    "il": "3-6"
+  },
+  "HALF MOON INVESTIGATIONS": {
+    "bibId": 19783,
+    "isbn": null,
+    "author": "Colfer, Eoin.",
+    "rl": 4.8,
+    "il": "5-8"
+  },
+  "HALLO WIENER": {
+    "bibId": 18022,
+    "isbn": null,
+    "author": "Pilkey, Dav, 1966-",
+    "rl": 2.9,
+    "il": "K-3"
+  },
+  "HARRY AND THE LADY NEXT DOOR": {
+    "bibId": 210630,
+    "isbn": null,
+    "author": "Zion, Gene.",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "HARRY THE DIRTY DOG": {
+    "bibId": 41004,
+    "isbn": "9780064430098",
+    "author": "Zion, Gene.",
+    "rl": 3.1,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "HAT": {
+    "bibId": 20818,
+    "isbn": null,
+    "author": "Brett, Jan, 1949-",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "HAUNTED CASTLE ON HALLOWS EVE": {
+    "bibId": 42905,
+    "isbn": "9780375860904",
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.6,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "HELLO GOODBYE WINDOW": {
+    "bibId": 43840,
+    "isbn": null,
+    "author": "Juster, Norton, 1929-",
+    "rl": 3.9,
+    "il": "K-3"
+  },
+  "HELP SOMEBODY GET ME OUT OF FOURTH GRADE": {
+    "bibId": 42801,
+    "isbn": null,
+    "author": "Winkler, Henry, 1945-",
+    "rl": 4.4,
+    "il": "3-6"
+  },
+  "HENRY AND MUDGE AND THE FOREVER SEA THE SIXTH BOOK OF THEIR ADVENTURES": {
+    "bibId": 210627,
+    "isbn": null,
+    "author": "Rylant, Cynthia.",
+    "rl": 2.3,
+    "il": "K-3"
+  },
+  "HENRY AND MUDGE IN PUDDLE TROUBLE THE SECOND BOOK OF THEIR ADVENTURES": {
+    "bibId": 41097,
+    "isbn": "9780689810039",
+    "author": "Rylant, Cynthia.",
+    "rl": 2.5,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "HENRY AND MUDGE AND THE HAPPY CAT THE EIGHTH BOOK OF THEIR ADVENTURES": {
+    "bibId": 40921,
+    "isbn": "9780689810138",
+    "author": "Rylant, Cynthia.",
+    "rl": 1.5,
+    "il": "K-3"
+  },
+  "HENRY AND MUDGE IN THE GREEN TIME THE THIRD BOOK OF THEIR ADVENTURES": {
+    "bibId": 41099,
+    "isbn": null,
+    "author": "Rylant, Cynthia.",
+    "rl": 2.5,
+    "il": "K-3"
+  },
+  "HENRY AND MUDGE IN THE SPARKLE DAYS THE FIFTH BOOK OF THEIR ADVENTURES": {
+    "bibId": 210628,
+    "isbn": null,
+    "author": "Rylant, Cynthia.",
+    "rl": 2.8,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "HENRY AND MUDGE THE FIRST BOOK OF THEIR ADVENTURES": {
+    "bibId": 41005,
+    "isbn": "9780689810053",
+    "author": "Rylant, Cynthia.",
+    "rl": 2.7,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "HES GOT THE WHOLE WORLD IN HIS HANDS": {
+    "bibId": 42088,
+    "isbn": "9780689847325",
+    "author": "Bryan, Ashley,",
+    "rl": 2.0,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "HEROIC ADVENTURES OF THE JOHN J HARVEY": {
+    "bibId": 41684,
+    "isbn": null,
+    "author": "Kalman, Maira.",
+    "rl": 4.2,
+    "il": "K-3"
+  },
+  "HI FLY GUY": {
+    "bibId": 43402,
+    "isbn": null,
+    "author": "Arnold, Tedd.",
+    "rl": 1.4,
+    "il": "K-3"
+  },
+  "HIGH TIDE IN HAWAII": {
+    "bibId": 42886,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 4.6,
+    "il": "3-6"
+  },
+  "HOLY ENCHILADA": {
+    "bibId": 210619,
+    "isbn": null,
+    "author": "Winkler, Henry, 1945-",
+    "rl": 4.7,
+    "il": "3-6"
+  },
+  "HOP ON POP": {
+    "bibId": 21076,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 1.1,
+    "il": "K-3"
+  },
+  "HORTON HEARS A WHO": {
+    "bibId": 41023,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 3.8,
+    "il": "K-3"
+  },
+  "HOSTILE HOSPITAL": {
+    "bibId": 12211,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 6.9,
+    "il": "5-8"
+  },
+  "HOUR OF THE OLYMPICS": {
+    "bibId": 42907,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.5,
+    "il": "3-6"
+  },
+  "HOW DO DINOSAURS GET WELL SOON": {
+    "bibId": 40977,
+    "isbn": null,
+    "author": "Yolen, Jane.",
+    "rl": 3.9,
+    "il": "K-3"
+  },
+  "HOW DO DINOSAURS GO TO SCHOOL": {
+    "bibId": 41111,
+    "isbn": null,
+    "author": "Yolen, Jane.",
+    "rl": 2.2,
+    "il": "K-3"
+  },
+  "HOW DO DINOSAURS SAY GOOD NIGHT": {
+    "bibId": 40914,
+    "isbn": null,
+    "author": "Yolen, Jane.",
+    "rl": 1.6,
+    "il": "K-3"
+  },
+  "HOW MANY DAYS TO AMERICA A THANKSGIVING STORY": {
+    "bibId": 43647,
+    "isbn": null,
+    "author": "Bunting, Eve, 1928-",
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "HOW MANY KISSES DO YOU WANT TONIGHT": {
+    "bibId": 210643,
+    "isbn": null,
+    "author": "Bajaj, Varsha.",
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "HOW TED GEISEL GREW UP TO BECOME DR SEUSS": {
+    "bibId": 41842,
+    "isbn": null,
+    "author": "Krull, Kathleen.",
+    "rl": 3.9,
+    "il": "3-6"
+  },
+  "HOW TO TALK TO YOUR DOG": {
+    "bibId": 19189,
+    "isbn": null,
+    "author": "George, Jean Craighead, 1919-",
+    "rl": 3.5,
+    "il": "3-6"
+  },
+  "I CAN LICK 0000000030 TIGERS TODAY AND OTHER STORIES": {
+    "bibId": 40990,
+    "isbn": "9780394800943",
+    "author": "Seuss, Dr.",
+    "rl": 2.9,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "I HATE RULES": {
+    "bibId": 43046,
+    "isbn": "9780448431000",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.1,
+    "il": "3-6"
+  },
+  "IDA B AND HER PLANS TO MAXIMIZE FUN AVOID DISASTER AND POSSIBLY SAVE THE WORLD": {
+    "bibId": 20741,
+    "isbn": null,
+    "author": null,
+    "rl": 6.3,
+    "il": "3-6"
+  },
+  "IF I RAN THE ZOO": {
+    "bibId": 41027,
+    "isbn": "9780394800813",
+    "author": "Seuss, Dr.",
+    "rl": 3.8,
+    "il": "K-3"
+  },
+  "IN DADDYS ARMS I AM TALL AFRICAN AMERICANS CELEBRATING FATHERS": {
+    "bibId": 42417,
+    "isbn": "9781584300168",
+    "author": null,
+    "rl": 3.1,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "INCHWORM AND A HALF": {
+    "bibId": 210645,
+    "isbn": "9780618311019",
+    "author": "Pinczes, Elinor J.",
+    "rl": 3.3,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "INVENTION": {
+    "bibId": 17147,
+    "isbn": null,
+    "author": null,
+    "rl": 6.3,
+    "il": "5-8"
+  },
+  "INVENTION OF HUGO CABRET A NOVEL IN WORDS AND PICTURES": {
+    "bibId": 23842,
+    "isbn": "9780439813785",
+    "author": "Selznick, Brian.",
+    "rl": 5.6,
+    "il": "3-6"
+  },
+  "JAKE DRAKE BULLY BUSTER": {
+    "bibId": 31647,
+    "isbn": null,
+    "author": "Clements, Andrew, 1949-",
+    "rl": 4.7,
+    "il": "3-6"
+  },
+  "JOHNNY APPLESEED A TALL TALE": {
+    "bibId": 42085,
+    "isbn": "9780688140250",
+    "author": "Kellogg, Steven.",
+    "rl": 4.4,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "JUMANJI": {
+    "bibId": 19616,
+    "isbn": null,
+    "author": "Van Allsburg, Chris.",
+    "rl": 4.4,
+    "il": "K-3"
+  },
+  "JUNIE B JONES AND HER BIG FAT MOUTH": {
+    "bibId": 42856,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 3.3,
+    "il": "K-3"
+  },
+  "JUNIE B FIRST GRADER AT LAST": {
+    "bibId": 42971,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": null,
+    "il": null
+  },
+  "JUNIE B JONES AND SOME SNEAKY PEEKY SPYING": {
+    "bibId": 42745,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.2,
+    "il": "K-3"
+  },
+  "JUNIE B FIRST GRADER BOO AND I MEAN IT": {
+    "bibId": 20967,
+    "isbn": "9780375828072",
+    "author": "Park, Barbara.",
+    "rl": 2.9,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "JUNIE B JONES AND THAT MEANIE JIMS BIRTHDAY": {
+    "bibId": 42959,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.1,
+    "il": "K-3"
+  },
+  "JUNIE B FIRST GRADER BOSS OF LUNCH": {
+    "bibId": 42972,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "JUNIE B FIRST GRADER CHEATER PANTS": {
+    "bibId": 42993,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 3.4,
+    "il": "K-3"
+  },
+  "JUNIE B JONES AND THE STUPID SMELLY BUS": {
+    "bibId": 42746,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 3.3,
+    "il": "K-3"
+  },
+  "JUNIE B JONES AND THE YUCKY BLUCKY FRUITCAKE": {
+    "bibId": 19605,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "JUNIE B FIRST GRADER JINGLE BELLS BATMAN SMELLS PS SO DOES MAY": {
+    "bibId": 42769,
+    "isbn": "9780375828089",
+    "author": "Park, Barbara.",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "JUNIE B JONES FIRST GRADER AT LAST": {
+    "bibId": 207585,
+    "isbn": "9780375815164",
+    "author": "Park, Barbara.",
+    "rl": 2.7,
+    "il": "K-3"
+  },
+  "JUNIE B FIRST GRADER SHIPWRECKED": {
+    "bibId": 42990,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.0,
+    "il": "K-3"
+  },
+  "JUNIE B FIRST GRADER TOOTHLESS WONDER": {
+    "bibId": 42675,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.6,
+    "il": "K-3"
+  },
+  "JUNIE B JONES HAS A PEEP IN HER POCKET": {
+    "bibId": 19366,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.0,
+    "il": "K-3"
+  },
+  "JUNIE B JONES IS A BEAUTY SHOP GUY": {
+    "bibId": 42960,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "JUNIE B JONES IS A PARTY ANIMAL": {
+    "bibId": 19694,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.2,
+    "il": "K-3"
+  },
+  "JUNIE B JONES IS CAPTAIN FIELD DAY": {
+    "bibId": 42722,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.9,
+    "il": "K-3"
+  },
+  "JUNIE B JONES LOVES HANDSOME WARREN": {
+    "bibId": 12648,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.2,
+    "il": "K-3"
+  },
+  "JUNIE B JONES SMELLS SOMETHING FISHY": {
+    "bibId": 42747,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.2,
+    "il": "K-3"
+  },
+  "JUST A DREAM": {
+    "bibId": 42608,
+    "isbn": null,
+    "author": "Van Allsburg, Chris.",
+    "rl": 4.2,
+    "il": "K-3"
+  },
+  "KNUFFLE BUNNY A CAUTIONARY TALE": {
+    "bibId": 41050,
+    "isbn": null,
+    "author": "Willems, Mo.",
+    "rl": 1.9,
+    "il": "K-3"
+  },
+  "LAST BATTLE": {
+    "bibId": 12257,
+    "isbn": "9780060234935",
+    "author": "Lewis, C. S. (Clive Staples), 1898-1963.",
+    "rl": 5.8,
+    "il": "5-8"
+  },
+  "LAST BROTHER A CIVIL WAR TALE": {
+    "bibId": 20773,
+    "isbn": "9781585362530",
+    "author": "Noble, Trinka Hakes.",
+    "rl": 5.5,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "LET IT SHINE THREE FAVORITE SPIRITUALS": {
+    "bibId": 42088,
+    "isbn": "9780689847325",
+    "author": "Bryan, Ashley,",
+    "rl": 2.0,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "LIGHT IN THE ATTIC": {
+    "bibId": 11012,
+    "isbn": null,
+    "author": "Silverstein, Shel.",
+    "rl": 5.0,
+    "il": "3-6"
+  },
+  "LILLYS PURPLE PLASTIC PURSE": {
+    "bibId": 42848,
+    "isbn": null,
+    "author": "Henkes, Kevin.",
+    "rl": 3.5,
+    "il": "K-3"
+  },
+  "LIONS AT LUNCHTIME": {
+    "bibId": 42987,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 4.3,
+    "il": "3-6"
+  },
+  "LITTLE HOUSE ON THE PRAIRIE": {
+    "bibId": 21289,
+    "isbn": null,
+    "author": "Williams, Garth,",
+    "rl": 4.3,
+    "il": "3-6"
+  },
+  "LOST COLONY OF ROANOKE": {
+    "bibId": 19479,
+    "isbn": null,
+    "author": "Talbott, Hudson,",
+    "rl": 6.0,
+    "il": "3-6"
+  },
+  "MADELINES RESCUE": {
+    "bibId": 210644,
+    "isbn": null,
+    "author": "Bemelmans, Ludwig, 1898-1962.",
+    "rl": 3.4,
+    "il": "K-3"
+  },
+  "MARTHA SPEAKS": {
+    "bibId": 43751,
+    "isbn": null,
+    "author": "Meddaugh, Susan.",
+    "rl": 2.8,
+    "il": "K-3"
+  },
+  "MARVELOUS MINILESSONS FOR TEACHING BEGINNING WRITING K 0000000003": {
+    "bibId": 31208,
+    "isbn": "9780872075917",
+    "author": "Rog, Lori Jamison.",
+    "rl": null,
+    "il": "Professional"
+  },
+  "MATH CURSE": {
+    "bibId": 20549,
+    "isbn": null,
+    "author": "Scieszka, Jon.",
+    "rl": 3.0,
+    "il": "K-3"
+  },
+  "MATH FOR ALL SEASONS MIND STRETCHING MATH RIDDLES": {
+    "bibId": 41795,
+    "isbn": null,
+    "author": "Tang, Greg.",
+    "rl": 2.9,
+    "il": "K-3"
+  },
+  "MERCY WATSON TO THE RESCUE": {
+    "bibId": 42805,
+    "isbn": "9780763622701",
+    "author": "DiCamillo, Kate.",
+    "rl": 1.5,
+    "il": "K-3"
+  },
+  "MESSY ROOM": {
+    "bibId": 43407,
+    "isbn": "9780394856391",
+    "author": "Berenstain, Stan, 1923-2005.",
+    "rl": 3.7,
+    "il": "K-3"
+  },
+  "MIDNIGHT ON THE MOON": {
+    "bibId": 42918,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.0,
+    "il": "3-6"
+  },
+  "MIRANDY AND BROTHER WIND": {
+    "bibId": 43755,
+    "isbn": "9780679883333",
+    "author": "McKissack, Pat, 1944-",
+    "rl": 3.6,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "MINTY A STORY OF YOUNG HARRIET TUBMAN": {
+    "bibId": 41868,
+    "isbn": null,
+    "author": "Pinkney, Jerry,",
+    "rl": 3.9,
+    "il": "K-3"
+  },
+  "MISERABLE MILL": {
+    "bibId": 11828,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 6.9,
+    "il": "5-8"
+  },
+  "MONDAY WITH A MAD GENIUS": {
+    "bibId": 43022,
+    "isbn": "9780375837296",
+    "author": "Osborne, Mary Pope.",
+    "rl": 4.4,
+    "il": "3-6"
+  },
+  "MOTHER GOOSE SELECTIONS": {
+    "bibId": 41734,
+    "isbn": null,
+    "author": null,
+    "rl": 3.8,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "MUMMIES IN THE MORNING": {
+    "bibId": 43060,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.2,
+    "il": "3-6"
+  },
+  "MY DOG IS A SCAREDY CAT": {
+    "bibId": 20846,
+    "isbn": "9780448438795",
+    "author": "Winkler, Henry, 1945-",
+    "rl": 4.8,
+    "il": "3-6"
+  },
+  "MY DOGS A SCAREDY CAT A HALLOWEEN TAIL": {
+    "bibId": 20846,
+    "isbn": "9780448438795",
+    "author": "Winkler, Henry, 1945-",
+    "rl": 4.8,
+    "il": "3-6"
+  },
+  "MY SECRET LIFE AS A PING PONG WIZARD": {
+    "bibId": 210620,
+    "isbn": "9780448438771",
+    "author": "Winkler, Henry, 1945-",
+    "rl": 5.7,
+    "il": "3-6"
+  },
+  "MYSTERIES OF HARRIS BURDICK": {
+    "bibId": 43132,
+    "isbn": null,
+    "author": "Van Allsburg, Chris.",
+    "rl": 3.5,
+    "il": "K-3"
+  },
+  "MYSTERIOUS MATTER OF IM FINE": {
+    "bibId": 13686,
+    "isbn": null,
+    "author": "Stanley, Diane.",
+    "rl": 6.0,
+    "il": "5-8"
+  },
+  "NEIGHBORHOOD MOTHER GOOSE": {
+    "bibId": 41734,
+    "isbn": "9780060515737",
+    "author": null,
+    "rl": 3.8,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "NIAGARA FALLS OR DOES IT": {
+    "bibId": 210637,
+    "isbn": null,
+    "author": "Winkler, Henry, 1945-",
+    "rl": 4.0,
+    "il": "3-6"
+  },
+  "NIGHT I FLUNKED MY FIELD TRIP": {
+    "bibId": 210636,
+    "isbn": null,
+    "author": "Winkler, Henry, 1945-",
+    "rl": 4.3,
+    "il": "3-6"
+  },
+  "NIGHT OF THE NEW MAGICIANS": {
+    "bibId": 43062,
+    "isbn": "9780375830358",
+    "author": "Osborne, Mary Pope.",
+    "rl": 4.0,
+    "il": "3-6"
+  },
+  "OFFICER BUCKLE AND GLORIA": {
+    "bibId": 40933,
+    "isbn": null,
+    "author": "Rathmann, Peggy.",
+    "rl": 2.9,
+    "il": "K-3"
+  },
+  "OH THE PLACES YOU WILL GO": {
+    "bibId": 41026,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "OH THE PLACES YOULL GO": {
+    "bibId": 41026,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "OLD WILLIS PLACE A GHOST STORY": {
+    "bibId": 30927,
+    "isbn": "9780618897414",
+    "author": "Hahn, Mary Downing.",
+    "rl": 4.2,
+    "il": "5-8"
+  },
+  "ONE HUNDRED HUNGRY ANTS": {
+    "bibId": 20523,
+    "isbn": "9780395971239",
+    "author": "Pinczes, Elinor J.",
+    "rl": 2.6,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "OTHER SIDE": {
+    "bibId": 18041,
+    "isbn": null,
+    "author": "Woodson, Jacqueline.",
+    "rl": 2.4,
+    "il": "K-3"
+  },
+  "OUT TO LUNCH": {
+    "bibId": 42974,
+    "isbn": "9780448426549",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.6,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "PARTS": {
+    "bibId": 20063,
+    "isbn": "9780140565331",
+    "author": "Arnold, Tedd.",
+    "rl": 2.8,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "PASSAGE TO FREEDOM THE SUGIHARA STORY": {
+    "bibId": 18387,
+    "isbn": "9781584301578",
+    "author": "Mochizuki, Ken, 1954-",
+    "rl": 4.1,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "PAUL BUNYAN A TALL TALE": {
+    "bibId": 42098,
+    "isbn": null,
+    "author": "Kellogg, Steven.",
+    "rl": 3.8,
+    "il": "K-3"
+  },
+  "PEEP IN HER POCKET": {
+    "bibId": 19366,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.0,
+    "il": "K-3"
+  },
+  "PENULTIMATE PERIL": {
+    "bibId": 14618,
+    "isbn": "9780064410151",
+    "author": "Snicket, Lemony.",
+    "rl": 7.2,
+    "il": "5-8"
+  },
+  "PIGGIES": {
+    "bibId": 41171,
+    "isbn": null,
+    "author": "Wood, Don, 1945-",
+    "rl": 1.5,
+    "il": "K-3"
+  },
+  "PINK AND SAY": {
+    "bibId": 20479,
+    "isbn": null,
+    "author": "Polacco, Patricia.",
+    "rl": 4.9,
+    "il": "K-3"
+  },
+  "PIRATES PAST NOON": {
+    "bibId": 42938,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.5,
+    "il": "3-6"
+  },
+  "POLAR BEARS PAST BEDTIME": {
+    "bibId": 42884,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.4,
+    "il": "3-6"
+  },
+  "POLAR EXPRESS": {
+    "bibId": 19063,
+    "isbn": null,
+    "author": "Van Allsburg, Chris.",
+    "rl": 4.2,
+    "il": "K-3"
+  },
+  "POLAR THE TITANIC BEAR": {
+    "bibId": 210629,
+    "isbn": null,
+    "author": null,
+    "rl": 4.9,
+    "il": "3-6"
+  },
+  "PRINCE CASPIAN THE RETURN TO NARNIA": {
+    "bibId": 12371,
+    "isbn": null,
+    "author": "Lewis, C. S. (Clive Staples), 1898-1963.",
+    "rl": 5.6,
+    "il": "5-8"
+  },
+  "PROPHECY OF BANE": {
+    "bibId": 19926,
+    "isbn": null,
+    "author": "Collins, Suzanne.",
+    "rl": 5.5,
+    "il": "3-6"
+  },
+  "QUIET ON THE SET": {
+    "bibId": 31726,
+    "isbn": "9780448432144",
+    "author": "Krulik, Nancy E.",
+    "rl": 3.2,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "RAINBOW FISH": {
+    "bibId": 19544,
+    "isbn": null,
+    "author": "James, J. Alison,",
+    "rl": 4.6,
+    "il": "K-3"
+  },
+  "RAMONA QUIMBY AGE 0000000008": {
+    "bibId": 18432,
+    "isbn": null,
+    "author": "Cleary, Beverly.",
+    "rl": 5.3,
+    "il": "3-6"
+  },
+  "RAMONA QUIMBY AGE EIGHT": {
+    "bibId": 18432,
+    "isbn": null,
+    "author": "Cleary, Beverly.",
+    "rl": 5.3,
+    "il": "3-6"
+  },
+  "REGENBOGENFISCH ENGLISH": {
+    "bibId": 19544,
+    "isbn": null,
+    "author": "James, J. Alison,",
+    "rl": 4.6,
+    "il": "K-3"
+  },
+  "RELATIVES CAME": {
+    "bibId": 20087,
+    "isbn": null,
+    "author": "Rylant, Cynthia.",
+    "rl": 4.6,
+    "il": "K-3"
+  },
+  "REMAINDER OF ONE": {
+    "bibId": 20525,
+    "isbn": "9780395694558",
+    "author": "Pinczes, Elinor J.",
+    "rl": 2.5,
+    "il": "K-3"
+  },
+  "REVOLUTIONARY WAR ON WEDNESDAY": {
+    "bibId": 42919,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.8,
+    "il": "3-6"
+  },
+  "ROSIES WALK": {
+    "bibId": 43878,
+    "isbn": null,
+    "author": "Hutchins, Pat, 1942-",
+    "rl": 0.8,
+    "il": "K-3"
+  },
+  "ROXABOXEN": {
+    "bibId": 42637,
+    "isbn": null,
+    "author": null,
+    "rl": 4.3,
+    "il": "K-3"
+  },
+  "RUMPELSTILTSKIN": {
+    "bibId": 41570,
+    "isbn": null,
+    "author": "Zelinsky, Paul O.",
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "RUMPELSTILTSKIN FOLK TALE ENGLISH": {
+    "bibId": 41570,
+    "isbn": null,
+    "author": "Zelinsky, Paul O.",
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "RUMPELSTILZCHEN GRIMM VERSION": {
+    "bibId": 41570,
+    "isbn": null,
+    "author": "Zelinsky, Paul O.",
+    "rl": 3.2,
+    "il": "K-3"
+  },
+  "RUNNY BABBIT A BILLY SOOK": {
+    "bibId": 20105,
+    "isbn": null,
+    "author": "Silverstein, Shel.",
+    "rl": 3.0,
+    "il": "3-6"
+  },
+  "SAM BANGS MOONSHINE": {
+    "bibId": 18457,
+    "isbn": "9780805003154",
+    "author": null,
+    "rl": 3.6,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "SCHOOL STORY": {
+    "bibId": 20774,
+    "isbn": null,
+    "author": "Clements, Andrew, 1949-",
+    "rl": 6.1,
+    "il": "3-6"
+  },
+  "SCIENCE VERSE": {
+    "bibId": 20540,
+    "isbn": null,
+    "author": "Scieszka, Jon.",
+    "rl": 3.7,
+    "il": "K-3"
+  },
+  "SEASON OF THE SANDSTORMS": {
+    "bibId": 42986,
+    "isbn": "9780375830310",
+    "author": "Osborne, Mary Pope.",
+    "rl": 4.9,
+    "il": "3-6"
+  },
+  "SEVEN BLIND MICE": {
+    "bibId": 12677,
+    "isbn": "9780698118959",
+    "author": "Young, Ed.",
+    "rl": 2.4,
+    "il": "K-3"
+  },
+  "SHILOH SEASON": {
+    "bibId": 13865,
+    "isbn": null,
+    "author": "Naylor, Phyllis Reynolds.",
+    "rl": 6.8,
+    "il": "3-6"
+  },
+  "SHIPWRECKED": {
+    "bibId": 42990,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.0,
+    "il": "K-3"
+  },
+  "SIDEWAYS ARITHMETIC FROM WAYSIDE SCHOOL": {
+    "bibId": 12412,
+    "isbn": null,
+    "author": "Sachar, Louis, 1954-",
+    "rl": 5.1,
+    "il": "3-6"
+  },
+  "SIR CUMFERENCE AND THE DRAGON OF PI A MATH ADVENTURE": {
+    "bibId": 20628,
+    "isbn": null,
+    "author": "Neuschwander, Cindy.",
+    "rl": 5.1,
+    "il": "3-6"
+  },
+  "SIR CUMFERENCE AND THE FIRST ROUND TABLE A MATH ADVENTURE": {
+    "bibId": 20629,
+    "isbn": null,
+    "author": "Neuschwander, Cindy.",
+    "rl": 4.8,
+    "il": "3-6"
+  },
+  "SIR CUMFERENCE AND THE ISLE OF IMMETER A MATH ADVENTURE": {
+    "bibId": 35050,
+    "isbn": "9781570916816",
+    "author": "Neuschwander, Cindy.",
+    "rl": 4.4,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "SIR CUMFERENCE AND THE SWORD IN THE CONE A MATH ADVENTURE": {
+    "bibId": 19157,
+    "isbn": null,
+    "author": "Neuschwander, Cindy.",
+    "rl": 5.8,
+    "il": "3-6"
+  },
+  "SKIPPYJON JONES": {
+    "bibId": 41104,
+    "isbn": null,
+    "author": "Schachner, Judith Byron.",
+    "rl": 3.4,
+    "il": "K-3"
+  },
+  "SLIPPERY SLOPE": {
+    "bibId": 42820,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 6.8,
+    "il": "5-8"
+  },
+  "SMALL GROUP READING INSTRUCTION A DIFFERENTIATED TEACHING MODEL FOR BEGINNING AND STRUGGLING READERS": {
+    "bibId": 24744,
+    "isbn": null,
+    "author": null,
+    "rl": null,
+    "il": "Professional"
+  },
+  "SNOWFLAKE BENTLEY": {
+    "bibId": 41997,
+    "isbn": "9780395861622",
+    "author": "Martin, Jacqueline Briggs.",
+    "rl": 4.4,
+    "il": "K-3"
+  },
+  "SOME SMUG SLUG": {
+    "bibId": 43194,
+    "isbn": "9780064435024",
+    "author": "Edwards, Pamela Duncan.",
+    "rl": 3.3,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "SOMETHING BIG HAS BEEN HERE": {
+    "bibId": 19392,
+    "isbn": null,
+    "author": "Prelutsky, Jack.",
+    "rl": 4.5,
+    "il": "K-3"
+  },
+  "SOS FILE": {
+    "bibId": 210622,
+    "isbn": null,
+    "author": "Byars, Betsy Cromer.",
+    "rl": 4.6,
+    "il": "3-6"
+  },
+  "STAGE FRIGHT ON A SUMMER NIGHT": {
+    "bibId": 42880,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.8,
+    "il": "3-6"
+  },
+  "STAGEFRIGHT ON A SUMMER NIGHT": {
+    "bibId": 42880,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.8,
+    "il": "3-6"
+  },
+  "STELLALUNA": {
+    "bibId": 43451,
+    "isbn": null,
+    "author": "Cannon, Janell, 1957-",
+    "rl": 3.9,
+    "il": "K-3"
+  },
+  "STINKY CHEESE MAN AND OTHER FAIRLY STUPID TALES": {
+    "bibId": 20877,
+    "isbn": null,
+    "author": "Scieszka, Jon.",
+    "rl": 3.4,
+    "il": "K-3"
+  },
+  "SUMMER OF THE SEA SERPENT": {
+    "bibId": 42947,
+    "isbn": "9780375864919",
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.9,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "SUNSET OF THE SABERTOOTH": {
+    "bibId": 42887,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.3,
+    "il": "3-6"
+  },
+  "SUMMER SCHOOL WHAT GENIUS THOUGHT THAT UP": {
+    "bibId": 20151,
+    "isbn": "9780448437408",
+    "author": "Winkler, Henry, 1945-",
+    "rl": 4.9,
+    "il": "3-6"
+  },
+  "SURE AS SUNRISE STORIES OF BRUH RABBIT HIS WALKIN TALKIN FRIENDS": {
+    "bibId": 14639,
+    "isbn": null,
+    "author": "McGill, Alice.",
+    "rl": 4.8,
+    "il": "K-3"
+  },
+  "SUSANNA OF THE ALAMO A TRUE STORY": {
+    "bibId": 42354,
+    "isbn": null,
+    "author": null,
+    "rl": 3.0,
+    "il": "K-3"
+  },
+  "SWINDLE": {
+    "bibId": 40503,
+    "isbn": null,
+    "author": "Korman, Gordon.",
+    "rl": 4.9,
+    "il": "3-6"
+  },
+  "SWORD IN THE CONE": {
+    "bibId": 19157,
+    "isbn": null,
+    "author": "Neuschwander, Cindy.",
+    "rl": 5.8,
+    "il": "3-6"
+  },
+  "TACKY THE PENGUIN": {
+    "bibId": 43893,
+    "isbn": null,
+    "author": "Lester, Helen.",
+    "rl": 2.0,
+    "il": "K-3"
+  },
+  "TALKIN ABOUT BESSIE THE STORY OF AVIATOR ELIZABETH COLEMAN": {
+    "bibId": 24560,
+    "isbn": "9780439352437",
+    "author": "Grimes, Nikki.",
+    "rl": 6.1,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "TARANTULA SCIENTIST": {
+    "bibId": 19512,
+    "isbn": "9780618915774",
+    "author": "Montgomery, Sy.",
+    "rl": 5.8,
+    "il": "3-6"
+  },
+  "TENTH CITY": {
+    "bibId": 19766,
+    "isbn": "9780439700955",
+    "author": "Carman, Patrick.",
+    "rl": 5.5,
+    "il": "3-6"
+  },
+  "THANK YOU MR FALKER": {
+    "bibId": 20162,
+    "isbn": "9780399231667",
+    "author": "Polacco, Patricia.",
+    "rl": 4.1,
+    "il": "K-3"
+  },
+  "THANKSGIVING ON THURSDAY": {
+    "bibId": 42977,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 4.5,
+    "il": "3-6"
+  },
+  "THERE IS A WOCKET IN MY POCKET": {
+    "bibId": 40901,
+    "isbn": null,
+    "author": "Seuss, Dr.",
+    "rl": 2.1,
+    "il": "K-3"
+  },
+  "THERES A WOCKET IN MY POCKET": {
+    "bibId": 40901,
+    "isbn": "9780394829203",
+    "author": "Seuss, Dr.",
+    "rl": 2.1,
+    "il": "K-3"
+  },
+  "THIS LITTLE LIGHT OF MINE": {
+    "bibId": 42088,
+    "isbn": "9780689847325",
+    "author": "Bryan, Ashley,",
+    "rl": 2.0,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "THREE BEARS": {
+    "bibId": 42256,
+    "isbn": null,
+    "author": "Galdone, Paul,",
+    "rl": 3.0,
+    "il": "K-3"
+  },
+  "THREE QUESTIONS": {
+    "bibId": 12668,
+    "isbn": null,
+    "author": "Muth, Jon J.",
+    "rl": 2.6,
+    "il": "K-3"
+  },
+  "THREE LITTLE PIGS ENGLISH": {
+    "bibId": 40916,
+    "isbn": null,
+    "author": "Wiesner, David.",
+    "rl": 2.4,
+    "il": "K-3"
+  },
+  "THREE NAMES": {
+    "bibId": 210634,
+    "isbn": null,
+    "author": "MacLachlan, Patricia.",
+    "rl": 4.5,
+    "il": "K-3"
+  },
+  "THREE PIGS": {
+    "bibId": 40916,
+    "isbn": null,
+    "author": "Wiesner, David.",
+    "rl": 2.4,
+    "il": "K-3"
+  },
+  "THROUGH MY EYES": {
+    "bibId": 42056,
+    "isbn": "9780590189231",
+    "author": null,
+    "rl": 6.2,
+    "il": "3-6"
+  },
+  "TIGERS AT TWILIGHT": {
+    "bibId": 42882,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 4.6,
+    "il": "3-6"
+  },
+  "TONIGHT ON THE TITANIC": {
+    "bibId": 43075,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.5,
+    "il": "3-6"
+  },
+  "TOOTHLESS WONDER": {
+    "bibId": 42675,
+    "isbn": null,
+    "author": "Park, Barbara.",
+    "rl": 2.6,
+    "il": "K-3"
+  },
+  "TOWN MOUSE COUNTRY MOUSE": {
+    "bibId": 20183,
+    "isbn": null,
+    "author": "Brett, Jan, 1949-",
+    "rl": 4.4,
+    "il": "K-3"
+  },
+  "TRAIN TO SOMEWHERE": {
+    "bibId": 40805,
+    "isbn": null,
+    "author": "Bunting, Eve, 1928-",
+    "rl": 2.8,
+    "il": "3-6"
+  },
+  "TREE OF LIFE THE INCREDIBLE BIODIVERSITY OF LIFE ON EARTH": {
+    "bibId": 19516,
+    "isbn": null,
+    "author": "Strauss, Rochelle, 1967-",
+    "rl": 7.2,
+    "il": "3-6"
+  },
+  "TRUMPET OF THE SWAN": {
+    "bibId": 210633,
+    "isbn": null,
+    "author": "White, E. B. (Elwyn Brooks), 1899-",
+    "rl": 5.8,
+    "il": "3-6"
+  },
+  "TUESDAY": {
+    "bibId": 41165,
+    "isbn": null,
+    "author": "Wiesner, David.",
+    "rl": 1.7,
+    "il": "K-3"
+  },
+  "TWAS THE NIGHT BEFORE THANKSGIVING": {
+    "bibId": 43670,
+    "isbn": null,
+    "author": "Pilkey, Dav, 1966-",
+    "rl": 4.5,
+    "il": "K-3"
+  },
+  "TWISTER ON TUESDAY": {
+    "bibId": 42885,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.2,
+    "il": "3-6"
+  },
+  "UGLY DUCKLING": {
+    "bibId": 41986,
+    "isbn": "9780688159337",
+    "author": "Pinkney, Jerry.",
+    "rl": 4.8,
+    "il": "K-3"
+  },
+  "UNDER OVER BY THE CLOVER WHAT IS A PREPOSITION": {
+    "bibId": 41711,
+    "isbn": null,
+    "author": "Cleary, Brian P., 1959-",
+    "rl": 4.6,
+    "il": "3-6"
+  },
+  "VACATION UNDER THE VOLCANO": {
+    "bibId": 42750,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.5,
+    "il": "3-6"
+  },
+  "VERDI": {
+    "bibId": 42679,
+    "isbn": null,
+    "author": "Cannon, Janell, 1957-",
+    "rl": 4.8,
+    "il": "K-3"
+  },
+  "VIKING SHIPS AT SUNRISE": {
+    "bibId": 42881,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.2,
+    "il": "3-6"
+  },
+  "VILE VILLAGE": {
+    "bibId": 12501,
+    "isbn": null,
+    "author": "Snicket, Lemony.",
+    "rl": 5.9,
+    "il": "5-8"
+  },
+  "WALT WHITMAN WORDS FOR AMERICA": {
+    "bibId": 19236,
+    "isbn": "9780439357913",
+    "author": "Selznick, Brian,",
+    "rl": 5.4,
+    "il": "5-9 Perma-Bound Books"
+  },
+  "WELCOME TO DEAD HOUSE": {
+    "bibId": 21121,
+    "isbn": "9780545158886",
+    "author": "Stine, R. L.",
+    "rl": 3.7,
+    "il": "4-7 Perma-Bound Books"
+  },
+  "WELCOME TO CAMP NIGHTMARE": {
+    "bibId": 43081,
+    "isbn": "9780545158893",
+    "author": "Stine, R. L.",
+    "rl": 4.2,
+    "il": "5-8"
+  },
+  "WHAT DO YOU DO WITH A TAIL LIKE THIS": {
+    "bibId": 41714,
+    "isbn": "9780618997138",
+    "author": "Jenkins, Steve, 1952-",
+    "rl": 3.0,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "WHAT IS AN ADJECTIVE": {
+    "bibId": 12663,
+    "isbn": null,
+    "author": "Cleary, Brian P., 1959-",
+    "rl": 3.3,
+    "il": "3-6"
+  },
+  "WHAT IS AN ADVERB": {
+    "bibId": 41837,
+    "isbn": null,
+    "author": "Cleary, Brian P., 1959-",
+    "rl": 4.4,
+    "il": "3-6"
+  },
+  "WHEN THE SAINTS GO MARCHING IN": {
+    "bibId": 42088,
+    "isbn": "9780689847325",
+    "author": "Bryan, Ashley,",
+    "rl": 2.0,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "WHERE ONCE THERE WAS A WOOD": {
+    "bibId": 41572,
+    "isbn": null,
+    "author": "Fleming, Denise, 1950-",
+    "rl": 2.5,
+    "il": "2-5 Perma-Bound Books"
+  },
+  "WIND IN THE WILLOWS": {
+    "bibId": 210616,
+    "isbn": null,
+    "author": null,
+    "rl": null,
+    "il": null
+  },
+  "WINTER OF THE ICE WIZARD": {
+    "bibId": 42931,
+    "isbn": null,
+    "author": "Osborne, Mary Pope.",
+    "rl": 3.2,
+    "il": "3-6"
+  },
+  "WORM": {
+    "bibId": 18984,
+    "isbn": null,
+    "author": "Cronin, Doreen.",
+    "rl": 3.3,
+    "il": "K-3"
+  },
+  "WRETCHED STONE": {
+    "bibId": 14327,
+    "isbn": "9780395533079",
+    "author": "Van Allsburg, Chris.",
+    "rl": 6.1,
+    "il": "5-8"
+  },
+  "0000000001ST GRADER AT LAST": {
+    "bibId": 207585,
+    "isbn": "9780375815164",
+    "author": "Park, Barbara.",
+    "rl": 2.7,
+    "il": "K-3"
+  },
+  "0000000050 PROBLEM SOLVING LESSONS GRADES 0000000001 0000000006": {
+    "bibId": 19618,
+    "isbn": null,
+    "author": null,
+    "rl": null,
+    "il": "Professional"
+  },
+  "0000000100 HUNGRY ANTS": {
+    "bibId": 20523,
+    "isbn": "9780395971239",
+    "author": "Pinczes, Elinor J.",
+    "rl": 2.6,
+    "il": "K-3 Perma-Bound Books"
   }
 }
