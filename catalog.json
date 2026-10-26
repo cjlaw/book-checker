@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12",
+  "generated": "2026-10-26",
   "books": [
     {
       "title": "!Hoy volare!",
@@ -2646,18 +2646,6 @@
       "author": "Borgert-Spaniol, Megan, 1989-",
       "rl": null,
       "il": null
-    },
-    {
-      "title": "Aaron Donald versus Reggie White",
-      "author": null,
-      "rl": 4.0,
-      "il": "3-6"
-    },
-    {
-      "title": "Aaron Donald vs. Reggie White : who would win?",
-      "author": null,
-      "rl": 4.0,
-      "il": "3-6"
     },
     {
       "title": "Aaron is a good sport",
@@ -11162,6 +11150,12 @@
       "il": null
     },
     {
+      "title": "Bros",
+      "author": "Weatherford, Carole Boston, 1956-",
+      "rl": 1.0,
+      "il": "K-3"
+    },
+    {
       "title": "Brothers of the wolf",
       "author": null,
       "rl": 2.0,
@@ -16898,6 +16892,12 @@
       "il": "1-4"
     },
     {
+      "title": "Danilo was here",
+      "author": null,
+      "rl": 5.0,
+      "il": "5-9 Perma-Bound Books"
+    },
+    {
       "title": "Danny and the dinosaur and the girl next door",
       "author": "Hale, Bruce.",
       "rl": 2.0,
@@ -21758,10 +21758,22 @@
       "il": "4-7"
     },
     {
+      "title": "Everything is wrong!",
+      "author": "John, Jory,",
+      "rl": 2.3,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "Everything's changed",
       "author": "Sternberg, Julie.",
       "rl": 4.0,
       "il": "3-6"
+    },
+    {
+      "title": "Everything's wrong! : a bear, a hare, and trouble everywhere",
+      "author": "John, Jory,",
+      "rl": 2.3,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Evidence! : how Dr. John Snow solved the mystery of cholera",
@@ -22134,6 +22146,12 @@
       "author": "Ho, Dung,",
       "rl": 3.7,
       "il": "P-2"
+    },
+    {
+      "title": "Eyes that weave the world's wonders",
+      "author": "Ho, Joanna,",
+      "rl": 4.3,
+      "il": "K-3 Perma-Bound Books"
     },
     {
       "title": "Eyewitness ancient Rome",
@@ -24750,6 +24768,12 @@
       "author": "Deedy, Carmen Agra.",
       "rl": 4.1,
       "il": "1-4"
+    },
+    {
+      "title": "Fowl play",
+      "author": "Tubb, Kristin O'Donnell.",
+      "rl": 4.1,
+      "il": "3-6"
     },
     {
       "title": "Fox & Chick. Sleepover & other stories",
@@ -27948,6 +27972,12 @@
       "author": "Mullarkey, Lisa.",
       "rl": 3.1,
       "il": "1-4"
+    },
+    {
+      "title": "Gracie under the waves",
+      "author": "Park, Linda Sue,",
+      "rl": 4.7,
+      "il": "4-7 Perma-Bound Books"
     },
     {
       "title": "Grains",
@@ -32204,6 +32234,12 @@
       "il": "K-3"
     },
     {
+      "title": "How to catch Bigfoot",
+      "author": "Elkerton, Andy,",
+      "rl": 2.3,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
       "title": "How to cheat a dragon's curse",
       "author": "Cowell, Cressida.",
       "rl": 6.8,
@@ -35286,6 +35322,12 @@
       "author": "Jolley, Dan.",
       "rl": 2.6,
       "il": "5-9"
+    },
+    {
+      "title": "Introducing Sandwina : the strongest woman in the world",
+      "author": "Holmes, Jeremy,",
+      "rl": 3.0,
+      "il": "3-6"
     },
     {
       "title": "Invasion from planet Dork",
@@ -38744,6 +38786,18 @@
       "il": "2-5"
     },
     {
+      "title": "Knight Owl & Early Bird",
+      "author": "Denise, Christopher.",
+      "rl": 2.3,
+      "il": "K-3"
+    },
+    {
+      "title": "Knight Owl and Early Bird",
+      "author": "Denise, Christopher.",
+      "rl": 2.3,
+      "il": "K-3"
+    },
+    {
       "title": "Knight who wouldn't fight",
       "author": null,
       "rl": 3.2,
@@ -41321,6 +41375,12 @@
       "title": "Loki's wolves",
       "author": "Armstrong, Kelley.",
       "rl": 4.4,
+      "il": "3-6"
+    },
+    {
+      "title": "Lola",
+      "author": "Valenti, Karla.",
+      "rl": 4.8,
       "il": "3-6"
     },
     {
@@ -45164,10 +45224,22 @@
       "il": "3-6"
     },
     {
+      "title": "Mister Lemoncello's fantabulous finale",
+      "author": "Grabenstein, Chris,",
+      "rl": 4.9,
+      "il": "4-7 Perma-Bound Books"
+    },
+    {
       "title": "Mister Lemoncello's Library Olympics",
       "author": "Grabenstein, Chris.",
       "rl": 5.2,
       "il": "4-7"
+    },
+    {
+      "title": "Mister Lemoncello's Library Olympics, the graphic novel",
+      "author": "Grabenstein, Chris.",
+      "rl": 4.0,
+      "il": "3-6"
     },
     {
       "title": "Mister Lincoln's way",
@@ -46442,6 +46514,12 @@
       "il": "3-6"
     },
     {
+      "title": "Mr. Lemoncello's fantabulous finale",
+      "author": "Grabenstein, Chris,",
+      "rl": 4.9,
+      "il": "4-7 Perma-Bound Books"
+    },
+    {
       "title": "Mr. Lemoncello's great library race",
       "author": "Grabenstein, Chris,",
       "rl": 5.3,
@@ -46452,6 +46530,12 @@
       "author": "Grabenstein, Chris.",
       "rl": 5.2,
       "il": "4-7"
+    },
+    {
+      "title": "Mr. Lemoncello's Library Olympics, the graphic novel",
+      "author": "Grabenstein, Chris.",
+      "rl": 4.0,
+      "il": "3-6"
     },
     {
       "title": "Mr. Lincoln's way",
@@ -54026,6 +54110,12 @@
       "il": "3-6"
     },
     {
+      "title": "Pocket Bear",
+      "author": "Applegate, Katherine.",
+      "rl": 3.9,
+      "il": "3-6"
+    },
+    {
       "title": "Pocket change : pitching in for a better world",
       "author": "Mulder, Michelle, 1976-",
       "rl": 6.3,
@@ -56300,6 +56390,12 @@
       "il": "K-3"
     },
     {
+      "title": "Red & Lulu",
+      "author": "Tavares, Matt.",
+      "rl": 3.1,
+      "il": "P-2 Perma-Bound Books"
+    },
+    {
       "title": "Red : a crayon's story",
       "author": "Hall, Michael, 1954-",
       "rl": 1.5,
@@ -56310,6 +56406,12 @@
       "author": "Shurtliff, Liesl.",
       "rl": 4.3,
       "il": "3-6"
+    },
+    {
+      "title": "Red and Lulu",
+      "author": "Tavares, Matt.",
+      "rl": 3.1,
+      "il": "P-2 Perma-Bound Books"
     },
     {
       "title": "Red Cloud : a Lakota story of war and surrender",
@@ -72422,6 +72524,12 @@
       "il": "1-4"
     },
     {
+      "title": "The library of unruly treasures",
+      "author": "Birdsall, Jeanne,",
+      "rl": 4.8,
+      "il": "4-7 Perma-Bound Books"
+    },
+    {
       "title": "The life cycle of a clown fish",
       "author": null,
       "rl": 3.5,
@@ -76892,6 +77000,18 @@
       "il": "3-6"
     },
     {
+      "title": "The trouble with giraffes",
+      "author": "Mantchev, Lisa,",
+      "rl": 3.1,
+      "il": "K-3 Perma-Bound Books"
+    },
+    {
+      "title": "The trouble with heroes",
+      "author": "Messner, Kate,",
+      "rl": 5.1,
+      "il": "5-9 Perma-Bound Books"
+    },
+    {
       "title": "The trouble with May Amelia",
       "author": "Holm, Jennifer L.",
       "rl": 4.0,
@@ -79598,6 +79718,12 @@
       "il": "P-2"
     },
     {
+      "title": "Too uncool for school",
+      "author": "Patterson, James, 1947-",
+      "rl": 5.2,
+      "il": "3-6"
+    },
+    {
       "title": "Took : a ghost story",
       "author": "Hahn, Mary Downing.",
       "rl": 3.9,
@@ -80184,6 +80310,12 @@
       "author": "Stewart, Melissa,",
       "rl": 2.0,
       "il": "K-3"
+    },
+    {
+      "title": "Tree House Comix proudly presents",
+      "author": "Pilkey, Dav, 1966-",
+      "rl": 3.2,
+      "il": "1-4 Perma-Bound Books"
     },
     {
       "title": "Tree kangaroo",
@@ -81410,30 +81542,6 @@
       "il": "4-7"
     },
     {
-      "title": "Understanding coding through simulations",
-      "author": "Harris, Patricia, 1943 October 17-",
-      "rl": 6.0,
-      "il": "4-7"
-    },
-    {
-      "title": "Understanding coding with Hopscotch",
-      "author": "Harris, Patricia, 1943 October 17-",
-      "rl": 5.0,
-      "il": "4-7"
-    },
-    {
-      "title": "Understanding coding with Lego Mindstorms",
-      "author": "Harris, Patricia, 1943 October 17-",
-      "rl": 5.0,
-      "il": "4-7"
-    },
-    {
-      "title": "Understanding coding with Lego WeDo",
-      "author": "Harris, Patricia, 1943 October 17-",
-      "rl": 5.0,
-      "il": "4-7"
-    },
-    {
       "title": "Understanding coding with Minecraft",
       "author": "Harris, Patricia, 1943 October 17-",
       "rl": 5.0,
@@ -81447,12 +81555,6 @@
     },
     {
       "title": "Understanding coding with Raspberry Pi",
-      "author": "Harris, Patricia, 1943 October 17-",
-      "rl": 5.0,
-      "il": "4-7"
-    },
-    {
-      "title": "Understanding coding with Ruby",
       "author": "Harris, Patricia, 1943 October 17-",
       "rl": 5.0,
       "il": "4-7"
@@ -82728,6 +82830,12 @@
       "author": "Carle, Eric.",
       "rl": 3.7,
       "il": "K-3"
+    },
+    {
+      "title": "Wanda hears the stars",
+      "author": null,
+      "rl": 3.0,
+      "il": "1-4 Perma-Bound Books"
     },
     {
       "title": "Wandmaker",
@@ -86072,12 +86180,6 @@
       "il": "3-6"
     },
     {
-      "title": "Why are there so many programming languages?",
-      "author": "Harris, Patricia, 1943 October 17-",
-      "rl": 6.4,
-      "il": "4-7"
-    },
-    {
       "title": "Why are there stripes on the American flag?",
       "author": "Rustad, Martha E. H. (Martha Elizabeth Hillman), 1975-",
       "rl": 3.2,
@@ -86442,6 +86544,12 @@
       "author": "Willems, Mo,",
       "rl": 1.0,
       "il": "P-2"
+    },
+    {
+      "title": "Will's race for home : a western",
+      "author": "Rhodes, Jewell Parker.",
+      "rl": 3.6,
+      "il": "3-6"
     },
     {
       "title": "William and Kate : the prince and princess",

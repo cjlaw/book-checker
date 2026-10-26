@@ -82585,13 +82585,6 @@
     "rl": 5.2,
     "il": "3-6"
   },
-  "UNDERSTANDING CODING WITH RUBY": {
-    "bibId": 161894,
-    "isbn": "9781508144502",
-    "author": "Harris, Patricia, 1943 October 17-",
-    "rl": 5.0,
-    "il": "4-7"
-  },
   "UNDERSEA WORLD": {
     "bibId": 161889,
     "isbn": "9780531227770",
@@ -82620,26 +82613,12 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "UNDERSTANDING CODING THROUGH SIMULATIONS": {
-    "bibId": 155919,
-    "isbn": "9781499427943",
-    "author": "Harris, Patricia, 1943 October 17-",
-    "rl": 6.0,
-    "il": "4-7"
-  },
   "UNDERSTANDING PERSONIFICATION": {
     "bibId": 161897,
     "isbn": "9780778718772",
     "author": "Johnson, Robin (Robin R.)",
     "rl": 4.0,
     "il": "3-6"
-  },
-  "UNDERSTANDING CODING WITH HOPSCOTCH": {
-    "bibId": 161891,
-    "isbn": "9781508144595",
-    "author": "Harris, Patricia, 1943 October 17-",
-    "rl": 5.0,
-    "il": "4-7"
   },
   "UNDERSTANDING SAYINGS": {
     "bibId": 161898,
@@ -82648,26 +82627,12 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "UNDERSTANDING CODING WITH LEGO MINDSTORMS": {
-    "bibId": 149063,
-    "isbn": "9781508144625",
-    "author": "Harris, Patricia, 1943 October 17-",
-    "rl": 5.0,
-    "il": "4-7"
-  },
   "UNDERSTANDING SIMILES": {
     "bibId": 161899,
     "isbn": "9780778718758",
     "author": "Johnson, Robin (Robin R.)",
     "rl": 4.0,
     "il": "3-6"
-  },
-  "UNDERSTANDING CODING WITH LEGO WEDO": {
-    "bibId": 149064,
-    "isbn": "9781508144663",
-    "author": "Harris, Patricia, 1943 October 17-",
-    "rl": 5.0,
-    "il": "4-7"
   },
   "UNDERWATER DOGS KIDS EDITION": {
     "bibId": 147605,
@@ -88121,13 +88086,6 @@
     "author": "Pallotta, Jerry,",
     "rl": 4.4,
     "il": "1-4"
-  },
-  "WHY ARE THERE SO MANY PROGRAMMING LANGUAGES": {
-    "bibId": 162134,
-    "isbn": "9781508155201",
-    "author": "Harris, Patricia, 1943 October 17-",
-    "rl": 6.4,
-    "il": "4-7"
   },
   "WHO WOULD WIN WALRUS VS ELEPHANT SEAL": {
     "bibId": 188130,
@@ -95358,20 +95316,6 @@
     "isbn": "9781338801927",
     "author": "Pilkey, Dav, 1966-",
     "rl": 2.7,
-    "il": "3-6"
-  },
-  "AARON DONALD VERSUS REGGIE WHITE": {
-    "bibId": 202103,
-    "isbn": "9781728490861",
-    "author": null,
-    "rl": 4.0,
-    "il": "3-6"
-  },
-  "AARON DONALD VS REGGIE WHITE WHO WOULD WIN": {
-    "bibId": 202103,
-    "isbn": "9781728490861",
-    "author": null,
-    "rl": 4.0,
     "il": "3-6"
   },
   "ABLAZE WITH COLOR A STORY OF PAINTER ALMA THOMAS": {
@@ -103787,5 +103731,187 @@
     "author": "Pinczes, Elinor J.",
     "rl": 2.6,
     "il": "K-3 Perma-Bound Books"
+  },
+  "BROS": {
+    "bibId": 206909,
+    "isbn": "9781536220414",
+    "author": "Weatherford, Carole Boston, 1956-",
+    "rl": 1.0,
+    "il": "K-3"
+  },
+  "DANILO WAS HERE": {
+    "bibId": 210796,
+    "isbn": "9780063159662",
+    "author": null,
+    "rl": 5.0,
+    "il": "5-9 Perma-Bound Books"
+  },
+  "EVERYTHINGS WRONG A BEAR A HARE AND TROUBLE EVERYWHERE": {
+    "bibId": 207191,
+    "isbn": "9780374392147",
+    "author": "John, Jory,",
+    "rl": 2.3,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "EVERYTHING IS WRONG": {
+    "bibId": 207191,
+    "isbn": "9780374392147",
+    "author": "John, Jory,",
+    "rl": 2.3,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "EYES THAT WEAVE THE WORLDS WONDERS": {
+    "bibId": 204500,
+    "isbn": "9780063057777",
+    "author": "Ho, Joanna,",
+    "rl": 4.3,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "FOWL PLAY": {
+    "bibId": 210797,
+    "isbn": "9780063274044",
+    "author": "Tubb, Kristin O'Donnell.",
+    "rl": 4.1,
+    "il": "3-6"
+  },
+  "GRACIE UNDER THE WAVES": {
+    "bibId": 210793,
+    "isbn": "9780063346291",
+    "author": "Park, Linda Sue,",
+    "rl": 4.7,
+    "il": "4-7 Perma-Bound Books"
+  },
+  "HOW TO CATCH BIGFOOT": {
+    "bibId": 207468,
+    "isbn": "9781464230776",
+    "author": "Elkerton, Andy,",
+    "rl": 2.3,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "INTRODUCING SANDWINA THE STRONGEST WOMAN IN THE WORLD": {
+    "bibId": 210798,
+    "isbn": "9781662680151",
+    "author": "Holmes, Jeremy,",
+    "rl": 3.0,
+    "il": "3-6"
+  },
+  "KNIGHT OWL AND EARLY BIRD": {
+    "bibId": 207622,
+    "isbn": "9780316564526",
+    "author": "Denise, Christopher.",
+    "rl": 2.3,
+    "il": "K-3"
+  },
+  "KNIGHT OWL EARLY BIRD": {
+    "bibId": 207622,
+    "isbn": "9780316564526",
+    "author": "Denise, Christopher.",
+    "rl": 2.3,
+    "il": "K-3"
+  },
+  "LIBRARY OF UNRULY TREASURES": {
+    "bibId": 210792,
+    "isbn": "9780525579045",
+    "author": "Birdsall, Jeanne,",
+    "rl": 4.8,
+    "il": "4-7 Perma-Bound Books"
+  },
+  "LOLA": {
+    "bibId": 204685,
+    "isbn": "9780593177006",
+    "author": "Valenti, Karla.",
+    "rl": 4.8,
+    "il": "3-6"
+  },
+  "MISTER LEMONCELLOS FANTABULOUS FINALE": {
+    "bibId": 210688,
+    "isbn": "9780593707944",
+    "author": "Grabenstein, Chris,",
+    "rl": 4.9,
+    "il": "4-7 Perma-Bound Books"
+  },
+  "MISTER LEMONCELLOS LIBRARY OLYMPICS THE GRAPHIC NOVEL": {
+    "bibId": 207838,
+    "isbn": "9780593709818",
+    "author": "Grabenstein, Chris.",
+    "rl": 4.0,
+    "il": "3-6"
+  },
+  "MR LEMONCELLOS FANTABULOUS FINALE": {
+    "bibId": 210688,
+    "isbn": "9780593707944",
+    "author": "Grabenstein, Chris,",
+    "rl": 4.9,
+    "il": "4-7 Perma-Bound Books"
+  },
+  "MR LEMONCELLOS LIBRARY OLYMPICS THE GRAPHIC NOVEL": {
+    "bibId": 207838,
+    "isbn": "9780593709818",
+    "author": "Grabenstein, Chris.",
+    "rl": 4.0,
+    "il": "3-6"
+  },
+  "POCKET BEAR": {
+    "bibId": 210799,
+    "isbn": "9781250904362",
+    "author": "Applegate, Katherine.",
+    "rl": 3.9,
+    "il": "3-6"
+  },
+  "RED AND LULU": {
+    "bibId": 208148,
+    "isbn": "9780763677336",
+    "author": "Tavares, Matt.",
+    "rl": 3.1,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "RED LULU": {
+    "bibId": 208148,
+    "isbn": "9780763677336",
+    "author": "Tavares, Matt.",
+    "rl": 3.1,
+    "il": "P-2 Perma-Bound Books"
+  },
+  "TOO UNCOOL FOR SCHOOL": {
+    "bibId": 207783,
+    "isbn": "9780316410823",
+    "author": "Patterson, James, 1947-",
+    "rl": 5.2,
+    "il": "3-6"
+  },
+  "TREE HOUSE COMIX PROUDLY PRESENTS": {
+    "bibId": 210687,
+    "isbn": "9781546176183",
+    "author": "Pilkey, Dav, 1966-",
+    "rl": 3.2,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "TROUBLE WITH GIRAFFES": {
+    "bibId": 208502,
+    "isbn": "9781665962766",
+    "author": "Mantchev, Lisa,",
+    "rl": 3.1,
+    "il": "K-3 Perma-Bound Books"
+  },
+  "TROUBLE WITH HEROES": {
+    "bibId": 210794,
+    "isbn": "9781547616398",
+    "author": "Messner, Kate,",
+    "rl": 5.1,
+    "il": "5-9 Perma-Bound Books"
+  },
+  "WANDA HEARS THE STARS": {
+    "bibId": 210801,
+    "isbn": "9781623544874",
+    "author": null,
+    "rl": 3.0,
+    "il": "1-4 Perma-Bound Books"
+  },
+  "WILLS RACE FOR HOME A WESTERN": {
+    "bibId": 210800,
+    "isbn": "9780316299336",
+    "author": "Rhodes, Jewell Parker.",
+    "rl": 3.6,
+    "il": "3-6"
   }
 }
