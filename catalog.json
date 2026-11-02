@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26",
+  "generated": "2026-11-02",
   "books": [
     {
       "title": "!Hoy volare!",
@@ -1160,12 +1160,6 @@
       "il": "3-6"
     },
     {
-      "title": "A day at work with a software developer",
-      "author": null,
-      "rl": 5.5,
-      "il": "3-6"
-    },
-    {
       "title": "A day at work with an astronomer",
       "author": null,
       "rl": 5.7,
@@ -1512,6 +1506,12 @@
       "author": "Cowell, Cressida.",
       "rl": 6.9,
       "il": "4-7"
+    },
+    {
+      "title": "A hero's guide to summer vacation",
+      "author": "Cartaya, Pablo,",
+      "rl": 5.0,
+      "il": "4-7 Perma-Bound Books"
     },
     {
       "title": "A hidden enemy",
@@ -2597,12 +2597,6 @@
       "title": "A woodland wedding",
       "author": "Elliott, Rebecca.",
       "rl": 2.9,
-      "il": "1-4"
-    },
-    {
-      "title": "A world of programming",
-      "author": "Lyons, Heather, 1974-",
-      "rl": 3.0,
       "il": "1-4"
     },
     {
@@ -8460,12 +8454,6 @@
       "author": "Green, D. L. (Debra L.),",
       "rl": 3.9,
       "il": "2-5"
-    },
-    {
-      "title": "Being respectful online",
-      "author": null,
-      "rl": 3.8,
-      "il": "3-6"
     },
     {
       "title": "Being your best at baseball",
@@ -15050,12 +15038,6 @@
       "il": "3-6"
     },
     {
-      "title": "Coding, bugs, and fixes",
-      "author": "Lyons, Heather, 1974-",
-      "rl": 3.0,
-      "il": "1-4"
-    },
-    {
       "title": "Cody",
       "author": "Miles, Ellen.",
       "rl": null,
@@ -15294,12 +15276,6 @@
       "author": "Gray, Susan H.",
       "rl": 5.5,
       "il": "P-2"
-    },
-    {
-      "title": "Computers",
-      "author": null,
-      "rl": 5.8,
-      "il": "2-5"
     },
     {
       "title": "Concrete poems",
@@ -28508,12 +28484,6 @@
       "il": "1-4"
     },
     {
-      "title": "Groovy Joe : ice cream & dinosaurs",
-      "author": "Litwin, Eric.",
-      "rl": 1.6,
-      "il": "K-3"
-    },
-    {
       "title": "Gross as a snot otter : discovering the world's most disgusting animals",
       "author": "Keating, Jess.",
       "rl": 5.7,
@@ -31778,12 +31748,6 @@
       "il": "2-5"
     },
     {
-      "title": "How a computer is made",
-      "author": "Aloian, Sam,",
-      "rl": 4.0,
-      "il": "2-5"
-    },
-    {
       "title": "How a plane is made",
       "author": "Hayes, Amy.",
       "rl": 4.6,
@@ -34208,21 +34172,9 @@
       "il": "P-2"
     },
     {
-      "title": "Ice cream & dinosaurs",
-      "author": "Litwin, Eric.",
-      "rl": 1.6,
-      "il": "K-3"
-    },
-    {
       "title": "Ice cream : the full scoop",
       "author": "Gibbons, Gail.",
       "rl": 4.4,
-      "il": "K-3"
-    },
-    {
-      "title": "Ice cream and dinosaurs",
-      "author": "Litwin, Eric.",
-      "rl": 1.6,
       "il": "K-3"
     },
     {
@@ -39266,12 +39218,6 @@
       "il": "2-5"
     },
     {
-      "title": "Las bellas hijas de Mufaro : cuento popular Africano",
-      "author": null,
-      "rl": 4.3,
-      "il": "K-3"
-    },
-    {
       "title": "Las tortugas marinas",
       "author": "Carr, Aaron.",
       "rl": 2.1,
@@ -39450,12 +39396,6 @@
       "author": "Demarest, Chris L.,",
       "rl": 4.9,
       "il": "3-6"
-    },
-    {
-      "title": "Learn to program",
-      "author": "Lyons, Heather, 1974-",
-      "rl": 3.0,
-      "il": "1-4"
     },
     {
       "title": "Learning about rocks",
@@ -42452,12 +42392,6 @@
       "il": "P-2"
     },
     {
-      "title": "Maintaining a positive digital footprint",
-      "author": "McHugh, Jeff.",
-      "rl": 5.0,
-      "il": "1-4"
-    },
-    {
       "title": "Maizy Chen's last chance",
       "author": "Yee, Lisa,",
       "rl": 4.6,
@@ -42558,12 +42492,6 @@
       "author": "Peirce, Lincoln.",
       "rl": 2.5,
       "il": "3-6"
-    },
-    {
-      "title": "Makey Makey",
-      "author": null,
-      "rl": 5.0,
-      "il": "4-7"
     },
     {
       "title": "Making content comprehensible for English learners : the SIOP model",
@@ -44700,12 +44628,6 @@
       "author": "Burks, James (James R.)",
       "rl": null,
       "il": null
-    },
-    {
-      "title": "Mind your manners online",
-      "author": "Cornwall, Phyllis.",
-      "rl": 4.0,
-      "il": "3-6"
     },
     {
       "title": "Mind your manners, B.B. Wolf",
@@ -46943,12 +46865,6 @@
       "title": "Muddy mutt",
       "author": "Kim, Carol,",
       "rl": 2.0,
-      "il": "K-3"
-    },
-    {
-      "title": "Mufaro's beautiful daughters. Spanish",
-      "author": null,
-      "rl": 4.3,
       "il": "K-3"
     },
     {
@@ -50030,6 +49946,12 @@
       "il": "2-5"
     },
     {
+      "title": "Off the map",
+      "author": "Hashimoto, Meika,",
+      "rl": 4.8,
+      "il": "4-7 Perma-Bound Books"
+    },
+    {
       "title": "Officer Buckle and Gloria",
       "author": "Rathmann, Peggy.",
       "rl": 2.9,
@@ -51036,12 +50958,6 @@
       "author": "Torres, J., 1969-",
       "rl": null,
       "il": null
-    },
-    {
-      "title": "Online safety for coders",
-      "author": "Lyons, Heather, 1974-",
-      "rl": 3.0,
-      "il": "1-4"
     },
     {
       "title": "Only only Marisol Rainey",
@@ -53988,12 +53904,6 @@
       "author": "McMahon, Bob, 1956-",
       "rl": 2.0,
       "il": "K-3"
-    },
-    {
-      "title": "Play it safe online",
-      "author": "Cornwall, Phyllis.",
-      "rl": 4.0,
-      "il": "3-6"
     },
     {
       "title": "Play makers",
@@ -64502,6 +64412,12 @@
       "il": "K-3"
     },
     {
+      "title": "Stormy night",
+      "author": "Yoon, Salina,",
+      "rl": 1.7,
+      "il": "P-K Perma-Bound Books"
+    },
+    {
       "title": "Stormy, Misty's foal",
       "author": "Henry, Marguerite, 1902-",
       "rl": 4.7,
@@ -65322,12 +65238,6 @@
       "author": "Patent, Dorothy Hinshaw.",
       "rl": 7.0,
       "il": "1-4"
-    },
-    {
-      "title": "Super social media and awesome online safety",
-      "author": "Gifford, Clive,",
-      "rl": 4.0,
-      "il": "2-5"
     },
     {
       "title": "Super spy handbook",
@@ -74618,12 +74528,6 @@
       "il": "2-5"
     },
     {
-      "title": "The problem with early computers",
-      "author": "Nagelhout, Ryan.",
-      "rl": 3.0,
-      "il": "2-5"
-    },
-    {
       "title": "The problem with early flying machines",
       "author": "Nagelhout, Ryan.",
       "rl": 3.0,
@@ -76211,12 +76115,6 @@
       "title": "The story of Cassiopeia : a Roman constellation myth, a retelling",
       "author": "Troupe, Thomas Kingsley.",
       "rl": 3.4,
-      "il": "1-4"
-    },
-    {
-      "title": "The story of coding",
-      "author": null,
-      "rl": 4.2,
       "il": "1-4"
     },
     {
@@ -79322,6 +79220,18 @@
       "il": "K-3"
     },
     {
+      "title": "Tiny T. Rex & the grand ta-da!",
+      "author": "Stutzman, Jonathan.",
+      "rl": 2.7,
+      "il": "K-3"
+    },
+    {
+      "title": "Tiny T. Rex and the grand ta-da!",
+      "author": "Stutzman, Jonathan.",
+      "rl": 2.7,
+      "il": "K-3"
+    },
+    {
       "title": "Tiny T. Rex and the impossible hug",
       "author": "Stutzman, Jonathan.",
       "rl": 2.1,
@@ -81560,12 +81470,6 @@
       "il": "4-7"
     },
     {
-      "title": "Understanding coding with Scratch",
-      "author": "Harris, Patricia, 1943 October 17-",
-      "rl": 5.0,
-      "il": "4-7"
-    },
-    {
       "title": "Understanding metaphors",
       "author": "Johnson, Robin (Robin R.)",
       "rl": 4.0,
@@ -83256,6 +83160,12 @@
       "author": "Berkner, Laurie,",
       "rl": 1.7,
       "il": "P-2"
+    },
+    {
+      "title": "We believe in you",
+      "author": "Ferry, Beth,",
+      "rl": 2.0,
+      "il": "P-2 Perma-Bound Books"
     },
     {
       "title": "We came to America",
@@ -86652,6 +86562,12 @@
       "author": "Denos, Julia.",
       "rl": 2.5,
       "il": "P-2"
+    },
+    {
+      "title": "Windsongs : poems about weather",
+      "author": "Florian, Douglas.",
+      "rl": 2.0,
+      "il": "K-3"
     },
     {
       "title": "Wings of Fire / talons of power",
