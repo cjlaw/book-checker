@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02",
+  "generated": "2026-11-09",
   "books": [
     {
       "title": "!Hoy volare!",
@@ -8364,12 +8364,6 @@
       "author": "Frisch, Aaron, 1975-2013.",
       "rl": null,
       "il": null
-    },
-    {
-      "title": "Bees : a honeyed history",
-      "author": null,
-      "rl": 3.0,
-      "il": "3-6"
     },
     {
       "title": "Bees : explore, create and investigate!",
@@ -18500,12 +18494,6 @@
       "il": "K-3"
     },
     {
-      "title": "Do you know Dewey? : exploring the Dewey decimal system",
-      "author": "Cleary, Brian P., 1959-",
-      "rl": 5.2,
-      "il": "1-4"
-    },
-    {
       "title": "Do you like my bike?",
       "author": "Feuti, Norman.",
       "rl": 1.3,
@@ -19248,12 +19236,6 @@
       "author": "Song, Mika,",
       "rl": 2.0,
       "il": "P-2"
-    },
-    {
-      "title": "Donut the destroyer",
-      "author": "Purenins, Stef,",
-      "rl": 3.0,
-      "il": "4-7"
     },
     {
       "title": "Doodleville",
@@ -20576,12 +20558,6 @@
       "il": "1-4"
     },
     {
-      "title": "El fantasma del telefono y otros cuentos de miedo",
-      "author": "Dahl, Michael,",
-      "rl": 3.4,
-      "il": null
-    },
-    {
       "title": "El pavo real",
       "author": "Bodden, Valerie.",
       "rl": 3.1,
@@ -21083,12 +21059,6 @@
       "title": "Encounter : the graphic novel",
       "author": "Grine, Chris,",
       "rl": 2.7,
-      "il": "3-6"
-    },
-    {
-      "title": "Encyclopedia of everything",
-      "author": "Callery, Sean.",
-      "rl": 3.0,
       "il": "3-6"
     },
     {
@@ -33530,12 +33500,6 @@
       "il": "P-2"
     },
     {
-      "title": "I learn from my teacher",
-      "author": "Hamilton, Robert M., 1987-",
-      "rl": 1.3,
-      "il": "P-2"
-    },
-    {
       "title": "I like Australian shepherds!",
       "author": "Bozzo, Linda,",
       "rl": 3.0,
@@ -35327,12 +35291,6 @@
       "title": "InvestiGators",
       "author": "Green, John Patrick.",
       "rl": 3.3,
-      "il": "2-5"
-    },
-    {
-      "title": "InvestiGators : take the plunge",
-      "author": "Green, John Patrick,",
-      "rl": 3.6,
       "il": "2-5"
     },
     {
@@ -39072,12 +39030,6 @@
       "author": "Bodden, Valerie.",
       "rl": 2.3,
       "il": "1-4"
-    },
-    {
-      "title": "La Madre Goose : nursery rhymes for ninos",
-      "author": "Elya, Susan Middleton, 1955-",
-      "rl": 2.0,
-      "il": "K-3"
     },
     {
       "title": "La princesa and the pea",
@@ -47396,12 +47348,6 @@
       "il": "K-3"
     },
     {
-      "title": "My librarian is a camel : how books are brought to children around the world",
-      "author": "Ruurs, Margriet.",
-      "rl": 6.3,
-      "il": "2-5"
-    },
-    {
       "title": "My life as a billionaire",
       "author": "Tashjian, Janet,",
       "rl": 5.6,
@@ -54788,6 +54734,12 @@
       "il": "K-3"
     },
     {
+      "title": "Princess Charming",
+      "author": "Hatam, Holly,",
+      "rl": 1.0,
+      "il": "K-3"
+    },
+    {
       "title": "Princess Grace",
       "author": "Hoffman, Mary, 1945-",
       "rl": 3.8,
@@ -55178,12 +55130,6 @@
       "il": null
     },
     {
-      "title": "Pszczoty. English",
-      "author": null,
-      "rl": 3.0,
-      "il": "3-6"
-    },
-    {
       "title": "Pteranodon : giant of the sky",
       "author": "West, David.",
       "rl": 4.4,
@@ -55194,12 +55140,6 @@
       "author": "Tillworth, Mary.",
       "rl": 1.5,
       "il": "1-4"
-    },
-    {
-      "title": "Public library",
-      "author": "Meister, Cari.",
-      "rl": 0.9,
-      "il": "2-5"
     },
     {
       "title": "Public school superhero",
@@ -59816,12 +59756,6 @@
       "il": "3-6"
     },
     {
-      "title": "Setters : loyal hunting companions",
-      "author": "Zuchora-Walske, Christine.",
-      "rl": 4.9,
-      "il": "4-7"
-    },
-    {
       "title": "Seven and a half tons of steel",
       "author": "Gonzalez, Thomas, 1959-",
       "rl": 4.4,
@@ -60540,12 +60474,6 @@
       "author": "Lubar, David.",
       "rl": 2.1,
       "il": "K-3"
-    },
-    {
-      "title": "Short stories. Selections. Spanish",
-      "author": "Dahl, Michael,",
-      "rl": 3.4,
-      "il": null
     },
     {
       "title": "Shortcuts",
@@ -66392,6 +66320,12 @@
       "il": "2-5"
     },
     {
+      "title": "Tea Rex",
+      "author": "Idle, Molly Schaar.",
+      "rl": 2.9,
+      "il": "Pre-kindergarten"
+    },
+    {
       "title": "Teacher",
       "author": "Man-Kong, Mary.",
       "rl": 1.4,
@@ -66408,12 +66342,6 @@
       "author": "Anderson, Laurie Halse.",
       "rl": null,
       "il": null
-    },
-    {
-      "title": "Teachers",
-      "author": "Arnold, Quinn M.,",
-      "rl": 1.5,
-      "il": "P-2"
     },
     {
       "title": "Teachers rock!",
@@ -67986,6 +67914,12 @@
       "author": "Mlynowski, Sarah,",
       "rl": 4.2,
       "il": "4-7"
+    },
+    {
+      "title": "The big snowdown",
+      "author": "Hudson, Katy,",
+      "rl": 1.0,
+      "il": "K-3"
     },
     {
       "title": "The big splash",
@@ -72080,12 +72014,6 @@
       "il": "3-6"
     },
     {
-      "title": "The Kingfisher encyclopedia of everything",
-      "author": "Callery, Sean.",
-      "rl": 3.0,
-      "il": "3-6"
-    },
-    {
       "title": "The knight at dawn",
       "author": "Laird, Jenny, 1969-",
       "rl": null,
@@ -75092,12 +75020,6 @@
       "il": "2-5"
     },
     {
-      "title": "The school",
-      "author": "Carr, Aaron.",
-      "rl": null,
-      "il": null
-    },
-    {
       "title": "The school is alive!",
       "author": "Chabert, Jack.",
       "rl": 3.4,
@@ -77496,12 +77418,6 @@
       "author": "Stilton, Geronimo.",
       "rl": 4.4,
       "il": "2-5"
-    },
-    {
-      "title": "The way to school",
-      "author": "McCarney, Rosemary A.",
-      "rl": 1.0,
-      "il": "P-2"
     },
     {
       "title": "The way to stay in Destiny",
@@ -81308,28 +81224,10 @@
       "il": "1-4"
     },
     {
-      "title": "Ultimate reptile encyclopedia",
-      "author": "Wilsdon, Christina.",
-      "rl": 6.6,
-      "il": "3-6"
-    },
-    {
       "title": "Ultimate reptile rumble",
       "author": "Pallotta, Jerry,",
       "rl": 4.2,
       "il": "1-4"
-    },
-    {
-      "title": "Ultimate reptile-opedia : the most complete reptile reference ever",
-      "author": "Wilsdon, Christina.",
-      "rl": 6.6,
-      "il": "3-6"
-    },
-    {
-      "title": "Ultimate reptileopedia",
-      "author": "Wilsdon, Christina.",
-      "rl": 6.6,
-      "il": "3-6"
     },
     {
       "title": "Ultimate shark rumble",
@@ -87718,12 +87616,6 @@
     {
       "title": "Ye olde weird but true! : 300 outrageous facts from history",
       "author": "Harness, Cheryl.",
-      "rl": 3.0,
-      "il": "3-6"
-    },
-    {
-      "title": "Yearbook : a hexciting year at Ever After High",
-      "author": null,
       "rl": 3.0,
       "il": "3-6"
     },
