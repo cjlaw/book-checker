@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09",
+  "generated": "2026-11-16",
   "books": [
     {
       "title": "!Hoy volare!",
@@ -2072,49 +2072,7 @@
       "il": "3-6"
     },
     {
-      "title": "A refugee's journey from Bhutan",
-      "author": "Barghoorn, Linda,",
-      "rl": 5.2,
-      "il": "3-6"
-    },
-    {
-      "title": "A refugee's journey from Colombia",
-      "author": "Barghoorn, Linda,",
-      "rl": 5.1,
-      "il": "3-6"
-    },
-    {
-      "title": "A refugee's journey from El Salvador",
-      "author": "Barghoorn, Linda,",
-      "rl": 4.7,
-      "il": "3-6"
-    },
-    {
-      "title": "A refugee's journey from Eritrea",
-      "author": "Barghoorn, Linda,",
-      "rl": 4.9,
-      "il": "3-6"
-    },
-    {
-      "title": "A refugee's journey from Guatemala",
-      "author": "Hudak, Heather C., 1975-",
-      "rl": 5.0,
-      "il": "3-6"
-    },
-    {
-      "title": "A refugee's journey from Iran",
-      "author": "Hudak, Heather C., 1975-",
-      "rl": 4.9,
-      "il": "3-6"
-    },
-    {
       "title": "A refugee's journey from Iraq",
-      "author": "Rodger, Ellen,",
-      "rl": 4.0,
-      "il": "3-6"
-    },
-    {
-      "title": "A refugee's journey from Nigeria",
       "author": "Rodger, Ellen,",
       "rl": 4.0,
       "il": "3-6"
@@ -2141,18 +2099,6 @@
       "title": "A refugee's journey from the Democratic Republic of the Congo",
       "author": "Rodger, Ellen,",
       "rl": 4.0,
-      "il": "3-6"
-    },
-    {
-      "title": "A refugee's journey from Ukraine",
-      "author": "Rodger, Ellen,",
-      "rl": 4.8,
-      "il": "3-6"
-    },
-    {
-      "title": "A refugee's journey from Yemen",
-      "author": "Hudak, Heather C., 1975-",
-      "rl": 4.8,
       "il": "3-6"
     },
     {
@@ -9824,12 +9770,6 @@
       "il": "4-7"
     },
     {
-      "title": "Birthdays around the world",
-      "author": "Ruurs, Margriet.",
-      "rl": 2.0,
-      "il": "P-2"
-    },
-    {
       "title": "Birtle and the (very) unwelcome Garry",
       "author": null,
       "rl": 2.0,
@@ -11262,12 +11202,6 @@
       "author": "Curtis, Christopher Paul.",
       "rl": 5.0,
       "il": "5-9"
-    },
-    {
-      "title": "Buddhism",
-      "author": "Rosen Educational Services (Firm)",
-      "rl": 3.0,
-      "il": "2-5"
     },
     {
       "title": "Buddy",
@@ -13862,12 +13796,6 @@
       "il": null
     },
     {
-      "title": "Children just like me",
-      "author": "Saunders, Catherine,",
-      "rl": 4.0,
-      "il": "4-7"
-    },
-    {
       "title": "Children make terrible pets",
       "author": "Brown, Peter, 1979-",
       "rl": 1.8,
@@ -14046,12 +13974,6 @@
       "author": null,
       "rl": 3.0,
       "il": "K-3"
-    },
-    {
-      "title": "Christianity",
-      "author": "Rosen Educational Services (Firm)",
-      "rl": 3.0,
-      "il": "2-5"
     },
     {
       "title": "Christmas",
@@ -15828,12 +15750,6 @@
       "author": "Appelt, Kathi, 1954-",
       "rl": 1.7,
       "il": "P-K"
-    },
-    {
-      "title": "Counting lions : portraits from the wild",
-      "author": "Cotton, Katie.",
-      "rl": 4.1,
-      "il": "1-4"
     },
     {
       "title": "Counting on Frank",
@@ -18288,12 +18204,6 @@
       "author": "Christensen, Bonnie.",
       "rl": 4.0,
       "il": "2-5"
-    },
-    {
-      "title": "DK",
-      "author": "Saunders, Catherine,",
-      "rl": 4.0,
-      "il": "4-7"
     },
     {
       "title": "DK children's illustrated encyclopedia",
@@ -30752,12 +30662,6 @@
       "il": "2-5"
     },
     {
-      "title": "Hinduism",
-      "author": "Quinlan, Julia J.",
-      "rl": 3.0,
-      "il": "2-5"
-    },
-    {
       "title": "Hip hop",
       "author": "Carr, Aaron.",
       "rl": 2.0,
@@ -32930,12 +32834,6 @@
       "il": "K-3"
     },
     {
-      "title": "I am Jewish",
-      "author": null,
-      "rl": 3.9,
-      "il": "K-3"
-    },
-    {
       "title": "I am Jim Henson",
       "author": "Meltzer, Brad,",
       "rl": 3.4,
@@ -33144,30 +33042,6 @@
       "author": "Cleary, Brian P., 1959-",
       "rl": 3.0,
       "il": "3-6"
-    },
-    {
-      "title": "I belong to the Buddhist faith",
-      "author": "Dicker, Katie.",
-      "rl": 4.4,
-      "il": "1-4"
-    },
-    {
-      "title": "I belong to the Christian faith",
-      "author": "Dicker, Katie.",
-      "rl": 3.7,
-      "il": "1-4"
-    },
-    {
-      "title": "I belong to the Muslim faith",
-      "author": "Dicker, Katie.",
-      "rl": 4.0,
-      "il": "1-4"
-    },
-    {
-      "title": "I belong to the Sikh faith",
-      "author": "Dicker, Katie.",
-      "rl": 4.0,
-      "il": "1-4"
     },
     {
       "title": "I broke my trunk!",
@@ -34298,12 +34172,6 @@
       "il": "3-6"
     },
     {
-      "title": "If the world were a village : a book about the world's people",
-      "author": null,
-      "rl": 5.0,
-      "il": "2-5"
-    },
-    {
       "title": "If you are a monster and you know it",
       "author": "Emberley, Rebecca.",
       "rl": 2.0,
@@ -34692,12 +34560,6 @@
       "author": null,
       "rl": 3.9,
       "il": "4-7"
-    },
-    {
-      "title": "In my mosque",
-      "author": "Aly, Hatem,",
-      "rl": 3.9,
-      "il": "K-3"
     },
     {
       "title": "In New York",
@@ -36032,12 +35894,6 @@
       "il": "3-6"
     },
     {
-      "title": "It's Hanukkah!",
-      "author": "Sebra, Richard, 1984-",
-      "rl": 1.5,
-      "il": "P-2"
-    },
-    {
       "title": "It's me, 2",
       "author": "Benton, Jim.",
       "rl": 2.2,
@@ -37212,12 +37068,6 @@
       "author": null,
       "rl": 4.8,
       "il": "3-6"
-    },
-    {
-      "title": "Judaism",
-      "author": "Rosen Educational Services (Firm)",
-      "rl": 3.0,
-      "il": "2-5"
     },
     {
       "title": "Judith Scott",
@@ -47282,12 +47132,6 @@
       "il": "P-2"
     },
     {
-      "title": "My Hindu year",
-      "author": "Senker, Cath.",
-      "rl": 3.6,
-      "il": "1-4"
-    },
-    {
       "title": "My home in the rainforest",
       "author": "Lewis, J. Patrick,",
       "rl": 3.1,
@@ -47588,12 +47432,6 @@
       "il": null
     },
     {
-      "title": "My religion, your religion",
-      "author": "Bullard, Lisa.",
-      "rl": 3.1,
-      "il": "K-3"
-    },
-    {
       "title": "My rotten friend",
       "author": null,
       "rl": 1.6,
@@ -47622,12 +47460,6 @@
       "author": "Owen, Ruth, 1967-",
       "rl": 4.3,
       "il": "K-3"
-    },
-    {
-      "title": "My Sikh year",
-      "author": "Senker, Cath.",
-      "rl": 4.3,
-      "il": "1-4"
     },
     {
       "title": "My sister is in the Coast Guard",
@@ -67634,12 +67466,6 @@
       "il": "5-9"
     },
     {
-      "title": "The barefoot book of children",
-      "author": null,
-      "rl": 1.0,
-      "il": "P-2"
-    },
-    {
       "title": "The basics of cell life with Max Axiom, super scientist",
       "author": "Keyser, Amber.",
       "rl": 5.5,
@@ -67872,12 +67698,6 @@
       "author": "Agee, Jon,",
       "rl": 5.2,
       "il": "3-6"
-    },
-    {
-      "title": "The big book of trains",
-      "author": null,
-      "rl": 2.0,
-      "il": "K-3"
     },
     {
       "title": "The big bully",
@@ -68814,12 +68634,6 @@
       "author": "Gidwitz, Adam.",
       "rl": 4.6,
       "il": "2-5"
-    },
-    {
-      "title": "The church",
-      "author": "Cuthbert, Megan.",
-      "rl": 2.3,
-      "il": "K-3"
     },
     {
       "title": "The CIA",
@@ -71360,12 +71174,6 @@
       "il": "2-5"
     },
     {
-      "title": "The hello atlas",
-      "author": "Pak, Kenard,",
-      "rl": 2.0,
-      "il": "1-4"
-    },
-    {
       "title": "The hello, goodbye window",
       "author": "Juster, Norton, 1929-",
       "rl": 3.9,
@@ -71754,12 +71562,6 @@
       "author": null,
       "rl": 6.7,
       "il": "2-5"
-    },
-    {
-      "title": "The International Day of the Girl : celebrating girls around the world",
-      "author": "Shin, Simone,",
-      "rl": 3.0,
-      "il": "1-4"
     },
     {
       "title": "The International House of Dereliction",
@@ -75246,12 +75048,6 @@
       "author": "Webb, Holly.",
       "rl": 4.4,
       "il": "3-6"
-    },
-    {
-      "title": "The secret knowledge of grown-ups",
-      "author": "Wisniewski, David.",
-      "rl": 5.5,
-      "il": "2-5"
     },
     {
       "title": "The secret letters",

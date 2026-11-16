@@ -5662,13 +5662,6 @@
     "rl": 4.2,
     "il": "3-6"
   },
-  "BAREFOOT BOOK OF CHILDREN": {
-    "bibId": 162442,
-    "isbn": "9781782852964",
-    "author": null,
-    "rl": 1.0,
-    "il": "P-2"
-  },
   "BARRY THE MOUSTACHE": {
     "bibId": 184369,
     "isbn": "9781545804773",
@@ -7713,13 +7706,6 @@
     "rl": 3.9,
     "il": "2-5"
   },
-  "BIG BOOK OF TRAINS": {
-    "bibId": 158727,
-    "isbn": "9781465453617",
-    "author": null,
-    "rl": 2.0,
-    "il": "K-3"
-  },
   "BIG BAD IRONCLAD A CIVIL WAR STEAMSHIP SHOWDOWN": {
     "bibId": 165073,
     "isbn": "9781419703959",
@@ -8566,13 +8552,6 @@
     "author": "Elora, Grace,",
     "rl": 3.9,
     "il": "2-5"
-  },
-  "BIRTHDAYS AROUND THE WORLD": {
-    "bibId": 162506,
-    "isbn": "9781771386241",
-    "author": "Ruurs, Margriet.",
-    "rl": 2.0,
-    "il": "P-2"
   },
   "BIRD WATCHERS GUIDE TO WRENS": {
     "bibId": 162503,
@@ -10554,13 +10533,6 @@
     "author": "Higgins, Ryan T.",
     "rl": 1.6,
     "il": "K-3"
-  },
-  "BUDDHISM": {
-    "bibId": 188660,
-    "isbn": "9781508107149",
-    "author": "Rosen Educational Services (Firm)",
-    "rl": 3.0,
-    "il": "2-5"
   },
   "BRUCES BIG STORM": {
     "bibId": 181139,
@@ -13530,13 +13502,6 @@
     "rl": 1.6,
     "il": "P-2"
   },
-  "CHILDREN JUST LIKE ME": {
-    "bibId": 162607,
-    "isbn": "9781465453921",
-    "author": "Saunders, Catherine,",
-    "rl": 4.0,
-    "il": "4-7"
-  },
   "CHICKEN SQUAD THE FIRST MISADVENTURE": {
     "bibId": 150438,
     "isbn": "9781442496774",
@@ -13859,13 +13824,6 @@
     "rl": 3.4,
     "il": "1-4"
   },
-  "CHRISTIANITY": {
-    "bibId": 188718,
-    "isbn": "9781508107156",
-    "author": "Rosen Educational Services (Firm)",
-    "rl": 3.0,
-    "il": "2-5"
-  },
   "CHRISTMAS IN FRANCE": {
     "bibId": 201724,
     "isbn": "9781476531021",
@@ -13963,13 +13921,6 @@
     "author": "Gibbons, Gail.",
     "rl": 3.5,
     "il": "P-2"
-  },
-  "CHURCH": {
-    "bibId": 162620,
-    "isbn": "9781489613141",
-    "author": "Cuthbert, Megan.",
-    "rl": 2.3,
-    "il": "K-3"
   },
   "CHRISTMAS TOY FACTORY": {
     "bibId": 78388,
@@ -15944,13 +15895,6 @@
     "author": "John, Jory,",
     "rl": 2.8,
     "il": "P-2"
-  },
-  "COUNTING LIONS PORTRAITS FROM THE WILD": {
-    "bibId": 159073,
-    "isbn": "9780763682071",
-    "author": "Cotton, Katie.",
-    "rl": 4.1,
-    "il": "1-4"
   },
   "COUGAR": {
     "bibId": 188752,
@@ -19220,13 +19164,6 @@
     "author": "Troupe, Thomas Kingsley.",
     "rl": 2.8,
     "il": "P-2"
-  },
-  "DK": {
-    "bibId": 162607,
-    "isbn": "9781465453921",
-    "author": "Saunders, Catherine,",
-    "rl": 4.0,
-    "il": "4-7"
   },
   "DO BEES POOP LEARNING ABOUT LIVING AND NONLIVING THINGS WITH THE GARBAGE GANG": {
     "bibId": 159210,
@@ -33060,13 +32997,6 @@
     "rl": 2.2,
     "il": "K-3"
   },
-  "HELLO ATLAS": {
-    "bibId": 162976,
-    "isbn": "9781847808639",
-    "author": "Pak, Kenard,",
-    "rl": 2.0,
-    "il": "1-4"
-  },
   "HEDGEHOGS": {
     "bibId": 149166,
     "isbn": null,
@@ -34277,13 +34207,6 @@
     "author": "Eliot, Hannah,",
     "rl": 4.2,
     "il": "P-2"
-  },
-  "HINDUISM": {
-    "bibId": 189044,
-    "isbn": "9781508107163",
-    "author": "Quinlan, Julia J.",
-    "rl": 3.0,
-    "il": "2-5"
   },
   "HIPPOS CANT SWIM AND OTHER FUN FACTS": {
     "bibId": 159861,
@@ -36721,13 +36644,6 @@
     "rl": 3.9,
     "il": "K-3"
   },
-  "I AM JEWISH": {
-    "bibId": 189082,
-    "isbn": "9780823968107",
-    "author": null,
-    "rl": 3.9,
-    "il": "K-3"
-  },
   "I AM GEORGE WASHINGTON": {
     "bibId": 152009,
     "isbn": "9780525428480",
@@ -37036,26 +36952,12 @@
     "rl": 3.0,
     "il": "2-5"
   },
-  "I BELONG TO THE BUDDHIST FAITH": {
-    "bibId": 189083,
-    "isbn": "9781435830318",
-    "author": "Dicker, Katie.",
-    "rl": 4.4,
-    "il": "1-4"
-  },
   "I CAN GROW A GARDEN": {
     "bibId": 159987,
     "isbn": "9781499483512",
     "author": "Owen, Ruth, 1967-",
     "rl": 3.0,
     "il": "2-5"
-  },
-  "I BELONG TO THE CHRISTIAN FAITH": {
-    "bibId": 189084,
-    "isbn": "9781435830325",
-    "author": "Dicker, Katie.",
-    "rl": 3.7,
-    "il": "1-4"
   },
   "I CAN HANDLE IT": {
     "bibId": 188451,
@@ -37064,26 +36966,12 @@
     "rl": 2.0,
     "il": "P-2"
   },
-  "I BELONG TO THE MUSLIM FAITH": {
-    "bibId": 189085,
-    "isbn": "9781435830356",
-    "author": "Dicker, Katie.",
-    "rl": 4.0,
-    "il": "1-4"
-  },
   "I CAN HAVE A YARD SALE": {
     "bibId": 159988,
     "isbn": "9781499483529",
     "author": "Owen, Ruth, 1967-",
     "rl": 3.0,
     "il": "2-5"
-  },
-  "I BELONG TO THE SIKH FAITH": {
-    "bibId": 189086,
-    "isbn": "9781435830363",
-    "author": "Dicker, Katie.",
-    "rl": 4.0,
-    "il": "1-4"
   },
   "I CAN MAKE EXCITING ELECTRONICS": {
     "bibId": 159989,
@@ -38072,13 +37960,6 @@
     "rl": 2.0,
     "il": "K-3"
   },
-  "IF THE WORLD WERE A VILLAGE A BOOK ABOUT THE WORLDS PEOPLE": {
-    "bibId": 160045,
-    "isbn": "9781554535958",
-    "author": null,
-    "rl": 5.0,
-    "il": "2-5"
-  },
   "IF I RAN THE DOG SHOW ALL ABOUT DOGS": {
     "bibId": 189095,
     "isbn": "9780375866821",
@@ -38700,13 +38581,6 @@
     "isbn": null,
     "author": "Tadgell, Nicole, 1969-",
     "rl": 3.6,
-    "il": "K-3"
-  },
-  "IN MY MOSQUE": {
-    "bibId": 191314,
-    "isbn": "9780062978707",
-    "author": "Aly, Hatem,",
-    "rl": 3.9,
     "il": "K-3"
   },
   "IN THE MIDDLE OF FALL": {
@@ -39345,13 +39219,6 @@
     "author": "West, Tracey, 1965-",
     "rl": 3.7,
     "il": "2-5"
-  },
-  "INTERNATIONAL DAY OF THE GIRL CELEBRATING GIRLS AROUND THE WORLD": {
-    "bibId": 186055,
-    "isbn": "9781525300585",
-    "author": "Shin, Simone,",
-    "rl": 3.0,
-    "il": "1-4"
   },
   "INTO THE GAUNTLET": {
     "bibId": 84332,
@@ -40331,13 +40198,6 @@
     "isbn": "9781250311320",
     "author": null,
     "rl": 3.2,
-    "il": "P-2"
-  },
-  "ITS HANUKKAH": {
-    "bibId": 163096,
-    "isbn": "9781512414271",
-    "author": "Sebra, Richard, 1984-",
-    "rl": 1.5,
     "il": "P-2"
   },
   "ITS ONLY STANLEY": {
@@ -41689,13 +41549,6 @@
     "isbn": "9780763648619",
     "author": "McDonald, Megan.",
     "rl": 3.2,
-    "il": "2-5"
-  },
-  "JUDAISM": {
-    "bibId": 189131,
-    "isbn": "9781508107187",
-    "author": "Rosen Educational Services (Firm)",
-    "rl": 3.0,
     "il": "2-5"
   },
   "JUDY MOODY MOOD MARTIAN": {
@@ -53654,13 +53507,6 @@
     "rl": 3.9,
     "il": "K-3"
   },
-  "MY HINDU YEAR": {
-    "bibId": 189309,
-    "isbn": "9781404237315",
-    "author": "Senker, Cath.",
-    "rl": 3.6,
-    "il": "1-4"
-  },
   "MY KITE IS STUCK AND OTHER STORIES": {
     "bibId": 153799,
     "isbn": "9781619638877",
@@ -53927,13 +53773,6 @@
     "rl": 6.2,
     "il": "4-7"
   },
-  "MY RELIGION YOUR RELIGION": {
-    "bibId": 163308,
-    "isbn": null,
-    "author": "Bullard, Lisa.",
-    "rl": 3.1,
-    "il": "K-3"
-  },
   "MY PAPI HAS A MOTORCYCLE": {
     "bibId": 176613,
     "isbn": "9780525553410",
@@ -53996,13 +53835,6 @@
     "author": null,
     "rl": 4.9,
     "il": "3-6"
-  },
-  "MY SIKH YEAR": {
-    "bibId": 189312,
-    "isbn": "9781404237339",
-    "author": "Senker, Cath.",
-    "rl": 4.3,
-    "il": "1-4"
   },
   "MY VERY FIRST MOTHER GOOSE": {
     "bibId": 160703,
@@ -64742,13 +64574,6 @@
     "rl": 5.6,
     "il": "1-4"
   },
-  "REFUGEES JOURNEY FROM NIGERIA": {
-    "bibId": 161192,
-    "isbn": "9780778746997",
-    "author": "Rodger, Ellen,",
-    "rl": 4.0,
-    "il": "3-6"
-  },
   "REFUGEES": {
     "bibId": 161199,
     "isbn": "9781477767429",
@@ -64777,13 +64602,6 @@
     "rl": 4.8,
     "il": "3-6"
   },
-  "REFUGEES JOURNEY FROM BHUTAN": {
-    "bibId": 161184,
-    "isbn": "9780778746904",
-    "author": "Barghoorn, Linda,",
-    "rl": 5.2,
-    "il": "3-6"
-  },
   "REFUGEES JOURNEY FROM SYRIA": {
     "bibId": 161195,
     "isbn": "9780778731849",
@@ -64791,60 +64609,11 @@
     "rl": 4.0,
     "il": "3-6"
   },
-  "REFUGEES JOURNEY FROM COLOMBIA": {
-    "bibId": 161185,
-    "isbn": "9780778736783",
-    "author": "Barghoorn, Linda,",
-    "rl": 5.1,
-    "il": "3-6"
-  },
   "REFUGEES JOURNEY FROM THE DEMOCRATIC REPUBLIC OF THE CONGO": {
     "bibId": 161196,
     "isbn": "9780778731566",
     "author": "Rodger, Ellen,",
     "rl": 4.0,
-    "il": "3-6"
-  },
-  "REFUGEES JOURNEY FROM EL SALVADOR": {
-    "bibId": 161186,
-    "isbn": "9780778746911",
-    "author": "Barghoorn, Linda,",
-    "rl": 4.7,
-    "il": "3-6"
-  },
-  "REFUGEES JOURNEY FROM UKRAINE": {
-    "bibId": 161197,
-    "isbn": "9780778747000",
-    "author": "Rodger, Ellen,",
-    "rl": 4.8,
-    "il": "3-6"
-  },
-  "REFUGEES JOURNEY FROM ERITREA": {
-    "bibId": 161187,
-    "isbn": "9780778746973",
-    "author": "Barghoorn, Linda,",
-    "rl": 4.9,
-    "il": "3-6"
-  },
-  "REFUGEES JOURNEY FROM YEMEN": {
-    "bibId": 161198,
-    "isbn": "9780778737001",
-    "author": "Hudak, Heather C., 1975-",
-    "rl": 4.8,
-    "il": "3-6"
-  },
-  "REFUGEES JOURNEY FROM GUATEMALA": {
-    "bibId": 161188,
-    "isbn": "9780778736790",
-    "author": "Hudak, Heather C., 1975-",
-    "rl": 5.0,
-    "il": "3-6"
-  },
-  "REFUGEES JOURNEY FROM IRAN": {
-    "bibId": 161189,
-    "isbn": "9780778746980",
-    "author": "Hudak, Heather C., 1975-",
-    "rl": 4.9,
     "il": "3-6"
   },
   "REGGIE 0000000001 KID PENGUIN": {
@@ -68696,13 +68465,6 @@
     "author": "West, Tracey, 1965-",
     "rl": null,
     "il": null
-  },
-  "SECRET KNOWLEDGE OF GROWN UPS": {
-    "bibId": 161376,
-    "isbn": "9780064437530",
-    "author": "Wisniewski, David.",
-    "rl": 5.5,
-    "il": "2-5"
   },
   "SECRET OF THE SPHINX": {
     "bibId": 187428,
