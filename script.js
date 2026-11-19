@@ -1,5 +1,7 @@
 const FUSE_THRESHOLD = 0.35;
 const BULK_SCORE_LIMIT = 0.3; // stricter than FUSE_THRESHOLD — bulk needs higher confidence
+// Public by design: the key is restricted to this site's referrers and the Books API.
+const GOOGLE_BOOKS_KEY = "AIzaSyAMhomP5nIMcbNfe1C3mceUyvWWxtDLDYA";
 
 const searchInput = document.getElementById("searchInput");
 const resultDiv = document.getElementById("result");
@@ -97,11 +99,23 @@ function foundStatus(hits) {
 
 const isbnTitles = new Map();
 
+async function getJson(url) {
+  const res = await fetch(url);
+  return res.ok ? res.json() : null;
+}
+
+// Google Books has the wider index; Open Library covers quota, key or outage failures.
+async function lookupIsbnTitle(isbn) {
+  const google = await getJson(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}&key=${GOOGLE_BOOKS_KEY}`).catch(() => null);
+  const title = google?.items?.[0]?.volumeInfo?.title;
+  if (title) return title;
+  const ol = await getJson(`https://openlibrary.org/isbn/${isbn}.json`);
+  return ol?.title || null;
+}
+
 async function fetchIsbnTitle(isbn) {
   if (!isbnTitles.has(isbn)) {
-    isbnTitles.set(isbn, fetch(`https://openlibrary.org/isbn/${isbn}.json`)
-      .then((res) => (res.ok ? res.json() : null))
-      .then((data) => data?.title || null)
+    isbnTitles.set(isbn, lookupIsbnTitle(isbn)
       .catch(() => {
         isbnTitles.delete(isbn);
         return null;
@@ -124,7 +138,12 @@ async function isbnSearch(isbn, seq) {
   if (seq !== searchSeq) return;
 
   if (!title) {
-    renderNotFound(`We couldn't identify ISBN <strong>${esc(isbn)}</strong>. Try typing the book's title instead.`, "Couldn't identify this book", "?");
+    renderNotFound(
+      `We couldn't find ISBN <strong>${esc(isbn)}</strong> in any book database. New and special editions (like book fair copies) often aren't listed yet — type the book's title above instead.`,
+      "Couldn't identify this book",
+      "?",
+    );
+    if (document.activeElement !== searchInput) searchInput.select();
     return;
   }
 

@@ -65,7 +65,7 @@
   - `loadBooks()` fetches `catalog.json`, normalizes string entries to objects, populates `catalog[]`, and builds two Fuse indexes.
   - `buildFuse()` creates `fuseSingle` (title+author keys, for single search) and `fuseBulk` (title-only, for bulk lookup to prevent author-name false positives).
   - `doSearch()` calls `filterCatalog()` from `lib.js`; falls back to `fuseSingle` for stop-word-only queries. A query that `normalizeIsbn()` accepts goes to `isbnSearch()` instead; a 10/13-digit query with a bad checksum shows an invalid-ISBN message.
-  - `isbnSearch()` — exact `findByIsbn()` hit → Found. Otherwise fetches the title from Open Library (`openlibrary.org/isbn/{isbn}.json`, cached per session in `isbnTitles`), then title-matches it (`filterCatalog`, then `fuseBulk` under `BULK_SCORE_LIMIT`) and shows the hits as "possible matches". `searchSeq` discards stale async results when the query changes.
+  - `isbnSearch()` — exact `findByIsbn()` hit → Found. Otherwise fetches the title via `lookupIsbnTitle()` — Google Books (`GOOGLE_BOOKS_KEY`) first, then Open Library (`openlibrary.org/isbn/{isbn}.json`) if Google errors or has no result; cached per session in `isbnTitles`, then title-matches it (`filterCatalog`, then `fuseBulk` under `BULK_SCORE_LIMIT`) and shows the hits as "possible matches". `searchSeq` discards stale async results when the query changes.
   - Barcode scan — Scan button opens the camera via `<input type="file" capture="environment">` and decodes the still photo with `BarcodeDetector`. Where the browser lacks it (iOS Safari, insecure origins) or its native detector can't read EAN-13 (Android without Play services), `makeDetector()` lazy-loads the `barcode-detector` IIFE ponyfill from jsDelivr (SRI-pinned; exposes `BarcodeDetectionAPI.BarcodeDetector` without touching the global, so it works even when a broken native one exists), which fetches a ~950KB zxing WASM from jsDelivr on first use. A decoded ISBN is put in the search box and run through `doSearch()`.
   - `bookHTML()` renders a match item with title and optional author line.
   - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via `fuseBulk`; author shown below title in results table.
@@ -107,7 +107,7 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 
 **ISBN / barcode scan**
 - TC19: Typed ISBN in catalog: "9781250236104" (also "125023610X") → Found by exact ISBN, one entry ("The 143-story treehouse : camping trip chaos!"), not one per alternate title.
-- TC20: Typed ISBN of a different edition / not in the catalog's ISBNs → "possible matches" by title, with the check-title-and-author note; unknown to Open Library → "Couldn't identify this book".
+- TC20: Typed ISBN of a different edition / not in the catalog's ISBNs → "possible matches" by title, with the check-title-and-author note; unknown to both Google Books and Open Library (e.g. 9798225101497, a book fair printing) → "Couldn't identify this book"; after a scan the search box text is selected so typing a title replaces it.
 - TC21: Bad checksum: "9781250236105" → invalid-ISBN message, no lookup.
 - TC22: Scan on iPhone (Safari, `http://<mac-lan-ip>:8888`): photo of a back-cover barcode → ISBN fills the search box and result shows. Photo of a library sticker or UPC → "Wrong barcode". Photo with no barcode → "No barcode found".
 - TC23: Paste multi-line text into the search box (e.g. "Dog\nMan" copied via Live Text) → becomes "Dog Man" and searches.
@@ -147,8 +147,9 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 - The One Book search box intercepts pastes containing line breaks and inserts them with breaks turned into spaces; browsers otherwise strip the break with no space, so "Dog\nMan" would become "DogMan".
 - Paste auto-runs once on paste via `setTimeout(runPasteCheck, 0)`; later edits require clicking Check List.
 - Fuse.js is loaded from cdnjs pinned with an SRI `integrity` hash plus `crossorigin`; if bumping the Fuse version, update the hash to match or the browser will refuse to load it. Same for `BARCODE_PONYFILL` in `script.js`. Use the `ponyfill.js` build, not `polyfill.js` — the polyfill only installs when no native `BarcodeDetector` exists, so it can't replace a broken one. The ponyfill's WASM URL is pinned inside it and is not SRI-checked.
-- Only one ISBN per catalog record is captured, so a scanned paperback can miss a hardcover record. That's why non-exact ISBN results go through the Open Library title lookup and are labelled "possible matches" — do not present them as a definite Yes.
-- Open Library is a third-party dependency for the fallback only; if it's down, exact ISBN hits still work and misses show "Couldn't identify this book".
+- Only one ISBN per catalog record is captured, so a scanned paperback can miss a hardcover record. That's why non-exact ISBN results go through the title lookup and are labelled "possible matches" — do not present them as a definite Yes.
+- Google Books and Open Library are third-party dependencies for the fallback only; if both fail, exact ISBN hits still work and misses show "Couldn't identify this book".
+- `GOOGLE_BOOKS_KEY` is inline in `script.js` on purpose (no build step, so it can't come from `.env`). It is safe only because the key is restricted in Google Cloud to this site's referrers and to the Books API — keep those restrictions. If the GitHub Pages domain or local test origin isn't in the referrer list, Google returns 403 and every lookup silently falls back to Open Library.
 - Live camera (`getUserMedia`) needs HTTPS; the photo-capture approach does not, which is why phone testing over plain LAN HTTP works.
 
 ## Code review

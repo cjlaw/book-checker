@@ -6,3 +6,4 @@ HANDOFF.md
 .ai/context/
 .claude/settings.local.json
 __pycache__/
+.env
