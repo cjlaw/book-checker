@@ -168,6 +168,39 @@ main {
 .search-btn:active { transform: scale(0.98); }
 .search-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 
+/* ── Barcode scan ── */
+.scan-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.scan-btn {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--indigo);
+  background: var(--card);
+  border: 2px solid var(--indigo-border);
+  border-radius: 999px;
+  padding: 11px 22px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.1s;
+}
+
+.scan-btn:hover { border-color: var(--indigo); background: var(--indigo-bg); }
+.scan-btn:active { transform: scale(0.98); }
+.scan-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
+.scan-hint {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--ink-3);
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
 /* ── Empty / loading ── */
 .empty-state {
   margin-top: 18px;

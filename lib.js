@@ -111,6 +111,31 @@ function filterCatalog(catalog, query) {
   return catalog.filter((e) => patterns.every((p) => p.test(e.title) || p.test(e.author || "")));
 }
 
+// Returns a checksum-valid ISBN-13 string (ISBN-10 converted), or null.
+function normalizeIsbn(raw) {
+  const s = String(raw).replace(/[\s-]/g, "").toUpperCase();
+  if (/^97[89]\d{10}$/.test(s)) {
+    const sum = [...s.slice(0, 12)].reduce((acc, d, i) => acc + d * (i % 2 ? 3 : 1), 0);
+    return (10 - (sum % 10)) % 10 === +s[12] ? s : null;
+  }
+  if (/^\d{9}[\dX]$/.test(s)) {
+    const sum = [...s].reduce((acc, d, i) => acc + (d === "X" ? 10 : +d) * (10 - i), 0);
+    if (sum % 11) return null;
+    const body = "978" + s.slice(0, 9);
+    const sum13 = [...body].reduce((acc, d, i) => acc + d * (i % 2 ? 3 : 1), 0);
+    return body + ((10 - (sum13 % 10)) % 10);
+  }
+  return null;
+}
+
+// Destiny lists alternate titles as separate entries; one ISBN is one book, so
+// return a single entry, preferring the longest (usually most complete) title.
+function findByIsbn(catalog, isbn) {
+  return catalog
+    .filter((e) => e.isbn === isbn)
+    .reduce((best, e) => (!best || e.title.length > best.title.length ? e : best), null);
+}
+
 if (typeof module !== "undefined") {
-  module.exports = { esc, splitCSVLine, parseCSV, parsePaste, filterCatalog };
+  module.exports = { esc, splitCSVLine, parseCSV, parsePaste, filterCatalog, normalizeIsbn, findByIsbn };
 }

@@ -25,7 +25,7 @@
     </div>
 
     <div id="paneSingle" class="card">
-      <label class="search-label" for="searchInput">Title</label>
+      <label class="search-label" for="searchInput">Title or ISBN</label>
       <input
         type="text"
         id="searchInput"
@@ -36,12 +36,18 @@
         spellcheck="false"
       />
 
+      <div class="scan-row">
+        <button class="scan-btn" id="scanBtn" type="button"><span aria-hidden="true">📷</span> Scan barcode</button>
+        <input type="file" id="scanInput" accept="image/*" capture="environment" hidden />
+      </div>
+      <p class="scan-hint">Barcode won't scan? Use your phone camera to copy the title from the cover, then paste it above.</p>
+
       <div id="loadingIndicator" class="loading-indicator" style="display:none;">
         Loading book list…
       </div>
 
       <div id="emptyState" class="empty-state">
-        Type a book title above — we'll check it against the Melissa ISD library catalog.
+        Type a book title or ISBN above, or scan the barcode on the back of the book — we'll check it against the Melissa ISD library catalog.
       </div>
 
       <div id="result" class="result" aria-live="polite" aria-atomic="true"></div>

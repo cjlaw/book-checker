@@ -30,7 +30,7 @@
 ## Codebase Structure
 
 - `generate-catalog.py`
-  - Two-phase: (1) browse crawl — scrapes ~13,807 titles from the Destiny title browse endpoint; (2) enrichment — fetches a detail page per title to capture author, reading level (rl), and interest level (il), caching results in `enrichment-cache.json`.
+  - Two-phase: (1) browse crawl — scrapes ~13,807 titles from the Destiny title browse endpoint; (2) enrichment — fetches a detail page per title to capture author, reading level (rl), and interest level (il), caching results in `enrichment-cache.json`. The detail page also yields `bibId` and one ISBN-13 (first `isbn=` match), which are cached too.
   - Saves crawl results to `crawl-entries.json` after phase 1; `--skip-crawl` reads from that file to skip phase 1.
   - Uses a `CookieJar` seeded with `contextCookie=melissa` and `siteIDCookie=403`; establishes a `JSESSIONID` session before detail fetches. Do NOT use a manual `Cookie` header — it drops `JSESSIONID`.
   - Detail fetches are sequential at ~2 req/sec; cache flushes every 100 entries; resumable across runs.
@@ -39,10 +39,10 @@
 - `enrichment-cache.json`
   - Persistent cache keyed by `search_key` (normalized title from Destiny's browse href). Committed. Avoids re-fetching ~13,807 detail pages on subsequent runs.
 - `catalog.json`
-  - Pre-generated entry list (~13,807 entries). Fetched at runtime by `loadBooks()`. Each entry is `{title, author, rl, il}` with nullable fields; legacy string entries are normalized at load time.
+  - Pre-generated entry list (~13,807 entries). Fetched at runtime by `loadBooks()`. Each entry is `{title, author, rl, il, isbn}` with nullable fields (~85% have an `isbn`; one per record, so other editions of the same book won't match it); legacy string entries are normalized at load time.
 - `index.html`
   - Loads Montserrat CSS through `styles.css`, Fuse.js from cdnjs, then `lib.js`, then `script.js`.
-  - Defines the Melissa ISD header, One Book tab, A Whole List tab, paste input, CSV upload, and status/result containers.
+  - Defines the Melissa ISD header, One Book tab (with Scan barcode button and hidden `capture` file input), A Whole List tab, paste input, CSV upload, and status/result containers.
 - `styles.css`
   - Contains all theme variables, layout, cards, tabs, result states, bulk table, print styles, and mobile rules.
   - Includes `@media print` for printable bulk results and `@media (max-width: 480px)` for small screens.
@@ -51,6 +51,8 @@
   - `esc()` — HTML-escapes user-controlled strings before insertion.
   - `splitCSVLine()` / `parseCSV()` — RFC-ish CSV parser for bulk upload.
   - `parsePaste()` — splits paste input into `{ title, author }` objects; handles tab-separated and `Title > Author` formats.
+  - `normalizeIsbn(raw)` — returns a checksum-valid ISBN-13 (ISBN-10 converted, hyphens/spaces stripped) or `null`. Also used to reject non-ISBN barcodes (UPC, library stickers).
+  - `findByIsbn(catalog, isbn)` — exact ISBN match, or `null`. Destiny lists alternate titles as separate entries sharing an ISBN, so it returns one entry (longest title).
   - `filterCatalog(catalog, query)` — filters the catalog array with word-boundary regex, matching each word against `e.title` OR `e.author`; returns `null` when query is all stop words (signals caller to fall back to Fuse).
 - `script.js`
   - Top-level constants configure Fuse thresholds:
@@ -62,13 +64,15 @@
 
   - `loadBooks()` fetches `catalog.json`, normalizes string entries to objects, populates `catalog[]`, and builds two Fuse indexes.
   - `buildFuse()` creates `fuseSingle` (title+author keys, for single search) and `fuseBulk` (title-only, for bulk lookup to prevent author-name false positives).
-  - `doSearch()` calls `filterCatalog()` from `lib.js`; falls back to `fuseSingle` for stop-word-only queries.
+  - `doSearch()` calls `filterCatalog()` from `lib.js`; falls back to `fuseSingle` for stop-word-only queries. A query that `normalizeIsbn()` accepts goes to `isbnSearch()` instead; a 10/13-digit query with a bad checksum shows an invalid-ISBN message.
+  - `isbnSearch()` — exact `findByIsbn()` hit → Found. Otherwise fetches the title from Open Library (`openlibrary.org/isbn/{isbn}.json`, cached per session in `isbnTitles`), then title-matches it (`filterCatalog`, then `fuseBulk` under `BULK_SCORE_LIMIT`) and shows the hits as "possible matches". `searchSeq` discards stale async results when the query changes.
+  - Barcode scan — Scan button opens the camera via `<input type="file" capture="environment">` and decodes the still photo with `BarcodeDetector`. Where the browser lacks it (iOS Safari, insecure origins) or its native detector can't read EAN-13 (Android without Play services), `makeDetector()` lazy-loads the `barcode-detector` IIFE ponyfill from jsDelivr (SRI-pinned; exposes `BarcodeDetectionAPI.BarcodeDetector` without touching the global, so it works even when a broken native one exists), which fetches a ~950KB zxing WASM from jsDelivr on first use. A decoded ISBN is put in the search box and run through `doSearch()`.
   - `bookHTML()` renders a match item with title and optional author line.
   - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via `fuseBulk`; author shown below title in results table.
 - `test.js`
-  - Node.js unit tests using `node:test` + `assert`. Covers `filterCatalog`, `parseCSV`, `parsePaste`, `esc`, and `splitCSVLine`. Run with `node --test test.js`.
+  - Node.js unit tests using `node:test` + `assert`. Covers `filterCatalog`, `normalizeIsbn`, `findByIsbn`, `parseCSV`, `parsePaste`, `esc`, and `splitCSVLine`. Run with `node --test test.js`.
 - `test_generate_catalog.py`
-  - Python `unittest` tests for the pure logic in `generate-catalog.py`: `classify_crawl()` (additions, removals, mixed, no-op, first run, partial-crawl guard) and `normalize_il()`. Run with `python3 -m unittest test_generate_catalog`. Loads the hyphenated module by path.
+  - Python `unittest` tests for the pure logic in `generate-catalog.py`: `classify_crawl()` (additions, removals, mixed, no-op, first run, partial-crawl guard), `normalize_il()`, and `build_books()` (catalog entry shape). Run with `python3 -m unittest test_generate_catalog`. Loads the hyphenated module by path.
 - `.github/workflows/refresh-catalog.yml`
   - Runs `generate-catalog.py` weekly (Mondays 8am UTC) and on `workflow_dispatch`. Commits updated JSON files back to `main` if the catalog changed (triggering Pages deploy). Uses `CATALOG_DEPLOY_TOKEN` secret (PAT with `repo` scope) so the push triggers GitHub Pages. Fails the job (→ email notification) if the crawl errors out mid-run.
 
@@ -100,6 +104,13 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 - TC7: Not in catalog: "Charlotte's Web" → Not Found, guidance text shows.
 - TC8: One-character query: "d" → no search fires, empty state stays visible.
 - TC9: Stop-word-only query: "the" → falls back to Fuse fuzzy, no crash.
+
+**ISBN / barcode scan**
+- TC19: Typed ISBN in catalog: "9781250236104" (also "125023610X") → Found by exact ISBN, one entry ("The 143-story treehouse : camping trip chaos!"), not one per alternate title.
+- TC20: Typed ISBN of a different edition / not in the catalog's ISBNs → "possible matches" by title, with the check-title-and-author note; unknown to Open Library → "Couldn't identify this book".
+- TC21: Bad checksum: "9781250236105" → invalid-ISBN message, no lookup.
+- TC22: Scan on iPhone (Safari, `http://<mac-lan-ip>:8888`): photo of a back-cover barcode → ISBN fills the search box and result shows. Photo of a library sticker or UPC → "Wrong barcode". Photo with no barcode → "No barcode found".
+- TC23: Paste multi-line text into the search box (e.g. "Dog\nMan" copied via Live Text) → becomes "Dog Man" and searches.
 
 **Bulk — paste**
 - TC10: Single full title: "Diary of a Wimpy Kid : dog days" → Found.
@@ -133,8 +144,12 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 - `BULK_SCORE_LIMIT = 0.3` allows small title typos to match but risks false positives on very short queries (e.g. "ca" → "Caddo"). No minimum length guard is implemented yet.
 - `parsePaste()` (in `lib.js`) extracts author from tab/`>` delimited input, but `lookupBook()` only uses `book.title` for the Fuse lookup — the pasted author is not used for matching.
 - Empty paste currently does nothing; preserve or intentionally improve that behavior with UI feedback.
+- The One Book search box intercepts pastes containing line breaks and inserts them with breaks turned into spaces; browsers otherwise strip the break with no space, so "Dog\nMan" would become "DogMan".
 - Paste auto-runs once on paste via `setTimeout(runPasteCheck, 0)`; later edits require clicking Check List.
-- Fuse.js is loaded from cdnjs pinned with an SRI `integrity` hash plus `crossorigin`; if bumping the Fuse version, update the hash to match or the browser will refuse to load it.
+- Fuse.js is loaded from cdnjs pinned with an SRI `integrity` hash plus `crossorigin`; if bumping the Fuse version, update the hash to match or the browser will refuse to load it. Same for `BARCODE_PONYFILL` in `script.js`. Use the `ponyfill.js` build, not `polyfill.js` — the polyfill only installs when no native `BarcodeDetector` exists, so it can't replace a broken one. The ponyfill's WASM URL is pinned inside it and is not SRI-checked.
+- Only one ISBN per catalog record is captured, so a scanned paperback can miss a hardcover record. That's why non-exact ISBN results go through the Open Library title lookup and are labelled "possible matches" — do not present them as a definite Yes.
+- Open Library is a third-party dependency for the fallback only; if it's down, exact ISBN hits still work and misses show "Couldn't identify this book".
+- Live camera (`getUserMedia`) needs HTTPS; the photo-capture approach does not, which is why phone testing over plain LAN HTTP works.
 
 ## Code review
 

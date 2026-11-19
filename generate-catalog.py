@@ -320,6 +320,20 @@ def crawl(opener):
     return all_entries, had_errors
 
 
+def build_books(entries, cache):
+    books = []
+    for e in sorted(entries, key=lambda e: e["title"].lower()):
+        meta = cache.get(e["search_key"], {})
+        books.append({
+            "title": e["title"],
+            "author": meta.get("author"),
+            "rl": meta.get("rl"),
+            "il": meta.get("il"),
+            "isbn": meta.get("isbn"),
+        })
+    return books
+
+
 def classify_crawl(existing_keys, current_keys,
                    removal_min=REMOVAL_ABORT_MIN, removal_frac=REMOVAL_ABORT_FRAC):
     """Compare a fresh crawl against the prior baseline.
@@ -399,21 +413,12 @@ def main(skip_crawl=False):
     if null_count:
         print(f"  {null_count}/{len(all_entries)} entries have null metadata (not yet cached or fetch failed)")
 
-    unique = sorted(all_entries, key=lambda e: e["title"].lower())
-    books = [
-        {
-            "title": e["title"],
-            "author": cache.get(e["search_key"], {}).get("author"),
-            "rl": cache.get(e["search_key"], {}).get("rl"),
-            "il": cache.get(e["search_key"], {}).get("il"),
-        }
-        for e in unique
-    ]
+    books = build_books(all_entries, cache)
 
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     atomic_write(OUTPUT, {"generated": generated, "books": books})
 
-    print(f"Done: {len(unique)} unique titles → {OUTPUT}")
+    print(f"Done: {len(books)} unique titles → {OUTPUT}")
 
 
 if __name__ == "__main__":

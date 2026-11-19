@@ -66,8 +66,86 @@ async function loadBooks() {
   }
 }
 
+function renderNotFound(detailHTML, status = "No — it's not in the catalog", icon = "✕") {
+  resultDiv.className = "result visible not-found";
+  resultDiv.innerHTML = `
+    <div class="result-section not-found-section">
+      <div class="result-header">
+        <span class="result-icon" aria-hidden="true">${icon}</span>
+        <span class="result-status">${status}</span>
+      </div>
+      <p class="result-detail">${detailHTML}</p>
+    </div>`;
+}
+
+function renderFound(hits, status, detailHTML = "") {
+  resultDiv.className = "result visible found-only";
+  resultDiv.innerHTML = `
+    <div class="result-section found-section">
+      <div class="result-header">
+        <span class="result-icon" aria-hidden="true">✓</span>
+        <span class="result-status">${status}</span>
+      </div>
+      ${detailHTML ? `<p class="result-detail">${detailHTML}</p>` : ""}
+      <div class="result-matches">${hits.map(bookHTML).join("")}</div>
+    </div>`;
+}
+
+function foundStatus(hits) {
+  return hits.length === 1 ? "Yes — it's in the catalog!" : `${hits.length} matches in the catalog`;
+}
+
+const isbnTitles = new Map();
+
+async function fetchIsbnTitle(isbn) {
+  if (!isbnTitles.has(isbn)) {
+    isbnTitles.set(isbn, fetch(`https://openlibrary.org/isbn/${isbn}.json`)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => data?.title || null)
+      .catch(() => {
+        isbnTitles.delete(isbn);
+        return null;
+      }));
+  }
+  return isbnTitles.get(isbn);
+}
+
+let searchSeq = 0;
+
+async function isbnSearch(isbn, seq) {
+  const exact = findByIsbn(catalog, isbn);
+  if (exact) {
+    renderFound([exact], foundStatus([exact]));
+    return;
+  }
+
+  renderNotFound("Looking up this ISBN…", "Checking", "⏳");
+  const title = await fetchIsbnTitle(isbn);
+  if (seq !== searchSeq) return;
+
+  if (!title) {
+    renderNotFound(`We couldn't identify ISBN <strong>${esc(isbn)}</strong>. Try typing the book's title instead.`, "Couldn't identify this book", "?");
+    return;
+  }
+
+  let hits = filterCatalog(catalog, title) || [];
+  if (!hits.length) {
+    hits = fuseBulk.search(title).filter((h) => h.score <= BULK_SCORE_LIMIT).map((h) => h.item);
+  }
+  if (!hits.length) {
+    renderNotFound(`"<strong>${esc(title)}</strong>" is not in the library catalog.`);
+    return;
+  }
+  renderFound(
+    hits,
+    hits.length === 1 ? "Possible match in the catalog" : `${hits.length} possible matches in the catalog`,
+    `This ISBN is "<strong>${esc(title)}</strong>". We found it by title, not by ISBN — check that the title and author match your book.`,
+  );
+}
+
 function doSearch() {
   const query = searchInput.value.trim();
+  const seq = ++searchSeq;
   resultDiv.className = "result";
   resultDiv.innerHTML = "";
 
@@ -78,44 +156,26 @@ function doSearch() {
   emptyState.style.display = "none";
 
   if (!fuseSingle) {
-    resultDiv.classList.add("visible", "not-found");
-    resultDiv.innerHTML = `
-      <div class="result-section not-found-section">
-        <div class="result-header">
-          <span class="result-icon" aria-hidden="true">⏳</span>
-          <span class="result-status">Loading</span>
-        </div>
-        <p class="result-detail">Book list is still loading — try again in a moment.</p>
-      </div>`;
+    renderNotFound("Book list is still loading — try again in a moment.", "Loading", "⏳");
+    return;
+  }
+
+  const isbn = normalizeIsbn(query);
+  if (isbn) {
+    isbnSearch(isbn, seq);
+    return;
+  }
+  if (/^\d{9}[\dX]$|^\d{13}$/i.test(query.replace(/[\s-]/g, ""))) {
+    renderNotFound(`<strong>${esc(query)}</strong> isn't a valid ISBN. Check the number and try again.`, "That number doesn't look right", "?");
     return;
   }
 
   const hits = filterCatalog(catalog, query) ?? fuseSingle.search(query).map((h) => h.item);
   if (!hits.length) {
-    resultDiv.classList.add("not-found", "visible");
-    resultDiv.innerHTML = `
-      <div class="result-section not-found-section">
-        <div class="result-header">
-          <span class="result-icon" aria-hidden="true">✕</span>
-          <span class="result-status">No — it's not in the catalog</span>
-        </div>
-        <p class="result-detail">"<strong>${esc(query)}</strong>" is not in the library catalog.</p>
-      </div>`;
+    renderNotFound(`"<strong>${esc(query)}</strong>" is not in the library catalog.`);
     return;
   }
-
-  resultDiv.classList.add("visible", "found-only");
-  const foundStatus = hits.length === 1
-    ? "Yes — it's in the catalog!"
-    : `${hits.length} matches in the catalog`;
-  resultDiv.innerHTML = `
-    <div class="result-section found-section">
-      <div class="result-header">
-        <span class="result-icon" aria-hidden="true">✓</span>
-        <span class="result-status">${foundStatus}</span>
-      </div>
-      <div class="result-matches">${hits.map(bookHTML).join("")}</div>
-    </div>`;
+  renderFound(hits, foundStatus(hits));
 }
 
 let searchDebounceTimer = null;
@@ -128,12 +188,116 @@ searchInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") doSearch();
 });
 searchInput.addEventListener("input", doSearchDebounced);
+// Text copied from a cover (Live Text) can span lines; browsers drop the break
+// without a space when pasting into an <input>, gluing words together.
+searchInput.addEventListener("paste", (e) => {
+  const text = e.clipboardData?.getData("text/plain");
+  if (!text || !/[\r\n]/.test(text)) return;
+  e.preventDefault();
+  searchInput.setRangeText(text.replace(/\s+/g, " ").trim(), searchInput.selectionStart, searchInput.selectionEnd, "end");
+  doSearch();
+});
 function clearSearch() {
+  searchSeq++;
   searchInput.value = "";
   resultDiv.className = "result";
   resultDiv.innerHTML = "";
   emptyState.style.display = "";
 }
+
+// ── Barcode scan ──
+
+const scanBtn = document.getElementById("scanBtn");
+const scanInput = document.getElementById("scanInput");
+const SCAN_FORMATS = ["ean_13", "upc_a", "code_128", "code_39", "codabar"];
+const BARCODE_PONYFILL = {
+  src: "https://cdn.jsdelivr.net/npm/barcode-detector@3.2.3/dist/iife/ponyfill.js",
+  integrity: "sha384-ZQvvHKgw7Ktqkui5vapXokyfDpQcnXLZhR9hfFMh8rUQztTRNywKQdQ994308nhY",
+};
+
+function loadScript({ src, integrity }) {
+  return new Promise((resolve, reject) => {
+    const el = document.createElement("script");
+    el.src = src;
+    el.integrity = integrity;
+    el.crossOrigin = "anonymous";
+    el.onload = resolve;
+    el.onerror = () => reject(new Error(`Failed to load ${src}`));
+    document.head.append(el);
+  });
+}
+
+// Native BarcodeDetector can exist yet support no formats (Android without Play
+// services), so fall back to the zxing ponyfill unless it can read EAN-13.
+async function makeDetector() {
+  if ("BarcodeDetector" in window) {
+    const supported = await BarcodeDetector.getSupportedFormats();
+    if (supported.includes("ean_13")) {
+      return new BarcodeDetector({ formats: SCAN_FORMATS.filter((f) => supported.includes(f)) });
+    }
+  }
+  await loadScript(BARCODE_PONYFILL);
+  return new BarcodeDetectionAPI.BarcodeDetector({ formats: SCAN_FORMATS });
+}
+
+let detectorPromise = null;
+function getDetector() {
+  if (!detectorPromise) {
+    detectorPromise = makeDetector().catch((err) => {
+      detectorPromise = null;
+      throw err;
+    });
+  }
+  return detectorPromise;
+}
+
+// Non-ISBN codes are still detected so we can say "wrong barcode" instead of "no barcode".
+async function readBarcodes(file) {
+  const detector = await getDetector();
+  const bitmap = await createImageBitmap(file);
+  try {
+    return await detector.detect(bitmap);
+  } finally {
+    bitmap.close();
+  }
+}
+
+scanBtn.addEventListener("click", () => {
+  getDetector().catch(() => {});
+  scanInput.click();
+});
+
+scanInput.addEventListener("change", async () => {
+  const file = scanInput.files[0];
+  scanInput.value = "";
+  if (!file) return;
+
+  const seq = ++searchSeq;
+  searchInput.value = "";
+  emptyState.style.display = "none";
+  renderNotFound("Reading the barcode…", "Scanning", "⏳");
+
+  let codes;
+  try {
+    codes = await readBarcodes(file);
+  } catch (err) {
+    console.warn("Scan failed:", err);
+    if (seq !== searchSeq) return;
+    renderNotFound("Something went wrong reading the photo. Try again, or type the title instead.", "Couldn't scan", "?");
+    return;
+  }
+  if (seq !== searchSeq) return;
+
+  const isbn = codes.map((c) => normalizeIsbn(c.rawValue)).find(Boolean);
+  if (isbn) {
+    searchInput.value = isbn;
+    doSearch();
+  } else if (codes.length) {
+    renderNotFound("That barcode isn't the book's ISBN — it may be a library sticker or a store code. Scan the barcode on the back cover; its number starts with 978 or 979.", "Wrong barcode", "?");
+  } else {
+    renderNotFound("We couldn't find a barcode in that photo. Get closer so the barcode fills most of the picture, and make sure it's in focus.", "No barcode found", "?");
+  }
+});
 
 // ── Tabs ──
 

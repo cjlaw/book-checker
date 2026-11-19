@@ -1,6 +1,6 @@
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
-const { esc, splitCSVLine, parseCSV, parsePaste, filterCatalog } = require("./lib.js");
+const { esc, splitCSVLine, parseCSV, parsePaste, filterCatalog, normalizeIsbn, findByIsbn } = require("./lib.js");
 
 const hasTitle = (hits, t) => hits.some((e) => e.title === t);
 
@@ -208,4 +208,37 @@ test("splitCSVLine: escaped double-quote inside quoted field", () => {
 
 test("splitCSVLine: trims whitespace around fields", () => {
   assert.deepEqual(splitCSVLine(" a , b , c "), ["a", "b", "c"]);
+});
+
+// ── ISBN ──
+
+test("normalizeIsbn: valid ISBN-13 passes through, hyphens and spaces stripped", () => {
+  assert.equal(normalizeIsbn("9781250236104"), "9781250236104");
+  assert.equal(normalizeIsbn("978-1-250-23610-4"), "9781250236104");
+  assert.equal(normalizeIsbn(" 978 1250236104 "), "9781250236104");
+});
+
+test("normalizeIsbn: ISBN-10 converts to ISBN-13, including X check digit", () => {
+  assert.equal(normalizeIsbn("125023610X"), "9781250236104");
+  assert.equal(normalizeIsbn("0-439-02348-3"), "9780439023481");
+});
+
+test("normalizeIsbn: bad checksum, non-book barcode, or text returns null", () => {
+  assert.equal(normalizeIsbn("9781250236105"), null);
+  assert.equal(normalizeIsbn("1250236101"), null);
+  assert.equal(normalizeIsbn("036000291452"), null, "UPC-A");
+  assert.equal(normalizeIsbn("4006381333931"), null, "non-978/979 EAN-13");
+  assert.equal(normalizeIsbn("T 12345"), null, "library item barcode");
+  assert.equal(normalizeIsbn("Dog Man"), null);
+});
+
+test("findByIsbn: collapses alternate-title entries to the longest title", () => {
+  const cat = [
+    { title: "Camping trip chaos", isbn: "9781250236104" },
+    { title: "The 143-story treehouse : camping trip chaos!", isbn: "9781250236104" },
+    { title: "143-storey treehouse", isbn: "9781250236104" },
+    { title: "B", isbn: null },
+  ];
+  assert.equal(findByIsbn(cat, "9781250236104").title, "The 143-story treehouse : camping trip chaos!");
+  assert.equal(findByIsbn(cat, "9780439023481"), null);
 });
