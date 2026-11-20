@@ -122,11 +122,11 @@ class NormalizeIl(unittest.TestCase):
 class BuildBooks(unittest.TestCase):
     def test_includes_isbn_and_sorts_by_title(self):
         entries = [{"title": "zebra", "search_key": "Z"}, {"title": "Apple", "search_key": "A"}]
-        cache = {"A": {"author": "Doe, Jane", "rl": 2.1, "il": "K-3", "isbn": "9781250236104"}}
+        cache = {"A": {"author": "Doe, Jane", "il": "K-3", "isbn": "9781250236104"}}
         books = gencat.build_books(entries, cache)
         self.assertEqual([b["title"] for b in books], ["Apple", "zebra"])
         self.assertEqual(books[0]["isbn"], "9781250236104")
-        self.assertEqual(books[1], {"title": "zebra", "author": None, "rl": None, "il": None, "isbn": None})
+        self.assertEqual(books[1], {"title": "zebra", "author": None, "il": None, "isbn": None})
 
 
 if __name__ == "__main__":

@@ -30,7 +30,7 @@
 ## Codebase Structure
 
 - `generate-catalog.py`
-  - Two-phase: (1) browse crawl — scrapes ~13,807 titles from the Destiny title browse endpoint; (2) enrichment — fetches a detail page per title to capture author, reading level (rl), and interest level (il), caching results in `enrichment-cache.json`. The detail page also yields `bibId` and one ISBN-13 (first `isbn=` match), which are cached too.
+  - Two-phase: (1) browse crawl — scrapes ~13,807 titles from the Destiny title browse endpoint; (2) enrichment — fetches a detail page per title to capture author and interest level (il), caching results in `enrichment-cache.json`. The detail page also yields `bibId` and one ISBN-13 (first `isbn=` match), which are cached too.
   - Saves crawl results to `crawl-entries.json` after phase 1; `--skip-crawl` reads from that file to skip phase 1.
   - Uses a `CookieJar` seeded with `contextCookie=melissa` and `siteIDCookie=403`; establishes a `JSESSIONID` session before detail fetches. Do NOT use a manual `Cookie` header — it drops `JSESSIONID`.
   - Detail fetches are sequential at ~2 req/sec; cache flushes every 100 entries; resumable across runs.
@@ -39,7 +39,7 @@
 - `enrichment-cache.json`
   - Persistent cache keyed by `search_key` (normalized title from Destiny's browse href). Committed. Avoids re-fetching ~13,807 detail pages on subsequent runs.
 - `catalog.json`
-  - Pre-generated entry list (~13,807 entries). Fetched at runtime by `loadBooks()`. Each entry is `{title, author, rl, il, isbn}` with nullable fields (~85% have an `isbn`; one per record, so other editions of the same book won't match it).
+  - Pre-generated entry list (~13,807 entries). Fetched at runtime by `loadBooks()`. Each entry is `{title, author, il, isbn}` with nullable fields (~85% have an `isbn`; one per record, so other editions of the same book won't match it).
 - `index.html`
   - Loads Montserrat CSS through `styles.css`, Fuse.js from cdnjs, then `lib.js`, then `script.js`.
   - Defines the Melissa ISD header, One Book tab (with Scan barcode button and hidden `capture` file input), A Whole List tab, paste input, CSV upload, and status/result containers.
@@ -131,7 +131,7 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 ## Destiny Catalog Notes
 
 - The browse endpoint (`presentbrowsesearchresultsform.do`) ignores `siteTypeID` and `siteID` — per-school scoping is not possible via browse. All parameter combinations return the same full ESC11 consortium catalog. Do not re-investigate this.
-- Author, reading level, and interest level are fetched from `presentbrowseheadingdetailform.do` during the enrichment phase (~13,807 requests, ~1.9h at 2 req/sec). Results are cached in `enrichment-cache.json` keyed by `search_key`. That endpoint requires a `JSESSIONID` cookie obtained via `CookieJar` — do NOT use a manual `Cookie` header.
+- Author and interest level are fetched from `presentbrowseheadingdetailform.do` during the enrichment phase (~13,807 requests, ~1.9h at 2 req/sec). Results are cached in `enrichment-cache.json` keyed by `search_key`. That endpoint requires a `JSESSIONID` cookie obtained via `CookieJar` — do NOT use a manual `Cookie` header.
 - The browse endpoint never drops its "next" link; a complete crawl ends when a page repeats only already-seen titles (Destiny's pagination wraps). `crawl()` treats that as the normal graceful stop. `crawl_page_error()` flags the genuine mid-stream failures — a login/home redirect (session lost) or an empty page — via `crawl_failed()`, which exits 1 rather than committing a truncated catalog. An *early* pagination loop (a real truncation) is caught instead by the removal-count threshold below, since it drops a large fraction of titles.
 - After phase 1, `classify_crawl()` diffs the fresh `search_key`s against the committed `crawl-entries.json` for both additions and removals; it exits 0 without touching enrichment or `catalog.json` only when both sets are empty. Any addition **or** removal triggers a rebuild, so weeded books are dropped from `catalog.json` (the previous additions-only check left them stranded as "Found").
 - `crawl-entries.json` is written only after the diff passes its safety guard, so a rejected crawl cannot poison the baseline.

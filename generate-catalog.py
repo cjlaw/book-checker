@@ -165,7 +165,6 @@ def parse_detail(html):
     bib_id = None
     isbn = None
     author = None
-    rl = None
     il = None
 
     m = re.search(r'bibID=(\d+)', html)
@@ -180,15 +179,11 @@ def parse_detail(html):
     if m:
         author = unquote(m.group(1).replace("+", " "))
 
-    m = re.search(r'Reading grade level:\s*([\d]+(?:\.[\d]+)?)', html)
-    if m:
-        rl = float(m.group(1))
-
     m = re.search(r'Interest grade level:\s*([^<]+)', html)
     if m:
         il = normalize_il(m.group(1))
 
-    return {"bibId": bib_id, "isbn": isbn, "author": author, "rl": rl, "il": il}
+    return {"bibId": bib_id, "isbn": isbn, "author": author, "il": il}
 
 
 def enrich(opener, all_entries, cache):
@@ -310,7 +305,6 @@ def build_books(entries, cache):
         books.append({
             "title": e["title"],
             "author": meta.get("author"),
-            "rl": meta.get("rl"),
             "il": meta.get("il"),
             "isbn": meta.get("isbn"),
         })

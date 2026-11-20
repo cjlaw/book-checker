@@ -6,7 +6,7 @@ A lightweight single-page app to check whether a book is in the Melissa ISD libr
 
 - `index.html`, `styles.css`, `lib.js`, `script.js` — no framework, no bundler
 - `catalog.json` — final entry list (~13,807 entries) served to the app at runtime; committed to the repo
-- `enrichment-cache.json` — per-entry cache of author/rl/il from Destiny detail pages; committed so the ~1.9h fetch doesn't need to be re-run
+- `enrichment-cache.json` — per-entry cache of author/interest level/ISBN from Destiny detail pages; committed so the ~1.9h fetch doesn't need to be re-run
 - `crawl-entries.json` — raw book list from Destiny's browse pages; committed so the ~30 min browse crawl can be skipped on re-runs
 - `generate-catalog.py` — scrapes the Follett Destiny catalog to regenerate all three files
 - `test.js` — unit tests for pure functions (no browser required)
@@ -37,8 +37,8 @@ Three files store catalog state — all committed so expensive scraper phases ca
 | File | What it contains | Time to rebuild |
 |---|---|---|
 | `crawl-entries.json` | Raw book list from Destiny browse pages (`{title, search_key, href}`) | ~30 min |
-| `enrichment-cache.json` | Author/rl/il fetched from ~13,807 Destiny detail pages, keyed by `search_key` | ~1.9h at 2 req/sec |
-| `catalog.json` | Final `{title, author, rl, il}` list served to the app | seconds (derived from cache) |
+| `enrichment-cache.json` | Author/interest level/ISBN fetched from ~13,807 Destiny detail pages, keyed by `search_key` | ~1.9h at 2 req/sec |
+| `catalog.json` | Final `{title, author, il, isbn}` list served to the app | seconds (derived from cache) |
 
 Run the generator when the catalog drifts (new titles added to Destiny):
 
