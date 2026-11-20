@@ -1,6 +1,6 @@
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
-const { esc, splitCSVLine, parseCSV, parsePaste, filterCatalog, normalizeIsbn, findByIsbn } = require("./lib.js");
+const { esc, parseCSV, parsePaste, filterCatalog, normalizeIsbn, findByIsbn } = require("./lib.js");
 
 const hasTitle = (hits, t) => hits.some((e) => e.title === t);
 
@@ -172,6 +172,11 @@ test("parseCSV: quoted field spanning multiple lines", () => {
   assert.equal(rows[1].title, "Hatchet");
 });
 
+test("parseCSV: trims whitespace around fields", () => {
+  const { rows } = parseCSV(" title , author \n Dog Man , Dav Pilkey ");
+  assert.deepEqual(rows, [{ title: "Dog Man", author: "Dav Pilkey" }]);
+});
+
 test("parseCSV: skips rows with empty title", () => {
   const { rows } = parseCSV("title\nDog Man\n\nHatchet");
   assert.equal(rows.length, 2);
@@ -190,24 +195,6 @@ test("esc: plain text unchanged", () => {
 
 test("esc: coerces non-string to string", () => {
   assert.equal(esc(42), "42");
-});
-
-// ── splitCSVLine ──
-
-test("splitCSVLine: simple fields", () => {
-  assert.deepEqual(splitCSVLine("a,b,c"), ["a", "b", "c"]);
-});
-
-test("splitCSVLine: quoted field with comma", () => {
-  assert.deepEqual(splitCSVLine('"a,b",c'), ["a,b", "c"]);
-});
-
-test("splitCSVLine: escaped double-quote inside quoted field", () => {
-  assert.deepEqual(splitCSVLine('"a""b"'), ['a"b']);
-});
-
-test("splitCSVLine: trims whitespace around fields", () => {
-  assert.deepEqual(splitCSVLine(" a , b , c "), ["a", "b", "c"]);
 });
 
 // ── ISBN ──

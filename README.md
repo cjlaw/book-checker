@@ -28,7 +28,7 @@ kill $(lsof -ti tcp:8888)  # to stop
 node --test test.js
 ```
 
-Requires Node 18+. Covers `filterCatalog`, `parseCSV`, `parsePaste`, `esc`, and `splitCSVLine`.
+Requires Node 18+. Covers `filterCatalog`, `parseCSV`, `parsePaste`, `esc`, `normalizeIsbn`, and `findByIsbn`.
 
 ## Regenerating the catalog
 

@@ -39,7 +39,7 @@
 - `enrichment-cache.json`
   - Persistent cache keyed by `search_key` (normalized title from Destiny's browse href). Committed. Avoids re-fetching ~13,807 detail pages on subsequent runs.
 - `catalog.json`
-  - Pre-generated entry list (~13,807 entries). Fetched at runtime by `loadBooks()`. Each entry is `{title, author, rl, il, isbn}` with nullable fields (~85% have an `isbn`; one per record, so other editions of the same book won't match it); legacy string entries are normalized at load time.
+  - Pre-generated entry list (~13,807 entries). Fetched at runtime by `loadBooks()`. Each entry is `{title, author, rl, il, isbn}` with nullable fields (~85% have an `isbn`; one per record, so other editions of the same book won't match it).
 - `index.html`
   - Loads Montserrat CSS through `styles.css`, Fuse.js from cdnjs, then `lib.js`, then `script.js`.
   - Defines the Melissa ISD header, One Book tab (with Scan barcode button and hidden `capture` file input), A Whole List tab, paste input, CSV upload, and status/result containers.
@@ -49,7 +49,7 @@
 - `lib.js`
   - Pure functions with no DOM or Fuse dependency. Loaded as a plain `<script>` in the browser (globals) and `require()`-able in Node for testing.
   - `esc()` — HTML-escapes user-controlled strings before insertion.
-  - `splitCSVLine()` / `parseCSV()` — RFC-ish CSV parser for bulk upload.
+  - `parseCSV()` — RFC-ish CSV parser for bulk upload.
   - `parsePaste()` — splits paste input into `{ title, author }` objects; handles tab-separated and `Title > Author` formats.
   - `normalizeIsbn(raw)` — returns a checksum-valid ISBN-13 (ISBN-10 converted, hyphens/spaces stripped) or `null`. Also used to reject non-ISBN barcodes (UPC, library stickers).
   - `findByIsbn(catalog, isbn)` — exact ISBN match, or `null`. Destiny lists alternate titles as separate entries sharing an ISBN, so it returns one entry (longest title).
@@ -62,15 +62,15 @@
     | `FUSE_THRESHOLD` | Fuzzy match tolerance for single search (0.35) |
     | `BULK_SCORE_LIMIT` | Stricter tolerance for bulk lookup (0.3) |
 
-  - `loadBooks()` fetches `catalog.json`, normalizes string entries to objects, populates `catalog[]`, and builds two Fuse indexes.
+  - `loadBooks()` fetches `catalog.json`, populates `catalog[]`, and builds two Fuse indexes.
   - `buildFuse()` creates `fuseSingle` (title+author keys, for single search) and `fuseBulk` (title-only, for bulk lookup to prevent author-name false positives).
-  - `doSearch()` calls `filterCatalog()` from `lib.js`; falls back to `fuseSingle` for stop-word-only queries. A query that `normalizeIsbn()` accepts goes to `isbnSearch()` instead; a 10/13-digit query with a bad checksum shows an invalid-ISBN message.
+  - `doSearch()` ignores queries under 3 characters; `renderFound()` renders at most `MAX_RESULTS` (50) cards and notes the true total. `doSearch()` calls `filterCatalog()` from `lib.js`; falls back to `fuseSingle` for stop-word-only queries. A query that `normalizeIsbn()` accepts goes to `isbnSearch()` instead; a 10/13-digit query with a bad checksum shows an invalid-ISBN message.
   - `isbnSearch()` — exact `findByIsbn()` hit → Found. Otherwise fetches the title via `lookupIsbnTitle()` — Google Books (`GOOGLE_BOOKS_KEY`) first, then Open Library (`openlibrary.org/isbn/{isbn}.json`) if Google errors or has no result; cached per session in `isbnTitles`, then title-matches it (`filterCatalog`, then `fuseBulk` under `BULK_SCORE_LIMIT`) and shows the hits as "possible matches". `searchSeq` discards stale async results when the query changes.
   - Barcode scan — Scan button opens the camera via `<input type="file" capture="environment">` and decodes the still photo with `BarcodeDetector`. Where the browser lacks it (iOS Safari, insecure origins) or its native detector can't read EAN-13 (Android without Play services), `makeDetector()` lazy-loads the `barcode-detector` IIFE ponyfill from jsDelivr (SRI-pinned; exposes `BarcodeDetectionAPI.BarcodeDetector` without touching the global, so it works even when a broken native one exists), which fetches a ~950KB zxing WASM from jsDelivr on first use. A decoded ISBN is put in the search box and run through `doSearch()`.
   - `bookHTML()` renders a match item with title and optional author line.
   - `lookupBook()` and `renderBulkResults()` power paste/CSV bulk checking via `fuseBulk`; author shown below title in results table.
 - `test.js`
-  - Node.js unit tests using `node:test` + `assert`. Covers `filterCatalog`, `normalizeIsbn`, `findByIsbn`, `parseCSV`, `parsePaste`, `esc`, and `splitCSVLine`. Run with `node --test test.js`.
+  - Node.js unit tests using `node:test` + `assert`. Covers `filterCatalog`, `normalizeIsbn`, `findByIsbn`, `parseCSV`, `parsePaste`, and `esc`. Run with `node --test test.js`.
 - `test_generate_catalog.py`
   - Python `unittest` tests for the pure logic in `generate-catalog.py`: `classify_crawl()` (additions, removals, mixed, no-op, first run, partial-crawl guard), `normalize_il()`, and `build_books()` (catalog entry shape). Run with `python3 -m unittest test_generate_catalog`. Loads the hyphenated module by path.
 - `.github/workflows/refresh-catalog.yml`
@@ -102,7 +102,8 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 - TC5: Multi-word precision: "harry potter" → Found, no garbage results.
 - TC6: Word-boundary check: "man" → includes "Dog Man" and "Iron Man"; excludes "Batman", "human", "Germany".
 - TC7: Not in catalog: "Charlotte's Web" → Not Found, guidance text shows.
-- TC8: One-character query: "d" → no search fires, empty state stays visible.
+- TC8: Query under three characters: "d" or "do" → no search fires (empty state shows only when the box is empty).
+- TC24: Broad query: "dog" → status shows the true match count; only the first 50 cards render, with a "Showing the first 50 of N" note.
 - TC9: Stop-word-only query: "the" → falls back to Fuse fuzzy, no crash.
 
 **ISBN / barcode scan**
@@ -131,7 +132,7 @@ Run `python3 -m http.server 8888` and verify in a browser after any change.
 
 - The browse endpoint (`presentbrowsesearchresultsform.do`) ignores `siteTypeID` and `siteID` — per-school scoping is not possible via browse. All parameter combinations return the same full ESC11 consortium catalog. Do not re-investigate this.
 - Author, reading level, and interest level are fetched from `presentbrowseheadingdetailform.do` during the enrichment phase (~13,807 requests, ~1.9h at 2 req/sec). Results are cached in `enrichment-cache.json` keyed by `search_key`. That endpoint requires a `JSESSIONID` cookie obtained via `CookieJar` — do NOT use a manual `Cookie` header.
-- The browse endpoint never drops its "next" link; a complete crawl ends when a page repeats only already-seen titles (Destiny's pagination wraps). `crawl()` treats that as the normal graceful stop. `crawl_page_error()` flags the genuine mid-stream failures — a login/home redirect (session lost) or an empty page — as `had_errors`, so the script exits 1 rather than committing a truncated catalog. An *early* pagination loop (a real truncation) is caught instead by the removal-count threshold below, since it drops a large fraction of titles.
+- The browse endpoint never drops its "next" link; a complete crawl ends when a page repeats only already-seen titles (Destiny's pagination wraps). `crawl()` treats that as the normal graceful stop. `crawl_page_error()` flags the genuine mid-stream failures — a login/home redirect (session lost) or an empty page — via `crawl_failed()`, which exits 1 rather than committing a truncated catalog. An *early* pagination loop (a real truncation) is caught instead by the removal-count threshold below, since it drops a large fraction of titles.
 - After phase 1, `classify_crawl()` diffs the fresh `search_key`s against the committed `crawl-entries.json` for both additions and removals; it exits 0 without touching enrichment or `catalog.json` only when both sets are empty. Any addition **or** removal triggers a rebuild, so weeded books are dropped from `catalog.json` (the previous additions-only check left them stranded as "Found").
 - `crawl-entries.json` is written only after the diff passes its safety guard, so a rejected crawl cannot poison the baseline.
 - Secondary removal-count guard: even after a crawl reports success, if removals exceed `max(REMOVAL_ABORT_MIN=200, REMOVAL_ABORT_FRAC=10%)` of the prior crawl, the run aborts with code 1 (→ workflow email) rather than pruning — a catch-all for any truncation `crawl_page_error()` missed. Real weeding is far below this; a large drop is treated as suspect and needs manual review.

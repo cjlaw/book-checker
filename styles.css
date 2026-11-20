@@ -2,6 +2,9 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+button { font-family: inherit; cursor: pointer; }
+button:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
 :root {
   --indigo: #3b57e0;
   --indigo-dark: #2a3fb0;
@@ -90,7 +93,6 @@ main {
 }
 
 .tab-btn {
-  font-family: inherit;
   font-size: 14px;
   font-weight: 700;
   color: var(--muted);
@@ -98,7 +100,6 @@ main {
   border: none;
   padding: 9px 24px;
   border-radius: 999px;
-  cursor: pointer;
   transition: color 0.2s, background 0.2s;
 }
 
@@ -108,7 +109,7 @@ main {
   background: var(--indigo);
   box-shadow: 0 2px 6px rgba(59,87,224,0.35);
 }
-.tab-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.tab-btn:focus-visible { box-shadow: var(--focus-ring); }
 
 /* ── Card ── */
 .card {
@@ -152,7 +153,6 @@ main {
 
 /* ── Buttons ── */
 .search-btn {
-  font-family: inherit;
   font-size: 15px;
   font-weight: 800;
   color: #fff;
@@ -160,13 +160,11 @@ main {
   border: none;
   border-radius: 999px;
   padding: 13px 24px;
-  cursor: pointer;
   transition: background 0.2s, transform 0.1s;
 }
 
 .search-btn:hover { background: var(--indigo-dark); }
 .search-btn:active { transform: scale(0.98); }
-.search-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 
 /* ── Barcode scan ── */
 .scan-row {
@@ -176,7 +174,6 @@ main {
 }
 
 .scan-btn {
-  font-family: inherit;
   font-size: 15px;
   font-weight: 800;
   color: var(--indigo);
@@ -184,13 +181,11 @@ main {
   border: 2px solid var(--indigo-border);
   border-radius: 999px;
   padding: 11px 22px;
-  cursor: pointer;
   transition: border-color 0.2s, background 0.2s, transform 0.1s;
 }
 
 .scan-btn:hover { border-color: var(--indigo); background: var(--indigo-bg); }
 .scan-btn:active { transform: scale(0.98); }
-.scan-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 
 .scan-hint {
   margin-top: 10px;
@@ -201,7 +196,7 @@ main {
   font-weight: 500;
 }
 
-/* ── Empty / loading ── */
+/* ── Empty state ── */
 .empty-state {
   margin-top: 18px;
   font-size: 14px;
@@ -210,15 +205,6 @@ main {
   padding: 20px 0 4px;
   line-height: 1.55;
   font-weight: 500;
-}
-
-.loading-indicator {
-  font-size: 13px;
-  color: var(--ink-2);
-  text-align: center;
-  padding: 8px 0;
-  font-weight: 600;
-  animation: pulse 1.5s infinite;
 }
 
 /* ── Result ── */
@@ -347,13 +333,11 @@ main {
 .csv-toggle-row { margin-top: 16px; text-align: center; }
 
 .csv-toggle-btn {
-  font-family: inherit;
   font-size: 13px;
   font-weight: 600;
   color: var(--muted);
   background: none;
   border: none;
-  cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 2px;
   padding: 0;
@@ -361,7 +345,6 @@ main {
 }
 
 .csv-toggle-btn:hover { color: var(--ink); }
-.csv-toggle-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 
 #csvSection { margin-top: 16px; }
 
@@ -411,7 +394,6 @@ main {
 
 .print-btn {
   margin-left: auto;
-  font-family: inherit;
   font-size: 12px;
   font-weight: 700;
   color: var(--muted);
@@ -419,12 +401,10 @@ main {
   border: 1.5px solid var(--indigo-border);
   border-radius: 999px;
   padding: 6px 14px;
-  cursor: pointer;
   transition: color 0.2s, border-color 0.2s;
 }
 
 .print-btn:hover { border-color: var(--indigo); color: var(--indigo); }
-.print-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 
 .bulk-guidance {
   font-size: 13px;
@@ -496,7 +476,6 @@ main {
   .status-badge { border: 1px solid currentColor; }
 }
 
-@keyframes pulse  { 0%,100%{opacity:1} 50%{opacity:0.4} }
 @keyframes fadeIn { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:none} }
 
 @media (max-width: 480px) {

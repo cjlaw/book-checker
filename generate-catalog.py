@@ -63,14 +63,7 @@ class TitleParser(HTMLParser):
         if tag == "a" and self._in_detail_link:
             title = re.sub(r'\s*\[\d+\]$', '', "".join(self._current).strip())
             href = self._current_href or ""
-            search_key = None
-            try:
-                params = parse_qs(urlparse(href).query)
-                raw = params.get("searchKey", [None])[0]
-                if raw:
-                    search_key = unquote(raw)
-            except Exception:
-                pass
+            search_key = parse_qs(urlparse(href).query).get("searchKey", [None])[0]
             if title and search_key:
                 self.entries.append({"title": title, "search_key": search_key, "href": href})
             self._in_detail_link = False
@@ -92,17 +85,15 @@ def make_opener():
     return urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
 
 
-def establish_session(opener):
-    for url in [WELCOME_URL, START_URL]:
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        with opener.open(req, timeout=60) as resp:
-            resp.read()
-
-
 def fetch(opener, url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with opener.open(req, timeout=60) as resp:
         return resp.read().decode("utf-8"), resp.geturl()
+
+
+def establish_session(opener):
+    for url in [WELCOME_URL, START_URL]:
+        fetch(opener, url)
 
 
 def is_login_redirect(final_url):
@@ -144,10 +135,6 @@ def atomic_write(path, data):
     os.replace(tmp, path)
 
 
-def save_cache(cache):
-    atomic_write(CACHE_FILE, cache)
-
-
 def fetch_detail(opener, href, retries=DETAIL_MAX_RETRIES):
     url = BASE + href
     for attempt in range(retries):
@@ -161,7 +148,6 @@ def fetch_detail(opener, href, retries=DETAIL_MAX_RETRIES):
                 time.sleep(2 ** attempt)
             else:
                 return None, str(e)
-    return None, "retries exhausted"
 
 
 # Destiny renders "Interest grade level: Grades 2-6 Junior Library Guild." — a
@@ -238,12 +224,12 @@ def enrich(opener, all_entries, cache):
         flush_count += 1
 
         if flush_count % CACHE_FLUSH_INTERVAL == 0:
-            save_cache(cache)
+            atomic_write(CACHE_FILE, cache)
             print(f"  {i + 1}/{total} fetched, cache flushed")
 
         time.sleep(DETAIL_RATE_SEC)
 
-    save_cache(cache)
+    atomic_write(CACHE_FILE, cache)
     print(f"  Detail fetch complete: {flush_count} new entries cached")
     return cache
 
@@ -267,12 +253,17 @@ def crawl_page_error(final_url, page_entries):
     return None
 
 
+def crawl_failed(reason):
+    print(f"  {reason}", file=sys.stderr)
+    print("ERROR: Crawl did not complete — aborting to avoid false no-op.", file=sys.stderr)
+    sys.exit(1)
+
+
 def crawl(opener):
     all_entries = []
     seen_keys = set()
     url = START_URL
     page = 0
-    had_errors = False
 
     print("Fetching Melissa ISD catalog from Destiny...")
 
@@ -280,16 +271,12 @@ def crawl(opener):
         try:
             html, final_url = fetch(opener, url)
         except Exception as e:
-            print(f"  Error on page {page + 1}: {e}", file=sys.stderr)
-            had_errors = True
-            break
+            crawl_failed(f"Error on page {page + 1}: {e}")
 
         page_entries = extract_entries(html)
         err = crawl_page_error(final_url, page_entries)
         if err:
-            print(f"  Page {page + 1} {err} — treating as a failed crawl.", file=sys.stderr)
-            had_errors = True
-            break
+            crawl_failed(f"Page {page + 1} {err}")
 
         new_entries = [e for e in page_entries if e["search_key"] not in seen_keys]
         if not new_entries:
@@ -304,20 +291,16 @@ def crawl(opener):
 
         page += 1
         if page % 100 == 0:
-            last = new_entries[-1]["title"] if new_entries else "?"
-            print(f"  {page} pages, {len(all_entries)} unique titles so far ({last})")
+            print(f"  {page} pages, {len(all_entries)} unique titles so far ({new_entries[-1]['title']})")
 
         url = extract_next_url(html)
-
-    if had_errors:
-        return all_entries, had_errors
 
     if not all_entries:
         print("No titles collected — aborting.", file=sys.stderr)
         sys.exit(1)
 
     print(f"  Crawl complete: {len(all_entries)} unique titles.")
-    return all_entries, had_errors
+    return all_entries
 
 
 def build_books(entries, cache):
@@ -369,11 +352,7 @@ def main(skip_crawl=False):
             with open(CRAWL_FILE) as f:
                 existing_keys = {e["search_key"] for e in json.load(f)}
 
-        all_entries, had_errors = crawl(opener)
-
-        if had_errors:
-            print("ERROR: Crawl did not complete — aborting to avoid false no-op.", file=sys.stderr)
-            sys.exit(1)
+        all_entries = crawl(opener)
 
         current_keys = {e["search_key"] for e in all_entries}
         added, removed, suspect = classify_crawl(existing_keys, current_keys)
@@ -406,7 +385,7 @@ def main(skip_crawl=False):
     if orphans:
         for k in orphans:
             del cache[k]
-        save_cache(cache)
+        atomic_write(CACHE_FILE, cache)
         print(f"  Pruned {len(orphans)} orphaned cache entries no longer in the catalog.")
 
     null_count = sum(1 for e in all_entries if not cache.get(e["search_key"], {}).get("author"))

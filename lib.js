@@ -45,10 +45,6 @@ function parseCSVRecords(text) {
   return records;
 }
 
-function splitCSVLine(line) {
-  return parseCSVRecords(line)[0];
-}
-
 function parseCSV(text) {
   const records = parseCSVRecords(text.trim());
   while (records.length && records[records.length - 1].every((f) => f === "")) {
@@ -111,19 +107,22 @@ function filterCatalog(catalog, query) {
   return catalog.filter((e) => patterns.every((p) => p.test(e.title) || p.test(e.author || "")));
 }
 
+function ean13Check(first12) {
+  const sum = [...first12].reduce((acc, d, i) => acc + d * (i % 2 ? 3 : 1), 0);
+  return (10 - (sum % 10)) % 10;
+}
+
 // Returns a checksum-valid ISBN-13 string (ISBN-10 converted), or null.
 function normalizeIsbn(raw) {
   const s = String(raw).replace(/[\s-]/g, "").toUpperCase();
   if (/^97[89]\d{10}$/.test(s)) {
-    const sum = [...s.slice(0, 12)].reduce((acc, d, i) => acc + d * (i % 2 ? 3 : 1), 0);
-    return (10 - (sum % 10)) % 10 === +s[12] ? s : null;
+    return ean13Check(s.slice(0, 12)) === +s[12] ? s : null;
   }
   if (/^\d{9}[\dX]$/.test(s)) {
     const sum = [...s].reduce((acc, d, i) => acc + (d === "X" ? 10 : +d) * (10 - i), 0);
     if (sum % 11) return null;
     const body = "978" + s.slice(0, 9);
-    const sum13 = [...body].reduce((acc, d, i) => acc + d * (i % 2 ? 3 : 1), 0);
-    return body + ((10 - (sum13 % 10)) % 10);
+    return body + ean13Check(body);
   }
   return null;
 }
@@ -137,5 +136,5 @@ function findByIsbn(catalog, isbn) {
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { esc, splitCSVLine, parseCSV, parsePaste, filterCatalog, normalizeIsbn, findByIsbn };
+  module.exports = { esc, parseCSV, parsePaste, filterCatalog, normalizeIsbn, findByIsbn };
 }

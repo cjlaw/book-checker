@@ -1,5 +1,6 @@
 const FUSE_THRESHOLD = 0.35;
 const BULK_SCORE_LIMIT = 0.3; // stricter than FUSE_THRESHOLD — bulk needs higher confidence
+const MAX_RESULTS = 50;
 // Public by design: the key is restricted to this site's referrers and the Books API.
 const GOOGLE_BOOKS_KEY = "AIzaSyAMhomP5nIMcbNfe1C3mceUyvWWxtDLDYA";
 
@@ -7,7 +8,6 @@ const searchInput = document.getElementById("searchInput");
 const resultDiv = document.getElementById("result");
 const emptyState = document.getElementById("emptyState");
 const statusText = document.getElementById("statusText");
-const loadingEl = document.getElementById("loadingIndicator");
 let fuseSingle = null;
 let fuseBulk = null;
 let catalog = [];
@@ -45,26 +45,20 @@ function bookHTML(entry) {
 }
 
 async function loadBooks() {
-  loadingEl.style.display = "block";
   setStatusHTML("Loading book list…");
   try {
     const res = await fetch("catalog.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const { generated, books } = await res.json();
     if (!books.length) throw new Error("Catalog is empty");
-    const entries = books.map((b) =>
-      typeof b === "string" ? { title: b, author: null, rl: null, il: null } : b
-    );
-    buildFuse(entries);
+    buildFuse(books);
     const dateStr = generated
-      ? new Date(...generated.split("-").map((v, i) => i === 1 ? v - 1 : +v)).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
+      ? new Date(generated + "T00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
       : null;
-    setStatusHTML(`<span>${entries.length} books</span>${dateStr ? ` · as of ${dateStr}` : ""}`);
+    setStatusHTML(`<span>${books.length} books</span>${dateStr ? ` · as of ${dateStr}` : ""}`);
   } catch (err) {
     console.warn("Catalog load failed:", err);
     setStatusHTML("⚠️ Could not load book list.");
-  } finally {
-    loadingEl.style.display = "none";
   }
 }
 
@@ -81,6 +75,10 @@ function renderNotFound(detailHTML, status = "No — it's not in the catalog", i
 }
 
 function renderFound(hits, status, detailHTML = "") {
+  const shown = hits.slice(0, MAX_RESULTS);
+  if (shown.length < hits.length) {
+    detailHTML += `${detailHTML ? " " : ""}Showing the first ${MAX_RESULTS} of ${hits.length} — add more words to narrow it down.`;
+  }
   resultDiv.className = "result visible found-only";
   resultDiv.innerHTML = `
     <div class="result-section found-section">
@@ -89,7 +87,7 @@ function renderFound(hits, status, detailHTML = "") {
         <span class="result-status">${status}</span>
       </div>
       ${detailHTML ? `<p class="result-detail">${detailHTML}</p>` : ""}
-      <div class="result-matches">${hits.map(bookHTML).join("")}</div>
+      <div class="result-matches">${shown.map(bookHTML).join("")}</div>
     </div>`;
 }
 
@@ -168,7 +166,7 @@ function doSearch() {
   resultDiv.className = "result";
   resultDiv.innerHTML = "";
 
-  if (query.length < 2) {
+  if (query.length < 3) {
     emptyState.style.display = query.length === 0 ? "" : "none";
     return;
   }
@@ -217,11 +215,8 @@ searchInput.addEventListener("paste", (e) => {
   doSearch();
 });
 function clearSearch() {
-  searchSeq++;
   searchInput.value = "";
-  resultDiv.className = "result";
-  resultDiv.innerHTML = "";
-  emptyState.style.display = "";
+  doSearch();
 }
 
 // ── Barcode scan ──
@@ -375,10 +370,20 @@ function lookupBook(book) {
   return { status: "found", match: hits[0].item };
 }
 
+function showBulk(html) {
+  bulkResults.className = "bulk-results visible";
+  bulkResults.innerHTML = html;
+}
+
+function catalogReady() {
+  if (fuseBulk) return true;
+  showBulk(`<p class="bulk-message empty">⚠️ Book list not loaded yet — wait a moment and try again.</p>`);
+  return false;
+}
+
 function renderBulkResults(books) {
   if (!books.length) {
-    bulkResults.className = "bulk-results visible";
-    bulkResults.innerHTML = `<p class="bulk-message empty">No books found in the input.</p>`;
+    showBulk(`<p class="bulk-message empty">No books found in the input.</p>`);
     return;
   }
 
@@ -400,8 +405,7 @@ function renderBulkResults(books) {
     )
     .join("");
 
-  bulkResults.className = "bulk-results visible";
-  bulkResults.innerHTML = `
+  showBulk(`
     <div class="bulk-summary">
       <span class="found-count"><span aria-hidden="true">✔</span> ${foundCount} Found</span>
       ${unknownCount ? `<span class="total-count"><span aria-hidden="true">?</span> ${unknownCount} Not Found</span>` : ""}
@@ -413,7 +417,7 @@ function renderBulkResults(books) {
         <thead><tr><th>Title</th><th>Status</th></tr></thead>
         <tbody>${tableRows}</tbody>
       </table>
-    </div>`;
+    </div>`);
   document
     .getElementById("printBtn")
     .addEventListener("click", () => window.print());
@@ -421,33 +425,19 @@ function renderBulkResults(books) {
 
 function runPasteCheck() {
   const text = pasteInput.value.trim();
-  if (!text) return;
-
-  if (!fuseBulk) {
-    bulkResults.className = "bulk-results visible";
-    bulkResults.innerHTML = `<p class="bulk-message empty">⚠️ Book list not loaded yet — wait a moment and try again.</p>`;
-    return;
-  }
-
+  if (!text || !catalogReady()) return;
   renderBulkResults(parsePaste(text));
 }
 
 function runBulkCheck() {
   const file = csvInput.files[0];
-  if (!file) return;
-
-  if (!fuseBulk) {
-    bulkResults.className = "bulk-results visible";
-    bulkResults.innerHTML = `<p class="bulk-message empty">⚠️ Book list not loaded yet — wait a moment and try again.</p>`;
-    return;
-  }
+  if (!file || !catalogReady()) return;
 
   const reader = new FileReader();
   reader.onload = (e) => {
     const { error, rows: books } = parseCSV(e.target.result);
     if (error) {
-      bulkResults.className = "bulk-results visible";
-      bulkResults.innerHTML = `<p class="bulk-message error">⚠️ ${esc(error)}</p>`;
+      showBulk(`<p class="bulk-message error">⚠️ ${esc(error)}</p>`);
       return;
     }
     renderBulkResults(books);
