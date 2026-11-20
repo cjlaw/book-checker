@@ -5,9 +5,14 @@ on:
     - cron: '0 8 * * 1'  # Mondays at 8am UTC
   workflow_dispatch:
 
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 300  # crawl ~40 min + enrichment capped at 4h by MAX_ELAPSED_SEC
     steps:
       - uses: actions/checkout@v5
         with:
@@ -27,5 +32,6 @@ jobs:
           git add catalog.json enrichment-cache.json crawl-entries.json
           if ! git diff --staged --quiet; then
             git commit -m "chore: refresh catalog"
+            git pull --rebase
             git push
           fi

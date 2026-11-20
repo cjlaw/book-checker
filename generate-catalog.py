@@ -13,9 +13,10 @@ import re
 import sys
 import time
 from datetime import datetime, timezone
+from html import unescape as html_unescape
 from html.parser import HTMLParser
 from http.cookiejar import Cookie, CookieJar
-from urllib.parse import parse_qs, unquote, urlparse
+from urllib.parse import parse_qs, unquote, urlencode, urlparse
 import urllib.request
 
 BASE = "https://destiny3.esc11.net"
@@ -25,8 +26,10 @@ CACHE_FILE = "enrichment-cache.json"
 CRAWL_FILE = "crawl-entries.json"
 CACHE_FLUSH_INTERVAL = 100
 DETAIL_RATE_SEC = 0.5      # ~2 req/sec
+CRAWL_RATE_SEC = 0.5
 MAX_ELAPSED_SEC = 4 * 3600
 DETAIL_MAX_RETRIES = 3
+AUTH_MAX_FAILURES = 3      # consecutive session failures (after re-login) before giving up
 REMOVAL_ABORT_MIN = 200    # suspect a partial crawl if more than this many entries vanish
 REMOVAL_ABORT_FRAC = 0.10  # ...and they exceed this fraction of the prior crawl
 
@@ -61,11 +64,12 @@ class TitleParser(HTMLParser):
 
     def handle_endtag(self, tag):
         if tag == "a" and self._in_detail_link:
-            title = re.sub(r'\s*\[\d+\]$', '', "".join(self._current).strip())
+            m = re.match(r'(.*?)\s*\[(\d+)\]$', "".join(self._current).strip(), re.S)
+            title, count = (m.group(1), int(m.group(2))) if m else ("".join(self._current).strip(), 1)
             href = self._current_href or ""
             search_key = parse_qs(urlparse(href).query).get("searchKey", [None])[0]
             if title and search_key:
-                self.entries.append({"title": title, "search_key": search_key, "href": href})
+                self.entries.append({"title": title, "search_key": search_key, "count": count, "href": href})
             self._in_detail_link = False
             self._current = []
             self._current_href = None
@@ -98,7 +102,20 @@ def establish_session(opener):
 
 def is_login_redirect(final_url):
     path = urlparse(final_url).path.lower()
-    return "loginform" in path or "welcomeform" in path or "homeform" in path
+    return any(p in path for p in ("loginform", "welcomeform", "homeform", "listsitesform"))
+
+
+def detail_href(entry):
+    return "/cataloging/servlet/presentbrowseheadingdetailform.do?" + urlencode({
+        "searchKey": entry["search_key"], "searchDisplayable": entry["title"],
+        "siteTypeID": -2, "searchType": "title", "siteID": 403,
+        "includeLibrary": "true", "includeMedia": "false", "mediaSiteID": "",
+    })
+
+
+def record_href(bib_id):
+    return ("/cataloging/servlet/presenttitledetailform.do?siteTypeID=-2&siteID=403"
+            f"&includeLibrary=true&includeMedia=false&mediaSiteID=&bibID={bib_id}")
 
 
 def extract_entries(html):
@@ -140,7 +157,9 @@ def fetch_detail(opener, href, retries=DETAIL_MAX_RETRIES):
     for attempt in range(retries):
         try:
             html, final_url = fetch(opener, url)
-            if is_login_redirect(final_url):
+            # An expired JSESSIONID returns 200 at the same URL with no records,
+            # not a redirect — every real detail page links at least one bibID.
+            if is_login_redirect(final_url) or "bibID=" not in html:
                 return None, "auth"
             return html, None
         except Exception as e:
@@ -156,8 +175,22 @@ def fetch_detail(opener, href, retries=DETAIL_MAX_RETRIES):
 def normalize_il(raw):
     val = raw.split("<")[0].strip().rstrip(".").strip()
     val = re.sub(r'^(?:Grades?|Ages?)\s+', "", val, flags=re.I)
-    val = re.sub(r'\s+(?:Junior Library Guild|Follett\b.*)$', "", val, flags=re.I)
+    val = re.sub(r'\s+(?:Junior Library Guild|Perma-Bound Books|Follett\b.*)$', "", val, flags=re.I)
     val = re.sub(r'-\s+', "-", val)
+    return val or None
+
+
+AUTHOR_ABBREVS = {"Dr", "Jr", "Sr", "Mr", "Mrs", "Ms", "St", "Inc", "Co", "Corp", "Ltd", "Bros"}
+
+
+# Destiny keeps MARC's trailing punctuation ("Applegate, Katherine," / "Boyer, Crispin.").
+# Drop it, but keep the period on initials and abbreviations ("Kara L.", "Seuss, Dr.").
+def normalize_author(raw):
+    val = raw.strip().rstrip(",;:/ ")
+    if val.endswith("."):
+        last = re.split(r'[\s,(]+', val[:-1])[-1]
+        if not (re.fullmatch(r'[A-Z]', last) or last in AUTHOR_ABBREVS):
+            val = val[:-1].rstrip(",;: ")
     return val or None
 
 
@@ -178,6 +211,11 @@ def parse_detail(html):
     m = re.search(r'searchType=author[^>]*searchDisplayable=([^&"]+)', html)
     if m:
         author = unquote(m.group(1).replace("+", " "))
+    else:
+        # Records without an author heading show the statement as plain text.
+        m = re.search(r'<li>Titles by:\s*([^<]+?)\s*</li>', html)
+        if m:
+            author = html_unescape(m.group(1))
 
     m = re.search(r'Interest grade level:\s*([^<]+)', html)
     if m:
@@ -186,8 +224,54 @@ def parse_detail(html):
     return {"bibId": bib_id, "isbn": isbn, "author": author, "il": il}
 
 
+# A heading with [n] > 1 opens a hit list of records rather than a detail page;
+# each record's DetailLink carries id="bibID_<n>".
+def parse_record_ids(html):
+    return list(dict.fromkeys(int(b) for b in re.findall(r'id="bibID_(\d+)"', html)))
+
+
+def needs_fetch(entry, cache):
+    meta = cache.get(entry["search_key"])
+    if meta is None:
+        return True
+    count = entry.get("count", 1)
+    if count > 1:
+        return meta.get("count") != count
+    return "records" in meta
+
+
+def fetch_authed(opener, href):
+    html, err = fetch_detail(opener, href)
+    if err == "auth":
+        print("  Session expired — re-establishing...", file=sys.stderr)
+        establish_session(opener)
+        html, err = fetch_detail(opener, href)
+    time.sleep(DETAIL_RATE_SEC)
+    return html, err
+
+
+def fetch_entry(opener, entry):
+    """Return (cache value, err). Multi-record headings cache every record,
+    keyed under the heading with its count so a changed count triggers a refetch."""
+    html, err = fetch_authed(opener, detail_href(entry))
+    if err:
+        return None, err
+    count = entry.get("count", 1)
+    if count == 1:
+        return parse_detail(html), None
+    records = []
+    for bib_id in parse_record_ids(html):
+        rec_html, err = fetch_authed(opener, record_href(bib_id))
+        if err:
+            return None, err
+        records.append(parse_detail(rec_html))
+    if not records:
+        return None, "no records in hit list"
+    return {"count": count, "records": records}, None
+
+
 def enrich(opener, all_entries, cache):
-    uncached = [e for e in all_entries if e["search_key"] not in cache]
+    uncached = [e for e in all_entries if needs_fetch(e, cache)]
     total = len(uncached)
     if not total:
         print("All entries already cached — skipping detail fetches.")
@@ -195,7 +279,7 @@ def enrich(opener, all_entries, cache):
 
     print(f"Fetching details for {total} uncached entries (~{total * DETAIL_RATE_SEC / 3600:.1f}h)...")
     flush_count = 0
-    auth_retried = False
+    auth_failures = 0
     start = time.monotonic()
 
     for i, entry in enumerate(uncached):
@@ -203,26 +287,25 @@ def enrich(opener, all_entries, cache):
             print(f"  Elapsed-time guard tripped — saving and stopping.", file=sys.stderr)
             break
 
-        html, err = fetch_detail(opener, entry["href"])
-        if err == "auth" and not auth_retried:
-            auth_retried = True
-            print("  Session expired — re-establishing...", file=sys.stderr)
-            establish_session(opener)
-            html, err = fetch_detail(opener, entry["href"])
+        meta, err = fetch_entry(opener, entry)
+        if err == "auth":
+            auth_failures += 1
+            if auth_failures >= AUTH_MAX_FAILURES:
+                print(f"  {auth_failures} consecutive session failures — saving and stopping.", file=sys.stderr)
+                break
+        else:
+            auth_failures = 0
 
         if err:
             print(f"  Fetch error for {entry['title']!r}: {err}", file=sys.stderr)
-            time.sleep(DETAIL_RATE_SEC)
             continue
 
-        cache[entry["search_key"]] = parse_detail(html)
+        cache[entry["search_key"]] = meta
         flush_count += 1
 
         if flush_count % CACHE_FLUSH_INTERVAL == 0:
             atomic_write(CACHE_FILE, cache)
             print(f"  {i + 1}/{total} fetched, cache flushed")
-
-        time.sleep(DETAIL_RATE_SEC)
 
     atomic_write(CACHE_FILE, cache)
     print(f"  Detail fetch complete: {flush_count} new entries cached")
@@ -254,6 +337,27 @@ def crawl_failed(reason):
     sys.exit(1)
 
 
+def fetch_crawl_page(opener, url, retries=DETAIL_MAX_RETRIES):
+    """Fetch one browse page, retrying transient and session failures.
+
+    Paging state lives in the next URL (searchKey/pagingKey), not the session,
+    so re-establishing a session and refetching the same URL is safe.
+    """
+    for attempt in range(retries):
+        try:
+            html, final_url = fetch(opener, url)
+            entries = extract_entries(html)
+            err = crawl_page_error(final_url, entries)
+        except Exception as e:
+            err = f"error: {e}"
+        if not err:
+            return html, entries, None
+        if attempt < retries - 1:
+            time.sleep(2 ** attempt)
+            establish_session(opener)
+    return None, None, err
+
+
 def crawl(opener):
     all_entries = []
     seen_keys = set()
@@ -263,13 +367,7 @@ def crawl(opener):
     print("Fetching Melissa ISD catalog from Destiny...")
 
     while url:
-        try:
-            html, final_url = fetch(opener, url)
-        except Exception as e:
-            crawl_failed(f"Error on page {page + 1}: {e}")
-
-        page_entries = extract_entries(html)
-        err = crawl_page_error(final_url, page_entries)
+        html, page_entries, err = fetch_crawl_page(opener, url)
         if err:
             crawl_failed(f"Page {page + 1} {err}")
 
@@ -289,6 +387,7 @@ def crawl(opener):
             print(f"  {page} pages, {len(all_entries)} unique titles so far ({new_entries[-1]['title']})")
 
         url = extract_next_url(html)
+        time.sleep(CRAWL_RATE_SEC)
 
     if not all_entries:
         print("No titles collected — aborting.", file=sys.stderr)
@@ -298,16 +397,21 @@ def crawl(opener):
     return all_entries
 
 
+def entry_records(entry, cache):
+    meta = cache.get(entry["search_key"], {})
+    return meta.get("records") or [meta]
+
+
 def build_books(entries, cache):
     books = []
     for e in sorted(entries, key=lambda e: e["title"].lower()):
-        meta = cache.get(e["search_key"], {})
-        books.append({
-            "title": e["title"],
-            "author": meta.get("author"),
-            "il": meta.get("il"),
-            "isbn": meta.get("isbn"),
-        })
+        for rec in entry_records(e, cache):
+            books.append({
+                "title": e["title"],
+                "author": normalize_author(rec["author"]) if rec.get("author") else None,
+                "il": normalize_il(rec["il"]) if rec.get("il") else None,
+                "isbn": rec.get("isbn"),
+            })
     return books
 
 
@@ -357,9 +461,15 @@ def main(skip_crawl=False):
                   f"suspected partial crawl, aborting without touching the catalog.", file=sys.stderr)
             sys.exit(1)
 
+        # Sorted, href-free: Destiny's two-column layout makes crawl order shift
+        # whenever a title is added, and href is rebuilt from search_key + title.
+        all_entries = sorted(({"title": e["title"], "search_key": e["search_key"], "count": e["count"]}
+                              for e in all_entries),
+                             key=lambda e: e["search_key"])
         atomic_write(CRAWL_FILE, all_entries)
 
-        if existing_keys and not added and not removed:
+        # Uncached keys mean a prior enrichment stopped early; don't skip resuming it.
+        if existing_keys and not added and not removed and not any(needs_fetch(e, cache) for e in all_entries):
             print("No changes — catalog is up to date.")
             sys.exit(0)
 
@@ -382,16 +492,16 @@ def main(skip_crawl=False):
         atomic_write(CACHE_FILE, cache)
         print(f"  Pruned {len(orphans)} orphaned cache entries no longer in the catalog.")
 
-    null_count = sum(1 for e in all_entries if not cache.get(e["search_key"], {}).get("author"))
-    if null_count:
-        print(f"  {null_count}/{len(all_entries)} entries have null metadata (not yet cached or fetch failed)")
-
     books = build_books(all_entries, cache)
+
+    null_count = sum(1 for b in books if not b["author"])
+    if null_count:
+        print(f"  {null_count}/{len(books)} records have no author (not yet cached or fetch failed)")
 
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     atomic_write(OUTPUT, {"generated": generated, "books": books})
 
-    print(f"Done: {len(books)} unique titles → {OUTPUT}")
+    print(f"Done: {len(books)} records across {len(all_entries)} titles → {OUTPUT}")
 
 
 if __name__ == "__main__":

@@ -36,7 +36,7 @@ Three files store catalog state — all committed so expensive scraper phases ca
 
 | File | What it contains | Time to rebuild |
 |---|---|---|
-| `crawl-entries.json` | Raw book list from Destiny browse pages (`{title, search_key, href}`) | ~30 min |
+| `crawl-entries.json` | Raw book list from Destiny browse pages (`{title, search_key, count}`, sorted) | ~30 min |
 | `enrichment-cache.json` | Author/interest level/ISBN fetched from ~13,807 Destiny detail pages, keyed by `search_key` | ~1.9h at 2 req/sec |
 | `catalog.json` | Final `{title, author, il, isbn}` list served to the app | seconds (derived from cache) |
 
